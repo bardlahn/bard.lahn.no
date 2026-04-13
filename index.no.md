@@ -7,7 +7,7 @@ routes:
 ---
 
 ::insert url_self
-Dette er en test-tekst for utviklings-siden min, som ligger på :$url_self:.
+Dette er en test-tekst for utviklings-siden min. Dette er dev-versjonen.
 ::
 
 Her kommer noe mer tekst.
