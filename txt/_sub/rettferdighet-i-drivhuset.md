@@ -1,0 +1,45 @@
+---
+title: 'Rettferdighet i drivhuset'
+date: 1384473600
+categories:
+  - kommentert
+tags:
+  - eu
+  - 'fns klimaforhandlinger'
+  - 'jens stoltenberg'
+  - klimaspillet
+  - københavn
+  - nord/sør
+  - paris
+  - warszawa
+language: 'no'
+abstract: 'Norske politikere er ikke i nærheten av å forstå hva en rettferdig fordeling av klimaansvaret faktisk vil kreve av oss.'
+type: blog
+---
+Norske politikere er ikke i nærheten av å forstå hva en rettferdig fordeling av klimaansvaret faktisk vil kreve av oss.<!--more-->
+
+_Artikkelen sto på trykk i [Klassekampen](http://www.klassekampen.no) 12. november 2013, og bygger på konklusjonene i boka [Klimaspillet](http://bard.lahn.no/2013/10/28/klimaspillet/ "Klimaspillet: En fortelling fra innsiden av FNs klimatoppmøter")._
+
+Denne uka åpnet FNs klimatoppmøte i Warszawa. Møtet er en viktig del av prosessen med å forhandle fram en ny internasjonal klimaavtale, som etter planen skal fullføres i Paris i 2015. Spørsmålet er om vi kan forvente mer av disse forhandlingene enn av forrige runde, som endte farlig nær sammenbrudd på København-toppmøtet i 2009, og som seinere bare har klart å produsere et tannløst regelverk som ikke vil redusere klimagassutslippene tilstrekkelig.
+
+Grunnen til at forhandlingene om en internasjonal klimaavtale har vist seg så vanskelige, kan oppsummeres i ett enkelt ord: Fordeling. I sin nyeste rapport beskriver FNs klimapanel hvor store klimagassutslipp vi kan tillate oss i løpet av det kommende århundret dersom vi skal klare å unngå dramatiske klimaendringer. Mengden utslipp som atmosfæren fortsatt kan tåle, omtales gjerne som [verdens gjenværende «karbonbudsjett»](http://bard.lahn.no/2013/09/27/hvordan-dele-karbonbudsjettet/ "Hvordan dele karbonbudsjettet?"). Når landene på FNs klimatoppmøter krangler om hvor mye de skal redusere sine utslipp, kan det forstås som en dragkamp om hvordan karbonbudsjettet skal fordeles. Jo mer ett land bruker opp av atmosfærens plass til å ta imot CO2 og andre klimagasser, desto mindre plass blir det igjen til de andre.
+
+Så lenge det oppfattes som en økonomisk fordel å kunne slippe ut klimagasser til atmosfæren, og så lenge retten til å slippe ut kan omsettes til en pengeverdi gjennom handel med klimakvoter, vil fordelingen av verdens karbonbudsjett være en svært vanskelig oppgave. Enda vanskeligere blir den av at fordelingen skjer på bakgrunn av en dobbel urettferdighet: For det første den eksisterende skjevfordelingen av verdens makt og ressurser, og for det andre den grunnleggende urettferdigheten i selve klimaproblemet – at klimaendringene først og fremst rammer de fattigste menneskene i verden, samtidig som størstedelen av klimagassutslippene historisk sett har kommet fra de rikeste. Dette er bakgrunnen for den langvarige konflikten mellom rike og fattige land som har dominert FNs klimatoppmøter helt siden forhandlingene startet på 1990-tallet.
+
+Det er stor enighet om at de rike landene – nettopp på grunn av den grunnleggende urettferdigheten jeg har beskrevet – har et spesielt ansvar i klimaarbeidet. I Norge, som i mange europeiske land, er dessuten mange politikere overbevist om at de allerede tar dette ansvaret, og at klimapolitikken de fører faktisk bidrar til mer rettferdighet i klimasammenheng. Både den forrige og nåværende regjeringen har hatt som mål at Norge skal være «brobyggere» i klimakonflikten mellom rike og fattige land. Men hvor godt forstår vi egentlig dem vi ønsker å bygge bro til?
+
+Når politiske ledere i Norge og andre europeiske land skal diskutere rettferdig fordeling av klimainnsatsen, er det særlig to tanker som står sterkt: For det første at de rike landene skal «gå foran» i klimaarbeidet, blant annet ved å påta seg forpliktelser om reduserte utslipp tidligere enn utviklingslandene. For det andre at man på sikt bør oppnå en situasjon der gjennomsnittlige utslipp per innbygger er likt fordelt på verdensbasis. Når Norge støtter disse prinsippene, betyr ikke det at vi ønsker en mest mulig rettferdig fordeling av klimainnsatsen?
+
+Utviklingsland som ser forhandlingene om en internasjonal klimaavtale som en kamp om fordelingen av verdens gjenværende karbonbudsjett, lar seg neppe imponere av de europeiske landenes rettferdighetsidealer. At rike land har «gått foran» ved å forplikte seg til utslippsreduksjoner tidligere enn de fattige landene betyr for eksempel lite i en slik sammenheng. I karbonbudsjettets ubarmhjertige matematikk er det bare en ting som teller: Hvor stor bit av budsjettet hvert enkelt land legger beslag på. For hvert eneste tonn de rike landene spiser av budsjettet, blir det mindre plass igjen til utviklingslandenes utslipp.
+
+Også europeiske politikeres ideal om å oppnå like utslipp per innbygger stiles i et annet lys av tanken om et globalt karbonbudsjett. I dag slipper en gjennomsnittlig nordmann ut omtrent 11 tonn CO2 i året, og en inder litt under to. Hvis begge starter fra dagens nivå, og gradvis reduserer sine utslipp til de ender på et likt nivå for eksempel i 2050, vil hver enkelt nordmann fortsatt ha lagt beslag på en voldsomt mye større andel av karbonbudsjettet for denne perioden enn hver enkelt inder. Målet om like utslipp per innbygger på sikt tar ikke hensyn til at nordmenn starter fra et langt høyere nivå, og dermed får større totale utslipp. Den tar heller ikke hensyn til at hver enkelt nordmann allerede i lang tid har sluppet ut mer enn hver enkelt inder, og at disse historiske utslippene fortsatt er innebygd i vårt økonomiske system på måter som vi nyter godt av hver eneste dag.
+
+Nesten uavhengig av politisk tilhørighet ligger forståelsen hos norske og europeiske politiske ledere av rettferdig fordeling i klimapolitikken, milevis fra den forståelsen som de siste årene har vokst fram i mange utviklingsland. Denne avstanden har blitt et viktig hinder for framgang i forhandlingene om en internasjonal klimaavtale. Men i stedet for å gå inn i diskusjonen om rettferdig fordeling av det gjenværende karbonbudsjettet, som mange utviklingsland har invitert til, har rike land gjerne avvist temaet som en akademisk øvelse uten direkte relevans for forhandlingene. Utviklingsland som krever radikalt annerledes fordelingsmodeller enn de rike landene ønsker seg, blir gjerne avfeid som «vanskelige», «lite konstruktive», eller «blokkerende», også av norske politikere. Med så liten vilje til å forstå utviklingslandenes syn på rettferdig fordeling, blir det vanskelig å opptre som «brobygger».
+
+En av grunnene til at København-toppmøtet havarerte, var at utviklingslandene nektet å godta den fordelingen av klimainnsatsen som de rike landene – inkludert Norge – hadde sett for seg. Kina og India avviste klimamålene som G8-landene hadde vedtatt, fordi de mente at disse målene ville tildele de rike landene en urettferdig stor andel av verdens gjenværende karbonbudsjett. Jens Stoltenberg skal angivelig ha stilt seg uforstående til de store utviklingslandenes motstand – selv om det er lett å se at G8-landenes mål vil fordele karbonbudsjettet på en måte som utviklingslandene kommer dårlig ut av.
+
+Mange år med skuffende resultater i internasjonale klimaforhandlinger burde ha vist oss at diskusjonen om rettferdig fordeling ikke er en akademisk øvelse i moralfilosofi, men at den dypest sett handler om politisk realisme: Vi finner rett og slett ikke effektive løsninger på klimaproblemet uten å diskutere den grunnleggende innsatsfordelingen. Og nettopp fordi vi er helt avhengige av at folkerike utviklingsland som Kina, India, eller Brasil deltar i det internasjonale klimasamarbeidet, er vi også avhengige av å finne fram til fordelingsmodeller som oppfattes som rettferdige i disse landene – ikke bare i Europa. Da må vi være [villige til å lytte](http://bard.lahn.no/2012/12/10/rike-land-ma-lytte/ "Rike land må lytte") til det utviklingslandene sier – og til å ta konsekvensen av det vi hører.
+
+Fordelingen av ansvaret for klimaproblemet vil neppe kunne løses en gang for alle på et internasjonalt toppmøte. Poenget med å diskutere rettferdig ansvarsfordeling trenger heller ikke å være at FN skal vedta en nøyaktig formel for å fordele verdens karbonbudsjett. [Hvis man forventer et slikt resultat](http://bard.lahn.no/2013/11/11/haplost-og-helt-nodvendig/ "Håpløst og helt nødvendig") av årets toppmøte i Warszawa, eller av Paris-toppmøtet om to år, er man dømt til å bli skuffet. Men de årlige toppmøtene i FNs klimakonvensjon kan spille en viktig rolle i å utvikle vår forståelse av hva rettferdig fordeling vil kreve av oss: Ved å bli en arena der verden kommer sammen for å diskutere hva vi bør forvente av hverandre, og hvordan vi kan oppnå mest mulig rettferdighet i det globale drivhuset.
+
+Hvis norske politikere faktisk skal kunne opptre som «brobyggere» i en slik sammenheng, må de også være åpne for at rettferdig fordeling vil kunne bety langt kraftigere klimainnsats fra Norges side. Vår rettferdige andel av karbonbudsjettet er trolig for lengst overskredet. Det kommer vi oss ikke unna ved å «gå foran» eller «bygge bro» – det eneste som hjelper er å redusere utslippene.
