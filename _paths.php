@@ -5,20 +5,20 @@
 
 
 // ----------------- Dev env -----------------------------------|
-
-$root_path 		= '/var/www/bldev/html/';
-$includes_path 		= $root_path		 . '_includes/';
-$assets_path 		= $root_path		 . '_assets/';
-$admin_path		= '/var/www/bldev/admin/';
-$lib_path		= '/var/www/bldev/lib/';
+//
+// $root_path 		= '/var/www/bldev/html/';
+// $includes_path 	= $root_path		 . '_includes/';
+// $assets_path 	= $root_path		 . '_assets/';
+// $admin_path		= '/var/www/bldev/admin/';
+// $lib_path		= '/var/www/bldev/lib/';
 
 
 // ----------------- Production env ----------------------------|
-//
-// $root_path 		= "/var/www/bardlahn/html/";
-// $includes_path 	= $root_path		 . '_includes/';
-// $assets_path 	= $root_path		 . '_assets/';
-// $admin_path		= '/var/www/bardlahn/admin/';
-// $lib_path		= '/var/www/bardlahn/lib/';
+
+$root_path 		= "/var/www/html/bardlahn/html/";
+$includes_path 		= $root_path		 . '_includes/';
+$assets_path 		= $root_path		 . '_assets/';
+$admin_path		= '/var/www/html/bardlahn/admin/';
+$lib_path		= '/var/www/html/bardlahn/lib/';
 
 ?>
