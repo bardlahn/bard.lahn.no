@@ -355,6 +355,56 @@ a {
     margin-bottom: 15px;
 }
 
+
+/* Begynner ny socials-seksjon - under utprøving */
+
+.social-links {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+
+  color: #000000;            /* ikoner = svarte i lys modus */
+}
+
+.social-links a {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-links svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;        /* arver .social-links color */
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.social-links a:hover svg,
+.social-links a:focus svg {
+  transform: scale(1.1);
+  color: #0077cc;            /* hover-farge i lys modus */
+}
+
+                                /* Mørk versjon */
+
+@media (prefers-color-scheme: dark) {
+  .social-links {
+    color: #ffffff;          /* ikoner = hvite i mørk modus */
+  }
+
+  .social-links a:hover svg,
+  .social-links a:focus svg {
+    color: #66aaff;          /* hover-farge i mørk modus */
+  }
+}
+
+/* Slutt på socials-seksjon */
+
+
 @media (max-width: 720px) {
     .container {
         display: grid;
