@@ -17,7 +17,7 @@
     }
 }
 
-/* TBD: Implement data structure for light/dark override */
+/* TBD: Implement data structure for light/dark theme override */
 
 body {
     font-family: 'IBM Plex Mono', monospace;
