@@ -10,7 +10,7 @@ routes:
 Dette er en test-tekst for utviklings-siden min. Dette er dev-versjonen, som gradvis vil bygges ut. 
 ::
 
-Her kommer noe mer tekst!
+Her kommer noe mer tekst! Den blir bra.
 
 ::sidebar
 Dette skal i høyre marg.
