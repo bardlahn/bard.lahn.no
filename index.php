@@ -25,6 +25,7 @@ include $includes_path . "fetch-main.php";
 include($includes_path."header.php");
 include($includes_path."meta.php");
 include($includes_path."styles.php");
+include($includes_path."scripts-head.php");
 
 ?>
 
@@ -38,7 +39,7 @@ include($includes_path."styles.php");
 include($includes_path."nav.php");
 include($includes_path."body.php");
 include($includes_path."footer.php");
-include($includes_path."scripts.php");
+include($includes_path."scripts-body.php");
 
 ?>
 
