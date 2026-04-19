@@ -17,6 +17,8 @@
     }
 }
 
+/* TBD: Implement data structure for light/dark override */
+
 body {
     font-family: 'IBM Plex Mono', monospace;
     line-height: 1.6;
