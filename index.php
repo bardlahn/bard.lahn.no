@@ -24,8 +24,8 @@ include $includes_path . "fetch-main.php";
 
 include($includes_path."header.php");
 include($includes_path."meta.php");
-include($includes_path."styles.php");
 include($includes_path."scripts-head.php");
+include($includes_path."styles.php");
 
 ?>
 
