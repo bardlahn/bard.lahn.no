@@ -1,5 +1,1 @@
-<?php
-
-// Script to be placed in head: Loading localStorage theme dark/light 
-
-?>
+<script src="<?php echo $assets_rel_path."theme-toggle.js"; ?>"></script>

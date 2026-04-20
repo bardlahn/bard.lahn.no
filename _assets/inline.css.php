@@ -17,6 +17,18 @@
     }
 }
 
+/* Manual overrides — these win regardless of browser pref */
+[data-theme="light"] {
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #e0e0e0;
+;
+}
+
 /* TBD: Implement data structure for light/dark theme override */
 
 body {
@@ -367,7 +379,7 @@ a {
   justify-content: center;
   padding: 0.5rem 0;
 
-  color: #000000;            /* ikoner = svarte i lys modus */
+  color: var(--text-color);
 }
 
 .social-links a {
@@ -382,29 +394,32 @@ a {
   width: 100%;
   height: 100%;
   fill: currentColor;        /* arver .social-links color */
-  transition: transform 0.15s ease, color 0.15s ease;
+  transition: transform 0.3s ease;
 }
 
 .social-links a:hover svg,
 .social-links a:focus svg {
   transform: scale(1.1);
-  color: #0077cc;            /* hover-farge i lys modus */
+  transform: rotate(20deg);
 }
 
-                                /* Mørk versjon */
-
-@media (prefers-color-scheme: dark) {
-  .social-links {
-    color: #ffffff;          /* ikoner = hvite i mørk modus */
-  }
-
-  .social-links a:hover svg,
-  .social-links a:focus svg {
-    color: #66aaff;          /* hover-farge i mørk modus */
-  }
-}
 
 /* Slutt på socials-seksjon */
+
+/* Ny kode for lys/mørk toggle */
+
+.sun-parts { display: none; }
+.moon-part { display: block; }
+
+[data-theme="dark"] .sun-parts { display: block; }
+[data-theme="dark"] .moon-part { display: none; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .sun-parts { display: block; }
+  :root:not([data-theme]) .moon-part { display: none; }
+}
+
+/* Slutt på toggle-kode */
 
 
 @media (max-width: 720px) {
