@@ -231,10 +231,11 @@ function replaceVars(string $input): string {
                 case 'head':
                     global $content;
                     if (isset($args[1])) {
-                        if (isset($content['frontmatter'][trim($args[1])])) {
+                        if (    isset($content['frontmatter'][trim($args[1])]) &&
+                                !is_array($content['frontmatter'][trim($args[1])])  ) {
                             $new = $content['frontmatter'][trim($args[1])];
                         } else {
-                            $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '" not found in frontmatter -->';
+                            $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '" not available in frontmatter -->';
                         }
                     } else {
                         $new = '<!-- DEBUG: Variable "head" invoked but no frontmatter key provided -->';
