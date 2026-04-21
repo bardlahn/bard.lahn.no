@@ -8,6 +8,5 @@ routes:
 
 Siden *:$title:* er under utvikling.
 
-:$head/test:
-:$head/ :
-:$head/routes:
+## :$head/title::
+:$head/routes/canonical:

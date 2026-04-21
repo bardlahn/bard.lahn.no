@@ -231,9 +231,16 @@ function replaceVars(string $input): string {
                 case 'head':
                     global $content;
                     if (isset($args[1])) {
-                        if (    isset($content['frontmatter'][trim($args[1])]) &&
-                                !is_array($content['frontmatter'][trim($args[1])])  ) {
-                            $new = $content['frontmatter'][trim($args[1])];
+                        if (isset($content['frontmatter'][trim($args[1])])) {
+                            if (is_array($content['frontmatter'][trim($args[1])])) {
+                                if (isset($args[2])) {
+                                    $new = $content['frontmatter'][trim($args[1])][trim($args[2])];
+                                } else {
+                                    $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '/' . htmlspecialchars($args[2]) . '" not available in frontmatter -->';
+                                }
+                            } else {
+                                $new = $content['frontmatter'][trim($args[1])];
+                            }
                         } else {
                             $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '" not available in frontmatter -->';
                         }
