@@ -26,7 +26,6 @@
 [data-theme="dark"] {
   --bg-color: #1a1a1a;
   --text-color: #e0e0e0;
-;
 }
 
 /* TBD: Implement data structure for light/dark theme override */
@@ -407,6 +406,13 @@ a {
 /* Slutt på socials-seksjon */
 
 /* Ny kode for lys/mørk toggle */
+
+#theme-toggle {
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+}
 
 .sun-parts { display: none; }
 .moon-part { display: block; }
