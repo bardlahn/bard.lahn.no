@@ -8,7 +8,5 @@ routes:
 
 This page is only available in Norwegian.
 
-::insert url_self
 - Go to [Norwegian page](/no/:$url_self:)
 - Go to [front page](/en/)
-::

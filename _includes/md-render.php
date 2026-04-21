@@ -36,7 +36,7 @@ function renderMDContent(string $text) {
         if (!$inBlock && preg_match('/^::(\S+)((?:[ \t]+\S+)*)[ \t]*$/', $line, $m)) {
             // Flush any accumulated unmarked text
             if (trim($unmarked) !== '') {
-                echo $defaultBefore . "\n" . $parsedown->text($unmarked) . "\n" . $defaultAfter . "\n";
+                echo $defaultBefore . "\n" . replaceVars($parsedown->text($unmarked)) . "\n" . $defaultAfter . "\n";
                 $unmarked = '';
             }
             // Opening marker found
@@ -155,43 +155,6 @@ function renderMDContent(string $text) {
 
                     break;
 
-                case 'insert':      // ::insert block - takes arguments:
-                                    // name=var ('name' is replaced in the block with var)
-                                    //          (var can be url_self, url_assets, url_parent, title, lang, lang_other)
-
-                    $before = $defaultBefore;
-                    $after = $defaultAfter;
-
-                    foreach (array_slice($args, 1) as $arg) {
-                        $arg = trim(strtolower($arg));
-                        switch ($arg) {
-                            case 'url_self':
-                                global $self_url;
-                                $content = str_replace(':$'.$arg.':', $self_url, $content);
-                                break;
-                            case 'url_assets':
-                                global $assets_rel_path;
-                                $content = str_replace(':$'.$arg.':', $assets_rel_path, $content);
-                                break;
-                            // case 'url_parent':   NOT IMPLEMENTED
-                            //    break;
-                            case 'title':
-                                global $self_title;
-                                $content = str_replace(':$'.$arg.':', $self_title, $content);
-                                break;
-                            case 'lang':
-                                global $lang;
-                                $content = str_replace(':$'.$arg.':', $lang, $content);
-                                break;
-                            case 'lang_other':
-                                global $otherLang;
-                                $content = str_replace(':$'.$arg.':', $otherLang, $content);
-                                break;
-                        }
-                    }
-
-                    break;
-
                 // (Further block types can be added here)
 
                 // Unknown or missing block-id is treated as unmarked block
@@ -203,7 +166,7 @@ function renderMDContent(string $text) {
 
             // Assembling block output
             if (trim($content)) {
-                echo $before . "\n" . $content . "\n" . $after . "\n";
+                echo $before . "\n" . replaceVars($content) . "\n" . $after . "\n";
             }
             $inBlock      = false;
             $blockContent = '';
@@ -221,12 +184,60 @@ function renderMDContent(string $text) {
     if ($inBlock && trim($blockContent) !== '') {
         // Block was never closed — render it anyway
         $content = $parsedown->text($blockContent);
-        echo $defaultBefore . "\n" . $content . "\n" . $defaultAfter . "\n";
+        echo $defaultBefore . "\n" . replaceVars($content) . "\n" . $defaultAfter . "\n";
     } elseif (trim($unmarked) !== '') {
-        echo $defaultBefore . "\n" . $parsedown->text($unmarked) . "\n" . $defaultAfter . "\n";
+        echo $defaultBefore . "\n" . replaceVars($parsedown->text($unmarked)) . "\n" . $defaultAfter . "\n";
     }
 
     return true;
+}
+
+
+// Helper function to replace variables given in the MD content
+//   Variables can be inserted in MD on the form :$variable:
+//   Variables implemented so far:
+//   url_self, url_assets, url_parent, title, lang, lang_other
+
+function replaceVars(string $input): string {
+    return preg_replace_callback(
+        '/:\$([^:]+):/',
+        function (array $matches): string {
+            $args = explode('/', $matches[1]);
+            $new = '';
+
+            switch ($args[0]) {
+                case 'url_self':
+                    global $self_url;
+                    $new = $self_url;
+                    break;
+                case 'url_assets':
+                    global $assets_rel_path;
+                    $new = $assets_rel_path;
+                    break;
+                // case 'url_parent':   NOT IMPLEMENTED
+                case 'title':
+                    global $self_title;
+                    $new = $self_title;
+                    break;
+                case 'lang':
+                    global $lang;
+                    $new = $lang;
+                    break;
+                case 'lang_other':
+                    global $otherLang;
+                    $new = $otherLang;
+                    break;
+
+                default:
+                    $new = '<!-- DEBUG: Unknown variable "' . htmlspecialchars($matches[1]) . '" -->';
+                    break;
+
+                    }
+
+            return $new;
+        },
+        $input
+    );
 }
 
 ?>

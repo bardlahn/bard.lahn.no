@@ -6,6 +6,4 @@ routes:
   canonical: '/no/div/'
 ---
 
-# Prosjekter og diverse
-
 Denne siden er under utvikling.
