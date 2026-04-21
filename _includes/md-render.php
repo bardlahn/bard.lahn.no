@@ -197,6 +197,7 @@ function renderMDContent(string $text) {
 //   Variables can be inserted in MD on the form :$variable:
 //   Variables implemented so far:
 //   url_self, url_assets, url_parent, title, lang, lang_other
+//   head/ARG returnerer verdien av ARG fra frontmatter
 
 function replaceVars(string $input): string {
     return preg_replace_callback(
@@ -226,6 +227,18 @@ function replaceVars(string $input): string {
                 case 'lang_other':
                     global $otherLang;
                     $new = $otherLang;
+                    break;
+                case 'head'
+                    global $content;
+                    if (isset($args[1])) {
+                        if (isset($content['frontmatter'][$args[1]])) {
+                            $new = $content['frontmatter'][$args[1]];
+                        } else {
+                            $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '" not found in frontmatter -->';
+                        }
+                    } else {
+                        $new = '<!-- DEBUG: Variable "head" invoked but no frontmatter key provided -->';
+                    }
                     break;
 
                 default:
