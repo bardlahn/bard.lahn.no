@@ -7,6 +7,3 @@ routes:
 ---
 
 Siden *:$title:* er under utvikling.
-
-## :$head/title::
-:$head/routes:
