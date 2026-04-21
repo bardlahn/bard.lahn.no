@@ -206,7 +206,7 @@ function replaceVars(string $input): string {
             $args = explode('/', $matches[1]);
             $new = '';
 
-            switch ($args[0]) {
+            switch (trim($args[0])) {
                 case 'url_self':
                     global $self_url;
                     $new = $self_url;
@@ -231,8 +231,8 @@ function replaceVars(string $input): string {
                 case 'head':
                     global $content;
                     if (isset($args[1])) {
-                        if (isset($content['frontmatter'][$args[1]])) {
-                            $new = $content['frontmatter'][$args[1]];
+                        if (isset($content['frontmatter'][trim($args[1])])) {
+                            $new = $content['frontmatter'][trim($args[1])];
                         } else {
                             $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '" not found in frontmatter -->';
                         }
