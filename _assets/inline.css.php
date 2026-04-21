@@ -377,7 +377,6 @@ a {
   align-items: center;
   justify-content: center;
   padding: 0.5rem 0;
-
   color: var(--text-color);
 }
 
@@ -408,12 +407,14 @@ a {
 /* Ny kode for lys/mørk toggle */
 
 #theme-toggle {
-  padding: 0;
-  width: 24px;
-  height: 24px;
-  display: inline-flex;
   background: none;
   border: none;
+  padding: 0;
+  cursor: pointer;
+  color: var(--text-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sun-parts { display: none; }
