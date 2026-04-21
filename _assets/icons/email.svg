@@ -1,0 +1,7 @@
+    <svg viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3 4h18c1.1 0 2 .9 2 2v12
+               c0 1.1-.9 2-2 2H3
+               c-1.1 0-2-.9-2-2V6
+               c0-1.1.9-2 2-2zm0 2v.01L12 13
+               l9-6.99V6H3zm0 12h18V9l-9 7L3 9v9z"/>
+    </svg>
