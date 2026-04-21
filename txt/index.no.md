@@ -6,9 +6,7 @@ routes:
   canonical: '/txt/'
 ---
 
-Dette er et arkiv for tekster jeg har skrevet i årenes løp. De inkluderer kronikker, kommentarer, blogginnlegg og så videre. 
-
-Akademiske publikasjoner er samlet på [denne siden](/no/pub/).
+Dette er et arkiv for tekster jeg har skrevet i årenes løp. De inkluderer kronikker, kommentarer, blogginnlegg og så videre. (Bøker og akademiske publikasjoner er samlet på [denne siden](/no/pub/).)
 
 ::include _blog.php php
 ::
