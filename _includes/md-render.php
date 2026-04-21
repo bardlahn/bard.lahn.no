@@ -230,10 +230,10 @@ function replaceVars(string $input): string {
                     break;
                 case 'head':
                     global $content;
-                    if (isset($args[1])) {
+                    if (isset($args[1]) && !empty($args[1])) {
                         if (isset($content['frontmatter'][trim($args[1])])) {
                             if (is_array($content['frontmatter'][trim($args[1])])) {
-                                if (isset($args[2])) {
+                                if (isset($args[2]) && !empty($args[2])) {
                                     $new = $content['frontmatter'][trim($args[1])][trim($args[2])];
                                 } else {
                                     $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '/' . htmlspecialchars($args[2]) . '" not available in frontmatter -->';
