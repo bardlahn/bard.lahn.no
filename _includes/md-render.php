@@ -228,7 +228,7 @@ function replaceVars(string $input): string {
                     global $otherLang;
                     $new = $otherLang;
                     break;
-                case 'head'
+                case 'head':
                     global $content;
                     if (isset($args[1])) {
                         if (isset($content['frontmatter'][$args[1]])) {
