@@ -412,6 +412,8 @@ a {
   width: 24px;
   height: 24px;
   display: inline-flex;
+  background: none;
+  border: none;
 }
 
 .sun-parts { display: none; }
