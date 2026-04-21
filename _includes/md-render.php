@@ -233,12 +233,16 @@ function replaceVars(string $input): string {
                     if (isset($args[1]) && !empty($args[1])) {
                         if (isset($content['frontmatter'][trim($args[1])])) {
                             if (is_array($content['frontmatter'][trim($args[1])])) {
+                                // The frontmatter value is an array, checking if value exists on the next YAML level
                                 if (isset($args[2]) && !empty($args[2])) {
-                                    $new = $content['frontmatter'][trim($args[1])][trim($args[2])];
+                                    $new = (isset($content['frontmatter'][trim($args[1])][trim($args[2])])) ?
+                                        $content['frontmatter'][trim($args[1])][trim($args[2])] :
+                                        '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '/' . htmlspecialchars($args[2]) . '" not available in frontmatter -->';
                                 } else {
-                                    $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '/' . htmlspecialchars($args[2]) . '" not available in frontmatter -->';
+                                    $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '" is an array, requires additional argument -->';
                                 }
                             } else {
+                                // The frontmatter value is not an array, returning directly
                                 $new = $content['frontmatter'][trim($args[1])];
                             }
                         } else {
