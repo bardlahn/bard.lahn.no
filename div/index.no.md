@@ -9,4 +9,4 @@ tillegg: Dette er en test.
 
 Siden *:$title:* er under utvikling.
 
-:$head/tillegg:
+:$head/ :
