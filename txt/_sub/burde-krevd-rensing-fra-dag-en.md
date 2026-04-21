@@ -13,10 +13,11 @@ tags:
   - sv
   - venstre
 language: 'no'
-abstract: "Mediedebatten rundt Stortingets\_behandling av Mongstad-saken har utviklet seg til et politisk svarteperspill om ansvaret for en feilslått «månelanding». Det beste eksempelet er"
+abstract: 'Mediedebatten rundt Stortingets behandling av Mongstad-saken har utviklet seg til et politisk svarteperspill om ansvaret for en feilslått «månelanding».'
 type: blog
 ---
-Mediedebatten rundt Stortingets behandling av Mongstad-saken har utviklet seg til et politisk svarteperspill om ansvaret for en feilslått «månelanding». Det beste eksempelet er <!--more-->dagens debatt i [NRKs Politisk Kvarter](http://www.nrk.no/norge/_-vi-lovte-aldri-manelanding-1.11635013), der Venstres Abid Raja og Arbeiderpartiets Martin Kolberg krangler om historieskrivning og hvorvidt Jens Stoltenberg teknisk sett «lovte» fullskala-rensing av Mongstad.
+
+Mediedebatten rundt Stortingets behandling av Mongstad-saken har utviklet seg til et politisk svarteperspill om ansvaret for en feilslått «månelanding». Det beste eksempelet er dagens debatt i [NRKs Politisk Kvarter](http://www.nrk.no/norge/_-vi-lovte-aldri-manelanding-1.11635013), der Venstres Abid Raja og Arbeiderpartiets Martin Kolberg krangler om historieskrivning og hvorvidt Jens Stoltenberg teknisk sett «lovte» fullskala-rensing av Mongstad.
 
 I frustrasjon over at debatten føres på dette nivået, skrev jeg tidligere i dag på Twitter:
 
