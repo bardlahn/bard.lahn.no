@@ -6,4 +6,4 @@ routes:
   canonical: '/div/'
 ---
 
-The page :$title: is under development - please check back later.
+The page *:$title:* is under development - please check back later.

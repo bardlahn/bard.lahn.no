@@ -6,4 +6,4 @@ routes:
   canonical: '/no/div/'
 ---
 
-Denne siden er under utvikling.
+Siden *:$title:* er under utvikling.
