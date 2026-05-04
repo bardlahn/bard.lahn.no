@@ -4,7 +4,7 @@ $assets_rel_path = '/_assets/';
 
 // Sets language based on browser check (defaults to "en")
 $browserLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? '', 0, 2);
-$lang = in_array($browserLang, ['no', 'en']) ? $browserLang : 'en';
+$lang = in_array($browserLang, ['no', 'en']) ? $browserLang : 'no';
 
 // Retrieves requested URL, sets language based on URL
 $self_url_segments = array_values(array_filter(explode('/', trim(strtok($_SERVER['REQUEST_URI'] ?? '', '?'), '/'))));
