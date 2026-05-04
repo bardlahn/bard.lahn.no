@@ -67,7 +67,7 @@ foreach ($posts_to_show as $entry) {
     echo "<p><h3><a href=\"/" . $lang . "/" . $self_url . "/" . $entry['slug'] . "\">" . $entry['title'] . "</a></h3>\n";
     $timestamp = $entry['date'] instanceof DateTime ? $entry['date']->getTimestamp() : (int)$entry['date'];
     $date = (new DateTime())->setTimestamp((int)$timestamp);
-    echo "(" . $date->format('m.d.Y') . ")\n";
+    echo "(" . $date->format('d.m.Y') . ")\n";
     echo "<br/>" . $entry['abstract'] . "</p>\n\n";
 }
 
