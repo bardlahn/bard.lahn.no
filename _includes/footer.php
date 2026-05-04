@@ -1,19 +1,10 @@
 
 <div class="footer">
-<!-- Socials 
-            &copy; Bård Lahn / 
-            
-            <a href="mailto:bard_AT_lahn.no">e-mail</a> / 
-            <a href="https://bsky.app/profile/bard.lahn.no" rel="me">bluesky</a> / 
-            <a href="https://github.com/bardlahn/" rel="me">github</a> / 
-            <a href="https://orcid.org/0000-0001-9161-9455" rel="me">orcid</a>
-            -->
-
 <div class="social-links">
 
 &copy; Bård Lahn / 
 
-  <a href="mailto:bard_AT_lahn.no" aria-label="Send me an email">
+  <a href="mailto:bard@lahn.no" aria-label="Send me an email">
     <?php include $assets_path . "icons/email.svg"; ?>
   </a>
 
@@ -28,12 +19,7 @@
   <a href="https://orcid.org/0000-0001-9161-9455" aria-label="ORCID profile" rel="me">
     <?php include $assets_path . "icons/orcid.svg"; ?>
   </a>
-
-  <!-- Theme toggle button -->
   
-</div>
-<div class="sidebar">
-
   <button id="theme-toggle" aria-label="Toggle theme">
     <?php include $assets_path . "icons/sun.svg"; ?>
     <?php include $assets_path . "icons/moon.svg"; ?>
