@@ -32,7 +32,7 @@
   <!-- Theme toggle button -->
   
 </div>
-<div>
+<div class="sidebar">
 
   <button id="theme-toggle" aria-label="Toggle theme">
     <?php include $assets_path . "icons/sun.svg"; ?>
