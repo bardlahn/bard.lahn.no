@@ -9,19 +9,19 @@
 
 <div class="social-links">
 
-  <a href="mailto:bard(AT)lahn.no" aria-label="Send me an email">
+  <a href="mailto:bard_AT_lahn.no" aria-label="Send me an email">
     <?php include $assets_path . "icons/email.svg"; ?>
   </a>
 
-  <a href="https://bsky.app/profile/bard.lahn.no" aria-label="Bluesky profile">
+  <a href="https://bsky.app/profile/bard.lahn.no" aria-label="Bluesky profile" rel="me">
     <?php include $assets_path . "icons/bluesky.svg"; ?>
   </a>
 
-  <a href="https://github.com/bardlahn" aria-label="GitHub profile">
+  <a href="https://github.com/bardlahn" aria-label="GitHub profile" rel="me">
     <?php include $assets_path . "icons/github.svg"; ?>
   </a>
 
-  <a href="https://orcid.org/0000-0000-0000-0000" aria-label="ORCID profile">
+  <a href="https://orcid.org/0000-0001-9161-9455" aria-label="ORCID profile" rel="me">
     <?php include $assets_path . "icons/orcid.svg"; ?>
   </a>
 
