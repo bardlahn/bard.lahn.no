@@ -1,5 +1,6 @@
-        <!-- Socials 
-         <div class="footer">
+
+<div class="footer">
+<!-- Socials 
             &copy; Bård Lahn / 
             
             <a href="mailto:bard_AT_lahn.no">e-mail</a> / 
@@ -37,5 +38,5 @@
 
 </div>
 
-        <!-- </div> -->
+</div>
     </div>
