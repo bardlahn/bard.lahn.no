@@ -8,7 +8,7 @@ sub_indexed: 2026-04-05
 sub_items:
   - a-se-seg-blind-pa-tallene:
       title: 'Å se seg blind på tallene'
-      date: '1427241600'
+      date: 1427241600
       language: 'no'
       abstract: 'Denne ukas overraskelse: Rosablogger Sophie Elise ser ut til å forstå politikk bedre enn både skeptiker-blogger Gunnar Tjomlid og enkelte norske økonomer.'
       categories:
@@ -52,7 +52,7 @@ sub_items:
         - oljefondet
   - for-mye-eller-for-lite-demokrati:
       title: 'For mye eller for lite demokrati?'
-      date: '1477958400'
+      date: 1477958400
       language: 'no'
       abstract: 'Søksmålet mot staten i forbindelse med 23. konsesjonsrunde har reist en prinsipiell debatt om rettsvesenets rolle i miljøspørsmål. Som jusprofessor Hans Petter Graver viser i Klassekampen 26. oktober er denne debatten bredere enn diskusjonen om'
       categories:
@@ -68,7 +68,7 @@ sub_items:
         - rettsvesenet
   - for-mye-selvtillit-skartveit:
       title: 'For mye selvtillit, Skartveit?'
-      date: '1457913600'
+      date: 1457913600
       language: 'no'
       abstract: 'VGs Hanne Skartveit mener oljebransjen mangler selvtillit i møte med miljøbevegelsen. Selv har hun litt for stor tro på egen innsikt i klimapolitikken.'
       categories:
@@ -84,7 +84,7 @@ sub_items:
         - vg
   - foredrag-internasjonal-klimapolitikk-forklart:
       title: 'Foredrag: Internasjonal klimapolitikk forklart'
-      date: '1550448000'
+      date: 1550448000
       language: 'no'
       abstract: 'Den 9. februar ga jeg et overblikk over internasjonal klimapolitikk på Litteraturhuset i Oslo, som en del av deres foredragsserie om klimaproblemet. Foredraget er nå gjort tilgjengelig som podkast.'
       categories:
@@ -111,7 +111,7 @@ sub_items:
         - paris
   - godhetstyranni-og-andre-norske-verdier:
       title: 'Godhetstyranni og andre norske verdier'
-      date: '1446768000'
+      date: 1446768000
       language: 'no'
       abstract: '«Godhetstyranniet rir Norge som en mare», proklamerte Frp-statsråd Sylvi Listhaug i går. Hun siktet blant annet til Den norske kirkes preses Helga Byfuglien, som i sin tyranniske godhet'
       categories:
@@ -126,7 +126,7 @@ sub_items:
         - 'sylvi listhaug'
   - haplost-og-helt-nodvendig:
       title: 'Håpløst og helt nødvendig'
-      date: '1384128000'
+      date: 1384128000
       language: 'no'
       abstract: 'De som skal analysere resultatene av klimatoppmøtet i Warszawa de kommende to ukene, bør huske at det ikke finnes noe sånt som «globale løsninger» på klimaproblemet.'
       categories:
@@ -151,7 +151,7 @@ sub_items:
         - miljødirektoratet
   - hva-anbefalte-klimautvalget:
       title: 'Hva anbefalte Klimautvalget?'
-      date: '1701388800'
+      date: 1701388800
       language: 'no'
       abstract: 'Rapporten fra Klimautvalget 2050, som jeg bidro til å utarbeide, har skapt debatt om organiseringen av norsk klimapolitikk. I dette innlegget svarer jeg på kritikken fra samfunnsøkonom Bjart Holtsmark om utvalgets forslag når det gjelder bioenergi og CO2-opptak i skogen.'
       categories:
@@ -319,7 +319,7 @@ sub_items:
         - usa
   - om-bruno-latour:
       title: 'Å sette vitenskapen på (riktig) plass: Om Bruno Latour'
-      date: '1612224000'
+      date: 1612224000
       language: 'no'
       abstract: 'I anledning utgivelsen av Bruno Latours nye bok Où suis-je? har tidsskriftet Vagant bedt flere bidragsytere om å reflektere over hva Latours arbeid har betydd for dem. Mitt bidrag tar for seg betydningen Latour har hatt både for STS som akademisk felt og for klimapolitisk teori og praksis.'
       categories:
@@ -378,7 +378,7 @@ sub_items:
       title: 'Prinsippløse i Paris?'
       date: 1449446400
       language: 'no'
-      abstract: "Etter åpningen\_av klimatoppmøtet i Paris tidligere denne uka, fikk USAs president Barack Obama\_kritikk\_for ikke å nevne ordet «rettferdighet» i en ellers godt mottatt tale. Men Obama er ikke alene"
+      abstract: "Etter åpningen av klimatoppmøtet i Paris tidligere denne uka, fikk USAs president Barack Obama kritikk for ikke å nevne ordet «rettferdighet» i en ellers godt mottatt tale. Men Obama er ikke alene"
       categories:
         - kommentert
       tags:
