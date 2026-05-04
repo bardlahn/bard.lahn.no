@@ -374,8 +374,8 @@ a {
 .social-links {
   display: flex;
   gap: 0.75rem;
-  align-items: right;
-  justify-content: right;
+  align-items: left;
+  justify-content: left;
   padding: 0.5rem 0;
   color: var(--text-color);
 }
@@ -413,8 +413,8 @@ a {
   cursor: pointer;
   color: var(--text-color);
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
 }
 
 #theme-toggle svg {

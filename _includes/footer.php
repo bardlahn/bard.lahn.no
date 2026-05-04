@@ -1,6 +1,7 @@
-        <div class="footer">
+        <!-- Socials 
+         <div class="footer">
             &copy; Bård Lahn / 
-            <!-- Socials
+            
             <a href="mailto:bard_AT_lahn.no">e-mail</a> / 
             <a href="https://bsky.app/profile/bard.lahn.no" rel="me">bluesky</a> / 
             <a href="https://github.com/bardlahn/" rel="me">github</a> / 
@@ -8,6 +9,8 @@
             -->
 
 <div class="social-links">
+
+&copy; Bård Lahn / 
 
   <a href="mailto:bard_AT_lahn.no" aria-label="Send me an email">
     <?php include $assets_path . "icons/email.svg"; ?>
@@ -34,5 +37,5 @@
 
 </div>
 
-        </div>
+        <!-- </div> -->
     </div>
