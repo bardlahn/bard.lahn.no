@@ -31,12 +31,14 @@
 
   <!-- Theme toggle button -->
   
+</div>
+<div>
+
   <button id="theme-toggle" aria-label="Toggle theme">
     <?php include $assets_path . "icons/sun.svg"; ?>
     <?php include $assets_path . "icons/moon.svg"; ?>
   </button>
 
 </div>
-
 </div>
     </div>
