@@ -374,6 +374,8 @@ a {
 .social-links {
   display: flex;
   gap: 0.75rem;
+  align-items: right;
+  justify-content: right;
   padding: 0.5rem 0;
   color: var(--text-color);
 }
