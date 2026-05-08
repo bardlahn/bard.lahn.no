@@ -7,3 +7,6 @@ routes:
 ---
 
 Her kommer en oversikt over mine publikasjoner.
+
+::image images/hvem-bestemmer-cover-s.jpg small (150,235)
+::
