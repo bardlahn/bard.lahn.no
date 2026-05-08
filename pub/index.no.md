@@ -8,6 +8,6 @@ routes:
 
 Her kommer en oversikt over mine publikasjoner.
 
-::image images/hvem-bestemmer-cover-s.jpg small (150,235) hvem-bestemmer/
+::image images/hvem-bestemmer-cover-s.jpg small (300,470) hvem-bestemmer/
 Bilde
 ::
