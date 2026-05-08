@@ -67,34 +67,65 @@ function renderMDContent(string $text) {
                     break;
 
                 case 'image':       // ::image block - takes arguments:
+                                    //      filename (path relative to assets directory)
                                     //      [wide/small] (optional, defaults to small)
-                                    //      img-path (path relative to assets directory)
+                                    //      (width,height) (optional, enclosed in parantheses and comma separated)
+                                    //      url (optional image link, absolute or relative)
 
-                    $imgtag = "";
+                    $imgclass = 'image-container small';
+                    
+                    // Checking for existence of file
+                    if (file_exists($assets_path . trim($args[1]))) {
+                        $imgsrc = $assets_rel_path . trim($args[1]);
+                    } else {
+                        $before = $defaultBefore . "<!-- DEBUG: Image file not found in path " . $assets_rel_path . trim($args[1]) . " -->";
+                        $after = $defaultAfter;
+                        break;
+                    }
 
-                    // Checking parameters given for image type and file
-                    if (trim(strtolower($args[1]))=='small') {
+                    // Checking parameters given for image type, width/height, and link URL
+                    if (trim(strtolower($args[2]))=='small') {
                         $imgclass = 'image-container small';
-                        // Checking if image file exists
-                        if (file_exists($assets_path . trim($args[2]))) {
-                            $imgtag = '<img src="' . $assets_rel_path . trim($args[2]) . '" >';
+                        if (isset($args[3])) {
+                            if (preg_match('/^\((\d+),(\d+)\)$/', $args[3], $size)) {
+                                $linkurl = $args[4] ?? null;
+                            } else {
+                                $linkurl = $args[3];
+                            }
                         }
-                    } elseif(trim(strtolower($args[1]))=='wide') {
+                    } elseif(trim(strtolower($args[2]))=='wide') {
                         $imgclass = 'image-container';
-                        // Checking if image file exists
-                        if (file_exists($assets_path . trim($args[2]))) {
-                            $imgtag = '<img src="' . $assets_rel_path . trim($args[2]) . '">';
+                        if (isset($args[3])) {
+                            if (preg_match('/^\((\d+),(\d+)\)$/', $args[3], $size)) {
+                                $linkurl = $args[4] ?? null;
+                            } else {
+                                $linkurl = $args[3];
+                            }
                         }
                     } else {
-                        $imgclass = 'image-container small';
-                        // Using arg-1 as image file, checking if file exists
-                        if (file_exists($assets_path . trim($args[1]))) {
-                            $imgtag = '<img src="' . $assets_rel_path . trim($args[1]) . '">';
+                        if (isset($args[2])) {
+                            if (preg_match('/^\((\d+),(\d+)\)$/', $args[2], $size)) {
+                                $linkurl = $args[3] ?? null;
+                            } else {
+                                $linkurl = $args[2];
+                            }
                         }
                     }
                     
+                    // Assembling HTML tags
                     $before = '<div class="' . $imgclass . '">';
-                    if ($imgtag) { $before .= $imgtag; }
+                    if ($linkurl) {
+                        $before .= '<a href="' . $linkurl . '">';
+                    }
+                    if (isset($size) && is_array($size)) {
+                        $sizeprop = 'width="' . $size[1] . '" height="' . $size[2] . '" ';
+                    } else {
+                        $sizeprop = '';
+                    }
+                    $before .= '<img src="' . $imgsrc . '" ' . $sizeprop . '/>';
+                    if ($linkurl) {
+                        $before .= '</a>';
+                    }
 
                     // If block contains md text, render the text as an image caption
                     if (trim($blockContent)) {
