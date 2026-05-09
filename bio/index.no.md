@@ -9,7 +9,14 @@ routes:
 Jeg er forsker og skribent, for tiden ansatt som førsteamanuensis ved Universitetet i Oslos [Senter for teknologi, innovasjon og kultur (TIK)](http://tik.uio.no/), og tilknyttet [CICERO Senter for klimaforskning](http://cicero.uio.no/no/om-oss/ansatte/88/bard-lahn) som seniorforsker. Jeg forsker på olje, ressursforvaltning og klimapolitikk, både i Norge og internasjonalt. Jeg er særlig opptatt av forholdet mellom demokrati og vitenskapelig ekspertise, økonomiens rolle i politiske prosesser, og hvordan framtiden gjøres forståelig og styrbar.
 
 ::sidebar
-![Sånn ser jeg ut](:$url_assets:/images/portrait-uio-s.png)
+<div class="image-grid">
+    <a class="portfolio-item">
+        <img src=":$url_assets:/images/portrait-uio-s.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
+    <div class="portfolio-title">
+      <span>Sånn ser jeg ut.<br/>Foto: Erik Engblad, UiO.</span>
+    </div>
+    </a>
+</div>
 ::
 
 Tidligere har jeg forsket på norsk og internasjonal klimapolitikk, med særlig fokus på FNs klimaforhandlinger, spørsmål om rettferdighet mellom Nord og Sør, og sammenhengen mellom norsk olje- og klimapolitikk. Jeg er også opptatt av litteratur og teater, og hvordan både kunst, vitenskap og aktivisme på ulike måter bidrar til å forme politikk og skape alternative framtider. Alt dette skriver jeg om med ujevne mellomrom både i bøker, aviser og tidsskrift.
@@ -24,11 +31,3 @@ Jeg underviser i TIK-senterets masterprogram om natur, klimapolitikk, økonomi o
 
 Jeg veileder gjerne masterstudenter knyttet til temaene jeg forsker på og/eller STS-inspirerte tilnærminger til politikk og demokratisk deltakelse.
 
-<div class="image-grid">
-    <a class="portfolio-item">
-        <img src=":$url_assets:/images/portrait-uio-s.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
-    <div class="portfolio-title">
-      <span>Sånn ser jeg ut.<br/>Foto: Erik Engblad, UiO.</span>
-    </div>
-    </a>
-</div>
