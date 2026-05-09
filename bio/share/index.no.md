@@ -9,8 +9,8 @@ routes:
 Her finner du bilder som kan brukes i presentasjoner og medieomtaler. Bildene kan brukes fritt så lenge fotografen krediteres. Trykk for å laste ned høyoppløselig versjon (OBS: Store filer).
 
 <div class="image-grid">
-    <a class="portfolio-item" href=":$url_assets:/images/portrait-uio-l.png" style="height: 150 px !important;" >
-        <img src=":$url_assets:/images/portrait-uio-s.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
+    <a class="portfolio-item" href=":$url_assets:/images/portrait-uio-l.png" style="height: 150 px !important;">
+        <img style="height: 150 px !important;" src=":$url_assets:/images/portrait-uio-s.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
     <div class="portfolio-title">
       <span>Foto: Erik Engblad, UiO.</span>
     </div>
