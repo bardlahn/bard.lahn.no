@@ -24,4 +24,6 @@ Samtidig er boka altså en fortelling – en skildring av både hverdagsliv og d
 _Klimaspillet_ var den første boka jeg skrev. Det var fint å holde i den.
 ::
 
-Boka ble skrevet med støtte fra Stiftelsen Fritt ord og Norsk faglitterær forfatter- og oversetterforening. Den kan bestilles hos [Flamme Forlag](https://www.flammeforlag.no/boker/klimaspillet-bard-lahn-9788282880244).
+Boka ble skrevet med støtte fra Stiftelsen Fritt ord og Norsk faglitterær forfatter- og oversetterforening. 
+
+Den kan bestilles hos [Flamme Forlag](https://www.flammeforlag.no/boker/klimaspillet-bard-lahn-9788282880244).
