@@ -6,6 +6,10 @@ routes:
   canonical: '/bio/'
 ---
 
+Jeg er forsker og skribent, for tiden ansatt som førsteamanuensis ved Universitetet i Oslos [Senter for teknologi, innovasjon og kultur (TIK)](http://tik.uio.no/), og tilknyttet [CICERO Senter for klimaforskning](http://cicero.uio.no/no/om-oss/ansatte/88/bard-lahn) som seniorforsker. Jeg forsker på olje, ressursforvaltning og klimapolitikk, både i Norge og internasjonalt. Jeg er særlig opptatt av forholdet mellom demokrati og vitenskapelig ekspertise, økonomiens rolle i politiske prosesser, og hvordan framtiden gjøres forståelig og styrbar.
+
+Tidligere har jeg forsket på norsk og internasjonal klimapolitikk, med særlig fokus på FNs klimaforhandlinger, spørsmål om rettferdighet mellom Nord og Sør, og sammenhengen mellom norsk olje- og klimapolitikk. Jeg er også opptatt av litteratur og teater, og hvordan både kunst, vitenskap og aktivisme på ulike måter bidrar til å forme politikk og skape alternative framtider. Alt dette skriver jeg om med ujevne mellomrom både i bøker, aviser og tidsskrift.
+
 ::sidebar
 <div class="image-grid">
     <a class="portfolio-item">
@@ -16,10 +20,6 @@ routes:
     </a>
 </div>
 ::
-
-Jeg er forsker og skribent, for tiden ansatt som førsteamanuensis ved Universitetet i Oslos [Senter for teknologi, innovasjon og kultur (TIK)](http://tik.uio.no/), og tilknyttet [CICERO Senter for klimaforskning](http://cicero.uio.no/no/om-oss/ansatte/88/bard-lahn) som seniorforsker. Jeg forsker på olje, ressursforvaltning og klimapolitikk, både i Norge og internasjonalt. Jeg er særlig opptatt av forholdet mellom demokrati og vitenskapelig ekspertise, økonomiens rolle i politiske prosesser, og hvordan framtiden gjøres forståelig og styrbar.
-
-Tidligere har jeg forsket på norsk og internasjonal klimapolitikk, med særlig fokus på FNs klimaforhandlinger, spørsmål om rettferdighet mellom Nord og Sør, og sammenhengen mellom norsk olje- og klimapolitikk. Jeg er også opptatt av litteratur og teater, og hvordan både kunst, vitenskap og aktivisme på ulike måter bidrar til å forme politikk og skape alternative framtider. Alt dette skriver jeg om med ujevne mellomrom både i bøker, aviser og tidsskrift.
 
 ## Tidligere arbeid
 
