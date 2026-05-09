@@ -13,7 +13,7 @@ Boka gir en innføring i spørsmålet om internasjonal fordeling av klimainnsats
 ::sidebar
 <div class="image-grid">
     <a class="portfolio-item" href="https://www.flammeforlag.no/boker/klimaspillet-bard-lahn-9788282880244">
-        <img src=":$url_assets:/images/klimaspillet-cover-s.jpg" alt="Bok: Klimaspillet">
+        <img src=":$url_assets:/images/klimaspillet-cover-s.jpg" alt="Bokomslag for boka Klimaspillet">
     </a>
 </div>
 ::
