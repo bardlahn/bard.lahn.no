@@ -46,4 +46,4 @@ Lahn, Bård, and Göran Sundqvist. 2015. ‘Et Fast Punkt for Klimaet? Vitenskap
 
 Lahn, Bård. 2015. ‘Fra København til Paris: FNs klimatoppmøter og rettferdig fordeling av atmosfæren’. Internasjonal Politikk 73 (04): 538–46.
 
-Lahn, Bård. 2010. Togradersmålet Og åpning av nye leteområder på norsk sokkel. Notat. Norges Naturvernforbund.
+Lahn, Bård. 2010. Togradersmålet og åpning av nye leteområder på norsk sokkel. Notat. Norges Naturvernforbund.
