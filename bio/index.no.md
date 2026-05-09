@@ -9,9 +9,11 @@ routes:
 Jeg er forsker og skribent, for tiden ansatt som førsteamanuensis ved Universitetet i Oslos [Senter for teknologi, innovasjon og kultur (TIK)](http://tik.uio.no/), og tilknyttet [CICERO Senter for klimaforskning](http://cicero.uio.no/no/om-oss/ansatte/88/bard-lahn) som seniorforsker. Jeg forsker på olje, ressursforvaltning og klimapolitikk, både i Norge og internasjonalt. Jeg er særlig opptatt av forholdet mellom demokrati og vitenskapelig ekspertise, økonomiens rolle i politiske prosesser, og hvordan framtiden gjøres forståelig og styrbar.
 
 <div class="image-grid">
-    <a class="portfolio-item" href="">
+    <a class="portfolio-item">
         <img src=":$url_assets:/images/portrait-uio-s.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
-    <div class="portfolio-title"><span>Sånn ser jeg ut.</span></div>
+    <div class="portfolio-title">
+      <span>Sånn ser jeg ut.<br/>Foto: Erik Engblad, UiO.</span>
+    </div>
     </a>
 </div>
 
