@@ -114,19 +114,11 @@ function renderMDContent(string $text) {
                     }
                     
                     // Assembling HTML tags
+                    $sizeprop = (isset($size[2])) ? 'width="' . $size[1] . '" height="' . $size[2] . '" ' : '';
                     $before = '<div class="' . $imgclass . '">';
-                    if ($linkurl) {
-                        $before .= '<a href="' . $linkurl . '">';
-                    }
-                    if (isset($size) && is_array($size)) {
-                        $sizeprop = 'width="' . $size[1] . '" height="' . $size[2] . '" ';
-                    } else {
-                        $sizeprop = '';
-                    }
+                    $before .= ($linkurl) ? '<a href="' . $linkurl . '">' : '';
                     $before .= '<img src="' . $imgsrc . '" ' . $sizeprop . '/>';
-                    if ($linkurl) {
-                        $before .= '</a>';
-                    }
+                    $before .= ($linkurl) ? '</a>' : '';
 
                     // If block contains md text, render the text as an image caption
                     if (trim($blockContent)) {

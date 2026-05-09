@@ -16,7 +16,7 @@ Hvorfor klarer ikke verden å bli enig om en avtale som kan stoppe de farlige kl
 </div>
 ::
 
-::image images/klimaspillet-holding-l.jpg wide /
+::image images/klimaspillet-holding-l.jpg wide
 _Klimaspillet_ var den første boka jeg skrev. Det var fint å holde i den.
 ::
 
