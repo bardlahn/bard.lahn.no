@@ -306,6 +306,27 @@ a {
     -webkit-box-decoration-break: clone;
 }
 
+.image-grid {
+    grid-column: 1 / 7;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.image-grid .portfolio-item {
+    flex: 1 1 200px;
+    min-width: 150px;
+    max-width: 400px;
+}
+
+.image-grid .portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .sidebar {
     grid-column: 6 / 7;
 }

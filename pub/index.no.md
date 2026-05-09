@@ -15,7 +15,7 @@ Her kommer en oversikt over mine publikasjoner.
 Bilde
 ::
 
-<div class="portfolio-grid">
+<div class="image-grid">
     <a class="portfolio-item" href="hvem-bestemmer/">
         <img src=":$url_assets:/images/hvem-bestemmer-cover-s.jpg" alt="Bok: Hvem bestemmer over klimaet?">
         <div class="portfolio-title">
