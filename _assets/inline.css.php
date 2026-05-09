@@ -316,14 +316,14 @@ a {
 }
 
 .image-grid .portfolio-item {
-    flex: 1 1 200px;
-    min-width: 150px;
-    max-width: 400px;
+    height: 300px;
+    width: auto;
+    flex: 0 0 auto;
 }
 
 .image-grid .portfolio-item img {
-    width: 100%;
-    height: auto;
+    height: 100%;
+    width: auto;
     display: block;
 }
 
