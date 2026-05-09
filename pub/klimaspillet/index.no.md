@@ -16,12 +16,12 @@ Hvorfor klarer ikke verden å bli enig om en avtale som kan stoppe de farlige kl
 </div>
 ::
 
-::image images/klimaspillet-holding-l.jpg wide
-_Klimaspillet_ var den første boka jeg skrev. Det var fint å holde i den.
-::
-
 Boka gir en innføring i spørsmålet om internasjonal fordeling av klimainnsatsen. Fordelingsspørsmålet dreier seg ofte om størrelsen på framtidige utslippsreduksjoner, altså hvor mye og hvor raskt de enkelte landene skal kutte i sine klimagassutslipp. Men det dreier seg også om hva slags form det internasjonale klimaregelverket skal ta, og hvordan klimatiltak i de fattigere utviklingslandene skal finansieres.
 
 Samtidig er boka altså en fortelling – en skildring av både hverdagsliv og dramatiske høydepunkt blant diplomatene, byråkratene, forskerne og aktivistene som sammen strever med å styre jordas atmosfære. Fra innsiden av møterommene på FNs klimatoppmøter beskriver jeg hvordan internasjonal politikk gjøres i praksis, og spør hva det egentlig innebærer å finne en «global løsning» på klimaproblemet.
 
-Du kan lese mer og bestille boka hos [Flamme Forlag](https://www.flammeforlag.no/boker/klimaspillet-bard-lahn-9788282880244). 
+::image images/klimaspillet-holding-l.jpg wide
+_Klimaspillet_ var den første boka jeg skrev. Det var fint å holde i den.
+::
+
+Boka ble skrevet med støtte fra Stiftelsen Fritt ord og Norsk faglitterær forfatter- og oversetterforening. Den kan bestilles hos [Flamme Forlag](https://www.flammeforlag.no/boker/klimaspillet-bard-lahn-9788282880244).
