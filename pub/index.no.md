@@ -8,6 +8,9 @@ routes:
 
 Her kommer en oversikt over mine publikasjoner.
 
+[![Bok: Hvem bestemmer over klimaet](/images/hvem-bestemmer-cover-s.jpg)](hvem-bestemmer/)
+[![Bok: Klimaspillet](/images/klimaspillet-cover-s.jpg)](klimaspillet/)
+
 ::image images/hvem-bestemmer-cover-s.jpg small (300,470) hvem-bestemmer/
 Bilde
 ::
