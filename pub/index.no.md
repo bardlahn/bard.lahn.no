@@ -14,3 +14,18 @@ Her kommer en oversikt over mine publikasjoner.
 ::image images/hvem-bestemmer-cover-s.jpg small (300,470) hvem-bestemmer/
 Bilde
 ::
+
+<div class="portfolio-grid">
+    <a class="portfolio-item" href="hvem-bestemmer/">
+        <img src=":$url_assets:/images/hvem-bestemmer-cover-thumb.jpg" alt="Bok: Hvem bestemmer over klimaet?">
+        <div class="portfolio-title">
+            <span> </span>
+        </div>
+    </a>
+    <a class="portfolio-item" href="klimaspillet/">
+        <img src=":$url_assets:/images/klimaspillet-cover-thumb.jpg" alt="Bok: Klimaspillet">
+        <div class="portfolio-title">
+            <span> </span>
+        </div>
+    </a>
+</div>
