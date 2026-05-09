@@ -8,6 +8,10 @@ routes:
 
 Hvorfor klarer ikke verden å bli enig om en avtale som kan stoppe de farlige klimaendringene? Det er spørsmålet jeg stiller i boka _Klimaspillet: En fortelling fra innsiden av FNs klimatoppmøter_ (Flamme Forlag, 2013). Her forteller jeg historien om fire år med intens politisk dragkamp om en ny internasjonal klimaavtale, i en verden som preges både av gamle historiske skillelinjer og av nye globale maktforhold.
 
+::image images/klimaspillet-holding-l.jpg wide
+_Klimaspillet_ var den første boka jeg skrev. Det var fint å holde i den.
+::
+
 Boka gir en innføring i spørsmålet om internasjonal fordeling av klimainnsatsen. Fordelingsspørsmålet dreier seg ofte om størrelsen på framtidige utslippsreduksjoner, altså hvor mye og hvor raskt de enkelte landene skal kutte i sine klimagassutslipp. Men det dreier seg også om hva slags form det internasjonale klimaregelverket skal ta, og hvordan klimatiltak i de fattigere utviklingslandene skal finansieres.
 
 ::sidebar
