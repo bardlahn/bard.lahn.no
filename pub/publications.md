@@ -1,28 +1,51 @@
-Alnes, Kristina, Håkon Sælen, Harald Francke Lund, et al. 2021. ‘Climate Assessments of Six Key Norwegian Sectors’. In 114, Report 2021:02. CICERO Reports. CICERO Center for International Climate Research. https://hdl.handle.net/11250/2730979.
-Asayama, Shinichiro, Kari De Pryck, Silke Beck, et al. 2023. ‘Three Institutional Pathways to Envision the Future of the IPCC’. Nature Climate Change, September 4, 1–4. https://doi.org/10.1038/s41558-023-01780-8.
+Alnes, Kristina, Håkon Sælen, Harald Francke Lund, et al. 2021. ‘Climate Assessments of Six Key Norwegian Sectors’. In 114, Report 2021:02. CICERO Center for International Climate Research. https://hdl.handle.net/11250/2730979.
+
+Asayama, Shinichiro, Kari De Pryck, Silke Beck, et al. 2023. ‘Three Institutional Pathways to Envision the Future of the IPCC’. Nature Climate Change, 1–4. https://doi.org/10.1038/s41558-023-01780-8.
+
 Asdal, Kristin, and Bård Lahn. 2024. ‘Governing as Valuing: Assetization and the Making of the Norwegian Oil Fund’. Environment and Planning A: Economy and Space 56 (8): 2089–104. https://doi.org/10.1177/0308518X241260588.
-Bang, Guri, and Bård Lahn. 2019. ‘From Oil as Welfare to Oil as Risk? Norwegian Petroleum Resource Governance and Climate Policy’. Climate Policy 20 (8): 997–1009. World. https://doi.org/10.1080/14693062.2019.1692774.
+
+Bang, Guri, and Bård Lahn. 2019. ‘From Oil as Welfare to Oil as Risk? Norwegian Petroleum Resource Governance and Climate Policy’. Climate Policy 20 (8): 997–1009. https://doi.org/10.1080/14693062.2019.1692774.
+
 Blaxekjær, Lau Øfjord, Bård Lahn, Tobias Dan Nielsen, Lucia Green-Weiskel, and Fang Fang. 2021. ‘The Narrative Position of the Like-Minded Developing Countries in Global Climate Negotiations’. In Coalitions in the Climate Change Negotiations, edited by Carola Klöck, Paula Castro, Florian Weiler, and Lau Øfjord Blaxekjær. Routledge.
+
 Boasson, Elin Lerum, and Bård Lahn. 2017. ‘Norway: A Dissonant Cognitive Leader?’ In Still Taking a Lead? The European Union in International Climate Change Politics, edited by Rudiger K. Wurzel, James Connelly, and Duncan Liefferink. Routledge.
+
 Dooley, Kate, Christian Holz, Sivan Kartha, et al. 2021. ‘Ethical Choices behind Quantifications of Fair Contributions under the Paris Agreement’. Nature Climate Change 11 (4): 4. https://doi.org/10.1038/s41558-021-01015-8.
+
 Farstad, Fay M., Erlend A. T. Hermansen, and Bård Lahn. 2025. ‘For Better or for Worse: A Break with Norway’s Consensual Climate Tradition?’ In Stability and Politicization in Climate Governance, edited by Paul Tobin, Matthew Paterson, and Stacy D. VanDeveer. Cambridge University Press. https://doi.org/10.1017/9781009352444.014.
+
 Hermansen, Erlend A. T., Bård Lahn, Göran Sundqvist, and Eirik Øye. 2021. ‘Post-Paris Policy Relevance: Lessons from the IPCC SR15 Process’. Climatic Change 169 (1): 7. https://doi.org/10.1007/s10584-021-03210-0.
+
 Kartha, Sivan, Tom Athanasiou, Simon Caney, et al. 2018. ‘Cascading Biases against Poorer Countries’. Nature Climate Change 8 (5): 348–49. https://doi.org/10.1038/s41558-018-0152-7.
-Lahn, Bård. 2010. Togradersmålet Og Åpning Av Nye Leteområder På Norsk Sokkel. Notat. Norges Naturvernforbund.
-Lahn, Bård. 2013. Klimaspillet: En fortelling fra innsiden av FNs klimatoppmøter. Flamme Forlag.
+
+Lahn, Bård. 2010. Togradersmålet Og åpning av nye leteområder på norsk sokkel. Notat. Norges Naturvernforbund.
+
 Lahn, Bård. 2015. ‘Fra København til Paris: FNs klimatoppmøter og rettferdig fordeling av atmosfæren’. Internasjonal Politikk 73 (04): 538–46.
+
 Lahn, Bård. 2016. ‘Forests through the Paper Mill: Assembling REDD+ through the Production of Documents’. Master’s Thesis, University of Oslo.
+
 Lahn, Bård. 2017. Redusert oljeutvinning som klimatiltak: Faglige og politiske perspektiver. Policy note 2017:01. CICERO Policy notes. CICERO Center for International Climate Research. http://hdl.handle.net/11250/2434201.
+
 Lahn, Bård. 2018. ‘In the Light of Equity and Science: Scientific Expertise and Climate Justice after Paris’. International Environmental Agreements: Politics, Law and Economics 18 (1): 29–43. https://doi.org/10.1007/s10784-017-9375-8.
+
 Lahn, Bård. 2019. Norwegian Petroleum Policy in a Changing Climate. Report 2019:10. CICERO Reports. CICERO Center for International Climate Research. http://hdl.handle.net/11250/2607906.
+
 Lahn, Bård. 2020. ‘A History of the Global Carbon Budget’. WIREs Climate Change 11 (3): e636. https://doi.org/10.1002/wcc.636.
+
 Lahn, Bård. 2021. ‘Changing Climate Change: The Carbon Budget and the Modifying-Work of the IPCC’. Social Studies of Science 51 (1): 3–27. https://doi.org/10.1177/0306312720941933.
-Lahn, Bård. 2022a. ‘Boundary Objects’. In A Critical Assessment of the Intergovernmental Panel on Climate Change, edited by Kari De Pryck and Mike Hulme. Cambridge University Press. https://doi.org/10.1017/9781009082099.030.
-Lahn, Bård. 2022b. ‘Carbon Connections: On the Work of Making Climate Change an Issue for Politics and Government’. PhD, University of Oslo.
+
+Lahn, Bård. 2022. ‘Boundary Objects’. In A Critical Assessment of the Intergovernmental Panel on Climate Change, edited by Kari De Pryck and Mike Hulme. Cambridge University Press. https://doi.org/10.1017/9781009082099.030.
+
+Lahn, Bård. 2022. ‘Carbon Connections: On the Work of Making Climate Change an Issue for Politics and Government’. PhD dissertation, University of Oslo.
+
 Lahn, Bård. 2023. ‘Klimapolitikk i oljestaten: Robust folkestyre eller sementerte næringsinteresser?’ Norsk Sosiologisk Tidsskrift 7 (4–5): 63–75. https://doi.org/10.18261/nost.7.4-5.5.
-Lahn, Bård. 2025. Hvem bestemmer over klimaet? En kort bok om et nesten umulig spørsmål. Forlaget Manifest.
-Lahn, Bård, and Merethe Dotterud Leiren. 2016. Klimapolitikk i Norden: En sammenligning av mål og virkemidler i de nordiske landene. 2016:07. CICERO Senter for klimaforskning.
+
+Lahn, Bård, and Merethe Dotterud Leiren. 2016. Klimapolitikk i Norden: En sammenligning av mål og virkemidler i de nordiske landene. Report 2016:07. CICERO Senter for klimaforskning.
+
 Lahn, Bård, and Göran Sundqvist. 2015. ‘Et Fast Punkt for Klimaet? Vitenskap Og Politikk i Den Svarte “Bali-Boksen”’. Sosiologi i Dag 45 (1).
+
 Lahn, Bård, and Göran Sundqvist. 2017. ‘Science as a “Fixed Point”? Quantification and Boundary Objects in International Climate Politics’. Environmental Science & Policy 67: 8–15. https://doi.org/10.1016/j.envsci.2016.11.001.
-Lahn, Bård, and Elana Wilson Rowe. 2015. ‘How to Be a “Front-Runner”: Norway in International Climate Politics’. In Small States and Status Seeking: Norway’s Quest for International Standing, edited by Benjamin de Carvalho and Iver B. Neumann. New International Relations. Routledge.
+
+Lahn, Bård, and Elana Wilson Rowe. 2015. ‘How to Be a “Front-Runner”: Norway in International Climate Politics’. In Small States and Status Seeking: Norway’s Quest for International Standing, edited by Benjamin de Carvalho and Iver B. Neumann. Routledge.
+
 Smith, Ida Dokk, Bård Lahn, and Indra Øverland. 2022. ‘Klimaklubbkvaler’. Internasjonal Politikk 80 (1): 1. https://doi.org/10.23865/intpol.v80.3765.
