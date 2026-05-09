@@ -36,7 +36,7 @@ function renderMDContent(string $text) {
         if (!$inBlock && preg_match('/^::(\S+)((?:[ \t]+\S+)*)[ \t]*$/', $line, $m)) {
             // Flush any accumulated unmarked text
             if (trim($unmarked) !== '') {
-                echo $defaultBefore . "\n" . replaceVars($parsedown->text($unmarked)) . "\n" . $defaultAfter . "\n";
+                echo $defaultBefore . "\n" . $parsedown->text(replaceVars($unmarked)) . "\n" . $defaultAfter . "\n";
                 $unmarked = '';
             }
             // Opening marker found
@@ -47,7 +47,7 @@ function renderMDContent(string $text) {
 
         if ($inBlock && trim($line) === '::') {
             // Closing marker found — process the block
-            $content = $parsedown->text($blockContent);
+            $content = $parsedown->text(replaceVars($blockContent));
             $before  = '';
             $after   = '';
 
@@ -197,7 +197,7 @@ function renderMDContent(string $text) {
 
             // Assembling block output
             if (trim($content)) {
-                echo $before . "\n" . replaceVars($content) . "\n" . $after . "\n";
+                echo $before . "\n" . $content . "\n" . $after . "\n";
             }
             $inBlock      = false;
             $blockContent = '';
@@ -214,10 +214,10 @@ function renderMDContent(string $text) {
     // Flush any remaining content
     if ($inBlock && trim($blockContent) !== '') {
         // Block was never closed — render it anyway
-        $content = $parsedown->text($blockContent);
-        echo $defaultBefore . "\n" . replaceVars($content) . "\n" . $defaultAfter . "\n";
+        $content = $parsedown->text(replaceVars($blockContent));
+        echo $defaultBefore . "\n" . $content . "\n" . $defaultAfter . "\n";
     } elseif (trim($unmarked) !== '') {
-        echo $defaultBefore . "\n" . replaceVars($parsedown->text($unmarked)) . "\n" . $defaultAfter . "\n";
+        echo $defaultBefore . "\n" . $parsedown->text(replaceVars($unmarked)) . "\n" . $defaultAfter . "\n";
     }
 
     return true;
