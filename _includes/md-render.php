@@ -73,6 +73,7 @@ function renderMDContent(string $text) {
                                     //      url (optional image link, absolute or relative)
 
                     $imgclass = 'image-container small';
+                    $linkurl = null;
                     
                     // Checking for existence of file
                     if (file_exists($assets_path . trim($args[1]))) {
