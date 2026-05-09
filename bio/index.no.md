@@ -31,5 +31,5 @@ Jeg underviser i TIK-senterets masterprogram om natur, klimapolitikk, økonomi o
 
 Jeg veileder gjerne masterstudenter knyttet til temaene jeg forsker på og/eller STS-inspirerte tilnærminger til politikk og demokratisk deltakelse.
 
-- [Last ned full CV]()
+- [Last ned full CV](cv/)
 - [Pressebilder og biografi til deling](share/)
