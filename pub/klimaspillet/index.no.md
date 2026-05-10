@@ -21,7 +21,7 @@ Samtidig er boka altså en fortelling – en skildring av både hverdagsliv og d
 ::
 
 ::image images/klimaspillet-holding-l.jpg wide
-_Klimaspillet_ var den første boka jeg skrev. Det var fint å holde i den.
+_Klimaspillet_ var den første boka jeg skrev. Det var stas da den kom fra trykkeriet.
 ::
 
 Boka ble skrevet med støtte fra Stiftelsen Fritt ord og Norsk faglitterær forfatter- og oversetterforening. 
