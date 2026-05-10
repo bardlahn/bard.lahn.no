@@ -6,9 +6,9 @@ routes:
   canonical: '/'
 ---
 
-I'm Bård Lahn. I research and write about the politics of climate change, energy and fossil fuels. In particular, I am interested in how scientific knowledge is used to handle tensions and controversies in these areas, and how technological change relates to democratic politics.
+I'm Bård Lahn. I research and write about the politics of climate change, energy and fossil fuels. I am interested in the relationship between democracy, technology and economy, and in how scientific knowledge can engender political action as well as controversy.
 
-This website collects my [publications](/:$lang:/pub/) and [writings](/:$lang:/txt/), as well as various snippets on my current or previous [projects and topics of interest](/:$lang:/div/). You also find a fuller [bigraphy](/:$lang:/bio/) including information about my previous roles and my teaching activities.
+This website collects my academic [publications](/:$lang:/pub/) and other [writings](/:$lang:/txt/), as well as various snippets on my current or previous [projects and topics of interest](/:$lang:/div/). It also contains a fuller [biography](/:$lang:/bio/) including information about my previous roles and my teaching activities.
 
 You can also find me in other online spaces, including:
 - [University website](https://www.sv.uio.no/tik/english/people/aca/baardll/index.html)
