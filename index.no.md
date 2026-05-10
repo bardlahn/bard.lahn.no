@@ -19,10 +19,11 @@ Du finner meg også andre steder på nettet:
 - [ORCID](https://orcid.org/0000-0001-9161-9455)
 
 ::sidebar
-## Ny bok:
 <div class="image-grid">
     <a class="portfolio-item" href="pub/hvem-bestemmer/">
         <img src=":$url_assets:/images/hvem-bestemmer-cover-s.jpg" alt="Bok: Hvem bestemmer over klimaet?">
+        <div class="portfolio-title"><span>Ny bok<br/>2025</span>
+    </div>
     </a>
 </div>
 ::
