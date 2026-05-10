@@ -32,4 +32,6 @@ PS - ifølge Ane Breiviks [bokomtale på Altinget.no](https://www.altinget.no/ar
 - 05.12.2025: [Bokpresentasjon](https://litteraturhusetitrondheim.no/program/foredrag-og-debatt-hvem-bestemmer-over-klimaet/) på Litteraturhuset, Trondheim _(OBS: avlyst)_
 - 13.11.2025: Panelsamtale på [Politisk litteraturfestival 2025](https://www.facebook.com/events/1891774671374040/), Oslo
 
+::sidebar
 Hør også [podkasten Erik M](https://podcasts.apple.com/no/podcast/1-b%C3%A5rd-lahn-hvorfor-klarer-vi-ikke-%C3%A5-l%C3%B8se-klimaproblemet/id1861847450?i=1000741545442&l=nb), der jeg presenterer boka i samtale med klimajournalist Erik Martiniussen.
+::
