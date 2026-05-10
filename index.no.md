@@ -22,7 +22,7 @@ Du finner meg også andre steder på nettet:
 <div class="image-grid">
     <a class="portfolio-item" href="pub/hvem-bestemmer/">
         <img src=":$url_assets:/images/hvem-bestemmer-cover-s.jpg" alt="Bok: Hvem bestemmer over klimaet?">
-        <div class="portfolio-title"><span>**Ny bok 2025!**</span>
+        <div class="portfolio-title"><span><strong>Ny bok 2025!</strong></span>
     </div>
     </a>
 </div>
