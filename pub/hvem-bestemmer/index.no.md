@@ -24,6 +24,10 @@ PS - ifølge Ane Breiviks [bokomtale på Altinget.no](https://www.altinget.no/ar
 
 ## Presentasjoner og arrangementer
 
+For en presentasjon av boka, hør [podkasten Erik M](https://podcasts.apple.com/no/podcast/1-b%C3%A5rd-lahn-hvorfor-klarer-vi-ikke-%C3%A5-l%C3%B8se-klimaproblemet/id1861847450?i=1000741545442&l=nb), der jeg diskuterer boka med klimajournalist Erik Martiniussen.
+
+...eller besøk et arrangement der boka presenteres:
+
 - 28.04.2026: [Bokpresentasjon på Stange bibliotek](https://www.facebook.com/events/1097400589229905/), Stange
 - 20.03.2026: [Panelsamtale](https://www.sv.uio.no/tik/forskning/aktuelt/arrangementer/gjesteforelesninger-seminarer/2026/klimakommunikasjon-som-hverdagsdemokrati.html) med Nina Wormbs på Universitetet i Oslo
 - 13.03.2026: Panelsamtale på [klimafestivalen Varmere, Våtere Villere](https://www.varmerevaterevillere.no/program-2026/teller-stemmer-naar-verden-brenner), Bergen
@@ -31,7 +35,3 @@ PS - ifølge Ane Breiviks [bokomtale på Altinget.no](https://www.altinget.no/ar
 - 19.01.2026: Panelsamtale om norsk klimapolitikk, Det Norske Videskabs-Akademi, Oslo
 - 05.12.2025: [Bokpresentasjon](https://litteraturhusetitrondheim.no/program/foredrag-og-debatt-hvem-bestemmer-over-klimaet/) på Litteraturhuset, Trondheim _(OBS: avlyst)_
 - 13.11.2025: Panelsamtale på [Politisk litteraturfestival 2025](https://www.facebook.com/events/1891774671374040/), Oslo
-
-
-
-Hør også [podkasten Erik M](https://podcasts.apple.com/no/podcast/1-b%C3%A5rd-lahn-hvorfor-klarer-vi-ikke-%C3%A5-l%C3%B8se-klimaproblemet/id1861847450?i=1000741545442&l=nb), der jeg presenterer boka i samtale med klimajournalist Erik Martiniussen.
