@@ -396,12 +396,20 @@ a {
   color: var(--text-color);
 }
 
-.social-links svg {
+.social-links a {
   display: inline-flex;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.social-links svg {
   width: 24px;
   height: 24px;
   color: inherit;
-  fill: currentColor;        /* arver .social-links color */
+  fill: currentColor;
   transition: transform 0.3s ease;
 }
 
