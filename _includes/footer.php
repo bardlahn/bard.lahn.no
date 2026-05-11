@@ -4,7 +4,7 @@
 
 <a href="/<?= $lang ?>/div/web/">&copy; Bård Lahn</a> / 
 
-  <a href="mailto:bard@lahn.no" aria-label="Send me an email">
+  <a href="mailto:bard_AT_lahn.no" aria-label="Send me an email">
     <?php include $assets_path . "icons/email.svg"; ?>
   </a>
 
