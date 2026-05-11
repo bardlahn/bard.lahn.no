@@ -22,11 +22,3 @@ Her finner du bilder som kan brukes i presentasjoner og medieomtaler. Bildene ka
     </div>
     </a>
 </div>
-
-## Kort biografi (>50 ord)
-
-Bård Lahn er forsker og forfatter, og jobber som førsteamanuensis i vitenskaps- og teknologistudier ved Universitetet i Oslo. Han forsker på klimapolitikk i Norge og internasjonalt, og på demokratisk styring av energiressurser, finansindustri og nye teknologier. Hans nyeste bok er _Hvem bestemmer over klimaet?_ (Forlaget Manifest, 2025).
-
-## Lang biografi (200 ord)
-
-(Kommer)

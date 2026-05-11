@@ -12,7 +12,7 @@ My research and writing focuses on questions of democracy and justice in relatio
 
 ::sidebar
 <div class="image-grid">
-    <a class="portfolio-item" href="share/">
+    <a class="portfolio-item" href="img/">
         <img src=":$url_assets:/images/portrait-uio-s.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
     <div class="portfolio-title">
       <span>This is how I look.<br/>Photo by Erik Engblad, UiO.</span>

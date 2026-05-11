@@ -12,17 +12,14 @@ Tidligere har jeg forsket på norsk og internasjonal klimapolitikk, med særlig 
 
 ::sidebar
 <div class="image-grid">
-    <a class="portfolio-item" href="share/">
-        <img src=":$url_assets:/images/portrait-uio-s.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
+    <a class="portfolio-item" href="img/">
+        <img src=":$url_assets:images/portrait-uio-s.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
     <div class="portfolio-title">
       <span>Sånn ser jeg ut.<br/>Foto: Erik Engblad, UiO.</span>
     </div>
     </a>
 </div>
 ::
-
-- [Last ned full CV](cv/)
-- [Pressebilder og biografi til deling](share/)
 
 ## Tidligere arbeid
 
@@ -33,3 +30,6 @@ Jeg har lang erfaring både fra arbeid i norsk og internasjonal miljøbevegelse.
 Jeg underviser i TIK-senterets masterprogram om natur, klimapolitikk, økonomi og vitenskapelig ekspertise. Jeg er blant annet ansvarlig for emnet [TIK4011 Science and Technology in politics and society](https://www.uio.no/studier/emner/sv/tik/TIK4011/index.html), som tilbyr en fordypning i STS.
 
 Jeg veileder gjerne masterstudenter knyttet til temaene jeg forsker på og/eller STS-inspirerte tilnærminger til politikk og demokratisk deltakelse.
+
+- [Last ned full CV](:$url_assets:files/Lahn-CV-curr.pdf)
+- [Bilder til personpresentasjoner](img/)
