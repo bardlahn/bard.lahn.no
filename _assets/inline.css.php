@@ -396,16 +396,8 @@ a {
   color: var(--text-color);
 }
 
-.social-links a {
-  display: inline-flex;
-  text-decoration: none;
-}
-
-#copy-link a:hover {
-    text-decoration: underline;
-}
-
 .social-links svg {
+  display: inline-flex;
   width: 24px;
   height: 24px;
   color: inherit;
@@ -415,7 +407,6 @@ a {
 
 .social-links a:hover svg,
 .social-links a:focus svg {
-  text-decoration: underline;
   transform: scale(1.1);
   transform: rotate(20deg);
 }
