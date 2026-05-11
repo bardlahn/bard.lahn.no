@@ -415,6 +415,7 @@ a {
 
 .social-links a:hover svg,
 .social-links a:focus svg {
+  text-decoration: underline;
   transform: scale(1.1);
   transform: rotate(20deg);
 }
