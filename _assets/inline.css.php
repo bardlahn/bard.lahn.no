@@ -398,15 +398,13 @@ a {
 
 .social-links a {
   display: inline-flex;
-  width: 24px;
-  height: 24px;
-  color: inherit;
   text-decoration: none;
 }
 
 .social-links svg {
-  width: 100%;
-  height: 100%;
+  width: 24px;
+  height: 24px;
+  color: inherit;
   fill: currentColor;        /* arver .social-links color */
   transition: transform 0.3s ease;
 }
