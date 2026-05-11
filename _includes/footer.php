@@ -20,6 +20,8 @@
     <?php include $assets_path . "icons/orcid.svg"; ?>
   </a>
   
+  /
+
   <button id="theme-toggle" aria-label="Toggle theme">
     <?php include $assets_path . "icons/sun.svg"; ?>
     <?php include $assets_path . "icons/moon.svg"; ?>
