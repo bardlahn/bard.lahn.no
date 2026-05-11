@@ -17,7 +17,6 @@
     }
 }
 
-/* Manual overrides — these win regardless of browser pref */
 [data-theme="light"] {
   --bg-color: #f5f5f5;
   --text-color: #333;
@@ -27,8 +26,6 @@
   --bg-color: #1a1a1a;
   --text-color: #e0e0e0;
 }
-
-/* TBD: Implement data structure for light/dark theme override */
 
 body {
     font-family: 'IBM Plex Mono', monospace;
@@ -42,7 +39,6 @@ a {
     text-decoration: underline;
 }
 
-/* Special links that are underlined only on hover */
 .site-name a,
 .lang-toggle a,
 .nav-menu a,
@@ -184,10 +180,12 @@ a {
 
 .content ul {
     list-style-type: circle;
+    padding-left: 1.5em;
 }
 
 .content ol {
     list-style-type: decimal-leading-zero;
+    padding-left: 1.5em;
 }
 
 .image-container {
@@ -389,9 +387,6 @@ a {
     margin-bottom: 15px;
 }
 
-
-/* Begynner ny socials-seksjon - under utprøving */
-
 .social-links {
   display: flex;
   gap: 0.75rem;
@@ -421,11 +416,6 @@ a {
   transform: scale(1.1);
   transform: rotate(20deg);
 }
-
-
-/* Slutt på socials-seksjon */
-
-/* Ny kode for lys/mørk toggle */
 
 #theme-toggle {
   background: none;
@@ -459,9 +449,6 @@ a {
   :root:not([data-theme]) .sun-parts { display: block; }
   :root:not([data-theme]) .moon-part { display: none; }
 }
-
-/* Slutt på toggle-kode */
-
 
 @media (max-width: 720px) {
     .container {
@@ -503,7 +490,6 @@ a {
         border-top: none;
     }
 
-    /* Mobile: captions positioned absolutely instead of grid */
     .image-container {
         display: block;
         position: relative;
