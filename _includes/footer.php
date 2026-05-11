@@ -2,7 +2,7 @@
 <div class="footer">
 <div class="social-links">
 
-<a id="copy-link" href="/<?= $lang ?>/div/web/">&copy; Bård Lahn</a> / 
+<a href="/<?= $lang ?>/div/web/">&copy; Bård Lahn</a> / 
 
   <a href="mailto:bard@lahn.no" aria-label="Send me an email">
     <?php include $assets_path . "icons/email.svg"; ?>
