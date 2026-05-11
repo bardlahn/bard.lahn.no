@@ -21,6 +21,10 @@ Tidligere har jeg forsket på norsk og internasjonal klimapolitikk, med særlig 
 </div>
 ::
 
+- [Last ned full CV](:$url_assets:files/Lahn-CV-curr.pdf)
+- [Bilder til personpresentasjoner](img/)
+
+
 ## Tidligere arbeid
 
 Jeg har lang erfaring både fra arbeid i norsk og internasjonal miljøbevegelse. Tidligere har jeg blant annet arbeidet for [Natur og Ungdom](https://nu.no), [Naturvernforbundet](https://naturvernforbundet.no) og [Regnskogfondet](https://regnskog.no). Jeg har også hatt oppdrag for ulike departementer, organisasjoner og utdanningsinstitusjoner både som utreder, rådgiver og foredragsholder. Jeg har hatt en rekke ulike styreverv i organisasjoner innenfor miljø og utvikling, og har bl.a. ledet styret til stiftelsen [The Minor Foundation for Major Challenges](http://www.minor-foundation.no/).
@@ -30,6 +34,3 @@ Jeg har lang erfaring både fra arbeid i norsk og internasjonal miljøbevegelse.
 Jeg underviser i TIK-senterets masterprogram om natur, klimapolitikk, økonomi og vitenskapelig ekspertise. Jeg er blant annet ansvarlig for emnet [TIK4011 Science and Technology in politics and society](https://www.uio.no/studier/emner/sv/tik/TIK4011/index.html), som tilbyr en fordypning i STS.
 
 Jeg veileder gjerne masterstudenter knyttet til temaene jeg forsker på og/eller STS-inspirerte tilnærminger til politikk og demokratisk deltakelse.
-
-- [Last ned full CV](:$url_assets:files/Lahn-CV-curr.pdf)
-- [Bilder til personpresentasjoner](img/)

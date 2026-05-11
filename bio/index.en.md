@@ -21,6 +21,9 @@ My research and writing focuses on questions of democracy and justice in relatio
 </div>
 ::
 
+- [Download full CV](:$url_assets:files/Lahn-CV-curr.pdf)
+- [Photos for presentations](img/)
+
 ## Teaching
 
 I teach several courses in STS and environmental politics at the TIK Centre, including the master specialization in STS, [TIK4011](https://www.uio.no/studier/emner/sv/tik/TIK4001/index.html). I supervise master students focusing on topics related to my research interests or STS inspired approaches to politics and democratic participation more generally.
