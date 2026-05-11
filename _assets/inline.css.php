@@ -401,6 +401,10 @@ a {
   text-decoration: none;
 }
 
+#copy-link a:hover {
+    text-decoration: underline;
+}
+
 .social-links svg {
   width: 24px;
   height: 24px;
