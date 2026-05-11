@@ -1,6 +1,6 @@
 ---
 title: 'Å se seg blind på tallene'
-date: '1427241600'
+date: 1427241600
 abstract: 'Denne ukas overraskelse: Rosablogger Sophie Elise ser ut til å forstå politikk bedre enn både skeptiker-blogger Gunnar Tjomlid og enkelte norske økonomer.'
 language: 'no'
 categories:
