@@ -4,6 +4,7 @@ language: en
 routes:
   default: '/'
   canonical: '/'
+description: 'Personal website of Bård Lahn - academic and writer focused on climate politics, energy and fossil fuels, and the relationship between democracy, technology and economy.'
 ---
 
 I'm Bård Lahn. I research and write about the politics of climate change, energy and fossil fuels. I am interested in the relationship between democracy, technology and economy, and in how scientific knowledge can engender political action as well as controversy.
