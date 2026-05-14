@@ -3,8 +3,8 @@
 $description = $content['frontmatter']['description'] ?? "Personal website of Bård Lahn: " . $self_title;
 echo "<meta name=\"description\" content=\"" . $description . "\">";
 
-$canonical =  $self_url . "/";
-echo "<link rel=\"canonical\" href=\"" . $canonical . "\">";
+$canonical = $content['frontmatter']['routes']['canonical'] ?? "/" . $self_url . "/";
+echo "<link rel=\"canonical\" href=\"https://bard.lahn.no" . $canonical . "\">";
 
 
 // Code to include meta tags for SEO and socials sharing
