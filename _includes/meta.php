@@ -3,7 +3,7 @@
 $description = $content['frontmatter']['description'] ?? "Personal website of Bård Lahn: " . $self_title;
 echo "<meta name=\"description\" content=\"" . $description . "\">";
 
-$canonical = $content['frontmatter']['routes']['canonical'] ?? "https://bard.lahn.no/" . $self_url . "/";
+$canonical =  $self_url . "/";
 echo "<link rel=\"canonical\" href=\"" . $canonical . "\">";
 
 
