@@ -50,7 +50,8 @@ if ($self_type != PAGE_ERROR) {
     echo $echo_pre . '<meta property="og:site_name" content="Bård Lahn / bard.lahn.no">';
 
     if (isset($content['frontmatter']['date'])) {
-        $dt = new DateTime($content['frontmatter']['date'], new DateTimeZone('Europe/Oslo'));
+        $dt_in = $content['frontmatter']['date'] instanceof DateTime ? $content['frontmatter']['date']->getTimestamp() : (int)$content['frontmatter']['date'];
+        $dt = new DateTime($dt_in, new DateTimeZone('Europe/Oslo'));
         $datetime = htmlspecialchars($dt->format(DateTime::ATOM));
     } else {
         $datetime = "";
