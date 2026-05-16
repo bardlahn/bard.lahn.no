@@ -1,5 +1,11 @@
 <?php
 
+echo "\n";
+echo "<!-- DEBUG self_url = ". $self_url . " -->\n";
+echo "<!-- DEBUG self_type = ". $self_type . " -->\n";
+echo "<!-- DEBUG self_path = ". $self_path . " -->\n";
+echo "<!-- DEBUG md_path = ". $md_path . " -->\n";
+
 // Building and printing meta tags for HTML HEAD section
 
 $echo_pre = "\n    ";
