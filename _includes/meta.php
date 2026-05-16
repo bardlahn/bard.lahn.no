@@ -29,6 +29,9 @@ foreach ($foundfiles as $lang_key => $file) {
      . '/' .  $self_url . '">';
 }
 
+// If error page, printing nofollow
+echo ($self_type == PAGE_ERROR) ? $echo_pre . '<meta name="robots" content="noindex, nofollow">' : '';
+
 /*
 
 YET TO IMPLEMENT
