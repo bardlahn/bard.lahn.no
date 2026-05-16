@@ -1,6 +1,6 @@
 ---
 title: 'Burde krevd rensing fra dag én'
-date: 1395964800
+date: 2014-03-28
 categories:
   - kommentert
 tags:

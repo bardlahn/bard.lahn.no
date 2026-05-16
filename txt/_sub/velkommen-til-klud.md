@@ -1,6 +1,6 @@
 ---
 title: 'Velkommen til KLUD'
-date: 1389225600
+date: 2014-01-09
 categories:
   - kommentert
 tags:

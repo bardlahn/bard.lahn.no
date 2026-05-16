@@ -1,6 +1,6 @@
 ---
 title: 'Oljen utfordrer norsk klimatroverdighet'
-date: 1608595200
+date: 2020-12-22
 categories:
   - kommentert
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Etikk er også politikk'
-date: 1764633600
+date: 2025-12-02
 abstract: 'Jens Stoltenbergs maktgrep for å sette Etikkrådet ut av spill viser at Oljefondets etiske rammeverk aldri har vært så apolitisk som det har blitt fremstilt som. Det skriver Sebastian Svenberg og jeg i en kronikk i Dagens Næringsliv.'
 language: 'no'
 categories:

@@ -1,6 +1,6 @@
 ---
 title: 'Hvordan dele karbonbudsjettet?'
-date: 1380240000
+date: 2013-09-27
 categories:
   - kommentert
 tags:

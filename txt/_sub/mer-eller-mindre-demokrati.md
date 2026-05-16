@@ -1,6 +1,6 @@
 ---
 title: 'Mer eller mindre demokrati?'
-date: 1659052800
+date: 2022-07-29
 categories:
   - kommentert
 tags:

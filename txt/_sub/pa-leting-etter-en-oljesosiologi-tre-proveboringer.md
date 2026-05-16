@@ -1,6 +1,6 @@
 ---
 title: 'På leting etter en oljesosiologi: Tre prøveboringer'
-date: 1555372800
+date: 2019-04-16
 categories:
   - kommentert
 tags:

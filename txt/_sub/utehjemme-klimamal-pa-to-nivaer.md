@@ -1,6 +1,6 @@
 ---
 title: 'Ute/hjemme: Klimamål på to nivåer'
-date: 1423094400
+date: 2015-02-05
 categories:
   - kommentert
 tags:

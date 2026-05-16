@@ -1,6 +1,6 @@
 ---
 title: 'Oljedebatten er kommet for å bli'
-date: 1506211200
+date: 2017-09-24
 categories:
   - kommentert
 tags:

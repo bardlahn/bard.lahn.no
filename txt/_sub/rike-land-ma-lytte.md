@@ -1,6 +1,6 @@
 ---
 title: 'Rike land må lytte'
-date: 1355097600
+date: 2012-12-10
 categories:
   - kommentert
 tags:

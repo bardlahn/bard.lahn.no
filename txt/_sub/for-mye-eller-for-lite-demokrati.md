@@ -1,6 +1,6 @@
 ---
 title: 'For mye eller for lite demokrati?'
-date: 1477958400
+date: 2016-11-01
 abstract: 'Søksmålet mot staten i forbindelse med 23. konsesjonsrunde har reist en prinsipiell debatt om rettsvesenets rolle i miljøspørsmål. Som jusprofessor Hans Petter Graver viser i Klassekampen 26. oktober er denne debatten bredere enn diskusjonen om'
 language: 'no'
 categories:

@@ -1,6 +1,6 @@
 ---
 title: 'Utsiras underlige allianser'
-date: 1400457600
+date: 2014-05-19
 categories:
   - kommentert
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Rettferdighet i drivhuset'
-date: 1384473600
+date: 2013-11-15
 categories:
   - kommentert
 tags:

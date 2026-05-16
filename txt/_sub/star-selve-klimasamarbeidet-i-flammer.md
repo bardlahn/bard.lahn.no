@@ -1,6 +1,6 @@
 ---
 title: 'Står selve klimasamarbeidet i flammer?'
-date: 1767312000
+date: 2026-01-02
 categories:
   - kommentert
 tags:

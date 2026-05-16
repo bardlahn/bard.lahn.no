@@ -1,6 +1,6 @@
 ---
 title: 'Pengemas som fortjent'
-date: 1385596800
+date: 2013-11-28
 categories:
   - kommentert
 tags:

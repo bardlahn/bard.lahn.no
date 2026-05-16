@@ -1,6 +1,6 @@
 ---
 title: 'Prinsippløse i Paris?'
-date: 1449446400
+date: 2015-12-07
 categories:
   - kommentert
 tags:

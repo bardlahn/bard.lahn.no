@@ -1,6 +1,6 @@
 ---
 title: 'Tvisyn om to grader'
-date: 1412553600
+date: 2014-10-06
 categories:
   - kommentert
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'På feil side av historien'
-date: 1421798400
+date: 2015-01-21
 categories:
   - kommentert
 tags:

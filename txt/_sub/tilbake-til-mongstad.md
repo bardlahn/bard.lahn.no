@@ -1,6 +1,6 @@
 ---
 title: 'Tilbake til Mongstad'
-date: 1379894400
+date: 2013-09-23
 categories:
   - kommentert
 tags:

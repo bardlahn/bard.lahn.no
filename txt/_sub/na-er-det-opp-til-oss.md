@@ -1,6 +1,6 @@
 ---
 title: 'Nå er det opp til oss'
-date: 1450137600
+date: 2015-12-15
 categories:
   - kommentert
 tags:

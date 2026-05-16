@@ -1,6 +1,6 @@
 ---
 title: 'Klimautvalget 2050: En ny organisering av norsk klimapolitikk'
-date: 1698624000
+date: 2023-10-30
 categories:
   - kommentert
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Hva mener Erna om klimakvoter?'
-date: 1400198400
+date: 2014-05-16
 categories:
   - kommentert
 tags:

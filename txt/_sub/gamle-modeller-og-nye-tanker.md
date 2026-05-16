@@ -1,6 +1,6 @@
 ---
 title: 'Gamle modeller og nye tanker'
-date: 1388534400
+date: 2014-01-01
 categories:
   - kommentert
 tags:

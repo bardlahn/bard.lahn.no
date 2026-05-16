@@ -1,6 +1,6 @@
 ---
 title: 'Ny giv for grønn politikk?'
-date: 1586822400
+date: 2020-04-14
 categories:
   - kommentert
 tags:

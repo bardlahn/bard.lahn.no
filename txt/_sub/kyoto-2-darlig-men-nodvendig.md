@@ -1,6 +1,6 @@
 ---
 title: 'Kyoto 2: Dårlig men nødvendig'
-date: 1370563200
+date: 2013-06-07
 categories:
   - kommentert
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Ikke i samme båt'
-date: 1544486400
+date: 2018-12-11
 categories:
   - kommentert
 tags:

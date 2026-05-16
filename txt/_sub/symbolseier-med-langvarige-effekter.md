@@ -1,6 +1,6 @@
 ---
 title: 'Symbolseier med langvarige effekter'
-date: 1407801600
+date: 2014-08-12
 categories:
   - kommentert
 tags:

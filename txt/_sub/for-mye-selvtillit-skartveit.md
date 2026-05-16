@@ -1,6 +1,6 @@
 ---
 title: 'For mye selvtillit, Skartveit?'
-date: 1457913600
+date: 2016-03-14
 abstract: 'VGs Hanne Skartveit mener oljebransjen mangler selvtillit i møte med miljøbevegelsen. Selv har hun litt for stor tro på egen innsikt i klimapolitikken.'
 language: 'no'
 categories:

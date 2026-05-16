@@ -1,6 +1,6 @@
 ---
 title: 'Klimaets bestevenn - Merkel eller Solberg?'
-date: 1433980800
+date: 2015-06-11
 categories:
   - kommentert
 tags:
