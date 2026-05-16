@@ -7,7 +7,6 @@ echo "<!-- DEBUG self_url = ". $self_url . " -->\n";
 echo "<!-- DEBUG self_type = ". $self_type . " -->\n";
 echo "<!-- DEBUG self_path = ". $self_path . " -->\n";
 echo "<!-- DEBUG md_path = ". $md_path . " -->\n";
-var_dump($content['frontmatter']['date']);
 
 // Building and printing meta tags for HTML HEAD section
 
@@ -51,8 +50,8 @@ if ($self_type != PAGE_ERROR) {
     echo $echo_pre . '<meta property="og:site_name" content="Bård Lahn / bard.lahn.no">';
 
     if (isset($content['frontmatter']['date'])) {
-        $dt_in = $content['frontmatter']['date'] instanceof DateTime ? $content['frontmatter']['date']->getTimestamp() : (int)$content['frontmatter']['date'];
-        $dt = new DateTime($dt_in, new DateTimeZone('Europe/Oslo'));
+        $dt = (new DateTime('now', new DateTimeZone('Europe/Oslo')))
+            ->setTimestamp($content['frontmatter']['date']);
         $datetime = htmlspecialchars($dt->format(DateTime::ATOM));
     } else {
         $datetime = "";
