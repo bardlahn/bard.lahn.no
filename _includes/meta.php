@@ -1,24 +1,26 @@
 <?php
 
+// Building and printing meta tags for HTML HEAD section
+
 $echo_pre = "\n    ";
 
-$description = $content['frontmatter']['description'] ?? "Personal website of Bård Lahn: " . $self_title;
+// Printing page description
+$description = $content['frontmatter']['abstract'] ?? "Personal website of Bård Lahn: " . $self_title;
+$description = $content['frontmatter']['description'] ?? $description;
 echo $echo_pre . "<meta name=\"description\" content=\"" . $description . "\">";
 
-$canonical = $content['frontmatter']['routes']['canonical'] ?? "/" . $self_url . "/";
-echo $echo_pre . "<link rel=\"canonical\" href=\"https://bard.lahn.no" . $canonical . "\">";
+// Printing canonical URL
+$canonical = $content['frontmatter']['routes']['canonical'] ?? ($self_url . "/");
+echo $echo_pre . "<link rel=\"canonical\" href=\"" . $base_url . $canonical . "\">";
 
-
-// Code to include meta tags for SEO and socials sharing
+// Printing alternate language paths
+foreach ($foundfiles as $lang_key => $file) {
+    echo $echo_pre . '<link rel="alternate" hreflang="' . htmlspecialchars($lang_key) . '" href="' . $base_url . htmlspecialchars($lang_key) . '/' .  $self_url . '">';
+}
 
 /*
 
-Languages:
-
-<link rel="alternate" hreflang="en" href="https://example.com/page/">
-<link rel="alternate" hreflang="fr" href="https://example.com/fr/page/">
-<link rel="alternate" hreflang="x-default" href="https://example.com/page/">
-
+YET TO IMPLEMENT
 
 OpenGraph:
 
@@ -45,7 +47,6 @@ Schema.org:
   }
 }
 </script>
-
 
 */
 
