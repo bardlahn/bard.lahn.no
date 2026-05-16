@@ -6,6 +6,8 @@ $otherLang = $lang === 'en' ? 'no' : 'en';
 $md_path = $assets_path; // Default Md path
 $self_path = $self_url; // self_path defaults to self_url, but points to parent path of _sub pages
 
+$replace_lang = false;
+
 // Checks for markdown files to parse
 
 $foundfiles = [];
@@ -72,6 +74,7 @@ if (empty($foundfiles)) {
 } elseif (isset($foundfiles['default'])) {
     // Second option: Found file with no language set
     $foundfile = $foundfiles['default'];
+    $replace_lang = true;
 } else {
     // Third option: File exists in other language
     $foundfile = $assets_path . "otherLang." .$lang. ".md";
@@ -82,14 +85,18 @@ if ($foundfile) {
     $parsedfile = parseMDFile($foundfile);
 
     if (isset($parsedfile['frontmatter']['language'])) {
-        if (strtolower($parsedfile['frontmatter']['language']) != strtolower($lang)) {
 
-            // Parsed file does not match current language
-            
+        // Fixing $foundfiles array so it can be iterated as a list of available langauges
+        if (isset($foundfiles['default']) && $replace_lang) {
+            $foundfiles[$parsedfile['frontmatter']['language']] = $foundfiles['default'];
+            unset($foundfiles['default']);
+        }
+
+        if (strtolower($parsedfile['frontmatter']['language']) != strtolower($lang)) {
+            // Parsed file does not match current language, fetching language error page
             $otherLang = $parsedfile['frontmatter']['language'];
             $foundfile = $assets_path . "otherLang." .$lang. ".md";
             $parsedfile = parseMDFile($foundfile);
-
         }
     }
 
@@ -110,13 +117,6 @@ if ($foundfile) {
             $parsedfile = parseMDFile($assets_path . "500.".$lang.".md");
             $self_type = PAGE_ERROR;
         }
-    }
-
-    // Fixing $foundfiles array so it can be iterated as a list of available langauges
-    // (for use in meta tags)
-    if (isset($parsedfile['frontmatter']['language']) && isset($foundfiles['default'])) {
-        $foundfiles[$parsedfile['frontmatter']['language']] = $foundfiles['default'];
-        unset($foundfiles['default']);
     }
 
     $content = $parsedfile;
