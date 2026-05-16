@@ -12,11 +12,12 @@ echo "<!-- DEBUG md_path = ". $md_path . " -->\n";
 
 $echo_pre = "\n    ";
 
+$description = $content['frontmatter']['abstract'] ?? "Personal website of Bård Lahn: " . $self_title;
+$description = $content['frontmatter']['description'] ?? $description;
+
 if ($self_type != PAGE_ERROR) {
 
     // Printing page description
-    $description = $content['frontmatter']['abstract'] ?? "Personal website of Bård Lahn: " . $self_title;
-    $description = $content['frontmatter']['description'] ?? $description;
     echo $echo_pre . "<meta name=\"description\" content=\"" . $description . "\">";
 
 } else {
@@ -36,20 +37,70 @@ foreach ($foundfiles as $lang_key => $file) {
      . '/' .  $self_url . '">';
 }
 
+// Beginning OpenGraph and Schema.org output
+
+if ($self_type != PAGE_ERROR) {
+
+    // Printing OpenGraph shared properties
+
+    echo $echo_pre . '<meta property="og:title" content="' . $self_title . '">';
+    echo $echo_pre . '<meta property="og:description" content="' . $description . '">';
+    echo $echo_pre . '<meta property="og:url" content="' . $base_url . '/' . $lang . $canonical . '">';
+    echo $echo_pre . '<meta property="og:locale" content="' . $lang . '">';
+    echo $echo_pre . '<meta property="og:site_name" content="Bård Lahn / bard.lahn.no">';
+
+    if (isset($content['frontmatter']['date'])) {
+        $dt = new DateTime($content['frontmatter']['date'], new DateTimeZone('Europe/Oslo'));
+        $datetime = htmlspecialchars($dt->format(DateTime::ATOM));
+    } else {
+        $datetime = "";
+    }
+
+    if ($self_type == PAGE_MAIN) {
+
+        // Printing OpenGraph website properties
+
+        echo $echo_pre . '<meta property="og:type" content="website">';
+        
+    } elseif ($self_type == PAGE_SUB_BLOG) {
+
+        // Printing OpenGraph article properties
+
+        echo $echo_pre . '<meta property="og:type" content="article">';
+        echo $echo_pre . '<meta property="article:published_time" content="' . $datetime . '">';
+        echo $echo_pre . '<meta property="article:modified_time" content="' . $datetime . '">';
+        echo $echo_pre . '<meta property="article:author" content="' . $base_url . '/bio/">';
+
+    } elseif ($self_type == PAGE_SUB_PUB) {
+
+        if (isset($content['frontmatter']['pub-data']['type']) &&
+            strtolower($content['frontmatter']['pub-data']['type']) == 'book') {
+
+            // Printing OpenGraph book properties
+
+            echo $echo_pre . '<meta property="og:type" content="book">';
+            echo $echo_pre . '<meta property="book:release_date" content="' . $datetime .'">';
+
+            if (!empty($content['frontmatter']['pub-data']['isbn']))
+                echo $echo_pre . '<meta property="book:isbn" content="' . $content['frontmatter']['pub-data']['isbn'] .'">';
+
+            foreach ($content['frontmatter']['pub-data']['authors'] ?? [] as $author) {
+                if (!empty($author['url'])) {
+                    echo $echo_pre . '<meta property="book:author" content="' . $author['url'] .'">';
+                } else {
+                    echo $echo_pre . '<meta property="book:author" content="' .  $base_url . '/bio/">';
+                }
+            }
+
+        }
+
+    }
+
+
+}
+
 
 /*
-
-YET TO IMPLEMENT
-
-OpenGraph:
-
-<meta property="og:title" content="Your Page Title">
-<meta property="og:description" content="Compelling description for social sharing.">
-<meta property="og:url" content="https://example.com/page-url/">
-<meta property="og:type" content="website"><!-- or "article" -->
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Your Site Name">
-
 
 Schema.org:
 
