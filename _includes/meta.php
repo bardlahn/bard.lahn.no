@@ -25,7 +25,7 @@ if ($self_type != PAGE_ERROR) {
 }
 
 // Printing canonical URL
-$canonical = $content['frontmatter']['routes']['canonical'] ?? ($self_url . "/");
+$canonical = $content['frontmatter']['routes']['canonical'] ?? ("/" . $self_url . "/");
 echo $echo_pre . "<link rel=\"canonical\" href=\"" . $base_url . $canonical . "\">";
 
 // Printing alternate language paths
