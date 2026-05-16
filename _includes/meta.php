@@ -1,5 +1,7 @@
 <?php
 
+// Printing some debugging info - remove/change as appropriate
+
 echo "\n";
 echo "<!-- DEBUG self_url = ". $self_url . " -->\n";
 echo "<!-- DEBUG self_type = ". $self_type . " -->\n";
@@ -21,7 +23,10 @@ echo $echo_pre . "<link rel=\"canonical\" href=\"" . $base_url . $canonical . "\
 
 // Printing alternate language paths
 foreach ($foundfiles as $lang_key => $file) {
-    echo $echo_pre . '<link rel="alternate" hreflang="' . htmlspecialchars($lang_key) . '" href="' . $base_url . htmlspecialchars($lang_key) . '/' .  $self_url . '">';
+    echo $echo_pre . '<link rel="alternate" hreflang="'
+     . htmlspecialchars($lang_key) . '" href="'
+     . $base_url . '/' . htmlspecialchars($lang_key)
+     . '/' .  $self_url . '">';
 }
 
 /*

@@ -4,6 +4,8 @@ language: no
 routes:
   default: '/pub/hvem-bestemmer/'
   canonical: '/pub/hvem-bestemmer/'
+type: publication
+date: 2025-11-10
 ---
 
 I boka _"Hvem bestemmer over klimaet?"_ (utgitt 2025 på Forlaget Manifest) diskuterer jeg hvem som har ansvar for og mulighet til å gjøre noe med klimaproblemet. Boka er en guide til å forstå uenighet om klimapolitikk, og viser hvordan ulike måter å tenke om makt og ansvar for klimaproblemet kan gi helt ulike svar på hvordan det bør løses.

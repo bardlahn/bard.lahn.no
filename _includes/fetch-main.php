@@ -81,6 +81,18 @@ if ($foundfile) {
 
     $parsedfile = parseMDFile($foundfile);
 
+    if (isset($parsedfile['frontmatter']['language'])) {
+        if (strtolower($parsedfile['frontmatter']['language']) != strtolower($lang)) {
+
+            // Parsed file does not match current language
+            
+            $otherLang = $parsedfile['frontmatter']['language'];
+            $foundfile = $assets_path . "otherLang." .$lang. ".md";
+            $parsedfile = parseMDFile($foundfile);
+
+        }
+    }
+
     // Checking for page type information
     // (PAGE_MAIN already default)
 

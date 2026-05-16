@@ -4,6 +4,8 @@ language: no
 routes:
   default: '/pub/klimaspillet/'
   canonical: '/pub/klimaspillet/'
+type: publication
+date: 2013-10-28
 ---
 
 Hvorfor klarer ikke verden å bli enig om en avtale som kan stoppe de farlige klimaendringene? Det er spørsmålet jeg stiller i boka _Klimaspillet: En fortelling fra innsiden av FNs klimatoppmøter_ (Flamme Forlag, 2013). Her forteller jeg historien om fire år med intens politisk dragkamp om en ny internasjonal klimaavtale, i en verden som preges både av gamle historiske skillelinjer og av nye globale maktforhold.

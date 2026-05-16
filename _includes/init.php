@@ -1,6 +1,6 @@
 <?php
 
-$base_url = "https://bard.lahn.no/";
+$base_url = "https://bard.lahn.no";
 $assets_rel_path = '/_assets/';
 
 // Sets language based on browser check (defaults to "en")
