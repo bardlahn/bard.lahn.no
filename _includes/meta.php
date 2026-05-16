@@ -1,12 +1,12 @@
 <?php
 
-$echopre = "\n    ";
+$echo_pre = "\n    ";
 
 $description = $content['frontmatter']['description'] ?? "Personal website of Bård Lahn: " . $self_title;
-echo $echopre . "<meta name=\"description\" content=\"" . $description . "\">";
+echo $echo_pre . "<meta name=\"description\" content=\"" . $description . "\">";
 
 $canonical = $content['frontmatter']['routes']['canonical'] ?? "/" . $self_url . "/";
-echo $echopre . "<link rel=\"canonical\" href=\"https://bard.lahn.no" . $canonical . "\">";
+echo $echo_pre . "<link rel=\"canonical\" href=\"https://bard.lahn.no" . $canonical . "\">";
 
 
 // Code to include meta tags for SEO and socials sharing
@@ -50,4 +50,5 @@ Schema.org:
 */
 
 ?>
+
 
