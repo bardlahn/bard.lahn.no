@@ -7,6 +7,7 @@ echo "<!-- DEBUG self_url = ". $self_url . " -->\n";
 echo "<!-- DEBUG self_type = ". $self_type . " -->\n";
 echo "<!-- DEBUG self_path = ". $self_path . " -->\n";
 echo "<!-- DEBUG md_path = ". $md_path . " -->\n";
+var_dump($content['frontmatter']['date']);
 
 // Building and printing meta tags for HTML HEAD section
 
