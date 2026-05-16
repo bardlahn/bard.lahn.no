@@ -4,6 +4,7 @@ language: no
 routes:
   default: ''
   canonical: ''
+type: error
 ---
 
 Denne siden er bare tilgjengelig på engelsk.

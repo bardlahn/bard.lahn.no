@@ -4,6 +4,7 @@ language: en
 routes:
   default: ''
   canonical: ''
+type: error
 ---
 
 This page is only available in Norwegian.
