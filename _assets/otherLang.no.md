@@ -1,9 +1,6 @@
 ---
 title: 'Ikke tilgjengelig på norsk'
 language: no
-routes:
-  default: ''
-  canonical: ''
 type: error
 ---
 

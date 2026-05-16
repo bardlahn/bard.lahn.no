@@ -1,9 +1,6 @@
 ---
 title: 'Not available in English'
 language: en
-routes:
-  default: ''
-  canonical: ''
 type: error
 ---
 
