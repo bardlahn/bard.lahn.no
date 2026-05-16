@@ -12,10 +12,17 @@ echo "<!-- DEBUG md_path = ". $md_path . " -->\n";
 
 $echo_pre = "\n    ";
 
-// Printing page description
-$description = $content['frontmatter']['abstract'] ?? "Personal website of Bård Lahn: " . $self_title;
-$description = $content['frontmatter']['description'] ?? $description;
-echo $echo_pre . "<meta name=\"description\" content=\"" . $description . "\">";
+if ($self_type != PAGE_ERROR) {
+
+    // Printing page description
+    $description = $content['frontmatter']['abstract'] ?? "Personal website of Bård Lahn: " . $self_title;
+    $description = $content['frontmatter']['description'] ?? $description;
+    echo $echo_pre . "<meta name=\"description\" content=\"" . $description . "\">";
+
+} else {
+    // If error page, printing nofollow
+    echo ($self_type == PAGE_ERROR) ? $echo_pre . '<meta name="robots" content="noindex, nofollow">' : '';
+}
 
 // Printing canonical URL
 $canonical = $content['frontmatter']['routes']['canonical'] ?? ($self_url . "/");
@@ -29,8 +36,6 @@ foreach ($foundfiles as $lang_key => $file) {
      . '/' .  $self_url . '">';
 }
 
-// If error page, printing nofollow
-echo ($self_type == PAGE_ERROR) ? $echo_pre . '<meta name="robots" content="noindex, nofollow">' : '';
 
 /*
 

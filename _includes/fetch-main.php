@@ -103,6 +103,8 @@ if ($foundfile) {
             $self_type = PAGE_SUB_ELEMENT;
         } elseif ($parsedfile['frontmatter']['type']=='publication') {
             $self_type = PAGE_SUB_PUB;
+        } elseif ($parsedfile['frontmatter']['type']=='error') {
+            $self_type = PAGE_ERROR;
         } elseif ($parsedfile['frontmatter']['type']=='resource') {
             // Parsed MD file is of type resource, not suitable for rendering
             $parsedfile = parseMDFile($assets_path . "500.".$lang.".md");
