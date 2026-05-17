@@ -1,13 +1,5 @@
 <?php
 
-// Printing some debugging info - remove/change as appropriate
-
-echo "\n";
-echo "<!-- DEBUG self_url = ". $self_url . " -->\n";
-echo "<!-- DEBUG self_type = ". $self_type . " -->\n";
-echo "<!-- DEBUG self_path = ". $self_path . " -->\n";
-echo "<!-- DEBUG md_path = ". $md_path . " -->\n";
-
 // Building and printing meta tags for HTML HEAD section
 
 $echo_pre = "\n    ";
@@ -43,7 +35,10 @@ if ($self_type != PAGE_ERROR) {
 
     // Printing OpenGraph shared properties
 
-    echo $echo_pre . '<meta property="og:title" content="' . $self_title . '">';
+    // Title - hardcoded title for bio page
+    $echo_title = ($self_url == 'bio') ? '<meta property="og:title" content="Bård Lahn">' : '<meta property="og:title" content="' . $self_title . '">';
+    echo $echo_pre . $echo_title;
+
     echo $echo_pre . '<meta property="og:description" content="' . $description . '">';
     echo $echo_pre . '<meta property="og:url" content="' . $base_url . '/' . $lang . $canonical . '">';
     echo $echo_pre . '<meta property="og:locale" content="' . $lang . '">';
@@ -63,7 +58,16 @@ if ($self_type != PAGE_ERROR) {
 
         // Printing OpenGraph website properties
 
-        echo $echo_pre . '<meta property="og:type" content="website">';
+        if ($self_url == 'bio') {
+            // Hard coded profile metadata on bio page 
+            echo $echo_pre . '<meta property="og:type" content="' . $echo_type . '">';
+            echo $echo_pre . '<meta property="profile:first_name" content="Bård">';
+            echo $echo_pre . '<meta property="profile:last_name"  content="Lahn">';
+            echo $echo_pre . '<meta property="profile:username"   content="bardlahn">';
+        } else {
+            // General mainpage metadata
+            echo $echo_pre . '<meta property="og:type" content="website">';
+        }
         
     } elseif ($self_type == PAGE_SUB_BLOG) {
 
@@ -71,7 +75,6 @@ if ($self_type != PAGE_ERROR) {
 
         echo $echo_pre . '<meta property="og:type" content="article">';
         echo $echo_pre . '<meta property="article:published_time" content="' . $datetime . '">';
-        echo $echo_pre . '<meta property="article:modified_time" content="' . $datetime . '">';
 
         // Printing author(s)
         foreach ($authors as $author) {
@@ -80,37 +83,41 @@ if ($self_type != PAGE_ERROR) {
             }
         }
 
-        } elseif ($self_type == PAGE_SUB_PUB) {
+    } elseif ($self_type == PAGE_SUB_PUB) {
+
+        // Publication page type is handled as article in OpenGraph data,
+        // unless pubtype is book, which is a separate og:type
 
         if (isset($fmatter['pub-data']['pubtype']) &&
             strtolower($fmatter['pub-data']['pubtype']) == 'book') {
-
             // Printing OpenGraph book properties
-
             echo $echo_pre . '<meta property="og:type" content="book">';
             echo $echo_pre . '<meta property="book:release_date" content="' . $datetime .'">';
-
             if (!empty($fmatter['pub-data']['isbn']))
                 echo $echo_pre . '<meta property="book:isbn" content="' . $fmatter['pub-data']['isbn'] .'">';
+            $pubtype = "book";
+        } else {
+            // Printing OpenGraph article properties
+            echo $echo_pre . '<meta property="og:type" content="article">';
+            echo $echo_pre . '<meta property="article:published_time" content="' . $datetime . '">';
+            $pubtype = "article";
+        }
 
-            // Printing author(s)
-            foreach ($authors as $author) {
-                if (!empty($author['url'])) {
-                    echo $echo_pre . '<meta property="book:author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
-                }
+        // Printing OpenGraph author(s) properties for publication
+        foreach ($authors as $author) {
+            if (!empty($author['url'])) {
+                echo $echo_pre . '<meta property="' . $pubtype . ':author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
             }
-
         }
 
     }
-
 
 }
 
 
 /*
 
-Schema.org:
+Schema.org - yet to be implemented:
 
 <script type="application/ld+json">
 {

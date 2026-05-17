@@ -26,7 +26,7 @@ define (    "PAGE_SUB_PUB",     "publication");
 $self_type = PAGE_MAIN;
 
 // Listing globally available variables
-
+/*
 global $base_url;
 global $lang;
 global $self_url;
@@ -38,6 +38,7 @@ global $includes_path;
 global $assets_path;
 global $assets_rel_path;
 global $lib_path;
+*/
 
 include_once $includes_path . 'fetch-config.php';
 
