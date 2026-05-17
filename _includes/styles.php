@@ -1,5 +1,1 @@
-<?php
-
-include($assets_path."inline.css.php");
-
-?>
+    <link rel="stylesheet" href="<?= $assets_rel_path ?>main.css">
