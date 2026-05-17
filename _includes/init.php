@@ -1,19 +1,19 @@
 <?php
 
-global $base_url = "https://bard.lahn.no";
-global $assets_rel_path = '/_assets/';
+$base_url = "https://bard.lahn.no";
+$assets_rel_path = '/_assets/';
 
 // Sets language based on browser check (defaults to "en")
 $browserLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? '', 0, 2);
-global $lang = in_array($browserLang, ['no', 'en']) ? $browserLang : 'no';
+$lang = in_array($browserLang, ['no', 'en']) ? $browserLang : 'no';
 
 // Retrieves requested URL, sets language based on URL
-global $self_url_segments = array_values(array_filter(explode('/', trim(strtok($_SERVER['REQUEST_URI'] ?? '', '?'), '/'))));
+$self_url_segments = array_values(array_filter(explode('/', trim(strtok($_SERVER['REQUEST_URI'] ?? '', '?'), '/'))));
 if (in_array($self_url_segments[0] ?? '', ['en', 'no'])) {
     $lang = $self_url_segments[0];
     array_shift($self_url_segments);
 }
-global $self_url = implode('/', $self_url_segments);
+$self_url = implode('/', $self_url_segments);
 
 // Defining page types (default is "main")
 
@@ -23,7 +23,21 @@ define (    "PAGE_SUB_BLOG",    "blog");
 define (    "PAGE_SUB_ELEMENT", "element");
 define (    "PAGE_SUB_PUB",     "publication");
 
-global $self_type = PAGE_MAIN;
+$self_type = PAGE_MAIN;
+
+// Listing globally available variables
+
+global $base_url;
+global $lang;
+global $self_url;
+global $self_url_segments;
+global $self_type;
+global $root_path;
+global $admin_path;
+global $includes_path;
+global $assets_path;
+global $assets_rel_path;
+global $lib_path;
 
 include_once $includes_path . 'fetch-config.php';
 

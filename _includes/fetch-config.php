@@ -1,7 +1,6 @@
 <?php
 
 function getAuthors(mixed $raw): array
-global $base_url;
 {
     $self = [
         'name-family'   => 'Lahn',
@@ -26,6 +25,7 @@ global $base_url;
             $authors[] = $self;
         } else {
             $authors[] = [
+                // TO DO: Parse name into family and given names
                 'name' => $author['name'] ?? '',
                 'url'  => $author['url']  ?? '',
             ];
@@ -33,14 +33,6 @@ global $base_url;
     }
 
     return $authors;
-}
-
-// Usage:
-$authors = resolveAuthors($content['frontmatter']['author'] ?? null);
-
-// Template:
-foreach ($authors as $author) {
-    echo '<meta property="article:author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
 }
 
 ?>

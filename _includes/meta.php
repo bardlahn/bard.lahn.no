@@ -57,6 +57,8 @@ if ($self_type != PAGE_ERROR) {
         $datetime = "";
     }
 
+    $authors = getAuthors($fmatter['authors'] ?? null);
+
     if ($self_type == PAGE_MAIN) {
 
         // Printing OpenGraph website properties
@@ -70,9 +72,15 @@ if ($self_type != PAGE_ERROR) {
         echo $echo_pre . '<meta property="og:type" content="article">';
         echo $echo_pre . '<meta property="article:published_time" content="' . $datetime . '">';
         echo $echo_pre . '<meta property="article:modified_time" content="' . $datetime . '">';
-        echo $echo_pre . '<meta property="article:author" content="' . $base_url . '/bio/">';
 
-    } elseif ($self_type == PAGE_SUB_PUB) {
+        // Printing author(s)
+        foreach ($authors as $author) {
+            if (!empty($author['url'])) {
+                echo '<meta property="article:author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
+            }
+        }
+
+        } elseif ($self_type == PAGE_SUB_PUB) {
 
         if (isset($fmatter['pub-data']['pubtype']) &&
             strtolower($fmatter['pub-data']['pubtype']) == 'book') {
@@ -85,7 +93,12 @@ if ($self_type != PAGE_ERROR) {
             if (!empty($fmatter['pub-data']['isbn']))
                 echo $echo_pre . '<meta property="book:isbn" content="' . $fmatter['pub-data']['isbn'] .'">';
 
-            // Add Author fetch here
+            // Printing author(s)
+            foreach ($authors as $author) {
+                if (!empty($author['url'])) {
+                    echo '<meta property="book:author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
+                }
+            }
 
         }
 

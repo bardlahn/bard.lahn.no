@@ -6,12 +6,12 @@ routes:
   canonical: '/pub/hvem-bestemmer/'
 url: 'https://forlaget.manifest.no/collections/alle-produkter/products/hvem-bestemmer-over-klimaet'
 type: publication
+authors: self
 date: 2025-11-10
 pub-data:
   pubtype: book
   publisher: 'Forlaget Manifest'
   isbn: 9788283420340
-  authors: self
 ---
 
 I boka _"Hvem bestemmer over klimaet?"_ (utgitt 2025 på Forlaget Manifest) diskuterer jeg hvem som har ansvar for og mulighet til å gjøre noe med klimaproblemet. Boka er en guide til å forstå uenighet om klimapolitikk, og viser hvordan ulike måter å tenke om makt og ansvar for klimaproblemet kan gi helt ulike svar på hvordan det bør løses.
