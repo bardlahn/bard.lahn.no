@@ -26,7 +26,7 @@ Boka gir en oversikt over hvordan klimapolitikken har utviklet seg de siste tiå
 </div>
 ::
 
-__Les mer og bestill boka hos [Forlaget Manifest](:$head url:).__
+__Les mer og bestill boka hos [Forlaget Manifest](:$head/url:).__
 
 PS - ifølge Ane Breiviks [bokomtale på Altinget.no](https://www.altinget.no/artikkel/6-a-er-mesterlig-formidlingskunst-om-klima) er boka "mesterlig formidlingskunst". Bare nevner det.
 
