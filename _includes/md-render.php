@@ -253,7 +253,7 @@ function replaceVars(string $input): string {
                     $new = $otherLang;
                     break;
                 case 'head':
-                    global $content;
+                    global $fmatter;
                     if (!empty($args[1])) {
                         if (isset($fmatter[$args[1]])) {
                             if (is_array($fmatter[$args[1]])) {
@@ -271,7 +271,7 @@ function replaceVars(string $input): string {
                                 $new = $fmatter[trim($args[1])];
                             }
                         } else {
-                            $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '" not available in frontmatter. Printing '.$fmatter['url'].' -->';
+                            $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '" not available in frontmatter. -->';
                         }
                     } else {
                         $new = '<!-- DEBUG: Variable "head" invoked but no frontmatter key provided -->';
