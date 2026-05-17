@@ -254,7 +254,7 @@ function replaceVars(string $input): string {
                     break;
                 case 'head':
                     global $content;
-                    if (isset($args[1]) && !empty($args[1])) {
+                    if (!empty($args[1])) {
                         if (isset($fmatter[trim($args[1])])) {
                             if (is_array($fmatter[trim($args[1])])) {
                                 // The frontmatter value is an array, checking if value exists on the next YAML level

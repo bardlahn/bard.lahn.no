@@ -4,7 +4,7 @@ language: no
 routes:
   default: '/pub/hvem-bestemmer/'
   canonical: '/pub/hvem-bestemmer/'
-url: https://forlaget.manifest.no/collections/alle-produkter/products/hvem-bestemmer-over-klimaet
+url: 'https://forlaget.manifest.no/collections/alle-produkter/products/hvem-bestemmer-over-klimaet'
 type: publication
 date: 2025-11-10
 pub-data:
