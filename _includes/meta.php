@@ -76,7 +76,7 @@ if ($self_type != PAGE_ERROR) {
         // Printing author(s)
         foreach ($authors as $author) {
             if (!empty($author['url'])) {
-                echo '<meta property="article:author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
+                echo $echo_pre . '<meta property="article:author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
             }
         }
 
@@ -96,7 +96,7 @@ if ($self_type != PAGE_ERROR) {
             // Printing author(s)
             foreach ($authors as $author) {
                 if (!empty($author['url'])) {
-                    echo '<meta property="book:author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
+                    echo $echo_pre . '<meta property="book:author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
                 }
             }
 
