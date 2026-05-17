@@ -271,7 +271,7 @@ function replaceVars(string $input): string {
                                 $new = $fmatter[trim($args[1])];
                             }
                         } else {
-                            $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '" not available in frontmatter -->';
+                            $new = '<!-- DEBUG: Key "' . htmlspecialchars($args[1]) . '" not available in frontmatter. Printing '.$fmatter['url'].' -->';
                         }
                     } else {
                         $new = '<!-- DEBUG: Variable "head" invoked but no frontmatter key provided -->';
