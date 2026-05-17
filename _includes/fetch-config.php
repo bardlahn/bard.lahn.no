@@ -1,7 +1,9 @@
 <?php
 
-function getAuthors(mixed $raw): array
-{
+function getAuthors(mixed $raw): array {
+
+    global $base_url;
+
     $self = [
         'name-family'   => 'Lahn',
         'name-given'    => 'Bård',
