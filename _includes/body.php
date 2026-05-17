@@ -15,16 +15,16 @@
     echo '<div class="content"><h1>' . $self_title . '</h1></div>';
 
     if ($self_type == PAGE_SUB_BLOG) {
-        $date = (new DateTime())->setTimestamp((int)$content['frontmatter']['date']);
+        $date = (new DateTime())->setTimestamp((int)$fmatter['date']);
         echo '<div class="content"><p>' . $date->format('d.m.Y') . '</p></div>';
     }
 
-    renderMDContent($content['content']); 
+    renderMDContent($content); 
     
     if ($self_type == PAGE_SUB_BLOG) {
         $tagtext = ($lang == "no") ? "Merket med" : "Tagged with";
         echo '<div class="content"><p>' . $tagtext . ': ';
-        foreach($content['frontmatter']['tags'] as $tag) {
+        foreach($fmatter['tags'] as $tag) {
             $taglink = "/" . $lang . "/" . $self_path . "?tag=" . urlencode($tag);
             echo '<a href="' . $taglink . '">' . $tag . '</a> / ';    
         }

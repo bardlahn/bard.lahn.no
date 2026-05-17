@@ -12,8 +12,8 @@ echo "<!-- DEBUG md_path = ". $md_path . " -->\n";
 
 $echo_pre = "\n    ";
 
-$description = $content['frontmatter']['abstract'] ?? "Personal website of Bård Lahn: " . $self_title;
-$description = $content['frontmatter']['description'] ?? $description;
+$description = $fmatter['abstract'] ?? "Personal website of Bård Lahn: " . $self_title;
+$description = $fmatter['description'] ?? $description;
 
 if ($self_type != PAGE_ERROR) {
 
@@ -26,7 +26,7 @@ if ($self_type != PAGE_ERROR) {
 }
 
 // Printing canonical URL
-$canonical = $content['frontmatter']['routes']['canonical'] ?? ("/" . $self_url . "/");
+$canonical = $fmatter['routes']['canonical'] ?? ("/" . $self_url . "/");
 echo $echo_pre . "<link rel=\"canonical\" href=\"" . $base_url . $canonical . "\">";
 
 // Printing alternate language paths
@@ -49,9 +49,9 @@ if ($self_type != PAGE_ERROR) {
     echo $echo_pre . '<meta property="og:locale" content="' . $lang . '">';
     echo $echo_pre . '<meta property="og:site_name" content="Bård Lahn / bard.lahn.no">';
 
-    if (isset($content['frontmatter']['date'])) {
+    if (isset($fmatter['date'])) {
         $dt = (new DateTime('now', new DateTimeZone('Europe/Oslo')))
-            ->setTimestamp($content['frontmatter']['date']);
+            ->setTimestamp($fmatter['date']);
         $datetime = htmlspecialchars($dt->format(DateTime::ATOM));
     } else {
         $datetime = "";
@@ -74,24 +74,18 @@ if ($self_type != PAGE_ERROR) {
 
     } elseif ($self_type == PAGE_SUB_PUB) {
 
-        if (isset($content['frontmatter']['pub-data']['type']) &&
-            strtolower($content['frontmatter']['pub-data']['type']) == 'book') {
+        if (isset($fmatter['pub-data']['pubtype']) &&
+            strtolower($fmatter['pub-data']['pubtype']) == 'book') {
 
             // Printing OpenGraph book properties
 
             echo $echo_pre . '<meta property="og:type" content="book">';
             echo $echo_pre . '<meta property="book:release_date" content="' . $datetime .'">';
 
-            if (!empty($content['frontmatter']['pub-data']['isbn']))
-                echo $echo_pre . '<meta property="book:isbn" content="' . $content['frontmatter']['pub-data']['isbn'] .'">';
+            if (!empty($fmatter['pub-data']['isbn']))
+                echo $echo_pre . '<meta property="book:isbn" content="' . $fmatter['pub-data']['isbn'] .'">';
 
-            foreach ($content['frontmatter']['pub-data']['authors'] ?? [] as $author) {
-                if (!empty($author['url'])) {
-                    echo $echo_pre . '<meta property="book:author" content="' . $author['url'] .'">';
-                } else {
-                    echo $echo_pre . '<meta property="book:author" content="' .  $base_url . '/bio/">';
-                }
-            }
+            // Add Author fetch here
 
         }
 

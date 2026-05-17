@@ -4,18 +4,14 @@ language: no
 routes:
   default: '/pub/hvem-bestemmer/'
   canonical: '/pub/hvem-bestemmer/'
+url: https://forlaget.manifest.no/collections/alle-produkter/products/hvem-bestemmer-over-klimaet
 type: publication
 date: 2025-11-10
 pub-data:
-  type: book
+  pubtype: book
   publisher: 'Forlaget Manifest'
-  url: https://forlaget.manifest.no/collections/alle-produkter/products/hvem-bestemmer-over-klimaet
-  authors:
-    - lahn:
-        name: 'Lahn, Bård'
-        url: 'ORCID'
-  isbn: 999
-
+  isbn: 9788283420340
+  authors: self
 ---
 
 I boka _"Hvem bestemmer over klimaet?"_ (utgitt 2025 på Forlaget Manifest) diskuterer jeg hvem som har ansvar for og mulighet til å gjøre noe med klimaproblemet. Boka er en guide til å forstå uenighet om klimapolitikk, og viser hvordan ulike måter å tenke om makt og ansvar for klimaproblemet kan gi helt ulike svar på hvordan det bør løses.
@@ -30,7 +26,7 @@ Boka gir en oversikt over hvordan klimapolitikken har utviklet seg de siste tiå
 </div>
 ::
 
-__Les mer og bestill boka hos [Forlaget Manifest](https://forlaget.manifest.no/collections/alle-produkter/products/hvem-bestemmer-over-klimaet).__
+__Les mer og bestill boka hos [Forlaget Manifest](:$head url:).__
 
 PS - ifølge Ane Breiviks [bokomtale på Altinget.no](https://www.altinget.no/artikkel/6-a-er-mesterlig-formidlingskunst-om-klima) er boka "mesterlig formidlingskunst". Bare nevner det.
 

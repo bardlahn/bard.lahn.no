@@ -118,14 +118,17 @@ if ($foundfile) {
             $self_type = PAGE_ERROR;
         }
     }
-
-    $content = $parsedfile;
     
 } else {
-    $content = parseMDFile($assets_path . "404.".$lang.".md");
+    $parsedfile = parseMDFile($assets_path . "404.".$lang.".md");
     $self_type = PAGE_ERROR;
 }
 
-$self_title = $content['frontmatter']['title'] ?? 'bard.lahn.no';
+$content = $parsedfile['content'];
+$fmatter = $parsedfile['frontmatter'];
+
+unset($parsedfile);
+
+$self_title = $fmatter['title'] ?? 'bard.lahn.no';
 
 ?>
