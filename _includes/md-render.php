@@ -255,8 +255,8 @@ function replaceVars(string $input): string {
                 case 'head':
                     global $content;
                     if (!empty($args[1])) {
-                        if (isset($fmatter[trim($args[1])])) {
-                            if (is_array($fmatter[trim($args[1])])) {
+                        if (isset($fmatter[$args[1]])) {
+                            if (is_array($fmatter[$args[1]])) {
                                 // The frontmatter value is an array, checking if value exists on the next YAML level
                                 // NOTE: Nested arrays beyond the second level are not handled, will throw PHP error
                                 if (isset($args[2]) && !empty($args[2])) {
