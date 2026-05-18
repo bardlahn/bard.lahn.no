@@ -36,7 +36,7 @@ if ($self_type != PAGE_ERROR) {
     // Printing OpenGraph shared properties
 
     // Title - hardcoded title for bio page
-    $echo_title = ($self_url == 'bio') ? '<meta property="og:title" content="Bård Lahn">' : '<meta property="og:title" content="' . $self_title . '">';
+    $echo_title = ($self_url == trim($self_profile_rel_path, '/')) ? '<meta property="og:title" content="Bård Lahn">' : '<meta property="og:title" content="' . $self_title . '">';
     echo $echo_pre . $echo_title;
 
     echo $echo_pre . '<meta property="og:description" content="' . $description . '">';
@@ -58,7 +58,7 @@ if ($self_type != PAGE_ERROR) {
 
         // Printing OpenGraph website properties
 
-        if ($self_url == 'bio') {
+        if ($self_url == trim($self_profile_rel_path, '/')) {
             // Hard coded profile metadata on bio page 
             echo $echo_pre . '<meta property="og:type" content="' . $echo_type . '">';
             echo $echo_pre . '<meta property="profile:first_name" content="Bård">';

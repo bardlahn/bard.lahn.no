@@ -1,13 +1,19 @@
 <?php
 
+// Setting general variables
+
 $base_url = "https://bard.lahn.no";
 $assets_rel_path = '/_assets/';
+$self_profile_rel_path = '/bio/';
 
-// Sets language based on browser check (defaults to "en")
+include_once $includes_path . 'fetch-config.php';
+
+
+// Setting language based on browser check (defaults to "en")
 $browserLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? '', 0, 2);
 $lang = in_array($browserLang, ['no', 'en']) ? $browserLang : 'no';
 
-// Retrieves requested URL, sets language based on URL
+// Retrieving requested URL, resets language based on URL
 $self_url_segments = array_values(array_filter(explode('/', trim(strtok($_SERVER['REQUEST_URI'] ?? '', '?'), '/'))));
 if (in_array($self_url_segments[0] ?? '', ['en', 'no'])) {
     $lang = $self_url_segments[0];
@@ -25,21 +31,5 @@ define (    "PAGE_SUB_PUB",     "publication");
 
 $self_type = PAGE_MAIN;
 
-// Listing globally available variables
-/*
-global $base_url;
-global $lang;
-global $self_url;
-global $self_url_segments;
-global $self_type;
-global $root_path;
-global $admin_path;
-global $includes_path;
-global $assets_path;
-global $assets_rel_path;
-global $lib_path;
-*/
-
-include_once $includes_path . 'fetch-config.php';
 
 ?>

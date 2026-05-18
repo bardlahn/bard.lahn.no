@@ -3,11 +3,12 @@
 function getAuthors(mixed $raw): array {
 
     global $base_url;
+    global $self_profile_rel_path;
 
     $self = [
         'name-family'   => 'Lahn',
         'name-given'    => 'Bård',
-        'url'           => $base_url . '/bio/',
+        'url'           => $base_url . $self_profile_rel_path,
     ];
 
     // No authors defined — return self as default

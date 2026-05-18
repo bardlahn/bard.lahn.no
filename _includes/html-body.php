@@ -11,7 +11,7 @@
 
     <?php 
     
-    include $includes_path . 'md-render.php';
+    include_once $includes_path . 'md-render.php';
     echo '<div class="content"><h1>' . $self_title . '</h1></div>';
 
     if ($self_type == PAGE_SUB_BLOG) {

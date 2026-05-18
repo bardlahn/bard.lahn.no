@@ -219,9 +219,14 @@ function renderMDContent(string $text) {
 
 // Helper function to replace variables given in the MD content
 //   Variables can be inserted in MD on the form :$variable:
-//   Variables implemented so far:
-//   url_self, url_assets, url_parent, title, lang, lang_other
-//   head/ARG returnerer verdien av ARG fra frontmatter
+//   Available variables so far:
+//      url_self        (returns $self_url)
+//      url_assets      (returns $assets_rel_path)
+//      url_parent      (returns parent of current element - NOT IMPLEMENTED)
+//      title           (returns $title)
+//      lang            (returns $lang)
+//      lang_other      (returns $langOther)
+//      head/ARG[/ARG2] (returns the value of ARG [ARG2] from frontmatter)
 
 function replaceVars(string $input): string {
     return preg_replace_callback(

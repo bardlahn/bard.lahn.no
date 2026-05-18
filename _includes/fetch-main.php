@@ -1,6 +1,6 @@
 <?php 
 
-include $includes_path . 'md-parse.php';
+include_once $includes_path . 'md-parse.php';
 
 $otherLang = $lang === 'en' ? 'no' : 'en';
 $md_path = $assets_path; // Default Md path

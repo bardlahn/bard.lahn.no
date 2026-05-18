@@ -1,7 +1,7 @@
 <?php
 
 // Requires Parsedown, placed in lib folder
-require $lib_path . 'vendor/autoload.php';
+require_once $lib_path . 'vendor/autoload.php';
 use Symfony\Component\Yaml\Yaml;
 
 // Functions for parsing frontmatter
