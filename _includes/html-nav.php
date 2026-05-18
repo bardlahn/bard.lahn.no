@@ -1,7 +1,5 @@
-    <!-- Menu overlay -->
     <div class="menu-overlay" id="menuOverlay"></div>
     
-    <!-- Navigation menu -->
     <nav class="nav-menu" id="navMenu">
         <button class="nav-menu-close" id="menuClose">&times;</button>
         <ul>

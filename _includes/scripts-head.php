@@ -1,1 +1,3 @@
-<script src="<?php echo $assets_rel_path."theme-toggle-head.js"; ?>"></script>
+
+
+    <script src="<?php echo $assets_rel_path."theme-toggle-head.js"; ?>"></script>

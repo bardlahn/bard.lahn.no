@@ -1,47 +1,25 @@
 <?php
 
-// Setting up initial variables
+/*
 
-$self_path = __DIR__."/";
-$self_name = pathinfo(__FILE__, PATHINFO_FILENAME);
-include '_paths.php'; // Fetches paths config
+Bård Lahn / bard.lahn.no - personal website based on PHP and Markdown
+---------------------------------------------------------------------
+
+This is the main logic of the site, which serves all dynamic content.
+This file (index.php) and the file _paths.php must be present in the root dir.
+
+*/
+
+// Setting up initial path config
+include '_paths.php';
 
 // Running initialisation
-include $includes_path . "/init.php";
+include $includes_path . "init.php";
 
 // Fetching content
 include $includes_path . "fetch-main.php";
 
-?>
-
-<!DOCTYPE html>
-<html lang="<?php echo $lang; ?>">
-<head>
-
-<?php
-
-// Printing head elements
-
-include($includes_path."header.php");
-include($includes_path."styles.php");
-include($includes_path."meta.php");
-include($includes_path."scripts-head.php");
+// Serving content
+include $includes_path . "serve-main.php";
 
 ?>
-
-</head>
-<body>
-
-<?php
-
-// Printing body elements
-
-include($includes_path."nav.php");
-include($includes_path."body.php");
-include($includes_path."footer.php");
-include($includes_path."scripts-body.php");
-
-?>
-
-</body>
-</html>
