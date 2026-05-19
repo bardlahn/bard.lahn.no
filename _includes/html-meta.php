@@ -3,7 +3,7 @@
 // Building and printing meta tags for HTML HEAD section
 
 $echo_pre = "\n    ";
-$schemaJson = [];
+$schemaJson['@context']  = 'https://schema.org';
 
 $meta_desc = $fmatter['abstract'] ?? "Personal website of Bård Lahn: " . $self_title;
 $meta_desc = $fmatter['description'] ?? $meta_desc;
@@ -136,10 +136,7 @@ if ($self_type != PAGE_ERROR) {
 
         // Schema.org type is set - proceeding to printing JSON-LD script
 
-        $schemaJson['@context']  = 'https://schema.org';
-
         $jsonLD = json_encode($schemaJson, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
-
         echo "\n<script type=\"application/ld+json\">\n" . $jsonLD . "\n</script>\n\n";
 
     }
