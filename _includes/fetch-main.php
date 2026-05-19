@@ -114,21 +114,20 @@ if ($foundfile) {
             $self_type = PAGE_ERROR;
         } elseif ($parsedfile['frontmatter']['type']=='resource') {
             // Parsed MD file is of type resource, not suitable for rendering
-            $parsedfile = parseMDFile($assets_path . "500.".$lang.".md");
-            $self_type = PAGE_ERROR;
+            $serve_error = "403";
+            include($includes_path.'fetch_error.php');
         }
     }
-    
+
+    $content = $parsedfile['content'];
+    $fmatter = $parsedfile['frontmatter'];
+    $self_title = $fmatter['title'] ?? 'bard.lahn.no';
+
+
 } else {
-    $parsedfile = parseMDFile($assets_path . "404.".$lang.".md");
-    $self_type = PAGE_ERROR;
+    // No file found, serving error 404
+    $serve_error = "404";
+    include($includes_path.'fetch_error.php');
 }
-
-$content = $parsedfile['content'];
-$fmatter = $parsedfile['frontmatter'];
-
-unset($parsedfile);
-
-$self_title = $fmatter['title'] ?? 'bard.lahn.no';
 
 ?>

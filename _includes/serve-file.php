@@ -4,7 +4,8 @@
 
 // (Defining constants before function starts)
 define ("SERVE_SUCCESS",          200);
-define ("SERVE_ERROR_OTHER",      400);
+define ("SERVE_ERROR_REQUEST",    400);
+define ("SERVE_ERROR_NOACCESS",   403);
 define ("SERVE_ERROR_NOFILE",     404);
 
 function serveFile(string $path, string $file): int {
@@ -23,13 +24,13 @@ function serveFile(string $path, string $file): int {
             $base_path = $md_path;
             break;
         default:
-            return SERVE_ERROR_OTHER;
+            return SERVE_ERROR_REQUEST;
     }
 
     // Blocking calls to files/directories starting with _ or .
     foreach (explode('/', $file) as $part) {
         if (str_starts_with($part, '_') || str_starts_with($part, '.')) {
-            return SERVE_ERROR_NOFILE;
+            return SERVE_ERROR_NOACCESS;
         }
     }
 

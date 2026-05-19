@@ -11,12 +11,10 @@ if (!empty($_GET['action'])) {
             if ($serve == SERVE_SUCCESS) {
                 // Success serving file - exiting
                 exit;
-            } elseif ($serve== SERVE_ERROR_NOFILE) {
-                // Error: File not found - serving 404
-                $parsedfile = parseMDFile($assets_path . "404.".$lang.".md");
-                $content = $parsedfile['content'];
-                $fmatter = $parsedfile['frontmatter'];
-                $self_type = PAGE_ERROR;
+            } else {
+                // Error - passing on error code and serving error page
+                $serve_error = strval($serve);
+                include($includes_path.'fetch_error.php');
             }
             break;
 
