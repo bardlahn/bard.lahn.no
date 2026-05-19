@@ -14,7 +14,7 @@ if (!empty($_GET['action'])) {
             } else {
                 // Error - passing on error code and serving error page
                 $serve_error = strval($serve);
-                include($includes_path.'fetch_error.php');
+                include($includes_path.'fetch-error.php');
             }
             break;
 
