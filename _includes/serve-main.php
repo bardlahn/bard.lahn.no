@@ -1,3 +1,39 @@
+<?php
+
+// Before serving: Checks for any ACTION request
+
+if (!empty($_GET['action'])) {
+    switch (strtolower($_GET['action'])) {
+
+        case 'download':
+            include($includes_path."serve-file.php");
+            $serve = serveFile($_GET['path'] ?? '', $_GET['file'] ?? '');
+            if ($serve == SERVE_SUCCESS) {
+                // Success serving file - exiting
+                exit;
+            } elseif ($serve== SERVE_ERROR_NOFILE) {
+                // Error: File not found - serving 404
+                $parsedfile = parseMDFile($assets_path . "404.".$lang.".md");
+                $content = $parsedfile['content'];
+                $fmatter = $parsedfile['frontmatter'];
+                $self_type = PAGE_ERROR;
+            }
+            break;
+
+        // Other ACTION cases to be added as needed...
+
+    }
+}
+
+// Proceeding to serve
+
+// Pushes HTTP response code if set in frontmatter
+if (!empty($fmatter['http-code'])) http_response_code($fmatter['http-code']);
+
+// Entering main logic for serving HTML...
+
+?>
+
 <!DOCTYPE html>
 <html lang="<?php echo $lang; ?>">
 <head>

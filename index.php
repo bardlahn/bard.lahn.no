@@ -41,6 +41,9 @@ global $assets_path;            // Absolute path to assets directory, inc leadin
 global $assets_rel_path;        // Relative path to assets directory, inc leading/trailing /
 global $lib_path;               // Absolute path to library directory, inc leading/trailing /
 
+                                // Established in fetch-main.php:
+global $md_path;                // Path of the placement of rendered MD file (including _sub if applicable)
+global $self_path;              // Defaults to self_url, but points to parent path of _sub pages
 
 AVAILABLE SHARED FUNCTIONS
 
