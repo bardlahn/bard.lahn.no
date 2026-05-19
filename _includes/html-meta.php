@@ -75,12 +75,12 @@ if ($self_type != PAGE_ERROR) {
                 ];
 
             $schemaJson['@type']        = 'Person';
-            $schemaJson['familyName']   = 'Lahn';
-            $schemaJson['givenName']    = 'Bård';
-            $schemaJson['birthDate']    = '1983-05-26';
-            $schemaJson['jobTitle']     = 'Associate Professor';
-            $schemaJson['url']          = $base_url . '/' . $lang . $meta_canonical;
-            $schemaJson['sameAs']       = 'https://orcid.org/0000-0001-9161-9455';
+            $schemaJson['name']         = $meta_authors['self']['name-full'];
+            $schemaJson['familyName']   = $meta_authors['self']['name-family'];
+            $schemaJson['givenName']    = $meta_authors['self']['name-given'];
+            $schemaJson['birthDate']    = $meta_authors['self']['birth-date'];
+            $schemaJson['url']          = $meta_authors['self']['url'];
+            $schemaJson['sameAs']       = $meta_authors['self']['orcid'];
             $schemaJson['worksFor'][]   = $meta_worksfor;
 
         } else {
