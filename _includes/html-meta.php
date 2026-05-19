@@ -81,7 +81,7 @@ if ($self_type != PAGE_ERROR) {
             $schemaJson['jobTitle']     = 'Associate Professor';
             $schemaJson['url']          = $base_url . '/' . $lang . $meta_canonical;
             $schemaJson['sameAs']       = 'https://orcid.org/0000-0001-9161-9455';
-            $schemaJson['worksFor']     = $meta_worksfor;
+            $schemaJson['worksFor'][]   = $meta_worksfor;
 
         } else {
             
@@ -90,7 +90,9 @@ if ($self_type != PAGE_ERROR) {
             echo $echo_pre . '<meta property="og:type" content="website">';
 
             // Adding Schema.org webpage properties
-            $schemaJson['@type'] = 'WebPage';
+            $schemaJson['@type']         = 'WebPage';
+            $schemaJson['headline']      = $self_title;
+            $schemaJson['url']           = $base_url . '/' . $lang . $meta_canonical;
 
         }
         
@@ -101,10 +103,23 @@ if ($self_type != PAGE_ERROR) {
         echo $echo_pre . '<meta property="og:type" content="article">';
         echo $echo_pre . '<meta property="article:published_time" content="' . $meta_date . '">';
 
+        // Adding Schema.org article properties
+
+        $schemaJson['@type']            = 'Article';
+        $schemaJson['headline']         = $self_title;
+        $schemaJson['datePublished']    = $meta_date;
+        $schemaJson['abstract']         = $meta_desc;
+        $schemaJson['url']              = $base_url . '/' . $lang . $meta_canonical;
+
         // Printing author(s)
         foreach ($meta_authors as $author) {
             if (!empty($author['url'])) {
                 echo $echo_pre . '<meta property="article:author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
+                $schemaJson['author'][] = [
+                    '@type' => 'Person',
+                    'name'  => $author['name'],
+                    'url'   => $author['url']
+                    ];
             }
         }
 
