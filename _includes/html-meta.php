@@ -66,7 +66,22 @@ if ($self_type != PAGE_ERROR) {
             echo $echo_pre . '<meta property="profile:username"   content="bardlahn">';
 
             // Adding Schema.org person properties
-            $schemaJson['@type'] = 'Person';
+
+            $meta_worksfor = [
+                '@type'         => 'Organization',
+                'name'          => 'University of Oslo',
+                'alternateName' => 'Universitetet i Oslo',
+                'url'           => 'https://www.uio.no'
+                ];
+
+            $schemaJson['@type']        = 'Person';
+            $schemaJson['familyName']   = 'Lahn';
+            $schemaJson['givenName']    = 'Bård';
+            $schemaJson['birthDate']    = '1983-05-26';
+            $schemaJson['jobTitle']     = 'Associate Professor';
+            $schemaJson['url']          = $base_url . '/' . $lang . $meta_canonical;
+            $schemaJson['sameAs']       = 'https://orcid.org/0000-0001-9161-9455';
+            $schemaJson['worksFor']     = $meta_worksfor;
 
         } else {
             
@@ -137,7 +152,7 @@ if ($self_type != PAGE_ERROR) {
         // Schema.org type is set - proceeding to printing JSON-LD script
 
         $jsonLD = json_encode($schemaJson, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
-        echo "\n<script type=\"application/ld+json\">\n" . $jsonLD . "\n</script>\n\n";
+        echo "\n\n<script type=\"application/ld+json\">\n" . $jsonLD . "\n</script>\n";
 
     }
 
