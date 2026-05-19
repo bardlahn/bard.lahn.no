@@ -8,6 +8,7 @@ function getAuthors(mixed $raw): array {
     $self = [
         'name-family'   => 'Lahn',
         'name-given'    => 'Bård',
+        'name'          => 'Lahn, Bård',
         'url'           => $base_url . $self_profile_rel_path,
     ];
 
