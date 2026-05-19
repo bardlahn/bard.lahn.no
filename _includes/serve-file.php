@@ -59,6 +59,8 @@ function serveFile(string $path, string $file): int {
 
     return SERVE_SUCCESS;
 
+    // TO DO: IMPLEMENT GOAT COUNTER STATISTICS FOR FILE DOWNLOADS
+
 }
 
 

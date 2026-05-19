@@ -59,8 +59,8 @@ if ($self_type != PAGE_ERROR) {
         // Printing OpenGraph website properties
 
         if ($self_url == trim($self_profile_rel_path, '/')) {
-            // Hard coded profile metadata on bio page 
-            echo $echo_pre . '<meta property="og:type" content="' . $echo_type . '">';
+            // Returning profile metadata for designated profile page
+            echo $echo_pre . '<meta property="og:type" content="profile">';
             echo $echo_pre . '<meta property="profile:first_name" content="Bård">';
             echo $echo_pre . '<meta property="profile:last_name"  content="Lahn">';
             echo $echo_pre . '<meta property="profile:username"   content="bardlahn">';
