@@ -39,8 +39,14 @@ $schemaJson['@context']  = 'https://schema.org';
 
 if ($self_type != PAGE_ERROR) {
 
-    // For all pages: Adding general metadata
+    // For all pages: Adding general metadata for...
 
+    // ...Dublin Core
+    echo $pre . '<link rel="schema.DC" href="https://purl.org/DC/elements/1.0/">';
+    echo $pre . '<meta name="dc.Title" content="'.$self_title.'">';
+    echo $pre . '<meta name="dc.Language" content="'.$lang.'">';
+
+    // ...OpenGraph
     echo $pre . '<meta property="og:description" content="' . $meta_desc . '">';
     echo $pre . '<meta property="og:url" content="' . $base_url . '/' . $lang . $meta_canonical . '">';
     echo $pre . '<meta property="og:locale" content="' . $lang . '">';
@@ -132,6 +138,7 @@ if ($self_type != PAGE_ERROR) {
                 echo $pre . '<meta property="book:release_date" content="' . $meta_date .'">';
                 if (!empty($fmatter['pub-data']['isbn']))
                     echo $pre . '<meta property="book:isbn" content="' . $fmatter['pub-data']['isbn'] .'">';
+                    echo $pre . '<meta name="dc.Identifier" scheme="isbn" content="'.$fmatter['pub-data']['isbn'].'">';
                 $pubtype = "book";
 
                 // Adding Schema.org book properties
@@ -151,7 +158,10 @@ if ($self_type != PAGE_ERROR) {
                 echo $pre . '<meta property="article:published_time" content="' . $meta_date . '">';
                 $pubtype = "article";
 
-                // Adding Schema.org publication properties
+                // Printing Google Scholar and adding Schema.org publication properties
+
+                echo $pre . '<meta name="citation_title" content="'.$self_title.'">';
+                echo $pre . '<meta name="citation_publication_date" content="'.$meta_date.'">';
 
                 if (strtolower($fmatter['pub-data']['pubtype']) == 'article') {
                 
@@ -170,17 +180,28 @@ if ($self_type != PAGE_ERROR) {
                                 ]]
                             ]];
 
-                    if (!empty($fmatter['pub-data']['doi']))
+                    if (!empty($fmatter['pub-data']['journal']))
+                        echo $pre . '<meta name="citation_journal_title" content="'.$fmatter['pub-data']['journal'].'">';
+
+                    if (!empty($fmatter['pub-data']['volume']))
+                        echo $pre . '<meta name="citation_volume" content="'.$fmatter['pub-data']['volume'].'">';
+
+                    if (!empty($fmatter['pub-data']['issue']))
+                        echo $pre . '<meta name="citation_issue" content="'.$fmatter['pub-data']['issue'].'">';
+
+                    if (!empty($fmatter['pub-data']['journal']))
+                        echo $pre . '<meta name="citation_journal_title" content="'.$fmatter['pub-data']['journal'].'">';
+
+                    if (!empty($fmatter['pub-data']['doi'])) {
                         $schemaJson['sameAs']   = $fmatter['pub-data']['doi'];
+                        echo $pre . '<meta name="dc.Identifier" scheme="doi" content="'.$fmatter['pub-data']['doi'].'">';
+                    }
 
                 } else {
 
                     // TO DO: Implement Report, Thesis, (book section)
 
                 }
-                
-                
-            
 
             }
         }
@@ -188,7 +209,7 @@ if ($self_type != PAGE_ERROR) {
         if (empty($schemaJson['@type'])) $schemaJson['@type'] = 'Article';
         $schemaJson['datePublished'] = $meta_date;
 
-        // Printing OpenGraph and Schema.org author(s) properties for all publications
+        // Printing OpenGraph, Google Scholar and Schema.org author(s) properties for all publications
 
         foreach ($meta_authors as $author) {
 
@@ -200,6 +221,10 @@ if ($self_type != PAGE_ERROR) {
 
             if (!empty($author['url'])) 
                 echo $pre . '<meta property="' . $pubtype . ':author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
+
+            if (!empty($author['name']))
+                echo $pre . '<meta name="citation_author" content="'.htmlspecialchars($author['name']).'">';
+                echo $pre . '<meta name="dc.Creator" content="'.$author['name'].'">';
 
         }
 

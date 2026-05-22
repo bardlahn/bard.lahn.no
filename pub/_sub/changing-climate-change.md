@@ -19,6 +19,6 @@ pub-data:
   volume: 51
   issue: 1
   pages: '3-27'
-  doi: https://doi.org/10.1177/0306312720941933
+  doi: 10.1177/0306312720941933
   file: assets/files/publications/lahn-2021.pdf
 ---
