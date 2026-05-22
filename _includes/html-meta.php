@@ -58,35 +58,32 @@ if ($self_type != PAGE_ERROR) {
 
         if ($self_url == '') {
 
-            // Root page - returning website metadata 
+            // Root page - returning website metadata
+
+            echo $echo_pre . '<meta property="og:type" content="website">';
+
+            // Adding Schema.org webpage properties
+            $schemaJson['@type']         = 'WebPage';
+            $schemaJson['headline']      = $self_title;
 
         } elseif ($self_url == trim($self_profile_rel_path, '/')) {
 
             // Profile page - returning profile metadata
 
             echo $echo_pre . '<meta property="og:type" content="profile">';
-            echo $echo_pre . '<meta property="profile:first_name" content="Bård">';
-            echo $echo_pre . '<meta property="profile:last_name"  content="Lahn">';
-            echo $echo_pre . '<meta property="profile:username"   content="bardlahn">';
+            echo $echo_pre . '<meta property="profile:first_name" content="'.$meta_authors['self']['familyName'].'">';
+            echo $echo_pre . '<meta property="profile:last_name"  content="'.$meta_authors['self']['givenName'].'">';
 
             // Adding Schema.org person properties
 
-            $meta_worksfor = [
-                '@type'         => 'Organization',
-                'name'          => 'University of Oslo',
-                'alternateName' => 'Universitetet i Oslo',
-                'alternateName' => 'UiO',
-                'url'           => 'https://www.uio.no'
-                ];
-
             $schemaJson['@type']        = 'Person';
-            $schemaJson['name']         = $meta_authors['self']['name-full'];
-            $schemaJson['familyName']   = $meta_authors['self']['name-family'];
-            $schemaJson['givenName']    = $meta_authors['self']['name-given'];
-            $schemaJson['birthDate']    = $meta_authors['self']['birth-date'];
+            $schemaJson['name']         = $meta_authors['self']['name'];
+            $schemaJson['familyName']   = $meta_authors['self']['familyName'];
+            $schemaJson['givenName']    = $meta_authors['self']['givenName'];
+            $schemaJson['birthDate']    = $meta_authors['self']['birthDate'];
             $schemaJson['url']          = $meta_authors['self']['url'];
-            $schemaJson['sameAs']       = $meta_authors['self']['orcid'];
-            $schemaJson['worksFor'][]   = $meta_worksfor;
+            $schemaJson['sameAs']       = $meta_authors['self']['sameAs'];
+            $schemaJson['worksFor'][]   = $meta_authors['self']['worksFor'];
 
         } else {
             
@@ -97,7 +94,6 @@ if ($self_type != PAGE_ERROR) {
             // Adding Schema.org webpage properties
             $schemaJson['@type']         = 'WebPage';
             $schemaJson['headline']      = $self_title;
-            $schemaJson['url']           = $base_url . '/' . $lang . $meta_canonical;
 
         }
         
@@ -114,7 +110,6 @@ if ($self_type != PAGE_ERROR) {
         $schemaJson['headline']         = $self_title;
         $schemaJson['datePublished']    = $meta_date;
         $schemaJson['abstract']         = $meta_desc;
-        $schemaJson['url']              = $base_url . '/' . $lang . $meta_canonical;
 
         // Printing author(s)
         foreach ($meta_authors as $author) {
@@ -174,28 +169,15 @@ if ($self_type != PAGE_ERROR) {
 
         // Schema.org type is set - proceeding to printing JSON-LD script
 
+        $schemaJson['locale']      = $lang;
+        $schemaJson['url']         = $schemaJson['url'] ?? $base_url . '/' . $lang . $meta_canonical;
+
         $jsonLD = json_encode($schemaJson, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
         echo "\n\n<script type=\"application/ld+json\">\n" . $jsonLD . "\n</script>\n";
 
     }
 
 }
-
-
-/*
-
-Schema.org - yet to be implemented:
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Your Site Name",
-  "url": "https://example.com/",
-}
-</script>
-
-*/
 
 ?>
 

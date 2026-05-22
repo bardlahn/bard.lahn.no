@@ -6,12 +6,19 @@ function getAuthors(mixed $raw): array {
     global $self_profile_rel_path;
 
     $self = [
-        'name-family'   => 'Lahn',
-        'name-given'    => 'Bård',
-        'name-full'     => 'Bård Lahn',
+        'familyName'    => 'Lahn',
+        'givenName'     => 'Bård',
+        'name'          => 'Bård Lahn',
         'url'           => $base_url . $self_profile_rel_path,
-        'birth-date'    => '1983-05-26',
-        'orcid'         => 'https://orcid.org/0000-0001-9161-9455'
+        'birthDate'     => '1983-05-26',
+        'sameAs'        => 'https://orcid.org/0000-0001-9161-9455',
+        'worksFor'      => [
+                '@type'         => 'Organization',
+                'name'          => 'University of Oslo',
+                'alternateName' => 'Universitetet i Oslo',
+                'alternateName' => 'UiO',
+                'url'           => 'https://www.uio.no'
+                ]
     ];
 
     // No authors defined — return self as default
@@ -32,6 +39,7 @@ function getAuthors(mixed $raw): array {
         } else {
             $authors[$key] = [
                 // TO DO: Parse name into family and given names
+                // TO DO: Automatic incorporation of all entries
                 'name' => $author['name'] ?? '',
                 'url'  => $author['url']  ?? '',
             ];
