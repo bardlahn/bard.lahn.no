@@ -17,13 +17,13 @@ function getAuthors(mixed $raw): array {
         'url'           => $base_url . $self_profile_rel_path,
         'birthDate'     => '1983-05-26',
         'sameAs'        => 'https://orcid.org/0000-0001-9161-9455',
-        'worksFor'      => [
+        'worksFor'      => [[
                 '@type'         => 'Organization',
                 'name'          => 'University of Oslo',
                 'alternateName' => 'Universitetet i Oslo',
                 'alternateName' => 'UiO',
                 'url'           => 'https://www.uio.no'
-                ]
+                ]]
     ];
 
     // No authors defined — return self as default
