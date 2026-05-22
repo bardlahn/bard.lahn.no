@@ -56,9 +56,13 @@ if ($self_type != PAGE_ERROR) {
 
     if ($self_type == PAGE_MAIN) {
 
-        if ($self_url == trim($self_profile_rel_path, '/')) {
+        if ($self_url == '') {
 
-            // Returning profile metadata for designated profile page
+            // Root page - returning website metadata 
+
+        } elseif ($self_url == trim($self_profile_rel_path, '/')) {
+
+            // Profile page - returning profile metadata
 
             echo $echo_pre . '<meta property="og:type" content="profile">';
             echo $echo_pre . '<meta property="profile:first_name" content="Bård">';
@@ -71,6 +75,7 @@ if ($self_type != PAGE_ERROR) {
                 '@type'         => 'Organization',
                 'name'          => 'University of Oslo',
                 'alternateName' => 'Universitetet i Oslo',
+                'alternateName' => 'UiO',
                 'url'           => 'https://www.uio.no'
                 ];
 
@@ -85,7 +90,7 @@ if ($self_type != PAGE_ERROR) {
 
         } else {
             
-            // General mainpage metadata
+            // General mainpage - returning web page metadata
 
             echo $echo_pre . '<meta property="og:type" content="website">';
 
@@ -139,7 +144,10 @@ if ($self_type != PAGE_ERROR) {
             $pubtype = "book";
 
             // Adding Schema.org book properties
-            $schemaJson['@type'] = 'Book';
+            $schemaJson['@type']     = 'Book';
+            $schemaJson['name']     = $self_title;
+            $schemaJson['isbn']      = $fmatter['pub-data']['isbn'] ?? '';
+            $schemaJson['datePublished']  = $meta_date;
 
         } else {
             
