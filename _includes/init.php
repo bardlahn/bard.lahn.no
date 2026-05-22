@@ -2,10 +2,6 @@
 
 // Setting general variables
 
-$base_url = "https://bard.lahn.no";
-$assets_rel_path = '/_assets/';
-$self_profile_rel_path = '/bio/';
-
 include_once $includes_path . 'fetch-config.php';
 
 

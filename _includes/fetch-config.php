@@ -1,5 +1,10 @@
 <?php
 
+$site_title = "Bård Lahn";
+$base_url = "https://bard.lahn.no";
+$assets_rel_path = '/_assets/';
+$self_profile_rel_path = '/bio/';
+
 function getAuthors(mixed $raw): array {
 
     global $base_url;

@@ -1,7 +1,7 @@
 <div class="container">
     <div class="header">
         <div class="menu-icon" id="menuToggle">☰</div>
-        <div class="site-name"><a href="/<?= $lang ?>">bard.lahn.no</a></div>
+        <div class="site-name"><a href="/<?= $lang ?>"><?= $site_title ?></a></div>
     </div>
     <div class="header-right">
         <div class="lang-toggle">

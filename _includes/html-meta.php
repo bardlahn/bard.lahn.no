@@ -5,7 +5,7 @@
 $echo_pre = "\n    ";
 $schemaJson['@context']  = 'https://schema.org';
 
-$meta_desc = $fmatter['abstract'] ?? "Personal website of Bård Lahn: " . $self_title;
+$meta_desc = $fmatter['abstract'] ?? $self_title . ' / ' . $site_title;
 $meta_desc = $fmatter['description'] ?? $meta_desc;
 
 if ($self_type != PAGE_ERROR) {
@@ -34,15 +34,12 @@ foreach ($foundfiles as $lang_key => $file) {
 
 if ($self_type != PAGE_ERROR) {
 
-    // Title (hardcoded title for bio page)
-    $meta_title = ($self_url == trim($self_profile_rel_path, '/')) ? '<meta property="og:title" content="Bård Lahn">' : '<meta property="og:title" content="' . $self_title . '">';
-    
-    echo $echo_pre . $meta_title;
+    // Adding general metadata for all pages
 
     echo $echo_pre . '<meta property="og:description" content="' . $meta_desc . '">';
     echo $echo_pre . '<meta property="og:url" content="' . $base_url . '/' . $lang . $meta_canonical . '">';
     echo $echo_pre . '<meta property="og:locale" content="' . $lang . '">';
-    echo $echo_pre . '<meta property="og:site_name" content="Bård Lahn / bard.lahn.no">';
+    echo $echo_pre . '<meta property="og:site_name" content="'.$site_title.'">';
 
     if (isset($fmatter['date'])) {
         $dt = (new DateTime('now', new DateTimeZone('Europe/Oslo')))
@@ -61,6 +58,7 @@ if ($self_type != PAGE_ERROR) {
             // Root page - returning website metadata
 
             echo $echo_pre . '<meta property="og:type" content="website">';
+            echo $echo_pre . '<meta property="og:title" content="' . $self_title . ' / ' . $site_title . '">';
 
             // Adding Schema.org webpage properties
             $schemaJson['@type']         = 'WebPage';
@@ -71,10 +69,12 @@ if ($self_type != PAGE_ERROR) {
             // Profile page - returning profile metadata
 
             echo $echo_pre . '<meta property="og:type" content="profile">';
-            echo $echo_pre . '<meta property="profile:first_name" content="'.$meta_authors['self']['familyName'].'">';
-            echo $echo_pre . '<meta property="profile:last_name"  content="'.$meta_authors['self']['givenName'].'">';
+            echo $echo_pre . '<meta property="og:title" content="' . $meta_authors['self']['name'] . '">';
+            echo $echo_pre . '<meta property="profile:first_name" content="'.$meta_authors['self']['familyName'].'">'; // Add error handling
+            echo $echo_pre . '<meta property="profile:last_name"  content="'.$meta_authors['self']['givenName'].'">';  // Add error handling
 
             // Adding Schema.org person properties
+            // (TO DO: Automate)
 
             $schemaJson['@type']        = 'Person';
             $schemaJson['name']         = $meta_authors['self']['name'];
@@ -90,6 +90,7 @@ if ($self_type != PAGE_ERROR) {
             // General mainpage - returning web page metadata
 
             echo $echo_pre . '<meta property="og:type" content="website">';
+            echo $echo_pre . '<meta property="og:title" content="' . $self_title . ' / ' . $site_title . '">';
 
             // Adding Schema.org webpage properties
             $schemaJson['@type']         = 'WebPage';
@@ -102,6 +103,7 @@ if ($self_type != PAGE_ERROR) {
         // Printing OpenGraph article properties
 
         echo $echo_pre . '<meta property="og:type" content="article">';
+        echo $echo_pre . '<meta property="og:title" content="' . $self_title . '">';
         echo $echo_pre . '<meta property="article:published_time" content="' . $meta_date . '">';
 
         // Adding Schema.org article properties
@@ -133,26 +135,28 @@ if ($self_type != PAGE_ERROR) {
 
             // Printing OpenGraph book properties
             echo $echo_pre . '<meta property="og:type" content="book">';
+            echo $echo_pre . '<meta property="og:title" content="' . $self_title . '">';
             echo $echo_pre . '<meta property="book:release_date" content="' . $meta_date .'">';
             if (!empty($fmatter['pub-data']['isbn']))
                 echo $echo_pre . '<meta property="book:isbn" content="' . $fmatter['pub-data']['isbn'] .'">';
             $pubtype = "book";
 
             // Adding Schema.org book properties
-            $schemaJson['@type']     = 'Book';
-            $schemaJson['name']     = $self_title;
-            $schemaJson['isbn']      = $fmatter['pub-data']['isbn'] ?? '';
-            $schemaJson['datePublished']  = $meta_date;
+            $schemaJson['@type']         = 'Book';
+            $schemaJson['name']          = $self_title;
+            $schemaJson['isbn']          = $fmatter['pub-data']['isbn'] ?? '';
+            $schemaJson['datePublished'] = $meta_date;
 
         } else {
             
             // Printing OpenGraph article properties
             echo $echo_pre . '<meta property="og:type" content="article">';
+            echo $echo_pre . '<meta property="og:title" content="' . $self_title . '">';
             echo $echo_pre . '<meta property="article:published_time" content="' . $meta_date . '">';
             $pubtype = "article";
 
             // Adding Schema.org publication properties
-            $schemaJson['@type'] = 'ScholarlyArticle'; // or Report, Thesis
+            $schemaJson['@type'] = 'ScholarlyArticle'; // TO DO: Implement Report, Thesis, (book section)
 
         }
 
@@ -169,8 +173,7 @@ if ($self_type != PAGE_ERROR) {
 
         // Schema.org type is set - proceeding to printing JSON-LD script
 
-        $schemaJson['locale']      = $lang;
-        $schemaJson['url']         = $schemaJson['url'] ?? $base_url . '/' . $lang . $meta_canonical;
+        $schemaJson['url'] = $schemaJson['url'] ?? $base_url . '/' . $lang . $meta_canonical;
 
         $jsonLD = json_encode($schemaJson, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
         echo "\n\n<script type=\"application/ld+json\">\n" . $jsonLD . "\n</script>\n";
