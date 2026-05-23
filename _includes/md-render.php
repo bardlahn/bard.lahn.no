@@ -189,9 +189,9 @@ function renderMDContent(string $text) {
             }
 
             // Assembling block output
-            if (trim($content)) {
+            // if (trim($content)) {
                 echo $before . "\n" . $content . "\n" . $after . "\n";
-            }
+            // }
             $inBlock      = false;
             $blockContent = '';
             continue;

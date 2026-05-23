@@ -10,10 +10,7 @@ abstract: 'Dette er et arkiv for tekster av Bård Lahn. De inkluderer kronikker,
 Dette er et arkiv for tekster jeg har skrevet i årenes løp. De inkluderer kronikker, kommentarer, blogginnlegg og så videre. (Bøker og akademiske publikasjoner er samlet på [denne siden](/no/pub/).)
 
 ::image images/arringer-l.jpg wide
-Tekst
 ::
-
-tekst
 
 ::include _blog.php php
 ::
