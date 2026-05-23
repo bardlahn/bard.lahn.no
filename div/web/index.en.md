@@ -15,3 +15,8 @@ Building my own site was also a way of making sure I do not rely on any third-pa
 I use the open-source PHP libraries [Parsedown](https://parsedown.org) and [Symfony Yaml](https://symfony.com/doc/current/components/yaml.html) to handle Markdown. The full source code is available on [Github](https://github.com/bardlahn/bard.lahn.no) for those who are interested to take a look.
 
 All content on the site is available under a Creative Commons [BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/), unless anything else is stated. If you have questions about the use of text, images or source code, please <a href="mailto:bard_AT_lahn.no">drop me a line</a>.
+
+The pictures on the site are mostly taken by me, with the following exceptions:
+- [Portraits of me](/:$lang:/bio/img/) - see photo credit
+- Ameriflux tower - [Kyle Spradley](https://www.kspradleyphoto.com) via [Flickr.com](https://flickr.com) (CC BY-NC)
+- Fosselven hydroelectric turbines - Normann Helger / Anno Museum (CC0)

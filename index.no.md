@@ -6,6 +6,12 @@ routes:
   canonical: '/'
 ---
 
+::image images/fosselven-l.jpg wide
+Jeg vokste opp ved siden av dette kraftverket.
+
+(Han i bildet er ikke meg.)
+::
+
 Jeg er Bård Lahn. Jeg forsker på og skriver om olje, energi og klimapolitikk. Jeg er nysgjerrig på hvordan demokrati, teknologi og økonomi påvirker hverandre, og hvordan vitenskapelig kunnskap brukes til å skape både enighet og uenighet.
 
 Denne nettsiden samler mine [tekster](/:$lang:/txt/) og akademiske [publikasjoner](/:$lang:/pub/), pluss en mer utfyllende [presentasjon av meg](/:$lang:/bio/).

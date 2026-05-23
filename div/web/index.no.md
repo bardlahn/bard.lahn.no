@@ -15,3 +15,8 @@ Ved å bygge min egen nettside kan jeg også sørge for at jeg ikke lar noen tre
 Av andre verktøy bruker jeg [Parsedown](https://parsedown.org) og [Symfony Yaml](https://symfony.com/doc/current/components/yaml.html) for å håndtere Markdown-filer. Full kildekode er tilgjengelig på [Github](https://github.com/bardlahn/bard.lahn.no) for dem som er interessert.
 
 Alt innhold på nettsiden er tilgjengelig under Creative Commons-lisensen [BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/), med mindre noe annet er oppgitt. Har du spørsmål om bruk av tekster, bilder eller kode, så <a href="mailto:bard_AT_lahn.no">ta gjerne kontakt</a>.
+
+Bildene på nettsiden er stort sett tatt av meg, med følgende unntak:
+- [Portretter av meg](/:$lang:/bio/img/) - se fotograf
+- Ameriflux-tårnet - [Kyle Spradley](https://www.kspradleyphoto.com) via [Flickr.com](https://flickr.com) (CC BY-NC)
+- Fosselven kraftverk - Normann Helger / Anno Museum (CC0)
