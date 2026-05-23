@@ -179,6 +179,13 @@ function renderMDContent(string $text) {
 
                     break;
 
+                case 'break':       // Inserts a break in the form of an extra <div> element.
+                                    // Note: Block content is not rendered!
+
+                    $before = $defaultBefore;
+                    $after = $defaultAfter;
+                    $content = "<p></p>";
+                
                 // (Further block types can be added here)
 
                 // Unknown or missing block-id is treated as unmarked block

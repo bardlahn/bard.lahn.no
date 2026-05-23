@@ -23,12 +23,12 @@ Du finner meg også andre steder på nettet:
 - [Google Scholar](https://scholar.google.com/citations?user=_HRtPdAAAAAJ)
 - [ORCID](https://orcid.org/0000-0001-9161-9455)
 
+::break
+::
+
 ::quote
 ### Ny bok
-
-Høsten 2025 ga jeg ut boka **Hvem bestemmer over klimaet? En kort bok om et nesten umulig spørsmål** (Forlaget Manifest). 
-
-<em></em>
+Høsten 2025 ga jeg ut boka **Hvem bestemmer over klimaet? En kort bok om et nesten umulig spørsmål** (Forlaget Manifest).<br/>
 
 Les mer om boka, og se kommende foredrag og presentasjoner, på [denne siden](pub/hvem-bestemmer/).
 ::
