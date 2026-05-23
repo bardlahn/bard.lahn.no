@@ -7,7 +7,6 @@ if (!empty($_GET['action'])) {
 
         case 'download':
             include($includes_path."serve-file.php");
-            echo "Debug: download detected - fetching " . $_GET['file'] . "\n\n";
             $serve = serveFile($_GET['file'] ?? '');
             if ($serve == SERVE_SUCCESS) {
                 // Success serving file - exiting

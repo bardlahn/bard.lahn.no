@@ -58,9 +58,6 @@ function serveFile(string $file): int {
 
     // Serving the file and returning success
 
-echo " Debug: Filename " . $full_path;
-exit;
-
     $mime = mime_content_type($full_path) ?: 'application/octet-stream';
 
     header('Content-Type: ' . $mime);
