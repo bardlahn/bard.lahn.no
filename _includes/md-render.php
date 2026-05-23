@@ -62,9 +62,10 @@ function renderMDContent(string $text) {
 
                 case 'quote':       // ::quote block - takes no arguments
 
-                    $before = '<div class="blockquote-container"><span>';
-                    // $content = str_replace(['<p>', '</p>'], ['<p><span>', '</span></p>'], $content);
-                    $after  = '</span></div>';
+                    $before = '<div class="blockquote-container">';
+                    $content = str_replace(['<p>', '</p>'], ['<p><span>', '</span></p>'], $content);
+                    $content = preg_replace(['/<h([1-6])>/', '/<\/h([1-6])>/'], ['<h$1><span>', '</span></h$1>'], $content);
+                    $after  = '</div>';
                     break;
 
                 case 'image':       // ::image block - takes arguments:
