@@ -273,6 +273,10 @@ a {
     font-size: 18px;
 }
 
+.blockquote-container h2 {
+    margin-bottom: 12px;
+}
+
 .portfolio-grid {
     grid-column: 1 / 7;
     display: grid;
