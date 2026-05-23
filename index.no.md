@@ -4,6 +4,7 @@ language: no
 routes:
   default: '/'
   canonical: '/'
+description: 'Personlig nettside for Bård Lahn, som forsker på og skriver om klimapolitikk, energiressurser og forholdet mellom demokrati, teknologi og økonomi.'
 ---
 
 Jeg er Bård Lahn. Jeg forsker på og skriver om olje, energi og klimapolitikk. Jeg er nysgjerrig på hvordan demokrati, teknologi og økonomi påvirker hverandre, og hvordan vitenskapelig kunnskap brukes til å skape både enighet og uenighet.
@@ -22,11 +23,12 @@ Du finner meg også andre steder på nettet:
 - [Google Scholar](https://scholar.google.com/citations?user=_HRtPdAAAAAJ)
 - [ORCID](https://orcid.org/0000-0001-9161-9455)
 
+**Ny bok:** Høsten 2025 ga jeg ut boka _Hvem bestemmer over klimaet? En kort bok om et nesten umulig spørsmål_ (Forlaget Manifest). Les mer om boka, og se kommende foredrag og presentasjoner, på [denne siden](pub/hvem-bestemmer/).
+
 ::sidebar
 <div class="image-grid">
     <a class="portfolio-item" href="pub/hvem-bestemmer/">
         <img src=":$url_assets:/images/hvem-bestemmer-cover-s.jpg" alt="Bok: Hvem bestemmer over klimaet?">
-        
     </div>
     </a>
 </div>

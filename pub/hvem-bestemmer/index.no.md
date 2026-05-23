@@ -4,6 +4,7 @@ language: no
 routes:
   default: '/pub/hvem-bestemmer/'
   canonical: '/pub/hvem-bestemmer/'
+abstract: 'I boka "Hvem bestemmer over klimaet? En kort bok om et nesten umulig spørsmål" (utgitt 2025 på Forlaget Manifest) diskuterer Bård Lahn hvem som har ansvar for og mulighet til å gjøre noe med klimaproblemet.'
 url: 'https://forlaget.manifest.no/collections/alle-produkter/products/hvem-bestemmer-over-klimaet'
 type: publication
 authors: self

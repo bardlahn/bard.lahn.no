@@ -4,6 +4,7 @@ language: no
 routes:
   default: '/pub/'
   canonical: '/pub/'
+description: 'Bård Lahn skriver blant annet om klimapolitikk, energiressurser, finans og demokrati. Her finner du en liste over hans akademiske publikasjoner.'
 ---
 
 ## Bøker
