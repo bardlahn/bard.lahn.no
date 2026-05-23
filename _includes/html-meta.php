@@ -210,7 +210,7 @@ if ($self_type != PAGE_ERROR) {
         $schemaJson['datePublished'] = $meta_date;
         
         if (!empty($fmatter['pub-data']['file']))
-            echo $pre . '<meta name="citation_pdf_url" content="?action=download&file='.$fmatter['pub-data']['file'].'">';
+            echo $pre . '<meta name="citation_pdf_url" content="'.$base_url.'/'.$lang.'/'.$self_url.'?action=download&file='.$fmatter['pub-data']['file'].'">';
 
         // Printing OpenGraph, Google Scholar and Schema.org author(s) properties for all publications
 
