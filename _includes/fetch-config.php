@@ -42,12 +42,9 @@ function getAuthors(mixed $raw): array {
         if ($key === 'self') {
             $authors['self'] = $self;
         } else {
-            $authors[$key] = [
-                // TO DO: Parse name into family and given names
-                // TO DO: Automatic incorporation of all entries
-                'name' => $author['name'] ?? '',
-                'url'  => $author['url']  ?? '',
-            ];
+            $authors[$key] = $author;
+            // TO DO: Parse name into family and given names
+            // TO DO: Error checking, ORCID -> URL, etc
         }
     }
 

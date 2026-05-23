@@ -1,6 +1,11 @@
 <?php
 
-// Building and printing meta tags for HTML HEAD section
+// Building and printing meta tags for HTML HEAD section. Currently handles
+//   - General HTML metatags
+//   - Schema.org metatags
+//   - OpenGraph metatags
+//   - Highwire Press metatags (for Google Scholar, only used for publications)
+//   - Dublin Core basic metatags
 
 $pre = "\n    ";
 
@@ -126,20 +131,28 @@ if ($self_type != PAGE_ERROR) {
 
     } elseif ($self_type == PAGE_SUB_PUB) {
 
-        // Publication page type is handled as article in OpenGraph data,
-        // unless pubtype is book, which is a separate og:type
+        // Publication page type is handled as article in OpenGraph data...
+        $pubtype = "article";
+        // ...unless pubtype is book, which is a separate og:type
 
         if (isset($fmatter['pub-data']['pubtype'])) {
             if (strtolower($fmatter['pub-data']['pubtype']) == 'book') {
 
-                // Printing OpenGraph book properties
+                $pubtype = "book";
+                $publisher = $fmatter['pub-data']['publisher'] ?? '';
+
+                // Printing OpenGraph and Highwire book properties
                 echo $pre . '<meta property="og:type" content="book">';
-                echo $pre . '<meta property="og:title" content="' . $self_title . '">';
                 echo $pre . '<meta property="book:release_date" content="' . $meta_date .'">';
-                if (!empty($fmatter['pub-data']['isbn']))
+                echo $pre . '<meta property="citation_publisher" content="' . $publisher .'">';
+
+                if (!empty($fmatter['pub-data']['isbn'])) {
                     echo $pre . '<meta property="book:isbn" content="' . $fmatter['pub-data']['isbn'] .'">';
                     echo $pre . '<meta name="dc.Identifier" scheme="isbn" content="'.$fmatter['pub-data']['isbn'].'">';
-                $pubtype = "book";
+                    echo $pre . '<meta name="citation_isbn" content="' . $fmatter['pub-data']['isbn'] . '">';
+                }
+                
+            echo $pre . '<meta name="citation_title" content="'.$self_title.'">';
 
                 // Adding Schema.org book properties
                 $schemaJson['@type']         = 'Book';
@@ -147,21 +160,17 @@ if ($self_type != PAGE_ERROR) {
                 $schemaJson['isbn']          = $fmatter['pub-data']['isbn'] ?? '';
                 $schemaJson['publisher']     = [[
                             '@type'         => 'Organization',
-                            'name'          => $fmatter['pub-data']['publisher'] ?? '',
+                            'name'          => $publisher
                             ]];
 
             } else {
                 
                 // Printing OpenGraph article properties
                 echo $pre . '<meta property="og:type" content="article">';
-                echo $pre . '<meta property="og:title" content="' . $self_title . '">';
                 echo $pre . '<meta property="article:published_time" content="' . $meta_date . '">';
                 $pubtype = "article";
 
-                // Printing Google Scholar and adding Schema.org publication properties
-
-                echo $pre . '<meta name="citation_title" content="'.$self_title.'">';
-                echo $pre . '<meta name="citation_publication_date" content="'.$meta_date.'">';
+                // Printing Highwire tags and adding Schema.org publication properties
 
                 if (strtolower($fmatter['pub-data']['pubtype']) == 'article') {
                 
@@ -193,8 +202,9 @@ if ($self_type != PAGE_ERROR) {
                         echo $pre . '<meta name="citation_journal_title" content="'.$fmatter['pub-data']['journal'].'">';
 
                     if (!empty($fmatter['pub-data']['doi'])) {
-                        $schemaJson['sameAs']   = $fmatter['pub-data']['doi'];
+                        $schemaJson['sameAs']   = 'https://dx.doi.org/' . $fmatter['pub-data']['doi'];
                         echo $pre . '<meta name="dc.Identifier" scheme="doi" content="'.$fmatter['pub-data']['doi'].'">';
+                        echo $pre . '<meta name="citation_doi" content="'.$fmatter['pub-data']['doi'].'">';
                     }
 
                 } else {
@@ -204,6 +214,7 @@ if ($self_type != PAGE_ERROR) {
                 }
 
             }
+
         }
 
         if (empty($schemaJson['@type'])) $schemaJson['@type'] = 'Article';
@@ -212,7 +223,11 @@ if ($self_type != PAGE_ERROR) {
         if (!empty($fmatter['pub-data']['file']))
             echo $pre . '<meta name="citation_pdf_url" content="'.$base_url.'/'.$lang.'/'.$self_url.'?action=download&file='.$fmatter['pub-data']['file'].'">';
 
-        // Printing OpenGraph, Google Scholar and Schema.org author(s) properties for all publications
+        // Printing OpenGraph, Highwire and Schema.org author(s) properties for all publications
+
+        echo $pre . '<meta name="citation_publication_date" content="'.$meta_date.'">';
+        echo $pre . '<meta name="citation_title" content="'.$self_title.'">';
+        echo $pre . '<meta property="og:title" content="' . $self_title . '">';
 
         foreach ($meta_authors as $author) {
 
@@ -222,9 +237,15 @@ if ($self_type != PAGE_ERROR) {
                 'url'   => $author['url'] ?? ''
                 ];
 
-            if (!empty($author['url'])) 
-                echo $pre . '<meta property="' . $pubtype . ':author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
+            if (!empty($author['orcid'])) {
+                $author['url'] = $author['url'] ?? 'https://orcid.org/' . $author['orcid'];
+                echo $pre . '<meta name="citation_author_orcid" content="https://orcid.org/'.$author['orcid'].'">';
+            }
 
+            if (!empty($author['url'])) {
+                echo $pre . '<meta property="' . $pubtype . ':author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
+            } 
+            
             if (!empty($author['name']))
                 echo $pre . '<meta name="citation_author" content="'.htmlspecialchars($author['name']).'">';
                 echo $pre . '<meta name="dc.Creator" content="'.$author['name'].'">';
