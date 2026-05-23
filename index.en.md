@@ -7,13 +7,13 @@ routes:
 description: 'Personal website of Bård Lahn - academic and writer focused on climate politics, energy and fossil fuels, and the relationship between democracy, technology and economy.'
 ---
 
+I'm Bård Lahn. I research and write about the politics of climate change, energy and fossil fuels. I am interested in the relationship between democracy, technology and economy, and in how scientific knowledge can engender political action as well as controversy.
+
 ::image images/fosselven-l.jpg wide
-I grew up next to this power station.
+I grew up next to [this power station](https://no.wikipedia.org/wiki/Fosselven_kraftverk).
 
 (Not me in the picture.)
 ::
-
-I'm Bård Lahn. I research and write about the politics of climate change, energy and fossil fuels. I am interested in the relationship between democracy, technology and economy, and in how scientific knowledge can engender political action as well as controversy.
 
 This website collects my academic [publications](/:$lang:/pub/) and other [writings](/:$lang:/txt/), as well as various snippets on my current or previous [projects and topics of interest](/:$lang:/div/). It also contains a fuller [biography](/:$lang:/bio/) including information about my previous roles and my teaching activities.
 
