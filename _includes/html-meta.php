@@ -309,7 +309,7 @@ if ($self_type != PAGE_ERROR) {
     if (isset($schemaJson['@type'])) {
 
         // Schema.org type is set - proceeding to printing JSON-LD script
-s
+
         $schemaJson['name'] = $self_title;
         $schemaJson['url'] = $schemaJson['url'] ?? $base_url . '/' . $lang . $meta_canonical;
         $schemaJson['inLanguage'] = $lang;
