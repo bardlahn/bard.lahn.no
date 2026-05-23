@@ -14,7 +14,9 @@ Jeg vokste opp ved siden av [dette kraftverket](https://no.wikipedia.org/wiki/Fo
 (Han i bildet er ikke meg.)
 ::
 
-Tidligere har jeg forsket på norsk og internasjonal klimapolitikk, med særlig fokus på FNs klimaforhandlinger, spørsmål om rettferdighet mellom Nord og Sør, og sammenhengen mellom norsk olje- og klimapolitikk. Jeg er også opptatt av litteratur og teater, og hvordan både kunst, vitenskap og aktivisme på ulike måter bidrar til å forme politikk og skape alternative framtider. Alt dette skriver jeg om med ujevne mellomrom både i bøker, aviser og tidsskrift.
+Tidligere har jeg forsket på norsk og internasjonal klimapolitikk, med særlig fokus på FNs klimaforhandlinger, spørsmål om rettferdighet mellom Nord og Sør, og sammenhengen mellom norsk olje- og klimapolitikk. 
+
+Jeg er også opptatt av litteratur og teater, og hvordan både kunst, vitenskap og aktivisme på ulike måter bidrar til å forme politikk og skape alternative framtider. Alt dette skriver jeg om med ujevne mellomrom både i bøker, aviser og tidsskrift.
 
 ::sidebar
 <div class="image-grid">
