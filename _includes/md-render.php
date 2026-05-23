@@ -62,8 +62,9 @@ function renderMDContent(string $text) {
 
                 case 'quote':       // ::quote block - takes no arguments
 
-                    $before = '<div class="blockquote-container"><blockquote>';
-                    $after  = '</blockquote></div>';
+                    $before = '<div class="blockquote-container"><span>';
+                    // $content = str_replace(['<p>', '</p>'], ['<p><span>', '</span></p>'], $content);
+                    $after  = '</span></div>';
                     break;
 
                 case 'image':       // ::image block - takes arguments:

@@ -248,11 +248,15 @@ a {
     margin: 30px 0;
 }
 
-.blockquote-container blockquote {
+.blockquote-container span {
     font-size: 18px;
-    font-style: italic;
+    background: var(--bg-color);
     color: var(--text-color);
     max-width: 500px;
+    display: inline;
+    padding: 6px 15px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
 
 .portfolio-grid {
