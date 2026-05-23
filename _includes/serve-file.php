@@ -4,28 +4,37 @@
 
 // (Defining constants before function starts)
 define ("SERVE_SUCCESS",          200);
-define ("SERVE_ERROR_REQUEST",    400);
+define ("SERVE_ERROR_REQUEST",    400); // Not in use
 define ("SERVE_ERROR_NOACCESS",   403);
 define ("SERVE_ERROR_NOFILE",     404);
 
-function serveFile(string $path, string $file): int {
+function serveFile(string $file): int {
 
-    switch ($path ?? '') {
-        case 'assets':
-            global $assets_path;
-            $base_path = $assets_path;
-            break;
-        case 'parent':
-            global $self_path;
-            $base_path = $self_path;
-            break;
-        case 'this':
-            global $md_path;
-            $base_path = $md_path;
-            break;
-        default:
-            return SERVE_ERROR_REQUEST;
+    // If filename contains directories, 
+    // checking if first directory is a predefined pointer
+
+    $path = explode('/', $file);
+
+    if (is_array($path)) {
+        switch ($path[0] ?? '') {
+            case 'assets':
+                global $assets_path;
+                $base_path = $assets_path;
+                $file = implode('/', array_slice($path, 1));
+                break;
+            case 'parent':
+                global $self_path;
+                $base_path = $self_path;
+                $file = implode('/', array_slice($path, 1));
+                break;
+        }
     }
+
+    if (empty($base_path)) {
+        global $md_path;
+        $base_path = $md_path;
+    }
+
 
     // Blocking calls to files/directories starting with _ or .
     foreach (explode('/', $file) as $part) {

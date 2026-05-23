@@ -20,5 +20,5 @@ pub-data:
   issue: 1
   pages: '3-27'
   doi: 10.1177/0306312720941933
-  file: assets/files/publications/lahn-2021.pdf
+  file: assets/files/pub/lahn-2021.pdf
 ---

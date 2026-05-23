@@ -55,7 +55,7 @@ if ($self_type != PAGE_ERROR) {
     if (isset($fmatter['date'])) {
         $dt = (new DateTime('now', new DateTimeZone('Europe/Oslo')))
             ->setTimestamp($fmatter['date']);
-        $meta_date = htmlspecialchars($dt->format(DateTime::ATOM));
+        $meta_date = htmlspecialchars($dt->format('Y-m-d'));
     } else {
         $meta_date = "";
     }
@@ -208,6 +208,9 @@ if ($self_type != PAGE_ERROR) {
 
         if (empty($schemaJson['@type'])) $schemaJson['@type'] = 'Article';
         $schemaJson['datePublished'] = $meta_date;
+        
+        if (!empty($fmatter['pub-data']['file']))
+            echo $pre . '<meta name="citation_pdf_url" content="?action=download&file='.$fmatter['pub-data']['file'].'">';
 
         // Printing OpenGraph, Google Scholar and Schema.org author(s) properties for all publications
 
