@@ -14,7 +14,7 @@ I grew up next to [this power station](https://no.wikipedia.org/wiki/Fosselven_k
 (Not me in the picture.)
 ::
 
-My research and writing focuses on questions of democracy and justice in relation to climate change and fossil fuel extraction. In particular, I am interested in the relationship between scientific expertise and political processes. 
+My research and writing focuses on questions of democracy and justice in relation to climate change and fossil fuel extraction. In particular, I am interested in the relationship between scientific expertise, democratic politics and economic processes.
 
 My disciplinary background is in Science and Technology Studies (STS) and sociology, as well as intellectual history and international relations. My PhD project in STS dealt with how global climate knowledge shapes national and international policymaking. I have also written about the North/South dimensions of climate justice, fossil fuels in climate policy, and the history of oil and climate politics in Norway.
 
