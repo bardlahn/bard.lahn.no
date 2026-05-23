@@ -24,9 +24,11 @@ Du finner meg også andre steder på nettet:
 - [ORCID](https://orcid.org/0000-0001-9161-9455)
 
 ::quote
-## Ny bok
+### Ny bok
 
 Høsten 2025 ga jeg ut boka **Hvem bestemmer over klimaet? En kort bok om et nesten umulig spørsmål** (Forlaget Manifest). 
+
+<em></em>
 
 Les mer om boka, og se kommende foredrag og presentasjoner, på [denne siden](pub/hvem-bestemmer/).
 ::
@@ -35,9 +37,6 @@ Les mer om boka, og se kommende foredrag og presentasjoner, på [denne siden](pu
 <div class="image-grid">
     <a class="portfolio-item" href="pub/hvem-bestemmer/">
         <img src=":$url_assets:/images/hvem-bestemmer-cover-s.jpg" alt="Bok: Hvem bestemmer over klimaet?">
-    </div>
     </a>
 </div>
 ::
-
-<em></em>
