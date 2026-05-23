@@ -65,7 +65,7 @@ if ($self_type != PAGE_ERROR) {
         $meta_date = "";
     }
 
-    $meta_authors = getAuthors($fmatter['authors'] ?? null);
+    $meta_authors = getAuthors($fmatter['authors'] ?? 'self');
 
     if ($self_type == PAGE_MAIN) {
 
@@ -132,19 +132,21 @@ if ($self_type != PAGE_ERROR) {
     } elseif ($self_type == PAGE_SUB_PUB) {
 
         // Publication page type is handled as article in OpenGraph data...
-        $pubtype = "article";
         // ...unless pubtype is book, which is a separate og:type
+
+        $og_pubtype = "article";
+        $meta_publisher = $fmatter['pub-data']['publisher'] ?? '';
+        $schema_publisher = ['@type' => 'Organization', 'name' => $meta_publisher];
 
         if (isset($fmatter['pub-data']['pubtype'])) {
             if (strtolower($fmatter['pub-data']['pubtype']) == 'book') {
 
-                $pubtype = "book";
-                $publisher = $fmatter['pub-data']['publisher'] ?? '';
+                $og_pubtype = "book";
 
                 // Printing OpenGraph and Highwire book properties
                 echo $pre . '<meta property="og:type" content="book">';
                 echo $pre . '<meta property="book:release_date" content="' . $meta_date .'">';
-                echo $pre . '<meta property="citation_publisher" content="' . $publisher .'">';
+                echo $pre . '<meta property="citation_publisher" content="' . $meta_publisher .'">';
 
                 if (!empty($fmatter['pub-data']['isbn'])) {
                     echo $pre . '<meta property="book:isbn" content="' . $fmatter['pub-data']['isbn'] .'">';
@@ -156,24 +158,22 @@ if ($self_type != PAGE_ERROR) {
 
                 // Adding Schema.org book properties
                 $schemaJson['@type']         = 'Book';
-                $schemaJson['name']          = $self_title;
                 $schemaJson['isbn']          = $fmatter['pub-data']['isbn'] ?? '';
-                $schemaJson['publisher']     = [[
-                            '@type'         => 'Organization',
-                            'name'          => $publisher
-                            ]];
+                $schemaJson['publisher']     = [$schema_publisher];
 
             } else {
                 
                 // Printing OpenGraph article properties
                 echo $pre . '<meta property="og:type" content="article">';
                 echo $pre . '<meta property="article:published_time" content="' . $meta_date . '">';
-                $pubtype = "article";
+                $og_pubtype = "article";
 
-                // Printing Highwire tags and adding Schema.org publication properties
+                // Printing Highwire tags and adding Schema.org publication properties...
 
                 if (strtolower($fmatter['pub-data']['pubtype']) == 'article') {
                 
+                    // ... for SCHOLARLY ARTICLES
+
                     $schemaJson['@type']        = 'ScholarlyArticle';
                     $schemaJson['pagination']   = $fmatter['pub-data']['pages'] ?? '';
                     $schemaJson['isPartOf']     = [[
@@ -184,32 +184,71 @@ if ($self_type != PAGE_ERROR) {
                                 'volumeNumber' => $fmatter['pub-data']['volume'] ?? '',
                                 'isPartOf'     => [[
                                     '@type'    => 'Periodical',
-                                    'name'     => $fmatter['pub-data']['journal'] ?? ''
+                                    'name'     => $fmatter['pub-data']['journal'] ?? '',
+                                    'issn'     => $fmatter['pub-data']['issn'] ?? '',
+                                    'publisher'=> [$schema_publisher]
                                     ]]
                                 ]]
                             ]];
 
                     if (!empty($fmatter['pub-data']['journal']))
                         echo $pre . '<meta name="citation_journal_title" content="'.$fmatter['pub-data']['journal'].'">';
-
                     if (!empty($fmatter['pub-data']['volume']))
                         echo $pre . '<meta name="citation_volume" content="'.$fmatter['pub-data']['volume'].'">';
-
                     if (!empty($fmatter['pub-data']['issue']))
                         echo $pre . '<meta name="citation_issue" content="'.$fmatter['pub-data']['issue'].'">';
 
-                    if (!empty($fmatter['pub-data']['journal']))
-                        echo $pre . '<meta name="citation_journal_title" content="'.$fmatter['pub-data']['journal'].'">';
+                } elseif (strtolower($fmatter['pub-data']['pubtype']) == 'report') {
 
-                    if (!empty($fmatter['pub-data']['doi'])) {
-                        $schemaJson['sameAs']   = 'https://dx.doi.org/' . $fmatter['pub-data']['doi'];
-                        echo $pre . '<meta name="dc.Identifier" scheme="doi" content="'.$fmatter['pub-data']['doi'].'">';
-                        echo $pre . '<meta name="citation_doi" content="'.$fmatter['pub-data']['doi'].'">';
+                    // ... for REPORTS
+
+                    $schemaJson['@type']        = 'Report';
+                    $schemaJson['reportNumber'] = $fmatter['pub-data']['nubmer'] ?? '';
+                    $schemaJson['publisher']    = [$schema_publisher];
+
+                    if (!empty($fmatter['pub-data']['publisher']))
+                        echo $pre . '<meta name="citation_technical_report_institution" content="'.$fmatter['pub-data']['publisher'].'">';
+                    if (!empty($fmatter['pub-data']['number']))
+                        echo $pre . '<meta name="citation_technical_report_number" content="'.$fmatter['pub-data']['nubmer'].'">';
+
+                } elseif (strtolower($fmatter['pub-data']['pubtype']) == 'thesis') {
+                
+                    // ...for THESES
+
+                    $schemaJson['@type']        = 'Thesis';
+                    $schemaJson['inSupportOf']  = $fmatter['pub-data']['degree'] ?? '';
+                    $schemaJson['publisher']    = [$schema_publisher];
+
+                    if (!empty($fmatter['pub-data']['publisher']))
+                        echo $pre . '<meta name="citation_dissertation_institution" content="'.$fmatter['pub-data']['publisher'].'">';
+
+                } elseif (strtolower($fmatter['pub-data']['pubtype']) == 'chapter') {
+                
+                    // ...for BOOK CHAPTERS
+                    
+                    if (!empty($fmatter['pub-data']['isbn'])) {
+                        echo $pre . '<meta name="dc.Identifier" scheme="isbn" content="'.$fmatter['pub-data']['isbn'].'">';
+                        echo $pre . '<meta name="citation_isbn" content="' . $fmatter['pub-data']['isbn'] . '">';
                     }
+          
+                    $schemaJson['@type']        = 'Chapter';
+                    $schemaJson['pagination']   = $fmatter['pub-data']['pages'] ?? '';
+                    $schemaJson['isPartOf']     = [[
+                            '@type'             => 'Book',
+                            'name'              => $fmatter['pub-data']['book'] ?? '',
+                            'publisher'         => [$schema_publisher]
+                            ]];
 
-                } else {
-
-                    // TO DO: Implement Report, Thesis, (book section)
+                    // Adding editors if given
+                    $editors = getAuthors($fmatter['pub-data']['editors'] ?? null);
+                    if ($editors) {
+                        foreach ($editors as $editor) {
+                            $schemaJson['isPartOf']['editor'][] = [
+                                '@type'         => 'Person',
+                                'name'          => $editor[name] ?? ''
+                                ];
+                        }
+                    }
 
                 }
 
@@ -217,18 +256,31 @@ if ($self_type != PAGE_ERROR) {
 
         }
 
+        // Printing OpenGraph, Highwire and Schema.org properties for all publications
+
         if (empty($schemaJson['@type'])) $schemaJson['@type'] = 'Article';
         $schemaJson['datePublished'] = $meta_date;
         
         if (!empty($fmatter['pub-data']['file']))
             echo $pre . '<meta name="citation_pdf_url" content="'.$base_url.'/'.$lang.'/'.$self_url.'?action=download&file='.$fmatter['pub-data']['file'].'">';
 
-        // Printing OpenGraph, Highwire and Schema.org author(s) properties for all publications
-
         echo $pre . '<meta name="citation_publication_date" content="'.$meta_date.'">';
         echo $pre . '<meta name="citation_title" content="'.$self_title.'">';
         echo $pre . '<meta property="og:title" content="' . $self_title . '">';
 
+        // ...DOI info
+        if (!empty($fmatter['pub-data']['doi'])) {
+            $schemaJson['sameAs']   = 'https://dx.doi.org/' . $fmatter['pub-data']['doi'];
+            echo $pre . '<meta name="dc.Identifier" scheme="doi" content="'.$fmatter['pub-data']['doi'].'">';
+            echo $pre . '<meta name="citation_doi" content="'.$fmatter['pub-data']['doi'].'">';
+        }
+
+        if (!empty($fmatter['pub-data']['issn'])) {
+            echo $pre . '<meta name="dc.Identifier" scheme="issn" content="'.$fmatter['pub-data']['issn'].'">';
+            echo $pre . '<meta name="citation_issn" content="'.$fmatter['pub-data']['issn'].'">';
+        }
+
+        // ...author info
         foreach ($meta_authors as $author) {
 
             $schemaJson['author'][] = [
@@ -243,7 +295,7 @@ if ($self_type != PAGE_ERROR) {
             }
 
             if (!empty($author['url'])) {
-                echo $pre . '<meta property="' . $pubtype . ':author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
+                echo $pre . '<meta property="' . $og_pubtype . ':author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
             } 
             
             if (!empty($author['name']))
@@ -257,9 +309,8 @@ if ($self_type != PAGE_ERROR) {
     if (isset($schemaJson['@type'])) {
 
         // Schema.org type is set - proceeding to printing JSON-LD script
-
-        if (empty($schemaJson['name'])) $schemaJson['headline'] = $self_title;
-
+s
+        $schemaJson['name'] = $self_title;
         $schemaJson['url'] = $schemaJson['url'] ?? $base_url . '/' . $lang . $meta_canonical;
         $schemaJson['inLanguage'] = $lang;
         $schemaJson['abstract'] = $meta_desc;

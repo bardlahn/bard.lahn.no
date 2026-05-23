@@ -1,9 +1,14 @@
 <?php
 
+// Configurable variables are hardcoded as of now
+
 $site_title = "Bård Lahn";
 $base_url = "https://bard.lahn.no";
 $assets_rel_path = '/_assets/';
 $self_profile_rel_path = '/bio/';
+
+
+// Introducing public functions to fetch various configs
 
 function getAuthors(mixed $raw): array {
 
@@ -26,9 +31,9 @@ function getAuthors(mixed $raw): array {
                 ]]
     ];
 
-    // No authors defined — return self as default
+    // No authors defined — return false
     if (empty($raw)) {
-        return ['self' => $self];
+        return false;
     }
 
     // Single string value "self"
