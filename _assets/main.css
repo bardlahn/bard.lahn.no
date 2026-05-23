@@ -7,8 +7,8 @@
 :root {
     --bg-color: #f5f5f5;
     --text-color: #333;
-    --hl-bg-color: #aaa;
-    --hl-text-color: #111;
+    --hl-bg-color: #ccc;
+    --hl-text-color: #222;
 
 }
 
@@ -24,8 +24,8 @@
 [data-theme="light"] {
   --bg-color: #f5f5f5;
   --text-color: #333;
-  --hl-bg-color: #aaa;
-  --hl-text-color: #111;
+  --hl-bg-color: #ccc;
+  --hl-text-color: #222;
 
 }
 
