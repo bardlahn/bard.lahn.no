@@ -8,10 +8,8 @@ routes:
 
 Jeg er Bård Lahn. Jeg forsker på og skriver om olje, energi og klimapolitikk. Jeg er nysgjerrig på hvordan demokrati, teknologi og økonomi påvirker hverandre, og hvordan vitenskapelig kunnskap brukes til å skape både enighet og uenighet.
 
-::image images/fosselven-l.jpg wide
-Jeg vokste opp ved siden av [dette kraftverket](https://no.wikipedia.org/wiki/Fosselven_kraftverk).
-
-(Han i bildet er ikke meg.)
+::image images/ameriflux-l.jpg wide
+En av tingene jeg forsker på: Hvordan vi lager kunnskap om klimaet - og hvordan vi prøver å styre det.
 ::
 
 Denne nettsiden samler mine [tekster](/:$lang:/txt/) og akademiske [publikasjoner](/:$lang:/pub/), pluss en mer utfyllende [presentasjon av meg](/:$lang:/bio/).
@@ -28,7 +26,7 @@ Du finner meg også andre steder på nettet:
 <div class="image-grid">
     <a class="portfolio-item" href="pub/hvem-bestemmer/">
         <img src=":$url_assets:/images/hvem-bestemmer-cover-s.jpg" alt="Bok: Hvem bestemmer over klimaet?">
-        <div class="portfolio-title"><span><strong>Ny bok 2025!</strong></span>
+        
     </div>
     </a>
 </div>

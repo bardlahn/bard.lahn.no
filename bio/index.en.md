@@ -6,6 +6,12 @@ routes:
   canonical: '/bio/'
 ---
 
+::image images/fosselven-l.jpg wide
+I grew up next to [this power station](https://no.wikipedia.org/wiki/Fosselven_kraftverk).
+
+(Not me in the picture.)
+::
+
 I am a Norwegian researcher, writer and activist, and an associate professor in Science and Technology Studies (STS) at the University of Oslo’s [TIK Centre for Technology, Innovation and Culture](https://www.sv.uio.no/tik/english/people/aca/baardll/index.html). I am also affiliated with [CICERO Centre for International Climate Research](https://cicero.oslo.no/) as a senior researcher.
 
 My research and writing focuses on questions of democracy and justice in relation to climate change and fossil fuel extraction. In particular, I am interested in the relationship between scientific expertise and political processes. My disciplinary background is in Science and Technology Studies (STS) and sociology, as well as intellectual history and international relations. My PhD project in STS dealt with how global climate knowledge shapes national and international policymaking. I have also written about the North/South dimensions of climate justice, fossil fuels in climate policy, and the history of oil and climate politics in Norway.
