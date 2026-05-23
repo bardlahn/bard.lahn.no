@@ -259,7 +259,6 @@ a {
 }
 
 .blockquote-container span {
-    font-size: 18px;
     background: var(--hl-bg-color);
     color: var(--hl-text-color);
     max-width: 500px;
@@ -267,6 +266,11 @@ a {
     padding: 6px 15px;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
+}
+
+.blockquote-container p {
+    margin-bottom: 12px;
+    font-size: 18px;
 }
 
 .portfolio-grid {
