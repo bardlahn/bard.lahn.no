@@ -27,7 +27,7 @@ Tidligere har jeg forsket på norsk og internasjonal klimapolitikk, med særlig 
 </div>
 ::
 
-- [Last ned full CV](:$url_assets:files/Lahn-CV-curr.pdf)
+- [Last ned full CV](?action=download&file=assets/files/Lahn-CV-curr.pdf)
 - [Bilder til personpresentasjoner](img/)
 
 

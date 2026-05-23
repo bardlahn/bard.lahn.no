@@ -27,7 +27,7 @@ My research and writing focuses on questions of democracy and justice in relatio
 </div>
 ::
 
-- [Download full CV](:$url_assets:files/Lahn-CV-curr.pdf)
+- [Download full CV](?action=download&file=assets/files/Lahn-CV-curr.pdf)
 - [Photos for presentations](img/)
 
 ## Teaching
