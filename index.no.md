@@ -13,6 +13,10 @@ Jeg er Bård Lahn. Jeg forsker på og skriver om olje, energi og klimapolitikk. 
 En av tingene jeg forsker på: Hvordan vi lager kunnskap om klimaet - og hvordan vi prøver å styre det.
 ::
 
+::quote
+**Ny bok:** Høsten 2025 ga jeg ut boka _Hvem bestemmer over klimaet? En kort bok om et nesten umulig spørsmål_ (Forlaget Manifest). Les mer om boka, og se kommende foredrag og presentasjoner, på [denne siden](pub/hvem-bestemmer/).
+::
+
 Denne nettsiden samler mine [tekster](/:$lang:/txt/) og akademiske [publikasjoner](/:$lang:/pub/), pluss en mer utfyllende [presentasjon av meg](/:$lang:/bio/).
 
 Du finner meg også andre steder på nettet:
@@ -22,8 +26,6 @@ Du finner meg også andre steder på nettet:
 - [Zotero](https://www.zotero.org/bardlahn)
 - [Google Scholar](https://scholar.google.com/citations?user=_HRtPdAAAAAJ)
 - [ORCID](https://orcid.org/0000-0001-9161-9455)
-
-**Ny bok:** Høsten 2025 ga jeg ut boka _Hvem bestemmer over klimaet? En kort bok om et nesten umulig spørsmål_ (Forlaget Manifest). Les mer om boka, og se kommende foredrag og presentasjoner, på [denne siden](pub/hvem-bestemmer/).
 
 ::sidebar
 <div class="image-grid">
