@@ -19,4 +19,5 @@ All content on the site is available under a Creative Commons [BY-NC-SA license]
 The pictures on the site are mostly taken by me, with the following exceptions:
 - [Portraits of me](/:$lang:/bio/img/) - see photo credit
 - Ameriflux tower - [Kyle Spradley](https://www.kspradleyphoto.com) via [Flickr.com](https://flickr.com) (CC BY-NC)
-- Fosselven hydroelectric turbines - Normann Helger / Anno Museum (CC0)
+- Camp fire sattelite image - Joshua Stevens, [NASA](https://science.nasa.gov/earth/earth-observatory/camp-fire-rages-in-california-144225/) (CC0)
+- Fosselven hydroelectric turbines - [Normann Helger](https://kulturnav.org/c70ae073-67ac-4467-806c-de7164ff50be) / Anno Domkirkeodden (CC0)

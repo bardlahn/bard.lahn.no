@@ -21,6 +21,12 @@ Paradise er tapt. Den amerikanske småbyen med rundt 26 000 innbyggere forsvant
 Teksten ble [først publisert i Klassekampen](https://dagens.klassekampen.no/2018-12-11/vi-er-ikke-i-samme-bat) 11. desember 2018.
 ::
 
+::image images/camp-fire-landsat-l.jpg wide
+Camp-brannen i California, 2018. 
+
+Foto: Joshua Stevens, NASA (CC0).
+::
+
 Endringer i klimaet er statistikk og sannsynlighet, og kan vanskelig knyttes til enkelthendelser. Likevel vet vi jo at det er karbonet fra mer enn hundre års forbrenning av kull, olje og gass som har endret atmosfæren på en slik måte at det blir kraftigere tørke og større brannfare i California. Eller fôrmangel og nødslakt etter en norsk tørkesommer, eller rekordstore forsikringsutbetalinger for oversvømmelser og vannskader i norske hjem. Dette er erkjennelsen som er i ferd med å sildre inn til oss, som små bekker fra den vedvarende flommen av nyheter om ekstremvær og naturkatastrofer: Klimaendringene er her, og vi merker alle konsekvensene av dem.
 
 Den postkoloniale historikeren Dipesh Chakrabarty har argumentert for at klimaendringene er fundamentalt annerledes enn andre kriser menneskeheten har stått overfor på den måten at den rammer oss alle – rike som fattige. «Til forskjell fra kapitalismens kriser har klimakrisen ingen livbåter for de rike og privilegerte» skrev han i essayet [«The climate of history»](https://doi.org/10.1086/596640) fra 2009. Konflikten mellom de historisk sett dominerende og dominerte – mellom Nord og Sør, mellom rik og fattig – må derfor settes til side, og vi må gjøre felles sak mot klimatrusselen.
