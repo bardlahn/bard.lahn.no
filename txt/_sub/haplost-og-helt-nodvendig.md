@@ -11,12 +11,11 @@ tags:
   - paris
   - warszawa
 ---
-![cop19_dais_enb_web](http://bard.lahn.no/wp/wp-content/uploads/2013/11/cop19_dais_enb_web.jpg?w=700)
 
-De som skal analysere resultatene av klimatoppmøtet i Warszawa de kommende to ukene, bør huske at det ikke finnes noe sånt som «globale løsninger» på klimaproblemet.<!--more-->
+**De som skal analysere resultatene av klimatoppmøtet i Warszawa de kommende to ukene, bør huske at det ikke finnes noe sånt som «globale løsninger» på klimaproblemet.**
 
 ::sidebar
-Artikkelen sto på trykk i [Morgenbladet](http://morgenbladet.no/ideer/2013/haplost_og_helt_nodvendig) 8. november 2013, og bygger på konklusjonene i boka [Klimaspillet](http://bard.lahn.no/2013/10/28/klimaspillet/ "Klimaspillet: En fortelling fra innsiden av FNs klimatoppmøter").
+Artikkelen sto på trykk i [Morgenbladet](http://morgenbladet.no/ideer/2013/haplost_og_helt_nodvendig) 8. november 2013, og bygger på konklusjonene i boka [Klimaspillet](/no/pub/klimaspillet/).
 ::
 
 Det heter seg at definisjonen på galskap er å gjøre den samme tingen om igjen og forvente andre resultater. Etter en slik definisjon må det ligge en god porsjon galskap bak den nye runden med forhandlinger om en internasjonal klimaavtale. Forrige forhandlingsrunde, som startet med toppmøtet på Bali i 2007 og etter planen skulle fullføres på København-toppmøtet i 2009, leverte heller magre resultater.

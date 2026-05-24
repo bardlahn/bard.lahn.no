@@ -18,9 +18,13 @@ type: blog
 
 Som medlem av sekretariatet for utvalget har jeg fulgt prosessen tett, og bidratt til å skrive utvalgets sluttrapport. Litt ubeskjedent vil jeg si at rapporten på mange områder staker ut en helt ny kurs for norsk klimapolitikk - hvis utvalgets anbefalinger faktisk følges opp.
 
-![](http://bard.lahn.no/wp-content/uploads/2023/12/NOU-2023-25-763x1024.png)
-
 NOU 2023: 25 Omstilling til lavutslipp kan leses på [Regjeringens nettsider.](http://regjeringen.no/no/dokumenter/nou-2023-25/id3006059/) Jeg anbefaler å lese [særtrykket av rapporten](https://www.regjeringen.no/contentassets/20944f0c5bf14bd5b5112ae8aa08e853/no/sved/01.pdf) - et PDF-format som er laget for å være lettere å lese enn den tradisjonelle NOU-malen.
+
+::sidebar
+![NOU 2023: 25](/:$url_assets:/images/nou-2023-25-s.png)
+
+Les _NOU 2023: 25 Omstilling til lavutslipp_ på [Regjeringens nettsider](http://regjeringen.no/no/dokumenter/nou-2023-25/id3006059/).
+::
 
 Her vil jeg trekke fram tre overordnede poenger som viser hvordan rapporten foreslår å endre norsk klimapolitikk:
 
