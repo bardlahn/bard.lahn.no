@@ -21,7 +21,7 @@ Mediedebatten rundt Stortingets behandling av Mongstad-saken har utviklet seg t
 
 I frustrasjon over at debatten føres på dette nivået, skrev jeg tidligere i dag på Twitter:
 
-::block
+::blockquote
 Omskriving av Mongstad-historien startet med månelandings-talen: At det handla om tekn.utvikl, ikke bygging av nytt gasskraftverk #polkvart
 ::
 
