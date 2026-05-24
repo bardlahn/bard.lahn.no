@@ -22,7 +22,7 @@ Etter gårsdagens presentasjon av en avtale mellom regjeringspartiene og KrF og 
 
 Det er fortsatt mye som er uklart om hva dette vil bety i praksis. Men når man skreller bort retorikk og usikkerhet, er det mest slående ved avtalen at norske klimamål ser ut til å beholde omtrent samme grunnleggende struktur som i dag. Det trenger ikke å være noen katastrofe. Men det er definitivt en misbrukt mulighet for å rydde opp i en grunnleggende forvirring i norsk klimapolitikk.
 
-## **Kyoto, fleksibilitet og «supplement»**
+## Kyoto, fleksibilitet og «supplement»
 
 Helt siden 1990-tallet har det politiske Norge levd to parallelle liv i klimapolitikken. På det ene nivået, i internasjonal forhandlinger, forplikter vi oss til relativt ambisiøse utslippsreduksjoner. På det andre, i Stortingets diskusjoner, setter vi løse og uforpliktende mål for hvordan klimagassutslippene fra norsk territorium faktisk skal utvikle seg. Når begge deler kalles «klimamål» er det ikke rart det skaper forvirring.
 
@@ -32,19 +32,19 @@ Men Kyoto-avtalen introduserte også de såkalte fleksible mekanismene: Kvotehan
 
 Fra miljøbevegelse og miljøpartier ble det gjort forsøk på å konkretisere hva den internasjonale forpliktelsen skulle bety for nasjonale utslipp. Men det nærmeste man kom, var en gjentakelse av Kyoto-avtalens prinsipp om at kvotehandel bare skal brukes som et «supplement» til nasjonale tiltak. Det nasjonale målet for norske utslippskutt i denne perioden var altså ikke tallfestet – og de politiske debattene viste at det er mange måter å definere «supplement» på.
 
-## **Klimaforlik og tydeligere nasjonale mål**
+## Klimaforlik og tydeligere nasjonale mål
 
 Da forhandlingene om en ny internasjonal klimaavtale etter den første Kyoto-perioden var i gang, var Norge raskt ute med å love mer ambisiøse internasjonale forpliktelser. I forkant av København-toppmøtet bestemte den rødgrønne regjeringen at Norge fram til 2020 ville forplikte seg til å redusere utslippene ned til 30 prosent under 1990-nivå. Det ble seinere åpnet for å øke denne forpliktelsen til 40 prosent under 1990-nivå.
 
 Men som i Kyoto-avtalen var dette en forpliktelse som bare gjaldt det internasjonale nivået, og som ikke automatisk sa noe om hvordan utslippene fra norsk territorium faktisk ville utvikle seg fram til 2020. Man forutsatte at forpliktelsen kunne innfris som i Kyoto – med en blanding av hjemlige tiltak og kvotekjøp fra internasjonalt nivå.
 
-Det som skjedde samtidig var imidlertid at miljøbevegelse og miljøpartier oppnådde [et aldri så lite gjennombrudd](http://bard.lahn.no/2014/08/12/symbolseier-med-langvarige-effekter/ "Symbolseier med langvarige effekter"). I den første klimameldingen fra den rødgrønne regjeringen ble det for første gang tallfestet hvordan man ønsket at klimagassutslippene skulle utvikle seg innenlands – altså på det nasjonale nivået. Disse målene ble videre styrket i klimaforliket som alle partier unntatt Frp inngikk på Stortinget.
+Det som skjedde samtidig var imidlertid at miljøbevegelse og miljøpartier oppnådde [et aldri så lite gjennombrudd](:$parent:/symbolseier-med-langvarige-effekter/ "Symbolseier med langvarige effekter"). I den første klimameldingen fra den rødgrønne regjeringen ble det for første gang tallfestet hvordan man ønsket at klimagassutslippene skulle utvikle seg innenlands – altså på det nasjonale nivået. Disse målene ble videre styrket i klimaforliket som alle partier unntatt Frp inngikk på Stortinget.
 
 Med klimameldingen og klimaforliket ble det fastsatt mål for hvor store utslippskutt man skulle oppnå i hver enkelt sektor fram til 2020. Dermed kunne man summere opp målene for de enkelte sektorene, og for første gang hadde vi et tallfestet mål på nasjonalt nivå: Utslippene fra norsk territorium skal reduseres ned til 45-47 millioner tonn innen 2020.
 
 Problemet var at det fortsatt ikke var noe samsvar mellom målene på dette nasjonale nivået, og forpliktelsen på internasjonalt nivå om 30 prosent kutt i forhold til 1990. Det ble sagt at det nasjonale målet ville gjøre at «om lag to tredeler» av den internasjonale forpliktelsen skulle gjennomføres på nasjonalt nivå. Men dette forvirret trolig mer enn det oppklarte, siden den helheten som det nasjonale målet ifølge regjeringen skulle utgjøre to tredeler av, var et anslag for hva utslippene ellers ville ha vært – en såkalt «referansebane».
 
-## **Paris åpner for kobling**
+## Paris åpner for kobling
 
 I disse dager gjør verden nok et forsøk på å forhandle fram en ny internasjonal klimaavtale. Selv om det fortsatt er lenge til Paris-toppmøtet, vet vi imidlertid at en eventuell ny avtale vil skille seg fra Kyoto-avtalen på et viktig punkt: Den overlater til hvert enkelt land å velge formen på sine internasjonale forpliktelser.
 

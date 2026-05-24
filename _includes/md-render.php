@@ -231,7 +231,7 @@ function renderMDContent(string $text) {
 //   Available variables so far:
 //      url_self        (returns $self_url)
 //      url_assets      (returns $assets_rel_path)
-//      url_parent      (returns parent of current element - NOT IMPLEMENTED)
+//      url_parent      (returns parent of current element)
 //      title           (returns $title)
 //      lang            (returns $lang)
 //      lang_other      (returns $langOther)
@@ -253,7 +253,11 @@ function replaceVars(string $input): string {
                     global $assets_rel_path;
                     $new = $assets_rel_path;
                     break;
-                // case 'url_parent':   NOT IMPLEMENTED
+                case 'url_parent':
+                    global $self_url;
+                    $new = dirname($self_url);
+                    if ($new == '.') $new = '';
+                    beak;
                 case 'title':
                     global $self_title;
                     $new = $self_title;
