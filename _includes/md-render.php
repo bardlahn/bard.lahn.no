@@ -236,6 +236,10 @@ function renderMDContent(string $text) {
 //      lang            (returns $lang)
 //      lang_other      (returns $langOther)
 //      head/ARG[/ARG2] (returns the value of ARG [ARG2] from frontmatter)
+//
+//   The URL variables include language code in path if lang or lang_other 
+//   is set as first argument (i.e. :$url_parent/lang:)
+//
 
 function replaceVars(string $input): string {
     return preg_replace_callback(
@@ -243,11 +247,22 @@ function replaceVars(string $input): string {
         function (array $matches): string {
             $args = explode('/', $matches[1]);
             $new = '';
+            $urlLang = '';
+            global $lang;
+            global $otherLang;
+
+            if (!empty($args[1])) {
+                if ($args[1]=='lang') {
+                    $urlLang = $lang . '/';
+                } elseif ($args[1]=='lang_other') {
+                    $urlLang = $otherLang;
+                }
+            }
 
             switch (trim($args[0])) {
                 case 'url_self':
                     global $self_url;
-                    $new = $self_url;
+                    $new = $urlLang.$self_url;
                     break;
                 case 'url_assets':
                     global $assets_rel_path;
@@ -256,18 +271,16 @@ function replaceVars(string $input): string {
                 case 'url_parent':
                     global $self_url;
                     $new = dirname($self_url);
-                    if ($new == '.') $new = '';
+                    $new = ($new == '.') ? $urlLang : $urlLang.$new;
                     break;
                 case 'title':
                     global $self_title;
                     $new = $self_title;
                     break;
                 case 'lang':
-                    global $lang;
                     $new = $lang;
                     break;
                 case 'lang_other':
-                    global $otherLang;
                     $new = $otherLang;
                     break;
                 case 'head':
