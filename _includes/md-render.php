@@ -257,7 +257,7 @@ function replaceVars(string $input): string {
                     global $self_url;
                     $new = dirname($self_url);
                     if ($new == '.') $new = '';
-                    beak;
+                    break;
                 case 'title':
                     global $self_title;
                     $new = $self_title;
