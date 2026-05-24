@@ -7,13 +7,14 @@ routes:
 abstract: 'Hvorfor har det vært så vanskelig å bli enige om en internasjonal klimaavtale? Det er spørsmålet Bård Lahn stiller i boka "Klimaspillet: En fortelling fra innsiden av FNs klimatoppmøter" (Flamme Forlag, 2013).'
 type: publication
 date: 2013-10-28
+author: self
 pub-data:
   pubtype: book
   publisher: Flamme Forlag
   isbn: 9788282880244
 ---
 
-Hvorfor klarer ikke verden å bli enig om en avtale som kan stoppe de farlige klimaendringene? Det er spørsmålet jeg stiller i boka _Klimaspillet: En fortelling fra innsiden av FNs klimatoppmøter_ (Flamme Forlag, 2013). Her forteller jeg historien om fire år med intens politisk dragkamp om en ny internasjonal klimaavtale, i en verden som preges både av gamle historiske skillelinjer og av nye globale maktforhold.
+Hvorfor klarer ikke verden å bli enig om en avtale som kan stoppe de farlige klimaendringene? Det er spørsmålet jeg stiller i boka _Klimaspillet: En fortelling fra innsiden av FNs klimatoppmøter_ (Flamme Forlag, 2013). Her forteller jeg **historien om fire år med intens politisk dragkamp om en ny internasjonal klimaavtale,** i en verden som preges både av gamle historiske skillelinjer og av nye globale maktforhold.
 
 Boka gir en innføring i spørsmålet om internasjonal fordeling av klimainnsatsen. Fordelingsspørsmålet dreier seg ofte om størrelsen på framtidige utslippsreduksjoner, altså hvor mye og hvor raskt de enkelte landene skal kutte i sine klimagassutslipp. Men det dreier seg også om hva slags form det internasjonale klimaregelverket skal ta, og hvordan klimatiltak i de fattigere utviklingslandene skal finansieres.
 
