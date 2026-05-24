@@ -38,7 +38,7 @@ Da forhandlingene om en ny internasjonal klimaavtale etter den første Kyoto-per
 
 Men som i Kyoto-avtalen var dette en forpliktelse som bare gjaldt det internasjonale nivået, og som ikke automatisk sa noe om hvordan utslippene fra norsk territorium faktisk ville utvikle seg fram til 2020. Man forutsatte at forpliktelsen kunne innfris som i Kyoto – med en blanding av hjemlige tiltak og kvotekjøp fra internasjonalt nivå.
 
-Det som skjedde samtidig var imidlertid at miljøbevegelse og miljøpartier oppnådde [et aldri så lite gjennombrudd](:$parent:/symbolseier-med-langvarige-effekter/ "Symbolseier med langvarige effekter"). I den første klimameldingen fra den rødgrønne regjeringen ble det for første gang tallfestet hvordan man ønsket at klimagassutslippene skulle utvikle seg innenlands – altså på det nasjonale nivået. Disse målene ble videre styrket i klimaforliket som alle partier unntatt Frp inngikk på Stortinget.
+Det som skjedde samtidig var imidlertid at miljøbevegelse og miljøpartier oppnådde [et aldri så lite gjennombrudd](:$parent:/symbolseier-med-langvarige-effekter/). I den første klimameldingen fra den rødgrønne regjeringen ble det for første gang tallfestet hvordan man ønsket at klimagassutslippene skulle utvikle seg innenlands – altså på det nasjonale nivået. Disse målene ble videre styrket i klimaforliket som alle partier unntatt Frp inngikk på Stortinget.
 
 Med klimameldingen og klimaforliket ble det fastsatt mål for hvor store utslippskutt man skulle oppnå i hver enkelt sektor fram til 2020. Dermed kunne man summere opp målene for de enkelte sektorene, og for første gang hadde vi et tallfestet mål på nasjonalt nivå: Utslippene fra norsk territorium skal reduseres ned til 45-47 millioner tonn innen 2020.
 
