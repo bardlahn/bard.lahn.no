@@ -19,7 +19,7 @@ Som medlem av sekretariatet for utvalget har jeg fulgt prosessen tett, og bidrat
 NOU 2023: 25 Omstilling til lavutslipp kan leses på [Regjeringens nettsider.](http://regjeringen.no/no/dokumenter/nou-2023-25/id3006059/) Jeg anbefaler å lese [særtrykket av rapporten](https://www.regjeringen.no/contentassets/20944f0c5bf14bd5b5112ae8aa08e853/no/sved/01.pdf) - et PDF-format som er laget for å være lettere å lese enn den tradisjonelle NOU-malen.
 
 ::sidebar
-![NOU 2023: 25](:$url_assets:images/nou-2023-25-s.png)(http://regjeringen.no/no/dokumenter/nou-2023-25/id3006059/)
+[![NOU 2023: 25](:$url_assets:images/nou-2023-25-s.png)](http://regjeringen.no/no/dokumenter/nou-2023-25/id3006059/)
 
 Les _NOU 2023: 25 Omstilling til lavutslipp_ på [Regjeringens nettsider](http://regjeringen.no/no/dokumenter/nou-2023-25/id3006059/).
 ::
