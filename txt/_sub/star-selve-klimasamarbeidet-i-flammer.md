@@ -23,7 +23,7 @@ Denne kommentaren ble først publisert i [Morgenbladet på nett](https://www.mor
 
 Da det på torsdag brøt ut en kraftig brann inne på forhandlingssenteret, var pressefotografene sikret de perfekte illustrasjonsbildene fra årets klimatoppmøte COP30 i Belém, Brasil. Etter å ha evakuert møtedeltagere fra området, fikk brannvesenet kontroll på brannen uten at noen kom til skade. De dramatiske bildene av røyk og flammer midt inne i klimadiplomatiets høyborg fremstår likevel symboltunge. Men nøyaktig hva er det de symboliserer?
 
-::image images/cop30-fire-l.jpg
+::image images/cop30-fire-l.jpg wide
 Deltakere evakueres fra brannen på COP30.
 
 Foto: [IISD/ENB](https://enb.iisd.org/belem-un-climate-change-conference-cop30-20Nov2025) (Anastasia Rodopoulou).
