@@ -173,12 +173,13 @@ a {
 
 .content h1 {
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 400;
     margin: 40px 0 30px 0;
 }
 
 .content h2 {
     font-size: 22px;
+    font-weight: 400;
     margin: 40px 0 15px 0;
 }
 
