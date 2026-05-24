@@ -20,7 +20,7 @@ I boka _"Hvem bestemmer over klimaet?"_ (utgitt 2025 på Forlaget Manifest) disk
 Boka gir en oversikt over hvordan klimapolitikken har utviklet seg de siste tiårene, både internasjonalt, i store land som USA og Kina, og hos våre nordiske naboer. Jeg diskuterer også Norges forsøk på å balansere klimaambisjoner og oljevirksomhet, og prøver å finne ut hva vi kan lære av den klimapolitikken som har vært ført til nå: Hva skal til for at vi kan ta kontroll over klimagassutslippene? Hvordan kan vi være med å bestemme over klimaet?
 
 ::sidebar
-[![Bokomslag: Hvem bestemmer over klimaet?](:$url_assets:images/hvem-bestemmer-cover-thumb.jpg)](https://forlaget.manifest.no/collections/alle-produkter/products/hvem-bestemmer-over-klimaet)
+[![Bokomslag: Hvem bestemmer over klimaet?](:$url_assets:images/hvem-bestemmer-cover-thumb.png)](https://forlaget.manifest.no/collections/alle-produkter/products/hvem-bestemmer-over-klimaet)
 ::
 
 __Les mer og bestill boka hos [Forlaget Manifest](:$head/url:).__
