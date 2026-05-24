@@ -12,10 +12,13 @@ tags:
   - 'jens stoltenberg'
   - oljefondet
 type: blog
----
-Jens Stoltenbergs maktgrep for å sette Etikkrådet ut av spill viser at Oljefondets etiske rammeverk aldri har vært så apolitisk som det har blitt fremstilt som. Det skriver Sebastian Svenberg og jeg i en kronikk i Dagens Næringsliv.
+authors:
+  - self
+  - svenberg:
+    - name: 'Sebastian Svenberg'
 
-<!--more-->
+---
+**Jens Stoltenbergs maktgrep for å sette Etikkrådet ut av spill viser at Oljefondets etiske rammeverk aldri har vært så apolitisk som det har blitt fremstilt som. Det skriver Sebastian Svenberg og jeg i en kronikk i Dagens Næringsliv.**
 
 ::sidebar
 Dette er en kronikk skrevet av Bård Lahn (Universitetet i Oslo) og Sebastian Svenberg (Göteborgs Universitet). 

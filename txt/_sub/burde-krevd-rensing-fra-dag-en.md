@@ -21,13 +21,15 @@ Mediedebatten rundt Stortingets behandling av Mongstad-saken har utviklet seg t
 
 I frustrasjon over at debatten føres på dette nivået, skrev jeg tidligere i dag på Twitter:
 
-https://twitter.com/BardLahn/status/449439085594423296
+::block
+Omskriving av Mongstad-historien startet med månelandings-talen: At det handla om tekn.utvikl, ikke bygging av nytt gasskraftverk #polkvart
+::
 
 Nå har imidlertid Kontroll- og konstitusjonskomiteens [merknader blitt offentliggjort](https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2013-2014/inns-201314-161/), og da viser det seg at min Twitter-melding fra i morges var nokså urettferdig. For hvis man går inn i merknadene, ser man at flertallet også kritiserer Mongstad-prosjektet på et helt annet plan:
 
 Høyre, Frp, KrF, Venstre og De grønne står sammen om å kritisere at Statoil i det hele tatt fikk utslippstillatelse til et gasskraftverk på Mongstad, fordi dette svekket insentivene til å få på plass fullskala rensing. Regjeringen burde heller ha fulgt SFTs anbefaling om å kreve rensing fra dag én, heter det i flertallets merknader.
 
-Såvidt jeg kan forstå, er dette intet mindre enn sensasjonelt - og en mye viktigere nyhet å løfte fram enn at dagens regjeringspartier forsøker å diskreditere den forrige regjeringens kostnadskontroll og bruk av svulstige metaforer. Gjennom disse merknadene gir nemlig Høyre og Fremskrittspartiet miljøbevegelsen rett i det som var hovedkravet i behandlingen av Mongstad-saken i 2006: At [det burde kreves «rensing fra dag én»](http://bard.lahn.no/2013/09/23/tilbake-til-mongstad/ "Tilbake til Mongstad"). Det var dette SV arbeidet for innad i den rødgrønne regjeringen, det var dette opposisjonspartiene Venstre og KrF krevde fra Stortinget, og det var dette en (nesten) samstemt miljøbevegelse insisterte på.
+Såvidt jeg kan forstå, er dette intet mindre enn sensasjonelt - og en mye viktigere nyhet å løfte fram enn at dagens regjeringspartier forsøker å diskreditere den forrige regjeringens kostnadskontroll og bruk av svulstige metaforer. Gjennom disse merknadene gir nemlig Høyre og Fremskrittspartiet miljøbevegelsen rett i det som var hovedkravet i behandlingen av Mongstad-saken i 2006: At [det burde kreves «rensing fra dag én»](/$url_parent/lang:/tilbake-til-mongstad/). Det var dette SV arbeidet for innad i den rødgrønne regjeringen, det var dette opposisjonspartiene Venstre og KrF krevde fra Stortinget, og det var dette en (nesten) samstemt miljøbevegelse insisterte på.
 
 Spørsmålet som melder seg, er selvsagt hvorfor ikke Høyre og Fremskrittspartiet sa dette høyt i 2006. Da ville det nemlig blitt klart at det hadde vært flertall i Stortinget for å kreve rensing fra dag én, og SVs forhandlingsposisjon i regjering kunne kanskje ha sett annerledes ut.
 

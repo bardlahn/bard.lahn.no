@@ -15,7 +15,7 @@ tags:
   - tall
 type: blog
 ---
-Denne ukas overraskelse: Rosablogger Sophie Elise ser ut til å forstå politikk bedre enn både skeptiker-blogger Gunnar Tjomlid og enkelte norske økonomer.<!--more-->
+**Denne ukas overraskelse: Rosablogger Sophie Elise ser ut til å forstå politikk bedre enn både skeptiker-blogger Gunnar Tjomlid og enkelte norske økonomer.**
 
 ::sidebar
 Innlegget er opprinnelig publisert på [Dagbladets blogg](http://www.dagbladet.no/2015/03/25/kultur/meninger/bloggen/miljo/38392396/), der jeg er fast bidragsyter.
