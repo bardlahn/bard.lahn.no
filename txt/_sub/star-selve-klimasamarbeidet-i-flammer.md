@@ -43,11 +43,18 @@ Dette er egentlig ingen nyhet: Allerede mens de skrev Parisavtalen, visste forha
 
 I den positive stemningen de første årene etter Paris-møtet så dette ut til å fungere. Mange land la frem sterkere klimamål. Banker, investorer og industribedrifter verden over la om strategiene sine for å kutte utslipp. Da Donald Trump i sin første periode som president trakk USA ut av Parisavtalen, ble det møtt med samstemt fordømmelse fra resten av verden. Budskapet var tydelig: Vi fortsetter som før – vi nekter å la USA spore av det internasjonale klimasamarbeidet.
 
+::break
+::
+
 ## Fjernet utslippsmål i det stille 
 
 Ti år senere er situasjonen annerledes. Da Donald Trump ble president for andre gang – og på nytt meldte USA ut av Parisavtalen – var det knapt noen protester å høre fra andre statsledere. De hadde mer enn nok med å unngå at Trump skulle innføre høye tollsatser på varene deres. Og i stedet for å love fortsatt innsats, har flere store selskaper i det stille fjernet sine mål om utslippskutt og tonet ned klimaengasjementet sitt.
 
 I [boken _Hvem bestemmer over klimaet?_](/no/pub/hvem-bestemmer/) peker jeg på flere grunner til at stemningen har forandret seg så mye på bare få år. Noen er åpenbare: Først tok koronapandemien det meste av oppmerksomheten. Deretter har handelskonflikter og brutale kriger skapt utrygghet og bekymring for fremtiden i flere deler av verden. I mange land er politiske krefter som motarbeider klimatiltak på fremmarsj.
+
+::sidebar
+![Bokomslag: Hvem bestemmer over klimaet?](:$url_assets:images/hvem-bestemmer-cover-s.png)
+::
 
 Men en annen grunn til at situasjonen har endret seg, er at klimapolitikken har modnet. Mange land har kommet videre fra å sette mål om hvor man vil, til å faktisk gjennomføre tiltak for å nå målene. En rekke europeiske land har allerede redusert sine klimagassutslipp med 30-40 prosent eller mer. Jo nærmere de kommer null utslipp, desto tydeligere blir det at klimamålene krever valg og prioriteringer som noen grupper taper på. At omstillingen får større fordelingseffekter, betyr også at den vil preges av økende debatt og konflikt.
 
