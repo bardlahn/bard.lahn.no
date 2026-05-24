@@ -202,6 +202,8 @@ a {
     background-color: var(--hl-bg-color);
     color: var(--hl-text-color);
     padding: 3px 5px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
 
 .image-container {
