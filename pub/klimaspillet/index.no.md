@@ -20,11 +20,7 @@ Boka gir en innføring i spørsmålet om internasjonal fordeling av klimainnsats
 Samtidig er boka altså en fortelling – en skildring av både hverdagsliv og dramatiske høydepunkt blant diplomatene, byråkratene, forskerne og aktivistene som sammen strever med å styre jordas atmosfære. Fra innsiden av møterommene på FNs klimatoppmøter beskriver jeg hvordan internasjonal politikk gjøres i praksis, og spør hva det egentlig innebærer å finne en «global løsning» på klimaproblemet.
 
 ::sidebar
-<div class="image-grid">
-    <a class="portfolio-item" href="https://www.flammeforlag.no/boker/klimaspillet-bard-lahn-9788282880244">
-        <img src=":$url_assets:/images/klimaspillet-cover-s.jpg" alt="Bokomslag for boka Klimaspillet">
-    </a>
-</div>
+[![Bokomslag: Klimaspillet](:$url_assets:images/klimaspillet-cover-s.png)](https://www.flammeforlag.no/boker/klimaspillet-bard-lahn-9788282880244)
 ::
 
 ::image images/klimaspillet-holding-l.jpg wide
