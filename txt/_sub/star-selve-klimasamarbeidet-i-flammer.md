@@ -53,7 +53,7 @@ Ti år senere er situasjonen annerledes. Da Donald Trump ble president for andre
 I [boken _Hvem bestemmer over klimaet?_](/no/pub/hvem-bestemmer/) peker jeg på flere grunner til at stemningen har forandret seg så mye på bare få år. Noen er åpenbare: Først tok koronapandemien det meste av oppmerksomheten. Deretter har handelskonflikter og brutale kriger skapt utrygghet og bekymring for fremtiden i flere deler av verden. I mange land er politiske krefter som motarbeider klimatiltak på fremmarsj.
 
 ::sidebar
-![Bokomslag: Hvem bestemmer over klimaet?](:$url_assets:images/hvem-bestemmer-cover-s.png)
+![Bokomslag: Hvem bestemmer over klimaet?](:$url_assets:images/hvem-bestemmer-cover-s.jpg)
 ::
 
 Men en annen grunn til at situasjonen har endret seg, er at klimapolitikken har modnet. Mange land har kommet videre fra å sette mål om hvor man vil, til å faktisk gjennomføre tiltak for å nå målene. En rekke europeiske land har allerede redusert sine klimagassutslipp med 30-40 prosent eller mer. Jo nærmere de kommer null utslipp, desto tydeligere blir det at klimamålene krever valg og prioriteringer som noen grupper taper på. At omstillingen får større fordelingseffekter, betyr også at den vil preges av økende debatt og konflikt.
