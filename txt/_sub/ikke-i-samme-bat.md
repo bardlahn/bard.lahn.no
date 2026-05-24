@@ -35,6 +35,9 @@ Chakrabarty er langt fra alene om å tenke på denne måten. Da Fijis statsminis
 
 I år er kulissene ganske sikkert annerledes, når diplomater og ministere fra hele verden neste uke møtes til klimatoppmøte i den polske byen Katowice. Men henvisningene til klimaendringene som fellesmenneskelig skjebne og utfordring kommer like sikkert til å være de samme. Og hvorfor skulle de ikke det? Har ikke nettopp det siste halvårets ekstremvær illustrert med all tydelighet at ingen kan regne med å gå fri fra de ødeleggende kreftene vi er i ferd med å slippe løs?
 
+::break
+::
+
 Tanken om at vi alle er i samme båt når det gjelder klimaendringenes konsekvenser speiles av ideen om at også årsaken til problemet ligger hos menneskeheten som sådan. Forslaget om å erklære vår tid som en ny geologisk epoke, der menneskelig påvirkning er blitt så kraftig at den dominerer over jordas naturlige prosesser, plasserer ansvaret på artsnivå: Vi befinner oss i _antropocen_, «menneskets tidsalder». Skal navnet tas på alvor er det altså ikke enkelte land og samfunnslag eller bestemte økonomiske og politiske forhold som har ledet fram til denne historisk spesifikke situasjonen, men en udifferensiert menneskehet. På tilsvarende vis plasserer en del såkalt klimapsykologisk forskning problemet i hodene våre, som en allmenn tilbøyelighet til kortsiktighet og materielt forbruk.
 
 På denne måten blir brannen i Paradise konsekvensen av et slags menneskelig syndefall, eller av en moderne Promethevs-myte: Klimaendringene var mer eller mindre uunngåelige fra det tidspunktet mennesket lærte seg å ta ilden i bruk, eller – slik enkelte har foreslått i diskusjonen om tidfesting av _antropocen_ – fra det tidspunktet James Watt tok ut patent på den kulldrevne dampmaskinen.
@@ -61,12 +64,15 @@ I USA har historikere og journalister dokumentert hvordan fossilindustrien i nye
 
 Det viktige med disse arbeidene er at de viser hvordan klimaansvaret hører hjemme hos bestemte aktører og samfunnsgrupper, samtidig som de nyanserer det forenklede bildet som dominerer på FNs klimatoppmøter der ansvar og sårbarhet nødvendigvis må fordeles mellom nasjonalstater. I en tid da Kinas utslipp per innbygger ligger på samme nivå som EUs bør det være åpenbart at ulikhetene i sårbarhet og ansvar ikke er et rent geografisk fenomen. Selv om strukturelle forskjeller mellom Nord og Sør fortsatt er viktige, er ulikhet innad i land minst like avgjørende.
 
-Dermed må vi undersøke hvordan klimaendringene også rammer ulikt i de rike landene. At skogbrannen herjer i noen av Californias mest velstående områder kan sees som det ultimate beviset på at ingen samfunnslag er trygge for konsekvensene av et endret klima. Og selvsagt er det en enorm ulykke å miste hus og nabolag uansett egen økonomiske situasjon. Men hvem har forsikret huset sitt, og hvem mangler slik forsikring? Medierapportene fra California forteller oss at mens enkelte av områdets beboere kunne velge å leie inn private brannmannskaper for å beskytte egen eiendom, er situasjonen prekær for Malibus mange løsarbeidere – de fleste av latinamerikansk opprinnelse – som står helt uten sikkerhetsnett når husene de vasket eller hagene de stelte plutselig er borte.
-
 ::break
 ::
 
+Dermed må vi undersøke hvordan klimaendringene også rammer ulikt i de rike landene. At skogbrannen herjer i noen av Californias mest velstående områder kan sees som det ultimate beviset på at ingen samfunnslag er trygge for konsekvensene av et endret klima. Og selvsagt er det en enorm ulykke å miste hus og nabolag uansett egen økonomiske situasjon. Men hvem har forsikret huset sitt, og hvem mangler slik forsikring? Medierapportene fra California forteller oss at mens enkelte av områdets beboere kunne velge å leie inn private brannmannskaper for å beskytte egen eiendom, er situasjonen prekær for Malibus mange løsarbeidere – de fleste av latinamerikansk opprinnelse – som står helt uten sikkerhetsnett når husene de vasket eller hagene de stelte plutselig er borte.
+
 Et fullstendig samfunnsmessig sammenbrudd vil selvsagt ikke la samfunnseliten forbli uberørt. Men klimaendringene er ikke et binært fenomen der vi enten går fri eller rammes av total katastrofe. Endringer i klimaet gir bokstavelig talt _grader_ av ødeleggelse. En tre grader varmere verden, som vi styrer mot med dagens klimapolitikk, vil være veldig vanskelig for veldig mange, men alt tyder likevel på at det vil være nok av livbåter for dem som har råd til det. Det vet vi fordi klimaendringene allerede nå, ved om lag én grads oppvarming, har dramatiske konsekvenser for mange mennesker. Men konsekvensene er åpenbart mye mer dramatiske for dem som mister livsgrunnlaget over natta enn for dem som kan ta inn på hotell mens hjemmet deres bygges opp igjen.
+
+::break
+::
 
 Å snakke om disse forskjellene i ansvar og sårbarhet er ikke god takt og tone. Satsrådene som skal holde innlegg under årets klimatoppmøte i Katowice har mottatt en klar instruks på forhånd: «No shaming or blaming other countries, organisations or individuals.» Nå haster det så mye å kutte utslippene at vi må sette en strek over skyldspørsmålet, og heller framheve hvordan vi alle kan tjene på å samarbeide. Det er denne tankegangen som har ført til at Chakrabarty har satt sitt postkoloniale perspektiv til side for i stedet å fokusere på menneskehetens felles ansvar. Og det er samme tankegang som kan få selv statsministeren i et druknende land til høflig å hevde at «vi er alle i samme kano».
 
