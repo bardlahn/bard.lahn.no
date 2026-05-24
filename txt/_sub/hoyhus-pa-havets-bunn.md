@@ -14,9 +14,11 @@ language: 'no'
 abstract: 'Det nye regjeringskvartalet blir småtterier i forhold til fjellet Regjeringen vil bygge i Førdefjorden.'
 type: blog
 ---
-Det nye regjeringskvartalet blir småtterier i forhold til fjellet Regjeringen vil bygge i Førdefjorden.<!--more-->
+**Det nye regjeringskvartalet blir småtterier i forhold til fjellet Regjeringen vil bygge i Førdefjorden.**
 
-_Innlegget er opprinnelig publisert på [Dagbladets blogg](http://www.dagbladet.no/2015/04/17/kultur/bloggen/meninger/miljo/forde/38734102/), der jeg er fast bidragsyter._
+::sidebar
+Innlegget er opprinnelig publisert på [Dagbladets blogg](http://www.dagbladet.no/2015/04/17/kultur/bloggen/meninger/miljo/forde/38734102/), der jeg var fast bidragsyter.
+::
 
 I dag bestemte Regjeringen at det kan bygges et 170 meter høyt fjell av gruveavfall på bunnen av Førdefjorden. Til sammenlikning: Det er nesten like høyt som hvis du tar den høyeste bygningen i [forslagene til nytt regjeringskvartal](http://www.dagbladet.no/2015/04/13/kultur/arkitektur/regjeringskvartalet/byutvikling/oslo/38665323/) som ble lagt fram denne uka, og plasserer den _oppå_ Høyblokka som allerede står der.
 
@@ -29,3 +31,4 @@ Den søpla vi ikke ser, kan vi også ha vondt av. Et 170 meter høyt søppelfjel
 Når alt kommer til alt, er det ett parti som kan avgjøre framtida til Førdefjorden. Venstre, SV, KrF og MDG vil sørge for at Stortinget griper inn og stopper søppelfjellet. [Sju av ti nordmenn er enige.](http://nu.no/sjodeponi/7-av-10-mot-gruveavfall-i-norske-fjorder-article6882-448.html) Alt de trenger er støtte fra Arbeiderpartiet. Som tilfeldigvis har landsmøte denne helga.
 
 Så hva sier du, Jonas? Er det på tide med klar tale, for en gangs skyld?
+s

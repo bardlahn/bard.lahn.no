@@ -15,9 +15,13 @@ language: 'no'
 abstract: 'Den nye rapporten fra FNs klimapanel gir verden et «forurensningsbudsjett». Men klimapanelet kan ikke hjelpe oss med det viktigste spørsmålet: Hvordan budsjettet bør fordeles.'
 type: blog
 ---
-Den nye rapporten fra FNs klimapanel gir verden et «forurensningsbudsjett». Men klimapanelet kan ikke hjelpe oss med det viktigste spørsmålet: Hvordan budsjettet bør fordeles.<!--more-->
+**Den nye rapporten fra FNs klimapanel gir verden et «forurensningsbudsjett». Men klimapanelet kan ikke hjelpe oss med det viktigste spørsmålet: Hvordan budsjettet bør fordeles.**
 
 Rapporten som FNs klimapanel presenterer i Stockholm i dag, blir av mange sett på som et viktig skritt på veien mot det store klimatoppmøtet i Paris i 2015. Der skal en ny internasjonal klimaavtale etter planen vedtas. Erfaringen fra de siste årenes FN-forhandlinger forteller imidlertid en annen historie. Klimapanelets nye rapport kan like gjerne bidra til å gjøre arbeidet for en internasjonal klimaavtale vanskeligere. Fordeling av klimainnsatsen mellom rike og fattige land er et politisk spørsmål som ikke kan løses av naturvitenskapelige rapporter.
+
+::sidebar
+Artikkelen er tidligere publisert som [kronikk i Aftenposten](http://www.aftenposten.no/meninger/kronikker/Hvem-skal-fa-slippe-ut-mest-7322654.html).
+::
 
 _Oppdatering: Rapporten som ble presentert i Stockholm er [tilgjengelig her](http://www.ipcc.ch/report/ar5/wg1/).Ifølge [The New York Times](http://www.nytimes.com/2013/10/08/science/how-to-slice-a-global-carbon-pie.html) ble diskusjonen om det temaet jeg skriver om her - verdens framtidige karbonbudsjett - gjenstand for heftig debatt før rapporten ble godkjent.Se også [The Guardians oppfølging](http://www.theguardian.com/environment/2013/sep/29/carbon-budget-talks-urgent-ipcc-lord-stern) av budsjett-spørsmålet._
 
@@ -51,4 +55,3 @@ Det betyr selvsagt ikke at vi ikke trenger rapportene fra FNs klimapanel. De er 
 
 Kjernen i dragkampen om internasjonal klimapolitikk er spørsmålet om fordeling av klimainnsatsen. Og dette er et spørsmål som bare kan besvares politisk. Skal vi ha grunnlag for å håpe på en internasjonal klimaavtale i 2015, bør Norge og andre rike land gå aktivt inn i denne diskusjonen og bidra til å finne rettferdige måter å fordele det knappe karbonbudsjettet på.
 
-_Artikkelen er tidligere publisert som [kronikk i Aftenposten](http://www.aftenposten.no/meninger/kronikker/Hvem-skal-fa-slippe-ut-mest-7322654.html)_.

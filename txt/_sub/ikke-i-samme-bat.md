@@ -13,11 +13,13 @@ language: 'no'
 abstract: 'Gjør alvoret i klimakrisen at vi kan glemme spørsmål om skyld, ansvar og rettferdighet - eller blir de tvert imot viktigere?'
 type: blog
 ---
-Gjør alvoret i klimakrisen at vi kan glemme spørsmål om skyld, ansvar og rettferdighet - eller blir de tvert imot viktigere?<!--more-->
-
-_Teksten ble [først publisert i Klassekampen](https://dagens.klassekampen.no/2018-12-11/vi-er-ikke-i-samme-bat) 11. desember 2018._
+**Gjør alvoret i klimakrisen at vi kan glemme spørsmål om skyld, ansvar og rettferdighet - eller blir de tvert imot viktigere?**
 
 Paradise er tapt. Den amerikanske småbyen med rundt 26 000 innbyggere forsvant nesten fullstendig i flammene som har herjet i California de siste ukene. De enorme skogbrannene etterlater seg nærmere hundre døde, ufattelige ødeleggelser, og et ubarmhjertig budskap: Menneskeheten er ugjenkallelig forvist fra den naturen vi har kjent, og som samfunnet vårt er vokst fram i. Nå går vi en utrygg framtid i møte, i en verden vi selv har skapt.
+
+::sidebar
+Teksten ble [først publisert i Klassekampen](https://dagens.klassekampen.no/2018-12-11/vi-er-ikke-i-samme-bat) 11. desember 2018.
+::
 
 Endringer i klimaet er statistikk og sannsynlighet, og kan vanskelig knyttes til enkelthendelser. Likevel vet vi jo at det er karbonet fra mer enn hundre års forbrenning av kull, olje og gass som har endret atmosfæren på en slik måte at det blir kraftigere tørke og større brannfare i California. Eller fôrmangel og nødslakt etter en norsk tørkesommer, eller rekordstore forsikringsutbetalinger for oversvømmelser og vannskader i norske hjem. Dette er erkjennelsen som er i ferd med å sildre inn til oss, som små bekker fra den vedvarende flommen av nyheter om ekstremvær og naturkatastrofer: Klimaendringene er her, og vi merker alle konsekvensene av dem.
 

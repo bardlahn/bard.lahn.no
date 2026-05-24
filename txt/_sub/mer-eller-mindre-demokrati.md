@@ -8,20 +8,20 @@ tags:
   - klimapolitikk
   - miljøbevegelsen
 language: 'no'
-abstract: 'Sommeren 2022 gikk det en debatt i Morgenbladet om demokrati og klimaendringer. Debatten startet med et innlegg fra professor Tore Wig ved Universitetet i Oslo, som jeg svarte på. Seinere fulgte blant andre Dag Hareie, Lena Lindgren og Jon Naustdalslid opp med innlegg.'
+abstract: 'Sommeren 2022 gikk det en debatt i Morgenbladet om demokrati og klimaendringer. I dette innlegget svarer jeg professor Tore Wig ved Universitetet i Oslo.'
 type: blog
 ---
-Sommeren 2022 gikk det en debatt i Morgenbladet om demokrati og klimaendringer. Debatten startet med et innlegg fra professor Tore Wig ved Universitetet i Oslo, som jeg svarte på. Seinere fulgte blant andre Dag Hareie, Lena Lindgren og Jon Naustdalslid opp med innlegg.
-
-<!--more-->
-
-Nedenfor gjengis mitt innlegg i debatten, som sto på trykk i [Morgenbladet 29. juli](https://www.morgenbladet.no/ideer/debatt/2022/07/29/tore-wig-unngar-a-stille-det-mest-interessante-sporsmalet/).
-
-**Mer eller mindre demokrati?**
 
 Tore Wig advarer i Morgenbladet 22. juli mot å ønske seg bort fra demokratiet i klimakampen. Han har selvsagt rett i at tendenser til antidemokratisk tenkning i klimaets navn bør utfordres, selv om han ganske riktig påpeker at slike tendenser er marginale.
 
 Samtidig gjør Wig det vel lett for seg selv ved å etablere en dikotomi mellom «representativt demokrati» på den ene siden og «autokrati» på den andre. Han unngår å stille det mest interessante spørsmålet: Kan det være at dagens styresett er utilstrekkelig fordi det er for _lite_ demokratisk? At i stedet for å ønske seg bort fra demokratiet bør vi lete etter måter å fornye og forsterke det på?
+
+::sidebar
+Sommeren 2022 gikk det en debatt i Morgenbladet om demokrati og klimaendringer. Debatten startet med et innlegg fra professor Tore Wig ved Universitetet i Oslo, som jeg svarte på. Seinere fulgte blant andre Dag Hareie, Lena Lindgren og Jon Naustdalslid opp med innlegg.
+
+Dette er mitt innlegg i debatten, som sto på trykk i [Morgenbladet 29. juli](https://www.morgenbladet.no/ideer/debatt/2022/07/29/tore-wig-unngar-a-stille-det-mest-interessante-sporsmalet/).
+::
+
 
 Med litt godvilje kan man forstå noen av de forslagene Wig kritiserer, for eksempel et uavhengig klimaråd, som variasjoner av godt etablerte praksiser i demokratiske samfunn. Dagens demokratier bruker mange ulike former for «selvbinding»: Uavhengige sentralbanker plasserer sentrale økonomiske spørsmål utenfor folkevalgt styring, og internasjonale avtaler beskytter investeringer og eiendom mot brå politiske endringer. Å ønske seg institusjoner som gir klimasystemets stabilitet tilsvarende status som den makroøkonomiske stabiliteten, trenger derfor ikke å bryte med dagens praksis i representative demokratier.
 

@@ -22,7 +22,7 @@ Mediedebatten rundt Stortingets behandling av Mongstad-saken har utviklet seg t
 I frustrasjon over at debatten føres på dette nivået, skrev jeg tidligere i dag på Twitter:
 
 ::quote
-Omskriving av Mongstad-historien startet med månelandings-talen: At det handla om tekn.utvikl, ikke bygging av nytt gasskraftverk #polkvart
+Det kontr.komiteen burde kritisere, er at man ga utslippstillatelse til et forurensende gasskraftv for å rense det senere en gang #polkvart
 ::
 
 Nå har imidlertid Kontroll- og konstitusjonskomiteens [merknader blitt offentliggjort](https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2013-2014/inns-201314-161/), og da viser det seg at min Twitter-melding fra i morges var nokså urettferdig. For hvis man går inn i merknadene, ser man at flertallet også kritiserer Mongstad-prosjektet på et helt annet plan:

@@ -17,9 +17,11 @@ type: blog
 ---
 På begge sider av Atlanterhavet har ideen om en «grønn deal» blitt en viktig del av den klimapolitiske debatten. I Europa har EU-kommisjonen lagt fram et omfattende forslag til en europeisk «Green Deal» som er ment å styrke unionens eksisterende klimapolitikk. I USA har venstresida i det demokratiske partiet gjort forslaget om en «Green New Deal» til en kampsak.
 
-<!--more-->
+De ulike versjonene av grønne «dealer» har det til felles at de skisserer et positivt program for å møte klimaendringene. Men der EU-kommisjonens «Green Deal» i hovedsak er en styrking av EUs _eksisterende_ klimapolitikk, foreslår den amerikanske «Green New Deal» en helt _ny_ retning for klimapolitikken: En venstredreining som bryter med tradisjonell klimapolitisk tilnærming.
 
-De ulike versjonene av grønne «dealer» har det til felles at de skisserer et positivt program for å møte klimaendringene. Men der EU-kommisjonens «Green Deal» i hovedsak er en styrking av EUs _eksisterende_ klimapolitikk, foreslår den amerikanske «Green New Deal» en helt _ny_ retning for klimapolitikken: En venstredreining som bryter med tradisjonell klimapolitis tilnærming.
+::sidebar
+Denne teksten ble først publisert som kronikk i [Klassekampen](https://dagens.klassekampen.no/2020-04-14/usikre-odds-for-ny-gronn-deal) 14. april 2020.
+::
 
 Når korona-pandemien og den påfølgende økonomiske krisen nå dominerer den politiske oppmerksomheten, blir forskjellen mellom de to programmene satt på spissen. I Europa har enkelte kritikere tatt til orde for at styrkingen av EUs klimapolitikk må legges på hylla – at vi ikke har råd til noen Green Deal i økonomiske nedgangstider. Spør vi noen av dem som inspirerte den amerikanske «Green New Deal», derimot, vil de hevde at det nettopp er i krisetider deres program kan settes ut i live.
 
@@ -67,4 +69,3 @@ Dersom hovedvekten ligger på den første tilnærmingen, advarer Pettifor om at 
 
 Hvor sannsynlig dét er kommer kanskje først og fremst an på det amerikanske presidentvalget.
 
-_Denne teksten ble først publisert som kronikk i [Klassekampen](https://dagens.klassekampen.no/2020-04-14/usikre-odds-for-ny-gronn-deal) 14. april 2020._

@@ -15,9 +15,7 @@ tags:
 ---
 Rapporten fra Klimautvalget 2050, som jeg bidro til å utarbeide, har skapt debatt om organiseringen av norsk klimapolitikk. I dette innlegget svarer jeg på kritikken fra samfunnsøkonom Bjart Holtsmark om utvalgets forslag når det gjelder bioenergi og CO2-opptak i skogen.
 
-<!--more-->
-
-_Les mer om [Klimautvalgets rapport her](https://bard.lahn.no/2023/10/30/klimautvalget-2050-en-ny-organisering-av-norsk-klimapolitikk/)._
+_Les mer om [Klimautvalgets rapport her](/:$url_parent/lang:/klimautvalget-2050-en-ny-organisering-av-norsk-klimapolitikk/)._
 
 ::sidebar
 Dette innlegget [sto på trykk i Klassekampen](https://klassekampen.no/artikkel/2023-12-01/debatt-hva-anbefalte-utvalget) 01.12.2023. Se også [Bjart Holtsmarks kronikk](https://klassekampen.no/artikkel/2023-11-24/klimautvalg-pa-ville-veier), som innlegget svarer på, og [Holtsmarks replikk](https://klassekampen.no/artikkel/2023-12-11/debatt-klimautvalgets-fallgruve) til innlegget.

@@ -1,7 +1,7 @@
 ---
 title: 'Godhetstyranni og andre norske verdier'
-date: '1446768000'
-abstract: '«Godhetstyranniet rir Norge som en mare», proklamerte Frp-statsråd Sylvi Listhaug i går. Hun siktet blant annet til Den norske kirkes preses Helga Byfuglien, som i sin tyranniske godhet'
+date: '2015-11-06'
+abstract: '«Godhetstyranniet rir Norge som en mare», proklamerte Frp-statsråd Sylvi Listhaug i går. Hun siktet blant annet til Den norske kirkes preses Helga Byfuglien, som i sin tyranniske godhet...'
 language: 'no'
 type: blog
 categories:
@@ -15,11 +15,11 @@ tags:
   - 'norske verdier'
   - 'sylvi listhaug'
 ---
-«Godhetstyranniet rir Norge som en mare», [proklamerte Frp-statsråd Sylvi Listhaug](http://www.nrk.no/norge/frp-listhaug_-_-godhetstyranniet-rir-norge-som-en-mare-1.12633044) i går. Hun siktet blant annet til Den norske kirkes preses Helga Byfuglien, som i sin tyranniske godhet<!--more--> kritiserte regjeringen for å kutte dramatisk i. I NRKs Dagsnytt Atten bragte Listhaug også Guds sønn inn i debatten, og mente at «Jesus ser» regjeringens behov for å gjøre tøffe prioriteringer.
+«Godhetstyranniet rir Norge som en mare», [proklamerte Frp-statsråd Sylvi Listhaug](http://www.nrk.no/norge/frp-listhaug_-_-godhetstyranniet-rir-norge-som-en-mare-1.12633044) i går. Hun siktet blant annet til Den norske kirkes preses Helga Byfuglien, som i sin tyranniske godhet kritiserte regjeringen for å kutte dramatisk i flyktningebudsjettet. I NRKs Dagsnytt Atten bragte Listhaug også Guds sønn inn i debatten, og mente at «Jesus ser» regjeringens behov for å gjøre tøffe prioriteringer.
 
 ::sidebar
 Innlegget er tidligere publisert på [Dagbladets blogg](http://www.dagbladet.no/2015/11/05/kultur/meninger/bloggen/listhaug/41808386/), der jeg var fast bidragsyter.
-::sidebar
+::
 
 Listhaugs kritikk føyer seg inn i et mønster der Frp angriper enhver representant for Kirken som våger å trekke en linje fra kristne verdier som barmhjertighet og gjestfrihet til konkrete politiske saker. Logikken ser ut til å være at slike verdier er noe man skal snakke om i abstrakte vendinger fra prekestolen, og ikke blande inn i debatten om statsbudsjettet eller andre ting som faktisk betyr noe.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Håpløst og helt nødvendig'
-date: '1384128000'
+date: '2013-11-11'
 abstract: 'De som skal analysere resultatene av klimatoppmøtet i Warszawa de kommende to ukene, bør huske at det ikke finnes noe sånt som «globale løsninger» på klimaproblemet.'
 language: 'no'
 type: blog

@@ -16,7 +16,9 @@ type: blog
 ---
 De sju vestlige stormaktene i G7-gruppa, med Tysklands Angela Merkel i spissen, hylles som klimahelter etter at de denne uka [vedtok et mål](http://www.carbonbrief.org/blog/2015/06/g7-leaders-target-zero-carbon-economy/) om å «avkarbonisere» verdensøkonomien. G7-landenes løfter er milevis unna det som trengs for å stoppe farlige klimaendringer. Men kan det likevel hende at Merkel & co faktisk overgår Erna Solbergs klimaambisjoner?<!--more-->
 
-_Innlegget er tidligere publisert på [Dagbladets blogg](http://www.dagbladet.no/2015/06/11/kultur/meninger/bloggen/miljo/klimaavtale/39603314/), der jeg er fast bidragsyter._
+::sidebar
+Innlegget er tidligere publisert på [Dagbladets blogg](http://www.dagbladet.no/2015/06/11/kultur/meninger/bloggen/miljo/klimaavtale/39603314/), der jeg var fast bidragsyter.
+::
 
 De sju landene som møttes til toppmøte i Tyskland denne uka representerer på sett og vis opphavet til klimaproblemet: Det var den massive industrialiseringen i land som Storbritannia og Tyskland, og seinere USA og Japan, som markerte startskuddet for en global økonomi basert på kull, olje og enorme klimagassutslipp. Derfor kom det som en overraskelse på mange at G7-landene på mandag vedtok et mål om å «avkarbonisere» verdensøkonomien i løpet av dette århundret.
 

@@ -16,7 +16,7 @@ tags:
   - vg
 type: blog
 ---
-VGs Hanne Skartveit mener oljebransjen mangler selvtillit i møte med miljøbevegelsen. Selv har hun litt for stor tro på egen innsikt i klimapolitikken.<!--more-->
+**VGs Hanne Skartveit mener oljebransjen mangler selvtillit i møte med miljøbevegelsen. Selv har hun litt for stor tro på egen innsikt i klimapolitikken.**
 
 ::sidebar
 Innlegget er tidligere publisert på [Dagbladets blogg](http://www.dagbladet.no/2016/03/14/kultur/meninger/bloggen/miljo/olje/43495282/), der jeg er fast bidragsyter.
@@ -40,7 +40,7 @@ Når Skartveit trekker fram internasjonal kvotehandel som den mest rasjonelle fo
 
 Men resultatet av drømmen om et internasjonalt kvotesystem så vi på København-toppmøtet i 2009. Der gjorde fattigere land det klart at dersom man først skal gi retten til å slippe ut klimagasser en pengeverdi, og deretter fordele disse rettighetene mellom alle verdens land, så må man samtidig sørge for at de verdifulle utslippsrettighetene fordeles på en rettferdig måte.
 
-En rettferdig fordeling av utslippsrettighetene mellom verdens befolkning ville ha krevd enormt mye større utslippsreduksjoner i rike land som Norge enn Hanne Skartveit og norsk oljebransje ville vært komfortabel med. Møtet mellom tanken om et internasjonalt kvotesystem og kravet om rettferdig fordeling av klimainnsatsen [gjorde det umulig å bli enige](http://bard.lahn.no/2015/12/03/fra-kobenhavn-til-paris/) om en klimaavtale i København.
+En rettferdig fordeling av utslippsrettighetene mellom verdens befolkning ville ha krevd enormt mye større utslippsreduksjoner i rike land som Norge enn Hanne Skartveit og norsk oljebransje ville vært komfortabel med. Møtet mellom tanken om et internasjonalt kvotesystem og kravet om rettferdig fordeling av klimainnsatsen [gjorde det umulig å bli enige](/no/pub/fra-kobenhavn-til-paris/) om en klimaavtale i København.
 
 På Paris-toppmøtet i fjor fant man en annen løsning. Der bestemte man at klimainnsatsen fra nå av skal avgjøres på nasjonalt nivå i hvert enkelt land. Det er selvsagt mulig å samarbeide om tiltak, for eksempel slik EU gjør med sitt interne kvotesystem. Men grunntanken er at [de enkelte landene](http://bard.lahn.no/2015/12/15/na-er-det-opp-til-oss/) stadig skal gjennomføre en tøffere klimapolitikk, og at man på den måten skal inspirere og presse hverandre til å skru opp ambisjonsnivået når man møtes og gjør opp status hvert femte år.
 

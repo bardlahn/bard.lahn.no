@@ -13,17 +13,19 @@ language: 'no'
 abstract: 'Erna Solberg markerer avstand til Arbeiderpartiets blinde tro på klimakvoter. Men hennes egen regjering risikerer å bidra til enda mer usikker kvotehandel i en ny internasjonal klimaavtale.'
 type: blog
 ---
-Erna Solberg markerer avstand til Arbeiderpartiets blinde tro på klimakvoter. Men hennes egen regjering risikerer å bidra til enda mer usikker kvotehandel i en ny internasjonal klimaavtale.<!--more-->
+**Erna Solberg markerer avstand til Arbeiderpartiets blinde tro på klimakvoter. Men hennes egen regjering risikerer å bidra til enda mer usikker kvotehandel i en ny internasjonal klimaavtale.**
 
-_Innlegget er først publisert hos [Minerva](http://www.minervanett.no/hva-mener-erna-om-klimakvoter/)._
+::sidebar
+Innlegget ble først publisert hos [Minerva](http://www.minervanett.no/hva-mener-erna-om-klimakvoter/).
+::
 
 Erna Solberg brukte mye av sin [første landsmøtetale som statsminister](https://www.hoyre.no/admin/filestore/Filer/Landsmter_konferanser_og_arrangementer/Hyres_landsmte_2014/Landsmc3b8tetale20endelig20versjon-1.pdf) på klima. Mange av tiltakene hun lovte var allerede varslet, men på enkelte områder kom Solberg likevel med interessante signaler. Spesielt verdt å merke seg er oppgjøret hun tok med Arbeiderpartiets tiltro til kvotemarkeder, og særlig til det hun i talen kalte «FN-kvoter».
 
-En kritisk gjennomgang av kvoter som virkemiddel i klimapolitikken er helt på sin plass. Dette er nettopp den typen debatter som bør kunne få sterkere fotfeste nå som [«Stoltenberg-modellens»](http://bard.lahn.no/2014/01/01/gamle-modeller-og-nye-tanker/) æra i norsk klimapolitikk er over.
+En kritisk gjennomgang av kvoter som virkemiddel i klimapolitikken er helt på sin plass. Dette er nettopp den typen debatter som bør kunne få sterkere fotfeste nå som [«Stoltenberg-modellens»](/:$url_parent/lang:/gamle-modeller-og-nye-tanker/) æra i norsk klimapolitikk er over.
 
 Likevel er det grunn til å spørre: Hva mener egentlig Erna Solberg om kvoter? For samtidig som hun – helt korrekt – erkjenner problemene med FN-kvotene, foreslo Solbergs regjering for bare noen uker siden at en ny internasjonal klimaavtale bør åpne for kvotehandel av enda mer tvilsom karakter.
 
-### **Problemet med FN-kvoter**
+## Problemet med FN-kvoter
 
 Kvotehandel er komplisert stoff, og politiske debatter om temaet preges derfor ofte av overforenklinger og «for eller imot»-diskusjoner. Men Erna Solberg er langt ifra alene i å stille spørsmål ved effekten av det hun kalte «FN-kvoter».
 
@@ -37,7 +39,7 @@ Det var dette Solberg var inne på i talen sin, når hun viste til at disse kvot
 
 I tillegg har CDM-ordningen vist seg nokså tungrodd i drift. For å forsøke å sikre at kvotene har reell effekt, har det vært nødvendig å utvikle tusenvis av sider med detaljert regelverk. Resultatet er at de fattigste landene i svært liten grad har klart å dra nytte av ordningen.
 
-### **Økt risiko i ny klimaavtale?**
+## Økt risiko i ny klimaavtale?
 
 Når det nå forhandles om en ny internasjonal klimaavtale for perioden etter 2020, er det altså svært sannsynlig at det blir endringer i FNs regler for kvotehandel. Det interessante spørsmålet å stille Erna Solberg er derfor ikke om regjeringen skal arbeide for å endre kvotesystemet. Spørsmålet er hvilke konkrete endringer hun ønsker. Så langt kan det nemlig se ut til at regjeringen Solberg arbeider for et kvotemarked som kan bli enda mer risikabelt enn dagens.
 
@@ -51,7 +53,7 @@ Denne tanken ser også regjeringen ut til å støtte. I et [forslag sendt inn](h
 
 Konsekvensen av en slik tilnærming kan imidlertid bli at usikkerheten og problemene i dagens kvotemarked mangedobles. I stedet for én enkelt problematisk ordning (CDM) kan vi få et titalls forskjellige, med ulike sterke og svake sider. Hvis disse kvotene kan handles om hverandre i et internasjonalt marked, vil det bli stadig vanskeligere å vite hvor pengene man betaler for en kvote egentlig havner, og hvor reell effekten har vært.
 
-### **Større omfang, større konsekvenser**
+## Større omfang, større konsekvenser
 
 I tillegg å koble sammen hjemmelagde kvoter på denne måten, har Norge tidligere også tatt til orde for at en ny klimaavtale bør tillate såkalte sektor-kreditter («sectoral crediting»). Denne ideen bygger på CDM-systemet, men med større omfang. CDM-kvoter blir godkjent hvis utslippene blir mindre enn de ellers ville ha vært som følge av ett enkelt prosjekt (for eksempel bygging av et spesifikt vindkraftverk). Med sektor-kreditter vil man derimot se om utslippene blir mindre enn de ellers ville ha vært i hele sektoren (for eksempel kraftsektoren) innenfor et land eller en provins.
 
@@ -61,7 +63,7 @@ Men selv om det kan løse noen problemer å vurdere utslippene for en hel sektor
 
 Med sektor-kvoter er vi heller ikke nødvendigvis noe nærmere et «lukket system», der mengden kvoter er gitt på forhånd. Kritikken Erna Solberg rettet mot CDM-kvotene i sin landsmøtetale, vil derfor også gjelde denne nye formen for kvotehandel som Norge tidligere har gått inn for (riktignok ikke eksplisitt gjentatt etter regjeringsskiftet, så vidt jeg kan se).
 
-### **En troverdig kvotekritikk**
+## En troverdig kvotekritikk
 
 Erna Solberg sier at regjeringen vil endre internasjonale kvotesystemer «for at de skal bli troverdige verktøy», og at kravet må være «reelle utslippskutt». Det er bra. Men da må hun også vise at regjeringen tar konsekvensene av kvotehandelens svakheter. Foreløpig er det så mange uklarheter i hvordan internasjonal kvotehandel vil foregå etter 2020, at norske myndigheter bør være ytterst forsiktige med å støtte noe som kan vise seg å bli et enda svakere system enn dagens CDM-system.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Foredrag: Internasjonal klimapolitikk forklart'
-date: '1550448000'
+date: 2019-02-18
 abstract: 'Den 9. februar ga jeg et overblikk over internasjonal klimapolitikk på Litteraturhuset i Oslo, som en del av deres foredragsserie om klimaproblemet. Foredraget er nå gjort tilgjengelig som podkast.'
 language: 'no'
 categories:
@@ -14,10 +14,10 @@ tags:
   - podcast
 type: blog
 ---
-Den 9. februar ga jeg et overblikk over internasjonal klimapolitikk på Litteraturhuset i Oslo, som en del av deres foredragsserie om klimaproblemet. Foredraget er nå gjort tilgjengelig som podkast.<!--more-->
+Den 9. februar ga jeg et overblikk over internasjonal klimapolitikk på Litteraturhuset i Oslo, som en del av deres foredragsserie om klimaproblemet. Foredraget er nå gjort tilgjengelig som podkast.
 
-I foredraget tar jeg utgangspunkt i en artikkel jeg [tidligere har publisert](http://bard.lahn.no/2015/12/03/fra-kobenhavn-til-paris/) i tidsskriftet _Internasjonal Politikk_, der jeg analyserer den historiske utviklingen i internasjonal klimapolitikk som et møte mellom to ulike måter å forstå klimaproblemet på: En naturvitenskapelig vektlegging av det som er _felles_, og en politisk analyse som vektlegger det som er _ulikt_, i ansvaret for å håndtere problemet.
+I foredraget tar jeg utgangspunkt i en artikkel jeg [tidligere har publisert](https://www.scup.com/doi/full/10.18261/ISSN1891-1757-2015-04-06) i tidsskriftet _Internasjonal Politikk_, der jeg analyserer den historiske utviklingen i internasjonal klimapolitikk som et møte mellom to ulike måter å forstå klimaproblemet på: En naturvitenskapelig vektlegging av det som er _felles_, og en politisk analyse som vektlegger det som er _ulikt_, i ansvaret for å håndtere problemet.
 
 Hele foredraget er tilgjengelig i Litteraturhusets podkast.
 
-<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/575742627&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" frameborder="no" scrolling="no"></iframe>
+<iframe src="https://embed.acast.com/$/608feedd06d0cf2cd9728fa7/608feee606d0cf2cd9728fe8?" frameBorder="0" width="100%" height="110px" allow="autoplay"></iframe>

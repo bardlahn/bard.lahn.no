@@ -18,7 +18,7 @@ type: blog
 **Denne ukas overraskelse: Rosablogger Sophie Elise ser ut til å forstå politikk bedre enn både skeptiker-blogger Gunnar Tjomlid og enkelte norske økonomer.**
 
 ::sidebar
-Innlegget er opprinnelig publisert på [Dagbladets blogg](http://www.dagbladet.no/2015/03/25/kultur/meninger/bloggen/miljo/38392396/), der jeg er fast bidragsyter.
+Innlegget er opprinnelig publisert på [Dagbladets blogg](http://www.dagbladet.no/2015/03/25/kultur/meninger/bloggen/miljo/38392396/), der jeg var fast bidragsyter.
 ::
 
 "Miljøbevegelsen vinner – klimaet taper", skriver økonom Erling M. Kravik i [dagens Aftenposten.](http://www.aftenposten.no/meninger/kronikker/Kronikk-Miljobevegelsen-vinner--klimaet-taper-7956197.html) Her gjentar han argumentene mange økonomer i årevis har brukt mot de fleste tiltak som kan redusere norske klimagassutslipp. Samtidig har "Saksynt"-blogger Gunnar Tjomlid [gått hardt ut](http://tjomlid.com/2015/03/22/om-palmeolje-og-paskeegg/) mot rosablogger Sophie Elise, som har [oppfordret til å droppe](http://sophieelise.blogg.no/1426247290_13032015.html) Freias påskeegg siden de inneholder miljøskadelig palmeolje. Det er bedre å støtte opp om Freias planer for forbedringer enn å protestere og boikotte, mener han.

@@ -11,9 +11,11 @@ language: 'no'
 abstract: 'Paris-avtalen gjør slutt på ventingen: Det kommer ingen «global løsning» på klimaproblemet. Nå er ansvaret tydelig plassert i nasjonal politikk, og det er opp til oss å sørge for at vi leverer den nødvendige innsatsen.'
 type: blog
 ---
-**Paris-avtalen gjør slutt på ventingen: Det kommer ingen «global løsning» på klimaproblemet. Nå er ansvaret tydelig plassert i nasjonal politikk, og det er opp til oss å sørge for at vi leverer den nødvendige innsatsen.**<!--more-->
+**Paris-avtalen gjør slutt på ventingen: Det kommer ingen «global løsning» på klimaproblemet. Nå er ansvaret tydelig plassert i nasjonal politikk, og det er opp til oss å sørge for at vi leverer den nødvendige innsatsen.**
 
-_Innlegget er tidligere publisert på [Dagbladets blogg](http://www.dagbladet.no/2015/12/14/kultur/meninger/bloggen/klima/parisavtalen/42383690/), der jeg er fast bidragsyter._
+::sidebar
+Innlegget er tidligere publisert på [Dagbladets blogg](http://www.dagbladet.no/2015/12/14/kultur/meninger/bloggen/klima/parisavtalen/42383690/), der jeg var fast bidragsyter.
+::
 
 I forkant av Paris-toppmøtet arbeidet både politiske ledere og FN-topper hardt for å senke forventningene til hva møtet skulle levere. Det virket. Avtalen som ble vedtatt på overtid lørdag kveld, er i hovedsak i tråd med de lave forventningene. Men siden de fleste forventet så lite, var det likevel mulig å bli positivt overrasket over ambisjonene og detaljnivået i deler av avtaleteksten.
 

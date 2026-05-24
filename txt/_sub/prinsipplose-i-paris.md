@@ -18,7 +18,7 @@ type: blog
 Etter åpningen av klimatoppmøtet i Paris tidligere denne uka, fikk USAs president Barack Obama [kritikk](http://www.dagsavisen.no/verden/presser-p%C3%A5-for-klimaavtale-1.478713) for ikke å nevne ordet «rettferdighet» i en ellers godt mottatt tale. Men Obama er ikke alene<!--more--> om å ønske minst mulig snakk om rettferdig fordeling av klimainnsatsen. Han støttes av Norge og andre rike land, som arbeider for å unngå at en ny klimaavtale henviser til prinsipper for rettferdig fordeling mellom rike og fattige i framtidens klimaarbeid.
 
 ::sidebar
-Innlegget er tidligere publisert på [Dagbladets blogg](http://www.dagbladet.no/2015/12/04/kultur/meninger/bloggen/klimatoppmotet_i_paris/42230938/), der jeg er fast bidragsyter. Den er løst basert på en artikkel publisert i tidsskriftet [Internasjonal Politikk](https://www.scup.com/doi/full/10.18261/ISSN1891-1757-2015-04-06).
+Innlegget er tidligere publisert på [Dagbladets blogg](http://www.dagbladet.no/2015/12/04/kultur/meninger/bloggen/klimatoppmotet_i_paris/42230938/), der jeg var fast bidragsyter. Den er løst basert på en artikkel publisert i tidsskriftet [Internasjonal Politikk](https://www.scup.com/doi/full/10.18261/ISSN1891-1757-2015-04-06).
 ::
 
 Helt siden klimaforhandlingene begynte tidlig på 1990-tallet har de rike landene lagt vekt på at alle land har et felles ansvar for klimaproblemet. Det ser vi også på årets toppmøte i Paris, der EU, USA og deres allierte har gjort det til en hovedsak at alle land må være med på den nye avtalen. Klima- og miljøminister Tine Sundtoft [trekker gjerne fram](http://www.dagsavisen.no/oslo/spenning-i-innspurten-1.419332) antall land som har sendt inn klimamål i forkant av Paris-møtet, og etterlyser mål fra de få landene som foreløpig ikke har levert.
