@@ -34,9 +34,5 @@ Les mer om boka, og se kommende foredrag og presentasjoner, på [denne siden](pu
 ::
 
 ::sidebar
-<div class="image-grid">
-    <a class="portfolio-item" href="pub/hvem-bestemmer/">
-        <img src=":$url_assets:/images/hvem-bestemmer-cover-s.jpg" alt="Bok: Hvem bestemmer over klimaet?">
-    </a>
-</div>
+[![Bokomslag: Hvem bestemmer over klimaet?](:$url_assets:images/hvem-bestemmer-cover-s.png)](pub/hvem-bestemmer/)
 ::
