@@ -19,7 +19,9 @@ type: blog
 
 <!--more-->
 
-_Denne kommentaren ble først publisert i [Morgenbladet på nett](https://www.morgenbladet.no/ideer/star-selve-klimasamarbeidet-i-flammer/10072652) den 25. november 2025._
+::sidebar
+**Denne kommentaren ble først publisert i [Morgenbladet på nett](https://www.morgenbladet.no/ideer/star-selve-klimasamarbeidet-i-flammer/10072652) den 25. november 2025.**
+::
 
 Da det på torsdag brøt ut en kraftig brann inne på forhandlingssenteret, var pressefotografene sikret de perfekte illustrasjonsbildene fra årets klimatoppmøte COP30 i Belém, Brasil. Etter å ha evakuert møtedeltagere fra området, fikk brannvesenet kontroll på brannen uten at noen kom til skade. De dramatiske bildene av røyk og flammer midt inne i klimadiplomatiets høyborg fremstår likevel symboltunge. Men nøyaktig hva er det de symboliserer?
 

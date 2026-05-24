@@ -28,7 +28,7 @@ Du finner meg også andre steder på nettet:
 
 ::quote
 ## Ny bok
-Høsten 2025 ga jeg ut boka **Hvem bestemmer over klimaet? En kort bok om et nesten umulig spørsmål** (Forlaget Manifest).<br/>
+Høsten 2025 ga jeg ut boka _Hvem bestemmer over klimaet? En kort bok om et nesten umulig spørsmål_ (Forlaget Manifest).<br/>
 
 Les mer om boka, og se kommende foredrag og presentasjoner, på [denne siden](pub/hvem-bestemmer/).
 ::
