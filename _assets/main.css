@@ -197,8 +197,8 @@ a {
     padding-left: 1.5em;
 }
 
-.content em {
-    font-style: normal;
+.content strong {
+    font-weight: normal;
     background-color: var(--hl-bg-color);
     color: var(--hl-text-color);
     padding: 3px 5px;
