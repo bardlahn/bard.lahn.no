@@ -45,6 +45,9 @@ Det er ingen nyhet, selvsagt, at enkelte land er mer utsatt enn andre når klima
 
 Men forskjellene i hvordan klimaendringene rammer og hvem som bør holdes ansvarlig for dem stikker langt dypere enn den geografiske skjevfordelingen av klimagassutslipp. De siste årene har flere bøker dokumentert de systematiske forskjellene mellom ulike samfunnsgrupper og aktører når det gjelder både klimakonsekvenser og utslipp. Dermed blir bildet av klimaendringene som «hele menneskehetens krise» vanskelig å forsvare.
 
+::break
+::
+
 I boka [«Fossil Capital» (2016)](https://www.versobooks.com/books/2002-fossil-capital) viser den svenske historikeren Andreas Malm hvordan framveksten av kulldrevet industri i industrialiseringens England slett ikke var en uunngåelig konsekvens av Watts dampmaskin, eller av allmennmenneskelige tilbøyeligheter. Tvert imot var det industrieiernes interesser som drev fram bruken av fossil energi – til tross for at den i første omgang var både dyrere og dårligere enn den fornybare vannkraften – fordi det ga større kontroll med fabrikkarbeiderne og kunne undergrave deres krav om bedre vilkår. Den fossile energiens gjennombrudd var med andre ord et resultat av interessekamp mellom industrieiere og arbeidere, ikke av Watts patent. Malm bruker denne innsikten til å latterliggjøre ideen om _antropocen_ som menneskehetens felles verk. Samfunnsforskere fra flere hold har foreslått alternative navn som _capitalocen_ eller _eurocen_ for bedre å illustrere hvordan endringene i klima og andre naturlige prosesser er knyttet til en spesifikk økonomisk og politisk orden, og til spesifikke historiske prosjekter av kolonisering og utbytting.
 
 ::sidebar
