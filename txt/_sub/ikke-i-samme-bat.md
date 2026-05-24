@@ -21,13 +21,13 @@ Paradise er tapt. Den amerikanske småbyen med rundt 26 000 innbyggere forsvant
 Teksten ble [først publisert i Klassekampen](https://dagens.klassekampen.no/2018-12-11/vi-er-ikke-i-samme-bat) 11. desember 2018.
 ::
 
+Endringer i klimaet er statistikk og sannsynlighet, og kan vanskelig knyttes til enkelthendelser. Likevel vet vi jo at det er karbonet fra mer enn hundre års forbrenning av kull, olje og gass som har endret atmosfæren på en slik måte at det blir kraftigere tørke og større brannfare i California. Eller fôrmangel og nødslakt etter en norsk tørkesommer, eller rekordstore forsikringsutbetalinger for oversvømmelser og vannskader i norske hjem. Dette er erkjennelsen som er i ferd med å sildre inn til oss, som små bekker fra den vedvarende flommen av nyheter om ekstremvær og naturkatastrofer: Klimaendringene er her, og vi merker alle konsekvensene av dem.
+
 ::image images/camp-fire-landsat-l.jpg wide
 Camp-brannen i California, 2018. 
 
 Foto: Joshua Stevens, NASA (CC0).
 ::
-
-Endringer i klimaet er statistikk og sannsynlighet, og kan vanskelig knyttes til enkelthendelser. Likevel vet vi jo at det er karbonet fra mer enn hundre års forbrenning av kull, olje og gass som har endret atmosfæren på en slik måte at det blir kraftigere tørke og større brannfare i California. Eller fôrmangel og nødslakt etter en norsk tørkesommer, eller rekordstore forsikringsutbetalinger for oversvømmelser og vannskader i norske hjem. Dette er erkjennelsen som er i ferd med å sildre inn til oss, som små bekker fra den vedvarende flommen av nyheter om ekstremvær og naturkatastrofer: Klimaendringene er her, og vi merker alle konsekvensene av dem.
 
 Den postkoloniale historikeren Dipesh Chakrabarty har argumentert for at klimaendringene er fundamentalt annerledes enn andre kriser menneskeheten har stått overfor på den måten at den rammer oss alle – rike som fattige. «Til forskjell fra kapitalismens kriser har klimakrisen ingen livbåter for de rike og privilegerte» skrev han i essayet [«The climate of history»](https://doi.org/10.1086/596640) fra 2009. Konflikten mellom de historisk sett dominerende og dominerte – mellom Nord og Sør, mellom rik og fattig – må derfor settes til side, og vi må gjøre felles sak mot klimatrusselen.
 
@@ -46,6 +46,10 @@ Det er ingen nyhet, selvsagt, at enkelte land er mer utsatt enn andre når klima
 Men forskjellene i hvordan klimaendringene rammer og hvem som bør holdes ansvarlig for dem stikker langt dypere enn den geografiske skjevfordelingen av klimagassutslipp. De siste årene har flere bøker dokumentert de systematiske forskjellene mellom ulike samfunnsgrupper og aktører når det gjelder både klimakonsekvenser og utslipp. Dermed blir bildet av klimaendringene som «hele menneskehetens krise» vanskelig å forsvare.
 
 I boka [«Fossil Capital» (2016)](https://www.versobooks.com/books/2002-fossil-capital) viser den svenske historikeren Andreas Malm hvordan framveksten av kulldrevet industri i industrialiseringens England slett ikke var en uunngåelig konsekvens av Watts dampmaskin, eller av allmennmenneskelige tilbøyeligheter. Tvert imot var det industrieiernes interesser som drev fram bruken av fossil energi – til tross for at den i første omgang var både dyrere og dårligere enn den fornybare vannkraften – fordi det ga større kontroll med fabrikkarbeiderne og kunne undergrave deres krav om bedre vilkår. Den fossile energiens gjennombrudd var med andre ord et resultat av interessekamp mellom industrieiere og arbeidere, ikke av Watts patent. Malm bruker denne innsikten til å latterliggjøre ideen om _antropocen_ som menneskehetens felles verk. Samfunnsforskere fra flere hold har foreslått alternative navn som _capitalocen_ eller _eurocen_ for bedre å illustrere hvordan endringene i klima og andre naturlige prosesser er knyttet til en spesifikk økonomisk og politisk orden, og til spesifikke historiske prosjekter av kolonisering og utbytting.
+
+::sidebar
+![Bokomslag: Fossil Capital av Andreas Malm](:$url_assets:images/fossil-capital-cover-s.png)
+::
 
 I USA har historikere og journalister dokumentert hvordan fossilindustrien i nyere tid har vært avgjørende for å hindre politiske tiltak som kunne ha bremset klimaproblemet for flere tiår siden. Historiene de forteller er stikk i strid med psykologiske forklaringer som gir mennesket nærmest en innebygget tilbøyelighet til å fornekte langsiktige og diffuse problemer som klimaendringer. Det slike forklaringer glemmer, er at det var bred politisk konsensus for en aktiv klimapolitikk i USA på 1980-tallet. Store oljeselskap deltok aktivt i klimaforskningen og diskuterte hvordan de kunne bidra med løsninger. Det var først da Exxon og andre pengesterke industriaktører endret strategi og la store ressurser inn i desinformasjon og lobbyvirksomhet at klimafornektelse og politisk polarisering ble avgjørende hindringer i klimaarbeidet både i USA og internasjonalt.
 
