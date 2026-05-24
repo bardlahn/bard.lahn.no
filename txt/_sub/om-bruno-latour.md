@@ -13,9 +13,7 @@ tags:
   - sts
 type: blog
 ---
-I anledning utgivelsen av Bruno Latours nye bok _Où suis-je?_ har tidsskriftet Vagant bedt flere bidragsytere om å reflektere over hva Latours arbeid har betydd for dem. Mitt bidrag tar for seg betydningen Latour har hatt både for STS som akademisk felt og for klimapolitisk teori og praksis.
-
-<!--more-->
+**I anledning utgivelsen av Bruno Latours nye bok _Où suis-je?_ har tidsskriftet Vagant bedt flere bidragsytere om å reflektere over hva Latours arbeid har betydd for dem. Mitt bidrag tar for seg betydningen Latour har hatt både for STS som akademisk felt og for klimapolitisk teori og praksis.**
 
 ::sidebar
 Teksten ble først publisert av Vagant den 21. januar 2021, som et bidrag til enquêten ["Bruno Latour: Kompleksitetens apostel"](http://www.vagant.no/bruno-latour-kompleksitetens-apostel/).
@@ -31,6 +29,6 @@ Nettopp denne spenningen mellom vitenskapelig autoritet og demokratisk impuls ha
 
 Latour og de andre bidragsyterne til det som ble hetende aktør-nettverk-teori bygde videre på kritikken av en bestemt vitenskapelig og teknologisk tilnærming som kortslutter politiske prosesser. Samtidig åpnet tilnærmingen deres opp for å ta vitenskapens objekter på alvor. I stedet for å kritisere vitenskapen utenfra, som «ideologiproduksjon» eller uttrykk for bestemte klasseinteresser, gjorde de objektene og fenomenene som vitenskapen studerte til en del av analysen. På den måten viste de at hvis man skal forstå vitenskapelig kunnskapsproduksjon som samfunnsfenomen, må man også ta høyde for ikke-menneskelige aktører, om det så er klimasystemet, gjærsoppen eller kamskjellene.
 
-Denne tilnærmingen åpner for å fastholde selve vitenskapens objekt – for eksempel klimasystemet, og CO2\-molekylenes virkning i atmosfæren – som et sentralt premiss for samfunnsanalyse, _samtidig_ som man synliggjør hvordan det vitenskapelige perspektivet produserer bestemte handlingsmønstre og blindflekker – som når det globale atmosfæriske perspektivet underslår sentrale sosiale forskjeller mellom ulike typer CO2\-utslipp, og de svært ulike økonomiske og politiske forholdene de blir til under.
+Denne tilnærmingen åpner for å fastholde selve vitenskapens objekt – for eksempel klimasystemet, og CO2-molekylenes virkning i atmosfæren – som et sentralt premiss for samfunnsanalyse, _samtidig_ som man synliggjør hvordan det vitenskapelige perspektivet produserer bestemte handlingsmønstre og blindflekker – som når det globale atmosfæriske perspektivet underslår sentrale sosiale forskjeller mellom ulike typer CO2\-utslipp, og de svært ulike økonomiske og politiske forholdene de blir til under.
 
 I løpet av det siste tiåret har Latour stadig mer eksplisitt tematisert det «nye klimatiske regimet» verden står overfor. Han har knyttet an til politisk teori, og forsøker å tegne nye politiske kart for en ny klimavirkelighet. Dermed skriver han seg mer direkte inn i akutte klimapolitiske debatter. For meg er det likevel den grunnleggende nyorienteringen i synet på vitenskapen som framstår som Latours mest produktive bidrag til politisk teori og praksis på klimafeltet. Hvis vi ikke klarer å gjøre full bruk av vitenskapelig kunnskap – og _samtidig_ innordne denne kunnskapen i et større mangfold av måter å forstå og virke i verden på – blir det vanskelig å drive progressiv politikk i antropocen.

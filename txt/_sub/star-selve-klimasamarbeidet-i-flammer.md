@@ -27,7 +27,7 @@ Da det på torsdag brøt ut en kraftig brann inne på forhandlingssenteret, var 
 
 Årets klimatoppmøte markerte at det er ti år siden verdens land signerte Parisavtalen. I Belém ble dette feiret på beste FN-maner: Med et eget vedtak der landene gratulerer hverandre med jubileet. Samtidig viste møtet tydelig at optimismen som preget klimapolitikken i årene etter at Parisavtalen ble vedtatt, er blitt avløst av en mer pessimistisk holdning. Resultatet av forhandlingene var skuffende i manges øyne, og elefanten i det brennende rommet var USAs fravær fra møtet etter at president Trump – igjen – har trukket landet fra Parisavtalen. Er det selve det internasjonale klimasamarbeidet som står i flammer?
 
-### Sprikende kompromiss 
+## Sprikende kompromiss 
 
 Da Parisavtalen ble signert, var den et kompromiss mellom to grunnleggende motstridende ideer. På den ene siden satte avtalen mer ambisiøse mål enn noen gang: Den globale temperaturstigningen skal holdes godt under to grader, og aller helst under 1,5 grad. Det vil kreve en stadig mer utrolig innsats: I praksis må alle land nærmest slutte å slippe ut klimagasser i løpet av tre-fire tiår.
 
@@ -39,17 +39,17 @@ Dette er egentlig ingen nyhet: Allerede mens de skrev Parisavtalen, visste forha
 
 I den positive stemningen de første årene etter Paris-møtet så dette ut til å fungere. Mange land la frem sterkere klimamål. Banker, investorer og industribedrifter verden over la om strategiene sine for å kutte utslipp. Da Donald Trump i sin første periode som president trakk USA ut av Parisavtalen, ble det møtt med samstemt fordømmelse fra resten av verden. Budskapet var tydelig: Vi fortsetter som før – vi nekter å la USA spore av det internasjonale klimasamarbeidet.
 
-### Fjernet utslippsmål i det stille 
+## Fjernet utslippsmål i det stille 
 
 Ti år senere er situasjonen annerledes. Da Donald Trump ble president for andre gang – og på nytt meldte USA ut av Parisavtalen – var det knapt noen protester å høre fra andre statsledere. De hadde mer enn nok med å unngå at Trump skulle innføre høye tollsatser på varene deres. Og i stedet for å love fortsatt innsats, har flere store selskaper i det stille fjernet sine mål om utslippskutt og tonet ned klimaengasjementet sitt.
 
-I [boken _Hvem bestemmer over klimaet?_](https://bard.lahn.no/2025/10/31/ny-bok-hvem-bestemmer-over-klimaet/) peker jeg på flere grunner til at stemningen har forandret seg så mye på bare få år. Noen er åpenbare: Først tok koronapandemien det meste av oppmerksomheten. Deretter har handelskonflikter og brutale kriger skapt utrygghet og bekymring for fremtiden i flere deler av verden. I mange land er politiske krefter som motarbeider klimatiltak på fremmarsj.
+I [boken _Hvem bestemmer over klimaet?_](/no/pub/hvem-bestemmer/) peker jeg på flere grunner til at stemningen har forandret seg så mye på bare få år. Noen er åpenbare: Først tok koronapandemien det meste av oppmerksomheten. Deretter har handelskonflikter og brutale kriger skapt utrygghet og bekymring for fremtiden i flere deler av verden. I mange land er politiske krefter som motarbeider klimatiltak på fremmarsj.
 
 Men en annen grunn til at situasjonen har endret seg, er at klimapolitikken har modnet. Mange land har kommet videre fra å sette mål om hvor man vil, til å faktisk gjennomføre tiltak for å nå målene. En rekke europeiske land har allerede redusert sine klimagassutslipp med 30-40 prosent eller mer. Jo nærmere de kommer null utslipp, desto tydeligere blir det at klimamålene krever valg og prioriteringer som noen grupper taper på. At omstillingen får større fordelingseffekter, betyr også at den vil preges av økende debatt og konflikt.
 
 Selv om det skaper en mindre optimistisk atmosfære på internasjonale toppmøter, er det noe håpefullt i at klimatiltakene har begynt å bite såpass at flere kontroverser kommer til overflaten. Og ikke minst er det noe ærlig i erkjennelsen av at klimapolitikk – som all annen politikk – er grunnleggende konfliktfylt. Kanskje symboliserer derfor flammene på forhandlingssenteret i Belém noe annet enn en krise for klimadiplomatiet: At klima er politisk brennbart, og at konflikter ikke er til å unngå hvis vi skal nå så ambisiøse mål som Parisavtalen setter.
 
-### En illusjon 
+## En illusjon 
 
 Et tydelig eksempel på denne erkjennelsen er det stadig sterkere kravet om en global utfasing av fossil energi. I de over 30 årene som er gått siden man begynte å arrangere FN-møter om klimaet, er ordene «fossil energi» knapt blitt nevnt i vedtak og avtaletekster. Ved å snakke om utslippsgrenser og ny teknologi, heller enn hvordan vi skal bli kvitt kull, olje og gass, har man helt siden 1990-tallet håpet å unngå en direkte konfrontasjon med de mektige motkreftene i fossilindustrien.
 

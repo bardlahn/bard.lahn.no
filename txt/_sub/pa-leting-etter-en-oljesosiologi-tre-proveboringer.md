@@ -14,11 +14,13 @@ language: 'no'
 abstract: 'Oljen er Norges viktigste utfordring i «det grønne skiftet». Burde den ikke også være et hovedtema for en sosiologi som ønsker å ha noe å si om den omstillingen vi står overfor?'
 type: blog
 ---
-Oljen er Norges viktigste utfordring i «det grønne skiftet». Burde den ikke også være et hovedtema for en sosiologi som ønsker å ha noe å si om den omstillingen vi står overfor?
+**Oljen er Norges viktigste utfordring i «det grønne skiftet». Burde den ikke også være et hovedtema for en sosiologi som ønsker å ha noe å si om den omstillingen vi står overfor?**
 
 <!--more-->
 
-_Denne artikkelen er skrevet som et innlegg i Sosiologen.no sin artikkelserie om miljøsosiologi. Den ble først publisert på [Sosiologen.no](https://sosiologen.no/essay/miljososiologi/pa-leting-etter-en-oljesosiologi-tre-proveboringer/)._
+::sidebar
+Denne artikkelen er skrevet som et innlegg i Sosiologen.no sin artikkelserie om miljøsosiologi. Den ble først publisert på [Sosiologen.no](https://sosiologen.no/essay/miljososiologi/pa-leting-etter-en-oljesosiologi-tre-proveboringer/).
+::
 
 Moderne samfunn er gjennomtrukket av olje: Den er avgjørende for samfunnets daglige funksjon i en slik grad at nærmest enhver tenkelig situasjon vi befinner oss i kan knyttes til oljeforbruk. Den har fungert som drivkraft i store samfunnsendringer, for eksempel ved å muliggjøre den enorme veksten i transport av varer og mennesker over lange avstander som vi gjerne kaller globalisering. Og den er ikke minst en av de viktigste bidragsyterne til de store økologiske endringene vi står overfor, enten det gjelder utslipp av klimagasser eller opphoping av plast i havene.
 
@@ -36,7 +38,7 @@ En kombinasjon av at klimaproblemet endelig har blitt tatt på alvor i samfunnsf
 
 I det følgende vil jeg trekke fram tre bøker som tar for seg olje fra ulike vinkler. Felles for disse bøkene er for det første at de tar oljen i seg selv – dens materialitet, produksjon og bruk – som utgangspunkt. For det andre trekker de alle linjer fra den historiske framveksten av oljen som dominerende energiform, til dagens utfordringer med å fase den ut. Selv om ikek alle bøkene er eksplisitt sosiologiske, bør denne tilnærmingen være et godt utgangspunkt for å gjøre «drivverdige funn» av teoretiske bidrag til en oljesosiologi. Avslutningsvis diskuterer jeg hvilke innsikter som kan være særlig relevante for å undersøke Norges forhold til oljen.
 
-### **Timothy Mitchell: _Carbon democracy_**
+## Timothy Mitchell: _Carbon democracy_
 
 Boka _Carbon democracy: political power in the age of oil_ (2011), skrevet av den politiske teoretikeren og Midtøsten-historikeren Timothy Mitchell, har blitt et standardverk i litteraturen om oljens samfunnsomformende kraft. Mitchells hovedtese er at evnen til å kontrollere flyten av energi har vært avgjørende for hvordan demokratiet har utviklet seg i moderne samfunn. Han argumenterer for at selve energiens egenskaper spiller en vesentlig rolle for hvordan denne flyten kan kontrolleres.
 
@@ -48,7 +50,7 @@ At oljen er en viktig ressurs i det storpolitiske spillet er ikke noen ny innsik
 
 Dette leder Mitchell til noen uortodokse konklusjoner: For eksempel mener han at spillet om Midtøsten ikke bør forstås som en kamp om olje som et verdifullt knapphetsgode, men tvert imot som en kamp om å _begrense_ oljeproduksjonen for å hindre overproduksjon og prisfall. For oljeselskapene måtte tilbudet begrenses mest mulig mens man arbeidet aktivt for å konstruere en etterspørsel etter produktet som kunne matche de enorme fossile ressursene. Det gir en slående parallell til situasjonen klimaendringene stiller oss overfor i dag. Akkurat som i oljealderens barndom er det _for mye olje_ som er problemet. Den gangen var det oljeselskapenes inntjening som var truet, og statene arbeidet aktivt for å begrense tilbudet. Når det i dag er klimaet som trues, er statenes utgangspunkt vanligvis det motsatte: At det er etterspørselen alene som styrer oljeforbruket, mens produksjonen nærmest ligger utenfor politisk kontroll. Historien Mitchell forteller gir grunn til å revurdere denne oppfatningen.
 
-### **Matthew Huber: _Lifeblood_**
+## Matthew Huber: _Lifeblood_
 
 Mitchells _Carbon democracy_ tilbyr et nytt blikk på oljens rolle i å fremme eller undergrave bestemte demokratiske prosjekter. Den er likevel nokså konvensjonell i hvilke aktører og prosesser den fokuserer på: De store multinasjonale oljeselskapene, USA og de europeiske stormaktene, Bretton Woods-institusjonene og så videre. Geografen Matthew Huber tar en annen inngang.
 
@@ -62,7 +64,7 @@ På grunn av dette blir også konklusjonene Huber trekker om oljens betydning fo
 
 På samme måte som «New Deal»-politikken var sentral i å bygge det oljeavhengige samfunnet, er det kollektiv handling som trengs for å endre på situasjonen, konkluderer Huber. Derfor er det ikke overraskende at han også har engasjert seg aktivt i den siste tidens diskusjon om en «Green New Deal» i amerikansk politikk (Huber 2018).
 
-### **John Urry: _Societies beyond oil_**
+## John Urry: _Societies beyond oil_
 
 Den britiske sosiologen John Urry deler Hubers innfallsvinkel til oljen som noe vi knyttes til gjennom hverdagslige praksiser. I _Societies beyond oil: oil dregs and social futures_ (2013) står ikke bare arbeidet med å gjøre oljen flytende i fokus, men også hvordan oljen skaper «flyt» i samfunnet for øvrig: Med utgangspunkt i Zygmunt Baumans “flytende modernitet” peker boka på det paradoksale i at sosiologien ikke har viet større oppmerksomhet til oljen som nettopp den substansen som muliggjør dagens nærmest ubegrensede mobilitet og kutter båndene mellom livet og «nabolaget». Her bygger Urry  blant annet på sitt eget tidligere arbeid med privatbilisme og turisme. Han ser det som sentrale eksempler på hvordan oljen former hverdagslivet vårt. Bilismen utgjør et «mobilitetssystem» som sammen med en rekke andre sosiotekniske systemer har gjort det mulig å leve det Urry kaller «høykarbon-liv».
 
@@ -74,7 +76,7 @@ Boka knytter dette til en dobbel utfordring: For det første klimaproblemene, so
 
 Det er interessant å merke seg hvor utdatert deler av disse bekymringene framstår i dag, bare noen få år etter at bøkene til Urry og Mitchell utkom. Den voldsomme veksten i USAs produksjonskapasitet basert på landets store skiferolje-ressurser har på kort tid lagt alle spekulasjoner om «peak oil» døde. Samtidig er ikke diskusjonen om de samfunnsmessige konsekvensene av at oljen blir vanskeligere tilgjengelig helt malplassert. Det krever åpenbart mer arbeid å gjøre oljen flytende når den finnes i form av det Urry kaller «oil dregs» – altså bunnfallet eller «grumset» som ligger igjen når verden er tømt for den lett tilgjengelige oljen. Enten det gjelder skiferolje i USA, oljesand i Canada eller leteboring stadig lenger nord her i Norge skaper jakten på dette oljegrumset åpenbart stadig større kontroverser og potensielle politiske konflikter. Dermed kan Urry fortsatt anføre denne bekymringen – parallelt med klimaproblemet – som en begrunnelse for sin konklusjon: at det er en presserende viktig oppgave – også for sosiologien – å bidra til å utvikle lavkarbon-samfunn og -livsformer, til erstatning for de høykarbon-livene som forrige århundres oljebaserte sosiotekniske systemer har bundet oss til.
 
-### **Hva med Norge?**
+## Hva med Norge?
 
 Hva kan så en norsk oljesosiologi bruke disse bøkene til? Det første man kan merke seg er hvordan Norges forhold til oljen utpeker seg som et historisk unntak. Hos Urry gjøres dette til et eksplisitt poeng, mens Mitchells fortelling om olje og demokrati i Midtøsten mer implisitt fungerer som en kontrast til den norske erfaringen der oljevirksomheten har bidratt til oppbygging av både offentlig velferd og privat rikdom for relativt brede lag av befolkningen.
 
@@ -86,7 +88,7 @@ Her kan Urrys system-tilnærming tilby et utgangspunkt: Selve oljevirksomheten m
 
 Avslutningsvis vil jeg peke på nettopp oljens _framtidsbilder_ som et område der sosiologien kan bidra. En ting er å forsøke å tenke gjennom konkrete framtider i en verden uten olje eller på jakt etter stadig vanskeligere tilgjengelig «oljegrums», slik Urry gjør i _Societies beyond oil_. En annen ting er å studere hvordan oljen i seg selv skaper bestemte framtider, for eksempel gjennom forventninger om det gode liv eller produksjon av en bestemt subjektivitet, slik Huber beskriver. Brigt Dale og Gisle Andersen (2018) har for eksempel nylig sett nærmere på noen av de konkrete mekanismene som former oppfatningen av framtiden i norsk oljepolitikk. På hvilke måter bidrar oljen til å begrense eller muliggjøre bestemte framtidsbilder, og hvilke betingelser gir dette for å tenke eller planlegge et samfunn «post-petroleum» (Kristoffersen og Dale 2014)? Ikke minst er dette et område der norske sosiologer både kan bidra til og trekke på en voksende litteratur om samfunnets forhold til geologiske prosesser og fossile ressurser.
 
-### **Referanser**
+## Referanser
 
 - Andersen, Gisle. 2017. _Parlamentets natur: Utviklingen av norsk miljø- og petroleumspolitikk (1945-2013)_. 1. utg. Oslo: Universitetsforlaget.
 - Andersen, Svein S. og Ole Gunnar Austvik. 2000. _Nasjonal handlefrihet - nye internasjonale rammebetingelser. Petroleum, makt og demokrati_. Oslo: Makt- og demokratiutredningen.

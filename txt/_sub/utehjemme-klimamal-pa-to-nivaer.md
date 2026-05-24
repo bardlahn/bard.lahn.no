@@ -54,9 +54,9 @@ På toppen av dette er hele framtiden til internasjonal kvotehandel høyst usikk
 
 I denne situasjonen øynet flere miljøorganisasjoner et håp. Et håp om at man endelig kunne bli kvitt skillet mellom de to nivåene for norske klimamål: Den bindende internasjonale forpliktelsen med fleksibilitet og kvotehandel, og det mindre bindende nasjonale målet for faktiske kutt i norske utslipp. Siden Paris-avtalen ikke vil diktere noen bestemt form på landenes forpliktelser, er det ingenting i veien for at Norge kan påta seg en forpliktelse som er rent nasjonal – et nøyaktig tall på hvor mye vi lover å redusere utslippene fra vårt eget territorium. Våre bidrag til utslippsreduksjoner i utviklingsland (som nå skjer både gjennom CDM-kvoter, regnskogmilliarder og mange andre tiltak) kunne inngått som en separat forpliktelse i tillegg til nasjonale utslippskutt.
 
-En slik kobling av de to nivåene «internasjonal forpliktelse» og «innenlands utslippsmål» ville for det første gjort klimamålene langt mer forståelige og lettere å engasjere seg i. For det andre ville de bli et mye bedre politisk styringsverktøy. De innenlands målene vi har fra klimaforliket har helt klart vært [nyttige i klimadebatten](/:$url_parent:/symbolseier-med-langvarige-effekter/), men den svake koblingen til våre internasjonale forpliktelser inviterer til omkamper og usikkerhet. Ved å koble innenlands mål og internasjonal forpliktelse sammen hadde vi visst hva vi må innrette klimapolitikken etter, og sluppet de evige diskusjonene om det er bedre å betale for kvoter andre steder enn å kutte dette konkrete utslippet.
+En slik kobling av de to nivåene «internasjonal forpliktelse» og «innenlands utslippsmål» ville for det første gjort klimamålene langt mer forståelige og lettere å engasjere seg i. For det andre ville de bli et mye bedre politisk styringsverktøy. De innenlands målene vi har fra klimaforliket har helt klart vært [nyttige i klimadebatten](/:$url_parent/lang:/symbolseier-med-langvarige-effekter/), men den svake koblingen til våre internasjonale forpliktelser inviterer til omkamper og usikkerhet. Ved å koble innenlands mål og internasjonal forpliktelse sammen hadde vi visst hva vi må innrette klimapolitikken etter, og sluppet de evige diskusjonene om det er bedre å betale for kvoter andre steder enn å kutte dette konkrete utslippet.
 
-## **Kvotesystemet skaper trøbbel**
+## Kvotesystemet skaper trøbbel
 
 Problemet med uten videre å koble innenlands mål og internasjonale forpliktelser, var imidlertid at nesten halvparten av Norges utslipp allerede en del av EUs kvotemarked (EU ETS). I dette markedet flyter utslippene fritt mellom bedrifter i alle EU-land. Oljeselskaper og industri står fritt til å velge om de vil redusere egne utslipp eller betale for utslippskutt i andre europeiske land. Da er det vanskelig å sette et nøyaktig mål for hvordan utslippene fra norsk territorium skal utvikle seg.
 
@@ -64,7 +64,7 @@ En mulig løsning på dette kunne vært å bare sette indikative mål for de sek
 
 Samtidig kunne man i det minste satt et bindende, nasjonalt mål for innenlands utslippskutt i de sektorene som ikke er omfattet av EU ETS: Transportsektoren, avfall, bygg og så videre. Dette kunne vært et mål som ikke omfattet bruk av kvotehandel med andre land, og der det derfor kunne være fullt samsvar mellom vår internasjonale forpliktelse og våre nasjonale mål.
 
-## **Den overraskende EU-løsningen**
+## Den overraskende EU-løsningen
 
 Det overraskende i avtalen Høyre, Frp, KrF og Venstre la fram i går, var at de gikk motsatt vei. De valgte å knytte også den delen av utslippene som ikke er en del av EU ETS til EU-systemet. Målet om 40 prosent utslippskutt innen 2030 i forhold til 1990-nivå, som de borgerlige partiene la fram i går, skal fullt ut gjennomføres som en del av EUs klimamål.
 
@@ -72,7 +72,7 @@ Dette åpner for fleksibilitet i gjennomføringen av målet på samme måte som 
 
 Dermed er målet om 40 prosent kutt i forhold til 1990-nivå innen 2030 i hovedsak samme type mål som det eksisterende målet om 30 prosent kutt i forhold til 1990-nivå innen 2020: Det er en internasjonal forpliktelse, som kan innfris gjennom en kombinasjon av kutt i innenlands utslipp og betaling for tiltak i andre land. Det er ingen nødvendig sammenheng mellom denne internasjonale forpliktelsen og eventuelle konkrete mål for innenlands utslippskutt. De to nivåene av klimamål videreføres ved hjelp av en tilknytning til EU.
 
-## **Uklare konsekvenser**
+## Uklare konsekvenser
 
 Trenger det så å være noen krise at Norge fortsatt holder seg med et dobbeltliv i klimasammenheng, der internasjonale forpliktelser ikke nødvendigvis henger sammen med konkrete, nasjonale kutt?
 

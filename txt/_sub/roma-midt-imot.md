@@ -13,9 +13,11 @@ language: 'no'
 abstract: 'Toppane i internasjonal klimapolitikk har kanonisert pave Frans i levande live. Dei underslår kor radikal bodskapen hans faktisk er.'
 type: blog
 ---
-Toppane i internasjonal klimapolitikk har kanonisert pave Frans i levande live. Dei underslår kor radikal bodskapen hans faktisk er.<!--more-->
+**Toppane i internasjonal klimapolitikk har kanonisert pave Frans i levande live. Dei underslår kor radikal bodskapen hans faktisk er.**<!--more-->
 
-_Artikkelen sto på trykk i Dag og Tid 3. juli 2015._
+::sidebar
+Artikkelen sto på trykk i _Dag og Tid_ 3. juli 2015.
+::
 
 Førre veke sendte Vatikanet ut [ein 184 sider lang encyklika](http://w2.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html) – eit paveleg rundskriv – om miljøvern. Inspirert av sin namnebror frå Assisi skriv pave Frans om ansvaret vi har for skaparverket, i eit språk som fekk avisa Washington Post til [å omtale han](http://www.washingtonpost.com/local/an-italian-draft-of-pope-francis-environmental-paper-leaks--setting-off-scurry-to-google-translate/2015/06/15/89af0012-1379-11e5-9ddc-e3353542100c_story.html) som «dels lyrikar, dels politisk nerd».
 

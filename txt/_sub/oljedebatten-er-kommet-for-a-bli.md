@@ -15,9 +15,11 @@ language: 'no'
 abstract: 'Årets valgkamp ble et gjennombrudd for en ny miljøpolitisk debatt der framtida til Olje-Norge står i sentrum. En ny vitenskapelig forståelse av klimaproblemet gjør at olje trolig kommer til å fortsette å være en hovedsak i klimadebatten framover.'
 type: blog
 ---
-Årets valgkamp ble et gjennombrudd for en ny miljøpolitisk debatt der framtida til Olje-Norge står i sentrum. En ny vitenskapelig forståelse av klimaproblemet gjør at olje trolig kommer til å fortsette å være en hovedsak i klimadebatten framover.<!--more-->
+**Årets valgkamp ble et gjennombrudd for en ny miljøpolitisk debatt der framtida til Olje-Norge står i sentrum. En ny vitenskapelig forståelse av klimaproblemet gjør at olje trolig kommer til å fortsette å være en hovedsak i klimadebatten framover.**
 
-_Innlegget ble [først publisert](https://www.dagbladet.no/kultur/oljedebatten-er-kommet-for-a-bli/68718558) på Dagbladet.no, der jeg er fast bidragsyter._
+::sidebar
+Innlegget ble [først publisert](https://www.dagbladet.no/kultur/oljedebatten-er-kommet-for-a-bli/68718558) på Dagbladet.no, der jeg er fast bidragsyter.
+::
 
 Årets stortingsvalg ble ikke noe utpreget miljøvalg. Selv om partier med miljø som hovedsak samlet sett gikk fram ved valget, kan man [vanskelig hevde](https://www.dagbladet.no/kultur/miljorevolusjonen-som-aldri-kom/68699104) at miljø og klima spilte hovedroller i valgkampen. Samtidig skilte debatten seg klart fra tidligere valg på en måte: Norsk oljeproduksjon sto i sentrum for klimadebatten. Det gjaldt i ikke bare etablerte stridsspørsmål som åpning av Lofoten, Vesterålen og Senja, men like mye spørsmålet om Olje-Norges framtid og hva klimamålene betyr for vår videre oljevirksomhet.
 

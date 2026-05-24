@@ -12,9 +12,11 @@ language: 'no'
 abstract: 'Påtroppende USA-president Joe Biden vil verne Arktis mot oljevirksomhet. Danmark stopper oljeleting av hensyn til klimaet. Det blir stadig vanskeligere for Norge å kombinere klimatroverdighet og oljeproduksjon.'
 type: blog
 ---
-Påtroppende USA-president Joe Biden vil verne Arktis mot oljevirksomhet. Danmark stopper oljeleting av hensyn til klimaet. Det blir stadig vanskeligere for Norge å kombinere klimatroverdighet og oljeproduksjon.
+**Påtroppende USA-president Joe Biden vil verne Arktis mot oljevirksomhet. Danmark stopper oljeleting av hensyn til klimaet. Det blir stadig vanskeligere for Norge å kombinere klimatroverdighet og oljeproduksjon.**
 
-<!--more-->
+::sidebar
+Teksten ble først publisert i [Agenda Magasin](https://agendamagasin.no/debatt/oljen-utfordrer-norsk-klimatroverdighet/) den 21. desember 2020.
+::
 
 Fra høyre til venstre har norske politikere uttrykt glede over at demokratenes Joe Biden vant det amerikanske presidentvalget. Særlig positivt har mange uttalt seg om Bidens plan for å melde USA inn i Parisavtalen igjen, og å gjøre landet til en pådriver i det internasjonale klimaarbeidet. Derfor må det ha vært vanskelig for Regjeringen da den ble bedt om å kommentere en annen del av Bidens klimaplan, nemlig målet om å forby oljevirksomhet i Arktis. Plutselig var det vanskeligere å feire den påtroppende presidentens klimaambisjoner: Flere oljefelt og stadig nye leteområder i Barentshavet gjør Norge til en av de fremste oljeaktørene i arktiske farvann.
 
@@ -36,7 +38,7 @@ Sammen med USA var Norge en sterk pådriver for dette systemet, nettopp fordi de
 
 Som følge av dette internasjonale regelverket ble det altså mulig for norske myndigheter å kombinere rollen som oljeprodusent med en ambisjon om å være et foregangsland i klimapolitikken. Selv om man på 1990- og 2000-tallet har hatt store politiske konflikter omkring både klima- og oljepolitikk har sakene i liten grad vært koblet sammen: De har handlet om de lokale konsekvensene av oljevirksomhet i sårbare områder som Lofoten, eller om klimakonsekvensene av å bruke olje og gass på land, men i mindre grad om klimakonsekvensene av selve oljevirksomheten.
 
-De ti siste årene har imidlertid dette skillet blitt [stadig vanskeligere](http://bard.lahn.no/2019/09/12/norwegian-petroleum-policy-in-a-changing-climate/) å opprettholde. I 2009 kom de første studiene av det såkalte ‘karbonbudsjettet’ – den totale mengden klimagasser vi kan tillate oss å slippe ut før temperaturen stiger mer enn ønskelig. Det disse studiene gjorde klart, var at gjenværende reserver av olje, kull og gass i stor grad må bli liggende i bakken: Det er rett og slett ikke mulig å produsere og forbrenne alt det vi allerede har funnet uten å sprenge verdens utslippsbudsjett.
+De ti siste årene har imidlertid dette skillet blitt stadig vanskeligere å opprettholde. I 2009 kom de første studiene av det såkalte ‘karbonbudsjettet’ – den totale mengden klimagasser vi kan tillate oss å slippe ut før temperaturen stiger mer enn ønskelig. Det disse studiene gjorde klart, var at gjenværende reserver av olje, kull og gass i stor grad må bli liggende i bakken: Det er rett og slett ikke mulig å produsere og forbrenne alt det vi allerede har funnet uten å sprenge verdens utslippsbudsjett.
 
 Siden den gangen har stadig større oppmerksomhet blitt rettet mot produksjonen av fossil energi. Forskere blant annet i Norge har [beregnet](http://www.iaee.org/en/publications/ejarticle.aspx?id=2853) hva klimaeffekten kan bli av å redusere oljeproduksjonen, og [argumentert for](http://science.sciencemag.org/content/365/6451/325) en internasjonal avtale om kutt i fossil energiproduksjon. [Flere land](https://doi.org/10.1080/14693062.2020.1725409) har varslet stopp i videre lete- og utvinningsvirksomhet, sist Danmark nå i høst.
 
@@ -49,5 +51,3 @@ På den annen side er Parisavtalen langt mer åpen enn Kyotoprotokollen var: Den
 Konsekvensen er at Norge i mindre grad kan gjemme seg bak det internasjonale klimaregelverket enn man kunne på 1990- og 2000-tallet. Og jo flere utspill som Joe Bidens, som kobler spørsmål om framtidig oljeproduksjon direkte til klimahensyn, desto vanskeligere blir det for Norge å kombinere klimatroverdighet med en stor oljesektor.
 
 Uavhengig av hva USA med Biden som president faktisk kommer til å foreslå eller få gjennomslag for i Arktisk Råd, er det dette som blir Norges store klimapolitiske utfordring det neste tiåret: Vi må kunne gi mer troverdige svar enn i dag om framtiden til norsk olje- og gassvirksomhet, og hvordan den henger sammen med verdens klimamål.
-
-_Teksten ble først publisert i [Agenda Magasin](https://agendamagasin.no/debatt/oljen-utfordrer-norsk-klimatroverdighet/)_ den _21\. desember 2020._

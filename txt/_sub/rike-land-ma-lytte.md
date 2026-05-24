@@ -13,7 +13,11 @@ language: 'no'
 abstract: 'Klimatoppmøtet i Doha vedtok endelig den såkalte «Kyoto 2»-avtalen, med nye utslippsforpliktelser for EU, Norge og enkelte andre rike land i perioden fram til 2020. Men det internasjonale klimaarbeidet kunne ha kommet mye lenger hvis EU hadde lyttet til utviklingslandene og akseptert Kyoto 2 allerede for tre år siden.'
 type: blog
 ---
-Klimatoppmøtet i Doha vedtok endelig den såkalte «Kyoto 2»-avtalen, med nye utslippsforpliktelser for EU, Norge og enkelte andre rike land i perioden fram til 2020. Men det internasjonale klimaarbeidet kunne ha kommet mye lenger hvis EU hadde lyttet til utviklingslandene og akseptert Kyoto 2 allerede for tre år siden.<!--more-->
+**Klimatoppmøtet i Doha vedtok endelig den såkalte «Kyoto 2»-avtalen, med nye utslippsforpliktelser for EU, Norge og enkelte andre rike land i perioden fram til 2020. Men det internasjonale klimaarbeidet kunne ha kommet mye lenger hvis EU hadde lyttet til utviklingslandene og akseptert Kyoto 2 allerede for tre år siden.**<!--more-->
+
+::sidebar
+Artikkelen er tidligere postet hos [Energi og Klima](http://energiogklima.no/kommentar-analyse/rike-land-ma-lytte/).
+::
 
 Det internasjonale samarbeidet mot klimaendringer tok et lite skritt framover lørdag 8. desember. Kyoto-avtalen ble forlenget og en ny periode med forpliktelser for enkelte rike land ble vedtatt.
 
@@ -40,5 +44,3 @@ I etterpåklokskapens lys er krangelen om Kyoto 2 et tydelig eksempel på proble
 Europeiske land har vært ivrige lesere av The New York Times, og tilpasset sine forhandlingsposisjoner etter politiske signaler fra USA. Men få har brydd seg om The Times of India, som har dobbelt så stort opplag og en minst like levende klimadebatt.
 
 Denne situasjonen må forandres hvis vi skal klare å finne gode globale løsninger på klimaproblemet.
-
-_Artikkelen er tidligere postet hos [Energi og Klima](http://energiogklima.no/kommentar-analyse/rike-land-ma-lytte/)._

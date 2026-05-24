@@ -18,15 +18,15 @@ I forrige uke blusset det opp en debatt om det viktigste målet i internasjonal 
 
 Togradersmålet har i løpet av de siste årene blitt så sentralt både for myndigheter og miljøorganisasjoner at ethvert forsøk på diskusjon gjerne faller inn i et forutsigbart mønster der det settes likhetstegn mellom å være for togradersmålet og å være for klimahandling i det hele tatt. Før debatten havner i et slikt spor syns jeg imidlertid det er verdt å koste på seg noen kritiske refleksjoner.
 
-### **Ikke et selvsagt mål**
+## Ikke et selvsagt mål
 
 Selv om togradersmålet i dag har status nærmest som hellig, og samler støtte fra en bred koalisjon av klimaaktivister, politikere, industri og forskergrupper, er det verdt å huske at målet verken er en naturgitt grense eller har spesielt lange historiske røtter. Det var ikke før i 2010 at målet formelt sett ble vedtatt i FN. Og selv da ønsket flertallet av verdens land – alle de små øystatene og de minst utviklede landene – egentlig et strengere mål.
 
-Det er heller ikke et spesielt sterkt forskningsmessig belegg for at grensen for farlige klimaendringer går nøyaktig ved to graders global oppvarming. Selv om togradersmålet gjerne presenteres som en «vitenskapelig grense» ([Shaw 2013](http://www.sciencedirect.com/science/article/pii/S0959378013000034)), har aldri FNs klimapanel anbefalt målet, og flere klimaforskere har karakterisert målet som farlig svakt (f.eks. [Hansen et al. 2013](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0081648)).
+Det er heller ikke et spesielt sterkt forskningsmessig belegg for at grensen for farlige klimaendringer går nøyaktig ved to graders global oppvarming. Selv om togradersmålet gjerne presenteres som en «vitenskapelig grense» ([Shaw 2013](http://www.sciencedirect.com/science/article/pii/S0959378013000034)), har aldri FNs klimapanel anbefalt målet, og flere klimaforskere har karakterisert målet som farlig svakt (f.eks. [Hansen et al. 2013](https://doi.org/10.1371/journal.pone.0081648)).
 
-Heller enn en klar vitenskapelig grense er togradersmålet et typisk eksempel på en hybrid av forskning, politikk og forvaltning – et mål som har blitt til gjennom tett dialog mellom klimaforskere og myndigheter som trenger et enkelt og forståelig tall å forholde seg til ([Randalls 2010](http://onlinelibrary.wiley.com/doi/10.1002/wcc.62/abstract?deniedAccessCustomisedMessage=&userIsAuthenticated=false)). Dette kommer også tydelig fram i forrige ukes debatt, når forskeren Hans Joachim Schellnhuber – en av arkitektene bak EUs opprinnelige forslag om et togradersmål – forteller til [The Guardian](http://www.theguardian.com/environment/2014/oct/01/2c-climate-change-target-global-warming-nature-paper): «I am communicating to heads of state and you have to keep it neat and simple.»
+Heller enn en klar vitenskapelig grense er togradersmålet et typisk eksempel på en hybrid av forskning, politikk og forvaltning – et mål som har blitt til gjennom tett dialog mellom klimaforskere og myndigheter som trenger et enkelt og forståelig tall å forholde seg til ([Randalls 2010](http://onlinelibrary.wiley.com/doi/10.1002/wcc.62)). Dette kommer også tydelig fram i forrige ukes debatt, når forskeren Hans Joachim Schellnhuber – en av arkitektene bak EUs opprinnelige forslag om et togradersmål – forteller til [The Guardian](http://www.theguardian.com/environment/2014/oct/01/2c-climate-change-target-global-warming-nature-paper): «I am communicating to heads of state and you have to keep it neat and simple.»
 
-### **Bruktbart politisk verktøy?**
+## Bruktbart politisk verktøy?
 
 Når vi diskuterer togradersmålet bør vi altså ikke oppføre oss som om dette målet er noen naturgitt størrelse. I stedet bør vi spørre oss om målet er fruktbart – om det fungerer som et verktøy for å dytte klimapolitikken i riktig retning. Det er et spørsmål jeg syns det er vanskelig å svare entydig på.
 
@@ -36,7 +36,7 @@ For meg er Victor og Kennels andre innvending viktigere. Mange aspekter ved klim
 
 Spørsmålet er om ikke denne typen forenklinger er uunngåelig når man – som Hans Joachim Schellnhuber – skal gjøre komplekse naturvitenskapelige sammenhenger om til noe som statsledere kan bruke til å styre etter. Og det kompliserte alternative forslaget som Victor og Kennel skisserer i sin artikkel er definitivt ikke egnet til å begeistre.
 
-### **To sider av målet**
+## To sider av målet
 
 Selv vil jeg legge til en tredje innvending mot togradersmålet, som for meg veier tyngre enn dem Victor og Kennel anfører. Det er nemlig grunn til å spørre om målet egentlig får oss til å fokusere den politiske innsatsen på riktig måte.
 
@@ -46,7 +46,7 @@ Problemet er at som målestokk fungerer togradersmålet begge veier. Samtidig so
 
 Langsiktigheten og den vitenskapelige usikkerheten i togradersmålet gjør dessuten at enhver politiker eller industrileder kan hevde at akkurat _denne_ utslippsøkningen er helt i tråd med målet. Å velge langsiktig temperaturstigning som mål gjør oss avhengige av naturvitenskapelig kunnskap som kan fortelle oss nøyaktig hvor mye vi kan tillate oss å slippe ut. Men usikkerheten er fortsatt stor når det gjelder den såkalte klimasensitiviteten, altså hvor mye temperaturen faktisk vil stige med en gitt mengde utslipp. Og det er notorisk vanskelig å oversette et mål om langsiktig stabilisering av temperaturen til utslippsmål som kan få politisk betydning på kort sikt ([Boykoff et al. 2010](http://www.sciencedirect.com/science/article/pii/S0959378009000740)).
 
-### **En «nullvisjon» for klimaet?**
+## En «nullvisjon» for klimaet?
 
 Dette høres kanskje ut som akademisk flisespikkeri. Men la meg prøve å vise hva jeg mener med et konkret eksempel på en alternativ måte man kunne valgt å ramme inn klimapolitikken på.
 
@@ -58,12 +58,10 @@ Et alternativ til tanken om at klimaendringene først blir farlige ved to grader
 
 Togradersmålet gjør det mulig å si at grensen fortsatt ikke er nådd, det åpner for å lage regnestykker som viser hvor store utslipp vi fortsatt kan tillate oss, det gjør det mulig å skyve reduksjonene foran seg og å søke dekning bak vitenskapelig usikkerhet. En «nullvisjon» for klimaet ville gjort den typen regnestykker umulig. I stedet for å spørre hvor store utslipp som fortsatt er akseptabelt, ville spørsmålet blitt: Hvor fort kan vi omstille oss til et fullstendig fossilfritt samfunn? I stedet for å krangle om hvor mange prosent vi bør ha redusert utslippene innen 2020 eller 2030, ville vi måtte spørre oss: Bidrar hver eneste politiske beslutning vi tar til at vi kommer nærmere nullutslippssamfunnet?
 
-### **Flere veier til flere mål**
+## Flere veier til flere mål
 
 En «nullvisjon» for klimaet er (foreløpig) bare ment som et tankeeksperiment fra min side. Togradersmålet har en del åpenbare kvaliteter som en slik visjon ikke har – som at det kan gjøre det lettere å sette begrunnede mål for totale utslipp, og å diskutere fordelingseffekter. Dessuten er det nå en gang dette målet vi har, og jeg tror det vil være lite fruktbart å starte en ny stor diskusjon (for eksempel i de internasjonale klimaforhandlingene) om de mest grunnleggende målformuleringene. Poenget er imidlertid at togradersmålet former hvordan vi diskuterer klimapolitikk på måter som ikke bare er positive. Derfor bør vi ikke låse oss til dette ene målet for hvor vellykket klimainnsatsen er.
 
 Det er lettvint og fristende å bygge argumentasjonen for klimahandlig på et ensidig forsvar for togradersmålet som en «vitenskapelig grense». Men det er ikke nødvendigvis riktig, og det er ikke nødvendigvis den eneste måten vi bør argumentere på. Derfor tror jeg at særlig miljøbevegelsen på lengre sikt vil stå seg på en bredere argumentasjon, som er mindre ensidig fokusert på å «oversette» ett enkelt temperaturmål til politiske tiltak.
-
-\*
 
 Til slutt, og litt mer pessimistisk: Selv om Victor og Kennel foreløpig ikke har rett i sin påstand om at togradersmålet er umulig å nå, kan vi – gitt dagens manglende politiske innsats – dessverre risikere å havne i en slik situasjon om ikke så mange år. Og hva gjør vi da, hvis hele argumentasjonen for klimahandling er bygd på tanken om å unngå to graders oppvarming?

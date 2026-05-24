@@ -18,7 +18,7 @@ language: 'no'
 abstract: 'Politikk handler ofte om gråsoner og vanskelige avveininger. Men av og til stilles politikere overfor spørsmål der det er grunn til å tro at historien vil avgi en utvetydig dom om hvem som hadde rett og hvem som tok feil.'
 type: blog
 ---
-Politikk handler ofte om gråsoner og vanskelige avveininger. Men av og til stilles politikere overfor spørsmål der det er grunn til å tro at historien vil avgi en utvetydig dom om hvem som hadde rett og hvem som tok feil.<!--more-->
+**Politikk handler ofte om gråsoner og vanskelige avveininger. Men av og til stilles politikere overfor spørsmål der det er grunn til å tro at historien vil avgi en utvetydig dom om hvem som hadde rett og hvem som tok feil.**<!--more-->
 
 I går dukket et slikt spørsmål opp i norsk politikk. Og nå vet vi at Tord Lien, Tine Sundtoft og Erna Solberg er navn på politikere som valgte å stille seg på feil side.
 
