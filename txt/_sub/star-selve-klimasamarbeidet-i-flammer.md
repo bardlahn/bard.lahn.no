@@ -1,6 +1,6 @@
 ---
 title: 'Står selve klimasamarbeidet i flammer?'
-date: 2026-01-02
+date: 2025-11-25
 categories:
   - kommentert
 tags:
@@ -17,13 +17,17 @@ type: blog
 ---
 **Årets klimatoppmøte viser at ideen om en konfliktfri grønn omstilling alltid var en illusjon. Det skriver jeg i en kommentar til toppmøtet COP 30 i Brasil.**
 
-<!--more-->
-
 ::sidebar
 Denne kommentaren ble først publisert i [Morgenbladet på nett](https://www.morgenbladet.no/ideer/star-selve-klimasamarbeidet-i-flammer/10072652) den 25. november 2025.
 ::
 
 Da det på torsdag brøt ut en kraftig brann inne på forhandlingssenteret, var pressefotografene sikret de perfekte illustrasjonsbildene fra årets klimatoppmøte COP30 i Belém, Brasil. Etter å ha evakuert møtedeltagere fra området, fikk brannvesenet kontroll på brannen uten at noen kom til skade. De dramatiske bildene av røyk og flammer midt inne i klimadiplomatiets høyborg fremstår likevel symboltunge. Men nøyaktig hva er det de symboliserer?
+
+::image images/cop30-fire-l.jpg
+Deltakere evakueres fra brannen på COP30.
+
+Foto: [IISD/ENB](https://enb.iisd.org/belem-un-climate-change-conference-cop30-20Nov2025) (Anastasia Rodopoulou).
+::
 
 Årets klimatoppmøte markerte at det er ti år siden verdens land signerte Parisavtalen. I Belém ble dette feiret på beste FN-maner: Med et eget vedtak der landene gratulerer hverandre med jubileet. Samtidig viste møtet tydelig at optimismen som preget klimapolitikken i årene etter at Parisavtalen ble vedtatt, er blitt avløst av en mer pessimistisk holdning. Resultatet av forhandlingene var skuffende i manges øyne, og elefanten i det brennende rommet var USAs fravær fra møtet etter at president Trump – igjen – har trukket landet fra Parisavtalen. Er det selve det internasjonale klimasamarbeidet som står i flammer?
 
