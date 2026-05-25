@@ -27,6 +27,7 @@ Note that if an URL is given in 'routes/external', element listings will link to
 If the main field 'type' is set to 'publication', the following fields nested under the top-level field 'pub-data' can be:
 
 - pub-type (can be either book, article, thesis, report, or chapter)
+- pub-lang (language of publication, can be different from page language)
 - doi (applies to all pub-types)
 - issn (applies to all pub-types)
 - isbn (applies to pub-types book, report, chapter)

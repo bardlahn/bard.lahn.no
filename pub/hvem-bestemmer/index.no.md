@@ -10,7 +10,8 @@ type: publication
 authors: self
 date: 2025-11-10
 pub-data:
-  pubtype: book
+  pub-type: book
+  pub-lang: no
   publisher: 'Forlaget Manifest'
   isbn: 9788283420340
 ---

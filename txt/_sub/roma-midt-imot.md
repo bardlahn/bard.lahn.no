@@ -1,8 +1,6 @@
 ---
 title: 'Roma - midt imot'
 date: 2015-07-06
-categories:
-  - kommentert
 tags:
   - 'laudato si'
   - miljøbevegelsen
@@ -12,6 +10,8 @@ tags:
 language: 'no'
 abstract: 'Toppane i internasjonal klimapolitikk har kanonisert pave Frans i levande live. Dei underslår kor radikal bodskapen hans faktisk er.'
 type: blog
+authors:
+  - self
 ---
 **Toppane i internasjonal klimapolitikk har kanonisert pave Frans i levande live. Dei underslår kor radikal bodskapen hans faktisk er.**<!--more-->
 

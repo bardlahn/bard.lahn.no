@@ -9,7 +9,8 @@ type: publication
 date: 2013-10-28
 author: self
 pub-data:
-  pubtype: book
+  pub-type: book
+  pub-lang: no
   publisher: Flamme Forlag
   isbn: 9788282880244
 ---

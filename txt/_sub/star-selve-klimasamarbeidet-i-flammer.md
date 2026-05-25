@@ -1,8 +1,6 @@
 ---
 title: 'Står selve klimasamarbeidet i flammer?'
 date: 2025-11-25
-categories:
-  - kommentert
 tags:
   - 'donald trump'
   - 'fns klimaforhandlinger'
@@ -14,6 +12,12 @@ tags:
 language: 'no'
 abstract: 'Årets klimatoppmøte viser at ideen om en konfliktfri grønn omstilling alltid var en illusjon. Det skriver jeg i en kommentar til toppmøtet COP 30 i Brasil.'
 type: blog
+authors:
+  - self
+images:
+  - main:
+      file: assets/images/cop30-fire-l.jpg
+      alt: 'Camp Fire 2018.'
 ---
 **Årets klimatoppmøte viser at ideen om en konfliktfri grønn omstilling alltid var en illusjon. Det skriver jeg i en kommentar til toppmøtet COP 30 i Brasil.**
 

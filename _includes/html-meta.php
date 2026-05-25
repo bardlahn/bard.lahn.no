@@ -23,6 +23,8 @@ if ($self_type != PAGE_ERROR) {
     $meta_canonical = $fmatter['routes']['canonical'] ?? ("/" . $self_url . "/");
     echo $pre . "<link rel=\"canonical\" href=\"" . $base_url . $meta_canonical . "\">";
 
+    $meta_lang = $fmatter['pub-data']['pub-lang'] ?? $lang;
+
 
 } else {
     // If error page, printing nofollow
@@ -49,12 +51,12 @@ if ($self_type != PAGE_ERROR) {
     // ...Dublin Core
     echo $pre . '<link rel="schema.DC" href="https://purl.org/DC/elements/1.0/">';
     echo $pre . '<meta name="dc.Title" content="'.$self_title.'">';
-    echo $pre . '<meta name="dc.Language" content="'.$lang.'">';
+    echo $pre . '<meta name="dc.Language" content="'.$meta_lang.'">';
 
     // ...OpenGraph
     echo $pre . '<meta property="og:description" content="' . $meta_desc . '">';
     echo $pre . '<meta property="og:url" content="' . $base_url . '/' . $lang . $meta_canonical . '">';
-    echo $pre . '<meta property="og:locale" content="' . $lang . '">';
+    echo $pre . '<meta property="og:locale" content="' . $meta_lang . '">';
     echo $pre . '<meta property="og:site_name" content="'.$site_title.'">';
 
     if (isset($fmatter['date'])) {
@@ -138,8 +140,8 @@ if ($self_type != PAGE_ERROR) {
         $meta_publisher = $fmatter['pub-data']['publisher'] ?? '';
         $schema_publisher = ['@type' => 'Organization', 'name' => $meta_publisher];
 
-        if (isset($fmatter['pub-data']['pubtype'])) {
-            if (strtolower($fmatter['pub-data']['pubtype']) == 'book') {
+        if (isset($fmatter['pub-data']['pub-type'])) {
+            if (strtolower($fmatter['pub-data']['pub-type']) == 'book') {
 
                 $og_pubtype = "book";
 
@@ -170,7 +172,7 @@ if ($self_type != PAGE_ERROR) {
 
                 // Printing Highwire tags and adding Schema.org publication properties...
 
-                if (strtolower($fmatter['pub-data']['pubtype']) == 'article') {
+                if (strtolower($fmatter['pub-data']['pub-type']) == 'article') {
                 
                     // ... for SCHOLARLY ARTICLES
 
@@ -198,7 +200,7 @@ if ($self_type != PAGE_ERROR) {
                     if (!empty($fmatter['pub-data']['issue']))
                         echo $pre . '<meta name="citation_issue" content="'.$fmatter['pub-data']['issue'].'">';
 
-                } elseif (strtolower($fmatter['pub-data']['pubtype']) == 'report') {
+                } elseif (strtolower($fmatter['pub-data']['pub-type']) == 'report') {
 
                     // ... for REPORTS
 
@@ -211,7 +213,7 @@ if ($self_type != PAGE_ERROR) {
                     if (!empty($fmatter['pub-data']['number']))
                         echo $pre . '<meta name="citation_technical_report_number" content="'.$fmatter['pub-data']['nubmer'].'">';
 
-                } elseif (strtolower($fmatter['pub-data']['pubtype']) == 'thesis') {
+                } elseif (strtolower($fmatter['pub-data']['pub-type']) == 'thesis') {
                 
                     // ...for THESES
 
@@ -222,7 +224,7 @@ if ($self_type != PAGE_ERROR) {
                     if (!empty($fmatter['pub-data']['publisher']))
                         echo $pre . '<meta name="citation_dissertation_institution" content="'.$fmatter['pub-data']['publisher'].'">';
 
-                } elseif (strtolower($fmatter['pub-data']['pubtype']) == 'chapter') {
+                } elseif (strtolower($fmatter['pub-data']['pub-type']) == 'chapter') {
                 
                     // ...for BOOK CHAPTERS
                     
@@ -266,6 +268,7 @@ if ($self_type != PAGE_ERROR) {
 
         echo $pre . '<meta name="citation_publication_date" content="'.$meta_date.'">';
         echo $pre . '<meta name="citation_title" content="'.$self_title.'">';
+        echo $pre . '<meta name="citation_language" content="'.$meta_lang.'">';
         echo $pre . '<meta property="og:title" content="' . $self_title . '">';
 
         // ...DOI info
@@ -312,7 +315,7 @@ if ($self_type != PAGE_ERROR) {
 
         $schemaJson['name'] = $self_title;
         $schemaJson['url'] = $schemaJson['url'] ?? $base_url . '/' . $lang . $meta_canonical;
-        $schemaJson['inLanguage'] = $lang;
+        $schemaJson['inLanguage'] = $meta_lang;
         $schemaJson['abstract'] = $meta_desc;
 
         $jsonLD = json_encode($schemaJson, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);

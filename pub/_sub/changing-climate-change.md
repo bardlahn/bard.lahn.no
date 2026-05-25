@@ -14,7 +14,8 @@ routes:
 type: publication
 author: self
 pub-data:
-  pubtype: article
+  pub-type: article
+  pub-lang: en
   journal: 'Social Studies of Science'
   volume: 51
   issue: 1
