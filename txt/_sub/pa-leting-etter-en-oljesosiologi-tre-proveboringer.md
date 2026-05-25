@@ -19,20 +19,20 @@ type: blog
 <!--more-->
 
 ::sidebar
-Denne artikkelen er skrevet som et innlegg i Sosiologen.no sin artikkelserie om miljøsosiologi. Den ble først publisert på [Sosiologen.no](https://sosiologen.no/ideer/stafett/pa-leting-etter-en-oljesosiologi-tre-proveboringer/).
+Denne artikkelen er skrevet som et innlegg i Sosiologen.no sin artikkelserie om miljø-sosiologi. Den ble først publisert på [Sosiologen.no](https://sosiologen.no/ideer/stafett/pa-leting-etter-en-oljesosiologi-tre-proveboringer/).
 ::
 
 Moderne samfunn er gjennomtrukket av olje: Den er avgjørende for samfunnets daglige funksjon i en slik grad at nærmest enhver tenkelig situasjon vi befinner oss i kan knyttes til oljeforbruk. Den har fungert som drivkraft i store samfunnsendringer, for eksempel ved å muliggjøre den enorme veksten i transport av varer og mennesker over lange avstander som vi gjerne kaller globalisering. Og den er ikke minst en av de viktigste bidragsyterne til de store økologiske endringene vi står overfor, enten det gjelder utslipp av klimagasser eller opphoping av plast i havene.
 
 For Norges del er oljen om mulig av enda mer grunnleggende betydning. På den ene siden har den bidratt til å forme dagens norske samfunn på avgjørende måter: Over flere tiår har oljeindustrien utgjort omtrent en femdel av all økonomisk aktivitet i landet, og sysselsatt rundt 200 000 mennesker direkte og indirekte. På den andre siden representerer oljen en hovedutfordring for Norge i møte med «det grønne skiftet»: Når verden praktisk talt må fase ut bruken av fossil energi i løpet av noen få tiår for å unngå dramatiske klimaendringer, vil det åpenbart ha store konsekvenser for Norge – verdens sjuende største eksportør av fossil energi målt i CO2\-innhold. Det gjelder enten spørsmålet man stiller seg er hvordan oljeproduksjonen aktivt kan reduseres, eller hvordan samfunnet vil takle den uunngåelige overgangen.
 
-Det norske samfunnet kan altså i særlig grad sies å være et oljesamfunn – samfunnsmaskineriet vårt er oljesmurt. Så hvorfor er ikke olje et sentralt tema i norsk sosiologi? I en diskusjon av hvordan sosiologien kan bidra til å belyse de endringene miljøproblemene stiller oss overfor, framstår oljen som et naturlig sted å begynne – men også et sted som til nå har vært lite utforsket.
-
 ::image images/troll-a-l.jpg wide
 Troll A-plattformen i Nordsjøen.
 
 Foto: Øyvind Knoph Askeland, Norsk Olje og Gass (CC BY-SA)
 ::
+
+Det norske samfunnet kan altså i særlig grad sies å være et oljesamfunn – samfunnsmaskineriet vårt er oljesmurt. Så hvorfor er ikke olje et sentralt tema i norsk sosiologi? I en diskusjon av hvordan sosiologien kan bidra til å belyse de endringene miljøproblemene stiller oss overfor, framstår oljen som et naturlig sted å begynne – men også et sted som til nå har vært lite utforsket.
 
 Jeg mener ikke dermed å si at ingen norske sosiologer har befattet seg med olje. Bare i løpet av de siste årene har for eksempel Gisle Andersen (2017) levert en grundig analyse av hvordan norsk oljepolitikk legitimeres, og Nils Asle Bergsgard og Anders Vassenden (2015) har spurt «hva oljen har gjort med oss» i form av velstandsvekst og ulikhet. Mange andre kunne sikkert også vært nevnt.
 
@@ -110,9 +110,7 @@ Hva kan så en norsk oljesosiologi bruke disse bøkene til? Det første man kan 
 Det er åpenbart en viktig oppgave å kunne forklare hva det er som har gjort at Norges erfaringer med oljeproduksjon er annerledes enn mange andre. Det finnes allerede en stor litteratur som fokuserer på økonomi og institusjoner for å forstå «den norske modellen» for petroleumsforvaltning. Men hva med kulturelle forhold? Og hva med oljen i seg selv – for eksempel det faktum at den i norsk sammenheng hentes opp offshore, i en prosess som er mindre synlig og mindre knyttet til privat eiendom enn tilfellet var i den amerikanske oljeboomen som Huber beskriver? Her ligger mange spørsmål som kan utfylle Urrys nokså halvhjertede behandling av «det norske unntaket», og tilby en kontrast til bildet Huber tegner av tidlig amerikansk oljeindustri og Mitchell av Midtøsten.
 
 ::image images/solberg-oljetale-l.jpg small
-Erna Solberg taler på oljeindustriens årskonferanse, 2015.
-
-Foto: Kilian Munch, Norsk Olje og Gass (CC BY-SA)
+Erna Solberg taler på oljeindustriens årskonferanse. Foto: Kilian Munch, Norsk Olje og Gass (CC BY-SA)
 ::
 
 På den annen side bør man også kritisk undersøke forestillingen om norsk eksepsjonalisme når det gjelder olje og demokrati. Bekymring for muligheten til å styre oljens store samfunnsformende krefter har ligget under mye av den oljepolitiske debatten siden 1970-tallet (Olsen 1989). Makt- og demokratiutredningen pekte for snart 20 år siden på et stort behov for økt samfunnsvitenskapelig forskning på olje og demokrati (Andersen og Austvik 2000) – en anbefaling det er vanskelig å se spor av i seinere forskningsvirksomhet og -finansiering. Dagens begynnende diskusjon om hvordan oljealderen skal avvikles kan kanskje sees som den ultimate testen på samfunnets evne til å styre vårt forhold til oljen gjennom kollektiv handling. Da blir det viktig å finne ut hvordan det Francis Sejersted (1999) har kalt «det oljeindustrielle kompleks» har omformet det norske samfunnet over tid, og hvilke betingelser dette gir for å styre «komplekset» i andre retninger. Industriens reaksjoner på Arbeiderpartiets nylige vedtak om ikke å åpne for oljevirksomhet utenfor Lofoten illustrerer noen av mekanismene som fortjener nærmere undersøkelse.
