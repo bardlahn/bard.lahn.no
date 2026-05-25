@@ -28,6 +28,12 @@ For Norges del er oljen om mulig av enda mer grunnleggende betydning. På den en
 
 Det norske samfunnet kan altså i særlig grad sies å være et oljesamfunn – samfunnsmaskineriet vårt er oljesmurt. Så hvorfor er ikke olje et sentralt tema i norsk sosiologi? I en diskusjon av hvordan sosiologien kan bidra til å belyse de endringene miljøproblemene stiller oss overfor, framstår oljen som et naturlig sted å begynne – men også et sted som til nå har vært lite utforsket.
 
+::image images/troll-a-l.jpg wide
+Troll A-plattformen i Nordsjøen.
+
+Foto: Øyvind Knoph Askeland, Norsk Olje og Gass (CC BY-SA)
+::
+
 Jeg mener ikke dermed å si at ingen norske sosiologer har befattet seg med olje. Bare i løpet av de siste årene har for eksempel Gisle Andersen (2017) levert en grundig analyse av hvordan norsk oljepolitikk legitimeres, og Nils Asle Bergsgard og Anders Vassenden (2015) har spurt «hva oljen har gjort med oss» i form av velstandsvekst og ulikhet. Mange andre kunne sikkert også vært nevnt.
 
 Det jeg mener, er at norsk sosiologi generelt ikke har gjort oljen _i seg selv_ til et sentralt tema for å forstå det norske samfunnet – gjennom teoretisering, empiriske undersøkelser, eller for den saks skyld gjennom undervisning. Dette er særlig påfallende da det ved oljealderens begynnelse var nettopp oljens virkninger på det norske samfunnet – og ikke på for eksempel klimaet – som var blant de store diskusjonstemaene og bekymringene (Ryggvik og Kristoffersen 2015). Det er også påfallende sett i lys av innsatsen på tilgrensende fagområrder: Olje-Norge har vært et viktig tema både for statsvitere, antropologer, geografer og historikere like lenge som selve oljevirksomheten, med blant annet betingelsene for demokratisk styring i oljealderen som en sentral problemstilling (se f.eks. Olsen 1989; Sejersted 1999; Ryggvik 2009). Å finne ut hva oljen kan «brukes til» i sosiologisk analyse er derimot en oppgave som fortsatt i stor grad ligger ubesvart, og som framstår stadig mer akutt i lys av den omstillingen klimaproblemet stiller oss overfor.
