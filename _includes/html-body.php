@@ -1,6 +1,6 @@
 <div class="container">
     <div class="header">
-        <div class="menu-icon" id="menuToggle">☰</div>
+        <div class="menu-icon" id="menuToggle"><img src="<?= $assets_rel_path ?> icons/w95prog.32.png" height="32" width="32" alt="☰"></div>
         <div class="site-name"><a href="/<?= $lang ?>"><?= $site_title ?></a></div>
     </div>
     <div class="header-right">
