@@ -4,9 +4,9 @@ function fetchSubEntries(string $mainpath, string $filter = '', string $sorting 
     $parsed = parseMDFile($mainpath . '/_sub/_index.md');
     $frontmatter = $parsed['frontmatter'];
 
-    if ($frontmatter['sub_type'] == PAGE_SUB_BLOG) {
+    if ($frontmatter['sub-type'] == PAGE_SUB_BLOG) {
 
-        $rawItems = $frontmatter['sub_items'] ?? [];
+        $rawItems = $frontmatter['sub-items'] ?? [];
         $entries = [];
 
         if (is_array($rawItems)) {
@@ -44,7 +44,7 @@ function fetchSubEntries(string $mainpath, string $filter = '', string $sorting 
         
         // Sorting
         if (empty($sorting)) {
-            $sorting = $frontmatter['sub_sort'] ?? 'date=descending';
+            $sorting = $frontmatter['sub-sort'] ?? 'date=descending';
         }
         usort($entries, function($a, $b) use ($sorting) {
             [$sortKey, $sortDir] = explode('=', $sorting, 2);
@@ -62,8 +62,8 @@ function fetchSubEntries(string $mainpath, string $filter = '', string $sorting 
         });
 
         return array_merge(
-            array_diff_key($frontmatter, ['sub_items' => null]),
-            ['sub_items' => array_values($entries)]
+            array_diff_key($frontmatter, ['sub-items' => null]),
+            ['sub-items' => array_values($entries)]
         );
 
     } else {

@@ -2,10 +2,10 @@
 title: 'Publikasjoner'
 language: 'no'
 type: resource
-sub_type: publication
-sub_sort: date=descending
-sub_indexed: 2026-05-25
-sub_items:
+sub-type: publication
+sub-sort: date=descending
+sub-indexed: 2026-05-25
+sub-items:
   - changing-climate-change:
       title: 'Changing Climate Change: the Carbon Budget and the Modifying-work of the IPCC'
       date: '2021-02-01'

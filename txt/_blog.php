@@ -35,14 +35,14 @@ if (!empty($_GET['SortBy'])) {
 
 $blog = fetchSubEntries($root_path . $self_url, $filter, $sorting);
 
-$total_posts = count($blog['sub_items']);
+$total_posts = count($blog['sub-items']);
 $show_all    = isset($_GET['NumberPosts']) && (int)$_GET['NumberPosts'] === 0;
 
 $start_from  = isset($_GET['StartFrom'])   ? max(0, (int)$_GET['StartFrom'])  : 0;
 $num_posts   = isset($_GET['NumberPosts'])  ? max(0, (int)$_GET['NumberPosts']) : 10;
 
 // Apply slice, or use full array if showing all
-$posts_to_show = $show_all ? $blog['sub_items'] : array_slice($blog['sub_items'], $start_from, $num_posts);
+$posts_to_show = $show_all ? $blog['sub-items'] : array_slice($blog['sub-items'], $start_from, $num_posts);
 
 // How many are actually being shown
 $showing_count = count($posts_to_show);

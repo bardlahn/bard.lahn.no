@@ -2,10 +2,10 @@
 title: 'Tekster'
 language: 'no'
 type: resource
-sub_type: blog
-sub_sort: date=descending
-sub_indexed: 2026-05-25
-sub_items:
+sub-type: blog
+sub-sort: date=descending
+sub-indexed: 2026-05-25
+sub-items:
   - etikk-er-ogsa-politikk:
       title: 'Etikk er også politikk'
       date: '2025-12-02'
@@ -532,7 +532,6 @@ sub_items:
       date: 1612224000
       abstract: 'I anledning utgivelsen av Bruno Latours nye bok Où suis-je? har tidsskriftet Vagant bedt flere bidragsytere om å reflektere over hva Latours arbeid har betydd for dem. Mitt bidrag tar for seg betydningen Latour har hatt både for STS som akademisk felt og for klimapolitisk teori og praksis.'
       language: 'no'
-      sub_type: blog
       categories:
         - kommentert
       tags:

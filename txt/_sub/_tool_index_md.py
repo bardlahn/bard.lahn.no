@@ -6,13 +6,13 @@ Usage:
     python index_md.py <directory>
 
 The script reads _index.md in the given directory, then scans all other .md
-files. Files whose frontmatter "type" matches the index's "sub_type" are
-collected and written into sub_items: in _index.md.
+files. Files whose frontmatter "type" matches the index's "sub-type" are
+collected and written into sub-items: in _index.md.
 
-- sub_indexed is updated to today's date (Y-m-d)
-- All dates in sub_items are stored as plain strings in Y-m-d format
-- The "type" field is excluded from sub_items entries
-- sub_items are sorted according to sub_sort (e.g. "date=descending")
+- sub-indexed is updated to today's date (Y-m-d)
+- All dates in sub-items are stored as plain strings in Y-m-d format
+- The "type" field is excluded from sub-items entries
+- sub-items are sorted according to sub-sort (e.g. "date=descending")
 - The index file's other header fields are preserved unchanged
 
 Parsing strategy (automatic):
@@ -319,10 +319,10 @@ def build_frontmatter(header_fields, sub_items_sorted):
     """Reconstruct the full frontmatter block."""
     lines = ['---']
     for key, val in header_fields.items():
-        if key == 'sub_items':
+        if key == 'sub-items':
             continue
-        if key == 'sub_indexed':
-            lines.append(f"sub_indexed: {date.today().strftime('%Y-%m-%d')}")
+        if key == 'sub-indexed':
+            lines.append(f"sub-indexed: {date.today().strftime('%Y-%m-%d')}")
             continue
         if isinstance(val, (dict, list)):
             lines.append(f"{key}:")
@@ -330,7 +330,7 @@ def build_frontmatter(header_fields, sub_items_sorted):
         else:
             lines.append(f"{key}: {yaml_scalar(val)}")
 
-    lines.append('sub_items:')
+    lines.append('sub-items:')
     for slug, fields in sub_items_sorted:
         lines.append(f"  - {slug}:")
         for fkey, fval in fields.items():
@@ -343,17 +343,6 @@ def build_frontmatter(header_fields, sub_items_sorted):
 
     lines.append('---')
     return '\n'.join(lines) + '\n'
-
-
-# ---------------------------------------------------------------------------
-# Sorting
-# ---------------------------------------------------------------------------
-
-def sort_key_for(fields, sort_field):
-    val = fields.get(sort_field, '')
-    if isinstance(val, str) and re.match(r'^\d{4}-\d{2}-\d{2}', val):
-        return val
-    return str(val)
 
 
 # ---------------------------------------------------------------------------
@@ -381,18 +370,10 @@ def main():
 
     index_fields, index_body = parse_frontmatter(index_text)
 
-    sub_type = index_fields.get('sub_type', '')
-    sub_sort_raw = index_fields.get('sub_sort', '')
-
-    sort_field = 'date'
-    sort_descending = True
-    if '=' in sub_sort_raw:
-        sort_field, direction = sub_sort_raw.split('=', 1)
-        sort_field = sort_field.strip()
-        sort_descending = direction.strip().lower() == 'descending'
+    sub_type = index_fields.get('sub-type', '')
 
     if not sub_type:
-        print("Warning: no sub_type found in _index.md — nothing to filter on.")
+        print("Warning: no 'sub-type' found in _index.md — nothing to filter on.")
 
     # --- Scan MD files ---
     sub_items = []
@@ -426,12 +407,6 @@ def main():
                 entry[k] = v
 
         sub_items.append((slug, entry))
-
-    # --- Sort ---
-    sub_items.sort(
-        key=lambda x: sort_key_for(x[1], sort_field),
-        reverse=sort_descending
-    )
 
     print(f"Found {len(sub_items)} file(s) with type='{sub_type}'")
 
