@@ -134,18 +134,18 @@ function renderMDContent(string $text) {
                     break;
 
                 case 'include':     // ::include block - takes arguments:
-                                    // filename (required - file to be included, path relative to MD file unless /includes/ or /assets/ is given)
+                                    // filename (required - file to be included, path relative to MD file unless includes/ or assets/ is given)
                                     // [php/md/raw] (optional parse mode - defaults to raw)
 
                     global $md_path;
                     $includefile = trim($args[1]);
 
-                    if (str_starts_with($includefile, '/includes/')) {
+                    if (str_starts_with($includefile, 'includes/')) {
                         global $includes_path;
-                        $includefile = $includes_path . substr($includefile, strpos($includefile, '/includes/') + strlen('/includes/'));
-                    } elseif (str_starts_with($includefile, '/assets/')) {
+                        $includefile = $includes_path . '/' . substr($includefile, strpos($includefile, 'includes/') + strlen('includes/'));
+                    } elseif (str_starts_with($includefile, 'assets/')) {
                         global $assets_path;
-                        $includefile = $assets_path . substr($includefile, strpos($includefile, '/assets/') + strlen('/assets/'));
+                        $includefile = $assets_path . '/' . substr($includefile, strpos($includefile, 'assets/') + strlen('assets/'));
                     } else {
                         $includefile = $md_path . $includefile;
                     }

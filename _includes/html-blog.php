@@ -4,7 +4,7 @@ global $self_url;
 global $includes_path;
 global $lang;
 
-include $includes_path . 'fetch-sub.php';
+include_once $includes_path . 'fetch-sub.php';
 
 echo "<div class=\"content\">\n\n";
 
@@ -28,8 +28,8 @@ $filter_query = implode('&', $filters);
 
 $sorting = '';
 if (!empty($_GET['SortBy'])) {
-    $sortBy  = $_GET['SortBy'];
-    $sortDir = $_GET['SortDir'] ?? 'descending';
+    $sortBy  = htmlspecialchars(strip_tags($_GET['SortBy']));
+    $sortDir = htmlspecialchars(strip_tags($_GET['SortDir'])) ?? 'descending';
     $sorting = $sortBy . '=' . $sortDir;
 }
 
