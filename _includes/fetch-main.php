@@ -127,7 +127,7 @@ if ($foundfile) {
 } else {
     // No file found, serving error 404
     $serve_error = "404";
-    include($includes_path.'fetch_error.php');
+    include($includes_path.'fetch-error.php');
 }
 
 ?>
