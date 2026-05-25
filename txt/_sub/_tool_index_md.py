@@ -259,6 +259,7 @@ def yaml_scalar(val):
         ':' in s or
         '#' in s or
         "'" in s or
+        ' ' in s or
         s.startswith('{') or
         s.startswith('[') or
         s.startswith('*') or
