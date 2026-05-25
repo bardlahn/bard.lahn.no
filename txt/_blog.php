@@ -30,7 +30,7 @@ $sorting = '';
 if (!empty($_GET['SortBy'])) {
     $sortBy  = $_GET['SortBy'];
     $sortDir = $_GET['SortDir'] ?? 'descending';
-    $sorting = $sortby . '=' . $sortDir;
+    $sorting = $sortBy . '=' . $sortDir;
 }
 
 $blog = fetchSubEntries($root_path . $self_url, $filter, $sorting);
