@@ -26,7 +26,14 @@ foreach ($allowedFilters as $key) {
 $filter = implode(',', $filters);
 $filter_query = implode('&', $filters);
 
-$blog = fetchSubEntries($root_path . $self_url, $filter);
+$sorting = '';
+if (!empty($_GET['SortBy'])) {
+    $sortBy  = $_GET['SortBy'];
+    $sortDir = $_GET['SortDir'] ?? 'descending';
+    $sorting = $sortby . '=' . $sortDir;
+}
+
+$blog = fetchSubEntries($root_path . $self_url, $filter, $sorting);
 
 $total_posts = count($blog['sub_items']);
 $show_all    = isset($_GET['NumberPosts']) && (int)$_GET['NumberPosts'] === 0;
