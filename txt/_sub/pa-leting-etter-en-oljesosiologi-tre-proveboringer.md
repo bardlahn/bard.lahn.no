@@ -19,7 +19,7 @@ type: blog
 <!--more-->
 
 ::sidebar
-Denne artikkelen er skrevet som et innlegg i Sosiologen.no sin artikkelserie om miljøsosiologi. Den ble først publisert på [Sosiologen.no](https://sosiologen.no/essay/miljososiologi/pa-leting-etter-en-oljesosiologi-tre-proveboringer/).
+Denne artikkelen er skrevet som et innlegg i Sosiologen.no sin artikkelserie om miljøsosiologi. Den ble først publisert på [Sosiologen.no](https://sosiologen.no/ideer/stafett/pa-leting-etter-en-oljesosiologi-tre-proveboringer/).
 ::
 
 Moderne samfunn er gjennomtrukket av olje: Den er avgjørende for samfunnets daglige funksjon i en slik grad at nærmest enhver tenkelig situasjon vi befinner oss i kan knyttes til oljeforbruk. Den har fungert som drivkraft i store samfunnsendringer, for eksempel ved å muliggjøre den enorme veksten i transport av varer og mennesker over lange avstander som vi gjerne kaller globalisering. Og den er ikke minst en av de viktigste bidragsyterne til de store økologiske endringene vi står overfor, enten det gjelder utslipp av klimagasser eller opphoping av plast i havene.
@@ -38,11 +38,18 @@ En kombinasjon av at klimaproblemet endelig har blitt tatt på alvor i samfunnsf
 
 I det følgende vil jeg trekke fram tre bøker som tar for seg olje fra ulike vinkler. Felles for disse bøkene er for det første at de tar oljen i seg selv – dens materialitet, produksjon og bruk – som utgangspunkt. For det andre trekker de alle linjer fra den historiske framveksten av oljen som dominerende energiform, til dagens utfordringer med å fase den ut. Selv om ikek alle bøkene er eksplisitt sosiologiske, bør denne tilnærmingen være et godt utgangspunkt for å gjøre «drivverdige funn» av teoretiske bidrag til en oljesosiologi. Avslutningsvis diskuterer jeg hvilke innsikter som kan være særlig relevante for å undersøke Norges forhold til oljen.
 
+::break
+::
+
 ## Timothy Mitchell: _Carbon democracy_
 
 Boka _Carbon democracy: political power in the age of oil_ (2011), skrevet av den politiske teoretikeren og Midtøsten-historikeren Timothy Mitchell, har blitt et standardverk i litteraturen om oljens samfunnsomformende kraft. Mitchells hovedtese er at evnen til å kontrollere flyten av energi har vært avgjørende for hvordan demokratiet har utviklet seg i moderne samfunn. Han argumenterer for at selve energiens egenskaper spiller en vesentlig rolle for hvordan denne flyten kan kontrolleres.
 
 Boka analyserer framveksten av dagens demokratier i lys av overgangen fra kull til olje som dominerende energiform. Fokus ligger særlig på kampen om Midtøstens oljeressurser, og hvordan denne kampen er nært knyttet til 1900-tallets store politiske og økonomiske omveltninger. Da produksjon og transport av kull tok av på 1800-tallet skjedde det gjennom sentraliserte og arbeidsintensive distribusjonsnettverk, der arbeidere møttes direkte både i gruver og transportvirksomhet. Det ga grunnlag for politisk mobilisering og muligheten til å sette makt bak demokratiske krav. Gjennom streik og andre aksjonsformer kunne arbeiderne effektivt kutte tilførselen av energi, ved å kontrollere noen relativt få «obligatoriske passasjepunkt» i de nasjonale energinettverkene.
+
+::sidebar
+![Bokomslag: Carbon Democracy](:$url_assets:images/mitchell-cover-s.png)
+::
 
 Ved overgangen til olje som dominerende drivstoff i transport og militær virksomhet ble de politiske handlingsmulighetene dramatisk redistribuert. Den flytende oljen ga grunnlag for et like flytende produksjons- og distribusjonssystem, med mer globale og desentraliserte nettverk av produksjon og transport gjennom rørledninger og tankbåter. Olje ble den første (og er fortsatt den største) virkelig _globale_ varen, noe som svekket arbeidernes evne til å fremme egalitære og demokratiske krav på nasjonalt nivå. Høyere grad av ekspertise og mindre fysisk samhandling i arbeidsstyrken svekket dessuten mulighetene for organisering og kollektiv handling. Samtidig åpnet oljen som global handelsvare for andre typer makt, ved at selskaper og stater brukte begrensninger på oljeproduksjonen til å oppnå sine økonomiske og politiske mål.
 
@@ -50,11 +57,18 @@ At oljen er en viktig ressurs i det storpolitiske spillet er ikke noen ny innsik
 
 Dette leder Mitchell til noen uortodokse konklusjoner: For eksempel mener han at spillet om Midtøsten ikke bør forstås som en kamp om olje som et verdifullt knapphetsgode, men tvert imot som en kamp om å _begrense_ oljeproduksjonen for å hindre overproduksjon og prisfall. For oljeselskapene måtte tilbudet begrenses mest mulig mens man arbeidet aktivt for å konstruere en etterspørsel etter produktet som kunne matche de enorme fossile ressursene. Det gir en slående parallell til situasjonen klimaendringene stiller oss overfor i dag. Akkurat som i oljealderens barndom er det _for mye olje_ som er problemet. Den gangen var det oljeselskapenes inntjening som var truet, og statene arbeidet aktivt for å begrense tilbudet. Når det i dag er klimaet som trues, er statenes utgangspunkt vanligvis det motsatte: At det er etterspørselen alene som styrer oljeforbruket, mens produksjonen nærmest ligger utenfor politisk kontroll. Historien Mitchell forteller gir grunn til å revurdere denne oppfatningen.
 
+::break
+::
+
 ## Matthew Huber: _Lifeblood_
 
 Mitchells _Carbon democracy_ tilbyr et nytt blikk på oljens rolle i å fremme eller undergrave bestemte demokratiske prosjekter. Den er likevel nokså konvensjonell i hvilke aktører og prosesser den fokuserer på: De store multinasjonale oljeselskapene, USA og de europeiske stormaktene, Bretton Woods-institusjonene og så videre. Geografen Matthew Huber tar en annen inngang.
 
 I boka _Lifeblood: oil, freedom, and the forces of capital_ (2013) går Huber til kjernen av “the American way of life”. Han spør: Hvis det er slik at dagens samfunn, og spesifikt det amerikanske, kan betegnes som ”oljeavhengig” (”addicted to oil”) – hva er det i så fall som har skapt denne avhengigheten? Hvordan har olje blitt konstruert – både materielt og i vår bevissthet – som en livsnødvendighet, som selve hjerteblodet i et moderne samfunn?
+
+::sidebar
+![Bokomslag: Lifeblood](:$url_assets:images/huber-cover-s.png)
+::
 
 Hubers prosjekt har et tydelig marxistisk utgangspunkt, men trekker også på Foucault når han undersøker hvordan samfunnets oljeavhengighet henger sammen med produksjonen av et spesifikt subjekt, nemlig det nyliberale ”entrepreneurial self”. Han viser hvordan tanken om et atomisert individ som skaper sitt eget liv og sin egen framtid er nært knyttet til den oljeavhengige geografien som vokste ut av det politiske «New Deal»-prosjektet og etterkrigstidens USA, fra forstadshus og privatbilisme til petrokjemisk industri og militærindustrielt kompleks.
 
@@ -64,11 +78,18 @@ På grunn av dette blir også konklusjonene Huber trekker om oljens betydning fo
 
 På samme måte som «New Deal»-politikken var sentral i å bygge det oljeavhengige samfunnet, er det kollektiv handling som trengs for å endre på situasjonen, konkluderer Huber. Derfor er det ikke overraskende at han også har engasjert seg aktivt i den siste tidens diskusjon om en «Green New Deal» i amerikansk politikk (Huber 2018).
 
+::break
+::
+
 ## John Urry: _Societies beyond oil_
 
 Den britiske sosiologen John Urry deler Hubers innfallsvinkel til oljen som noe vi knyttes til gjennom hverdagslige praksiser. I _Societies beyond oil: oil dregs and social futures_ (2013) står ikke bare arbeidet med å gjøre oljen flytende i fokus, men også hvordan oljen skaper «flyt» i samfunnet for øvrig: Med utgangspunkt i Zygmunt Baumans “flytende modernitet” peker boka på det paradoksale i at sosiologien ikke har viet større oppmerksomhet til oljen som nettopp den substansen som muliggjør dagens nærmest ubegrensede mobilitet og kutter båndene mellom livet og «nabolaget». Her bygger Urry  blant annet på sitt eget tidligere arbeid med privatbilisme og turisme. Han ser det som sentrale eksempler på hvordan oljen former hverdagslivet vårt. Bilismen utgjør et «mobilitetssystem» som sammen med en rekke andre sosiotekniske systemer har gjort det mulig å leve det Urry kaller «høykarbon-liv».
 
 Men selv om hverdagens oljebetingede praksiser vies mye oppmerksomhet, viker boka heller ikke unna spørsmålene om oljens rolle i større makt- og interessekamper. Den er blant annet også innom debatten om «ressursforbannelsen» som oljen ofte fører med seg, med svekkede demokratiske institusjoner som følge av opphopning av makt og rikdom. Her trekkes Norge fram som det store unntaket, i en kort og relativt overfladisk gjennomgang av den norske erfaringen. Urry framhever vår demokratiske kontroll over oljevirksomheten og Norges strategier for å sikre fellesskapet fordeler av oljeproduksjonen, men gjør ikke noe forsøk på å forstå hvordan det norske unntaket oppstod.
+
+::sidebar
+![Bokomslag: Societies beyond oil](:$url_assets:images/urry-cover-s.png)
+::
 
 Bokas siste del tar for seg hvordan vi kan tenke på _framtiden_ gjennom oljen. Urry har også i andre arbeider vært opptatt av måter å spekulere om mulige framtider på (se særlig Urry 2016). Interessant nok er tradisjonen for å trekke framtiden systematisk inn i forskningen i seg selv nært knyttet til oljen: Metoder som scenario-tenkning og andre _foresight_\-metoder ble utviklet nettopp blant annet hos oljeselskaper og myndigheter som ønsket verktøy for å håndtere den radikale usikkerheten som fulgte av det 20. århundrets oljesmurte globalisering. I _Societies beyond oil_ trekker Urry på tilsvarende metoder for å tenke gjennom hvordan samfunn kan håndtere det at olje ikke lenger vil være en billig og lett tilgjengelig råvare på samme måte som den var i forrige århundre.
 
