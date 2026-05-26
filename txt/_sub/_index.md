@@ -4,8 +4,50 @@ language: 'no'
 type: resource
 sub-type: blog
 sub-sort: date=descending
-sub-indexed: 2026-05-25
+sub-indexed: 2026-05-26
 sub-items:
+  - a-se-seg-blind-pa-tallene:
+      title: 'Å se seg blind på tallene'
+      date: '2015-03-25'
+      abstract: 'Denne ukas overraskelse: Rosablogger Sophie Elise ser ut til å forstå politikk bedre enn både skeptiker-blogger Gunnar Tjomlid og enkelte norske økonomer.'
+      language: 'no'
+      categories:
+        - kommentert
+      tags:
+        - dagbladet-bloggen
+        - kvotehandel
+        - miljøbevegelsen
+        - palmeolje
+        - samfunnsøkonomi
+        - 'sophie elise'
+        - tall
+  - burde-krevd-rensing-fra-dag-en:
+      title: 'Burde krevd rensing fra dag én'
+      date: '2014-03-28'
+      categories:
+        - kommentert
+      tags:
+        - arbeiderpartiet
+        - frp
+        - gasskraft
+        - høyre
+        - krf
+        - mongstad
+        - sv
+        - venstre
+      language: 'no'
+      abstract: 'Mediedebatten rundt Stortingets behandling av Mongstad-saken har utviklet seg til et politisk svarteperspill om ansvaret for en feilslått «månelanding».'
+  - dansk-gronn-deal:
+      title: 'Dansk grønn deal?'
+      date: '2026-02-25'
+      tags:
+        - 'green new deal'
+        - danmark
+        - sosiologi
+        - klasse
+        - klimapolitikk
+      language: 'no'
+      abstract: 'Til tross for at den maler med bred pensel, er den danske boken "Klima og klasse" et verdifullt innspill i debatten om klima og samfunnsomstilling.'
   - etikk-er-ogsa-politikk:
       title: 'Etikk er også politikk'
       date: '2025-12-02'
@@ -23,144 +65,6 @@ sub-items:
         - self
         - svenberg:
             - name: 'Sebastian Svenberg'
-  - star-selve-klimasamarbeidet-i-flammer:
-      title: 'Står selve klimasamarbeidet i flammer?'
-      date: '2025-11-25'
-      tags:
-        - 'donald trump'
-        - 'fns klimaforhandlinger'
-        - 'fossil utfasing'
-        - klimapolitikk
-        - paris
-        - russland
-        - usa
-      language: 'no'
-      abstract: 'Årets klimatoppmøte viser at ideen om en konfliktfri grønn omstilling alltid var en illusjon. Det skriver jeg i en kommentar til toppmøtet COP 30 i Brasil.'
-      authors:
-        - self
-      images:
-        - main:
-            file: assets/images/cop30-fire-l.jpg
-            alt: 'Camp Fire 2018.'
-  - klimautvalget-2050-en-ny-organisering-av-norsk-klimapolitikk:
-      title: 'Klimautvalget 2050: En ny organisering av norsk klimapolitikk'
-      date: '2023-10-30'
-      categories:
-        - kommentert
-      tags:
-        - 'klima- og miljødepartementet'
-        - klimaloven
-        - 'klimautvalget 2050'
-        - 'norsk klimapolitikk'
-      language: 'no'
-      abstract: '27. oktober 2023 avga Klimautvalget 2050 sin rapport til klima- og miljøministeren. Rapporten foreslår en ny organisering av klimapolitikken for å nå Norges mål om å bli kvitt praktisk talt alle klimagassutslipp innen 2050.'
-  - mer-eller-mindre-demokrati:
-      title: 'Mer eller mindre demokrati?'
-      date: '2022-07-29'
-      categories:
-        - kommentert
-      tags:
-        - demokrati
-        - klimapolitikk
-        - miljøbevegelsen
-      language: 'no'
-      abstract: 'Sommeren 2022 gikk det en debatt i Morgenbladet om demokrati og klimaendringer. I dette innlegget svarer jeg professor Tore Wig ved Universitetet i Oslo.'
-  - myter-om-klimamal-i-norge-og-eu:
-      title: 'Myter om klimamål i Norge og EU'
-      date: '2021-03-29'
-      categories:
-        - kommentert
-      tags:
-        - arbeiderpartiet
-        - eu
-        - høyre
-        - 'norsk klimapolitikk'
-        - senterpartiet
-      language: 'no'
-      abstract: 'Arbeiderpartiet og Høyre går nå i front for at utslippskuttene skal gjennomføres på hjemmebane. Det er nytt i norsk klimapolitikk.'
-  - oljen-utfordrer-norsk-klimatroverdighet:
-      title: 'Oljen utfordrer norsk klimatroverdighet'
-      date: '2020-12-22'
-      categories:
-        - kommentert
-      tags:
-        - arktis
-        - 'joe biden'
-        - olje
-        - usa
-      language: 'no'
-      abstract: 'Påtroppende USA-president Joe Biden vil verne Arktis mot oljevirksomhet. Danmark stopper oljeleting av hensyn til klimaet. Det blir stadig vanskeligere for Norge å kombinere klimatroverdighet og oljeproduksjon.'
-  - ny-giv-for-gronn-politikk:
-      title: 'Ny giv for grønn politikk?'
-      date: '2020-04-14'
-      categories:
-        - kommentert
-      tags:
-        - eu
-        - 'green new deal'
-        - 'grønne jobber'
-        - korona
-        - 'økonomisk politikk'
-        - usa
-        - venstresida
-      language: 'no'
-      abstract: 'På begge sider av Atlanterhavet har ideen om en «grønn deal» blitt en viktig del av den klimapolitiske debatten. I Europa har EU-kommisjonen lagt fram et omfattende forslag til en europeisk «Green Deal» som er ment å styrke unionens eksisterende klimapolitikk. I USA har venstresida i det demokratiske partiet gjort forslaget om en «Green New Deal» til en kampsak.'
-  - pa-leting-etter-en-oljesosiologi-tre-proveboringer:
-      title: 'På leting etter en oljesosiologi: Tre prøveboringer'
-      date: '2019-04-16'
-      categories:
-        - kommentert
-      tags:
-        - antropocen
-        - demokrati
-        - geologi
-        - olje
-        - oljeindustri
-        - sosiologi
-      language: 'no'
-      abstract: 'Oljen er Norges viktigste utfordring i «det grønne skiftet». Burde den ikke også være et hovedtema for en sosiologi som ønsker å ha noe å si om den omstillingen vi står overfor?'
-  - foredrag-internasjonal-klimapolitikk-forklart:
-      title: 'Foredrag: Internasjonal klimapolitikk forklart'
-      date: '2019-02-18'
-      abstract: 'Den 9. februar ga jeg et overblikk over internasjonal klimapolitikk på Litteraturhuset i Oslo, som en del av deres foredragsserie om klimaproblemet. Foredraget er nå gjort tilgjengelig som podkast.'
-      language: 'no'
-      categories:
-        - kommentert
-      tags:
-        - 'fns klimaforhandlinger'
-        - kyoto
-        - nord/sør
-        - paris
-        - foredrag
-        - podcast
-  - ikke-i-samme-bat:
-      title: 'Ikke i samme båt'
-      date: '2018-12-11'
-      categories:
-        - kommentert
-      tags:
-        - antropocen
-        - kapitalisme
-        - klimarettferdighet
-        - kolonialisme
-        - ulikhet
-      language: 'no'
-      abstract: 'Gjør alvoret i klimakrisen at vi kan glemme spørsmål om skyld, ansvar og rettferdighet - eller blir de tvert imot viktigere?'
-  - oljedebatten-er-kommet-for-a-bli:
-      title: 'Oljedebatten er kommet for å bli'
-      date: '2017-09-24'
-      categories:
-        - kommentert
-      tags:
-        - dagbladet-bloggen
-        - 'erna solberg'
-        - karbonbudsjett
-        - mdg
-        - 'norsk klimapolitikk'
-        - olje
-        - valgkamp
-      language: 'no'
-      abstract: 'Årets valgkamp ble et gjennombrudd for en ny miljøpolitisk debatt der framtida til Olje-Norge står i sentrum. En ny vitenskapelig forståelse av klimaproblemet gjør at olje trolig kommer til å fortsette å være en hovedsak i klimadebatten framover.'
   - for-mye-eller-for-lite-demokrati:
       title: 'For mye eller for lite demokrati?'
       date: '2016-11-01'
@@ -193,32 +97,33 @@ sub-items:
         - oljeindustri
         - paris
         - vg
-  - na-er-det-opp-til-oss:
-      title: 'Nå er det opp til oss'
-      date: '2015-12-15'
-      categories:
-        - kommentert
-      tags:
-        - dagbladet-bloggen
-        - 'fns klimaforhandlinger'
-        - paris
+  - foredrag-internasjonal-klimapolitikk-forklart:
+      title: 'Foredrag: Internasjonal klimapolitikk forklart'
+      date: '2019-02-18'
+      abstract: 'Den 9. februar ga jeg et overblikk over internasjonal klimapolitikk på Litteraturhuset i Oslo, som en del av deres foredragsserie om klimaproblemet. Foredraget er nå gjort tilgjengelig som podkast.'
       language: 'no'
-      abstract: 'Paris-avtalen gjør slutt på ventingen: Det kommer ingen «global løsning» på klimaproblemet. Nå er ansvaret tydelig plassert i nasjonal politikk, og det er opp til oss å sørge for at vi leverer den nødvendige innsatsen.'
-  - prinsipplose-i-paris:
-      title: 'Prinsippløse i Paris?'
-      date: '2015-12-07'
       categories:
         - kommentert
       tags:
-        - 'barack obama'
-        - dagbladet-bloggen
         - 'fns klimaforhandlinger'
-        - klimarettferdighet
+        - kyoto
         - nord/sør
         - paris
-        - ulikhet
+        - foredrag
+        - podcast
+  - gamle-modeller-og-nye-tanker:
+      title: 'Gamle modeller og nye tanker'
+      date: '2014-01-01'
+      categories:
+        - kommentert
+      tags:
+        - 'anders bjartnes'
+        - 'fns klimaforhandlinger'
+        - 'jens stoltenberg'
+        - 'kjetil lund'
+        - paris
       language: 'no'
-      abstract: 'Etter åpningen av klimatoppmøtet i Paris tidligere denne uka, fikk USAs president Barack Obama kritikk for ikke å nevne ordet «rettferdighet» i en ellers godt mottatt tale. Men Obama er ikke alene'
+      abstract: 'Kritikken av «Stoltenberg-modellen» kan gjerne nyanseres. Men utfordringen til Norges internasjonale klimaarbeid står seg: Vi bør tenke nytt hvis vi skal bidra mest mulig effektivt i internasjonal klimapolitikk.'
   - godhetstyranni-og-andre-norske-verdier:
       title: 'Godhetstyranni og andre norske verdier'
       date: '2015-11-06'
@@ -234,33 +139,17 @@ sub-items:
         - kirken
         - 'norske verdier'
         - 'sylvi listhaug'
-  - roma-midt-imot:
-      title: 'Roma - midt imot'
-      date: '2015-07-06'
-      tags:
-        - 'laudato si'
-        - miljøbevegelsen
-        - nord/sør
-        - paris
-        - 'pave frans'
+  - haplost-og-helt-nodvendig:
+      title: 'Håpløst og helt nødvendig'
+      date: '2013-11-11'
+      abstract: 'De som skal analysere resultatene av klimatoppmøtet i Warszawa de kommende to ukene, bør huske at det ikke finnes noe sånt som «globale løsninger» på klimaproblemet.'
       language: 'no'
-      abstract: 'Toppane i internasjonal klimapolitikk har kanonisert pave Frans i levande live. Dei underslår kor radikal bodskapen hans faktisk er.'
-      authors:
-        - self
-  - klimaets-bestevenn-merkel-eller-solberg:
-      title: 'Klimaets bestevenn - Merkel eller Solberg?'
-      date: '2015-06-11'
       categories:
         - kommentert
       tags:
-        - dagbladet-bloggen
-        - 'erna solberg'
         - 'fns klimaforhandlinger'
-        - g7
-        - 'netto null'
         - paris
-      language: 'no'
-      abstract: 'De sju vestlige stormaktene i G7-gruppa, med Tysklands Angela Merkel i spissen, hylles som klimahelter etter at de denne uka vedtok et mål om å «avkarbonisere» verdensøkonomien. G7-landenes løfter er milevis unna det som trengs for å stoppe farlige klimaendringer. Men kan det likevel hende at Merkel & co faktisk overgår Erna Solbergs klimaambisjoner?'
+        - warszawa
   - hoyhus-pa-havets-bunn:
       title: 'Høyhus på havets bunn'
       date: '2015-04-17'
@@ -275,37 +164,186 @@ sub-items:
         - miljødirektoratet
       language: 'no'
       abstract: 'Det nye regjeringskvartalet blir småtterier i forhold til fjellet Regjeringen vil bygge i Førdefjorden.'
-  - a-se-seg-blind-pa-tallene:
-      title: 'Å se seg blind på tallene'
-      date: '2015-03-25'
-      abstract: 'Denne ukas overraskelse: Rosablogger Sophie Elise ser ut til å forstå politikk bedre enn både skeptiker-blogger Gunnar Tjomlid og enkelte norske økonomer.'
+  - hva-anbefalte-klimautvalget:
+      title: 'Hva anbefalte Klimautvalget?'
+      date: 1701388800
+      abstract: 'Rapporten fra Klimautvalget 2050, som jeg bidro til å utarbeide, har skapt debatt om organiseringen av norsk klimapolitikk. I dette innlegget svarer jeg på kritikken fra samfunnsøkonom Bjart Holtsmark om utvalgets forslag når det gjelder bioenergi og CO2-opptak i skogen.'
       language: 'no'
+      categories:
+        - kommentert
+      tags:
+        - 'klimautvalget 2050'
+        - 'negative utslipp'
+        - 'netto null'
+        - 'norsk klimapolitikk'
+        - skog
+  - hva-mener-erna-om-klimakvoter:
+      title: 'Hva mener Erna om klimakvoter?'
+      date: '2014-05-16'
+      categories:
+        - kommentert
+      tags:
+        - arbeiderpartiet
+        - cdm
+        - 'erna solberg'
+        - høyre
+        - kvotehandel
+      language: 'no'
+      abstract: 'Erna Solberg markerer avstand til Arbeiderpartiets blinde tro på klimakvoter. Men hennes egen regjering risikerer å bidra til enda mer usikker kvotehandel i en ny internasjonal klimaavtale.'
+  - hvordan-dele-karbonbudsjettet:
+      title: 'Hvordan dele karbonbudsjettet?'
+      date: '2013-09-27'
+      categories:
+        - kommentert
+      tags:
+        - 'bill mckibben'
+        - 'femte hovedrapport'
+        - 'fns klimaforhandlinger'
+        - 'fns klimapanel'
+        - karbonbudsjett
+        - københavn
+        - nord/sør
+      language: 'no'
+      abstract: 'Den nye rapporten fra FNs klimapanel gir verden et «forurensningsbudsjett». Men klimapanelet kan ikke hjelpe oss med det viktigste spørsmålet: Hvordan budsjettet bør fordeles.'
+  - ikke-i-samme-bat:
+      title: 'Ikke i samme båt'
+      date: '2018-12-11'
+      categories:
+        - kommentert
+      tags:
+        - antropocen
+        - kapitalisme
+        - klimarettferdighet
+        - kolonialisme
+        - ulikhet
+      language: 'no'
+      abstract: 'Gjør alvoret i klimakrisen at vi kan glemme spørsmål om skyld, ansvar og rettferdighet - eller blir de tvert imot viktigere?'
+  - klimaets-bestevenn-merkel-eller-solberg:
+      title: 'Klimaets bestevenn - Merkel eller Solberg?'
+      date: '2015-06-11'
       categories:
         - kommentert
       tags:
         - dagbladet-bloggen
-        - kvotehandel
+        - 'erna solberg'
+        - 'fns klimaforhandlinger'
+        - g7
+        - 'netto null'
+        - paris
+      language: 'no'
+      abstract: 'De sju vestlige stormaktene i G7-gruppa, med Tysklands Angela Merkel i spissen, hylles som klimahelter etter at de denne uka vedtok et mål om å «avkarbonisere» verdensøkonomien. G7-landenes løfter er milevis unna det som trengs for å stoppe farlige klimaendringer. Men kan det likevel hende at Merkel & co faktisk overgår Erna Solbergs klimaambisjoner?'
+  - klimautvalget-2050-en-ny-organisering-av-norsk-klimapolitikk:
+      title: 'Klimautvalget 2050: En ny organisering av norsk klimapolitikk'
+      date: '2023-10-30'
+      categories:
+        - kommentert
+      tags:
+        - 'klima- og miljødepartementet'
+        - klimaloven
+        - 'klimautvalget 2050'
+        - 'norsk klimapolitikk'
+      language: 'no'
+      abstract: '27. oktober 2023 avga Klimautvalget 2050 sin rapport til klima- og miljøministeren. Rapporten foreslår en ny organisering av klimapolitikken for å nå Norges mål om å bli kvitt praktisk talt alle klimagassutslipp innen 2050.'
+  - kyoto-2-darlig-men-nodvendig:
+      title: 'Kyoto 2: Dårlig men nødvendig'
+      date: '2013-06-07'
+      categories:
+        - kommentert
+      tags:
+        - 'fns klimaforhandlinger'
+        - frp
+        - kyoto
+      language: 'no'
+      abstract: 'Fremskrittspartiet har rett i at Kyoto 2 er en dårlig avtale. Men grunnen er den motsatte av det Per-Willy Amundsen hevder. Å droppe den vil bare gjøre det vanskeligere å få store land som Kina til å kutte sine klimagassutslipp.'
+  - mer-eller-mindre-demokrati:
+      title: 'Mer eller mindre demokrati?'
+      date: '2022-07-29'
+      categories:
+        - kommentert
+      tags:
+        - demokrati
+        - klimapolitikk
         - miljøbevegelsen
-        - palmeolje
-        - samfunnsøkonomi
-        - 'sophie elise'
-        - tall
-  - utehjemme-klimamal-pa-to-nivaer:
-      title: 'Ute/hjemme: Klimamål på to nivåer'
-      date: '2015-02-05'
+      language: 'no'
+      abstract: 'Sommeren 2022 gikk det en debatt i Morgenbladet om demokrati og klimaendringer. I dette innlegget svarer jeg professor Tore Wig ved Universitetet i Oslo.'
+  - myter-om-klimamal-i-norge-og-eu:
+      title: 'Myter om klimamål i Norge og EU'
+      date: '2021-03-29'
+      categories:
+        - kommentert
+      tags:
+        - arbeiderpartiet
+        - eu
+        - høyre
+        - 'norsk klimapolitikk'
+        - senterpartiet
+      language: 'no'
+      abstract: 'Arbeiderpartiet og Høyre går nå i front for at utslippskuttene skal gjennomføres på hjemmebane. Det er nytt i norsk klimapolitikk.'
+  - na-er-det-opp-til-oss:
+      title: 'Nå er det opp til oss'
+      date: '2015-12-15'
+      categories:
+        - kommentert
+      tags:
+        - dagbladet-bloggen
+        - 'fns klimaforhandlinger'
+        - paris
+      language: 'no'
+      abstract: 'Paris-avtalen gjør slutt på ventingen: Det kommer ingen «global løsning» på klimaproblemet. Nå er ansvaret tydelig plassert i nasjonal politikk, og det er opp til oss å sørge for at vi leverer den nødvendige innsatsen.'
+  - ny-giv-for-gronn-politikk:
+      title: 'Ny giv for grønn politikk?'
+      date: '2020-04-14'
       categories:
         - kommentert
       tags:
         - eu
-        - høyre
-        - klimamål
-        - krf
-        - kvotehandel
-        - kyoto
-        - paris
-        - venstre
+        - 'green new deal'
+        - 'grønne jobber'
+        - korona
+        - 'økonomisk politikk'
+        - usa
+        - venstresida
       language: 'no'
-      abstract: 'Problemet med norske klimamål er at de alltid har operert på to ulike nivåer. Skuffelsen over avtalen mellom Regjeringen og KrF/Venstre handler om at den kaster bort en unik sjanse til å koble de to nivåene sammen.'
+      abstract: 'På begge sider av Atlanterhavet har ideen om en «grønn deal» blitt en viktig del av den klimapolitiske debatten. I Europa har EU-kommisjonen lagt fram et omfattende forslag til en europeisk «Green Deal» som er ment å styrke unionens eksisterende klimapolitikk. I USA har venstresida i det demokratiske partiet gjort forslaget om en «Green New Deal» til en kampsak.'
+  - oljedebatten-er-kommet-for-a-bli:
+      title: 'Oljedebatten er kommet for å bli'
+      date: '2017-09-24'
+      categories:
+        - kommentert
+      tags:
+        - dagbladet-bloggen
+        - 'erna solberg'
+        - karbonbudsjett
+        - mdg
+        - 'norsk klimapolitikk'
+        - olje
+        - valgkamp
+      language: 'no'
+      abstract: 'Årets valgkamp ble et gjennombrudd for en ny miljøpolitisk debatt der framtida til Olje-Norge står i sentrum. En ny vitenskapelig forståelse av klimaproblemet gjør at olje trolig kommer til å fortsette å være en hovedsak i klimadebatten framover.'
+  - oljen-utfordrer-norsk-klimatroverdighet:
+      title: 'Oljen utfordrer norsk klimatroverdighet'
+      date: '2020-12-22'
+      categories:
+        - kommentert
+      tags:
+        - arktis
+        - 'joe biden'
+        - olje
+        - usa
+      language: 'no'
+      abstract: 'Påtroppende USA-president Joe Biden vil verne Arktis mot oljevirksomhet. Danmark stopper oljeleting av hensyn til klimaet. Det blir stadig vanskeligere for Norge å kombinere klimatroverdighet og oljeproduksjon.'
+  - om-bruno-latour:
+      title: 'Å sette vitenskapen på (riktig) plass: Om Bruno Latour'
+      date: 1612224000
+      abstract: 'I anledning utgivelsen av Bruno Latours nye bok Où suis-je? har tidsskriftet Vagant bedt flere bidragsytere om å reflektere over hva Latours arbeid har betydd for dem. Mitt bidrag tar for seg betydningen Latour har hatt både for STS som akademisk felt og for klimapolitisk teori og praksis.'
+      language: 'no'
+      categories:
+        - kommentert
+      tags:
+        - 'aktør-nettverk teori'
+        - latour
+        - 'politisk teori'
+        - sts
   - pa-feil-side-av-historien:
       title: 'På feil side av historien'
       date: '2015-01-21'
@@ -324,101 +362,20 @@ sub-items:
         - 'tord lien'
       language: 'no'
       abstract: 'Politikk handler ofte om gråsoner og vanskelige avveininger. Men av og til stilles politikere overfor spørsmål der det er grunn til å tro at historien vil avgi en utvetydig dom om hvem som hadde rett og hvem som tok feil.'
-  - tvisyn-om-to-grader:
-      title: 'Tvisyn om to grader'
-      date: '2014-10-06'
+  - pa-leting-etter-en-oljesosiologi-tre-proveboringer:
+      title: 'På leting etter en oljesosiologi: Tre prøveboringer'
+      date: '2019-04-16'
       categories:
         - kommentert
       tags:
-        - 'david victor'
-        - 'fns klimapanel'
-        - miljøbevegelsen
-        - sts
-        - tall
-        - togradersmålet
+        - antropocen
+        - demokrati
+        - geologi
+        - olje
+        - oljeindustri
+        - sosiologi
       language: 'no'
-      abstract: 'I forrige uke blusset det opp en debatt om det viktigste målet i internasjonal klimapolitikk: Målet om å begrense den globale temperaturstigningen til to grader. I en artikkel i tidsskriftet Nature den 1. oktober argumenterte de to amerikanske forskerne David Victor og Charles Kennel for at målet burde droppes.'
-  - symbolseier-med-langvarige-effekter:
-      title: 'Symbolseier med langvarige effekter'
-      date: '2014-08-12'
-      categories:
-        - kommentert
-      tags:
-        - arbeiderpartiet
-        - høyre
-        - klimamål
-        - kvotehandel
-        - miljøbevegelsen
-        - 'norsk klimapolitikk'
-        - sv
-        - tall
-      language: 'no'
-      abstract: 'Den mest undersolgte miljøseieren under den rødgrønne regjeringen må være det tallfestede målet for nasjonale utslippskutt. Det slo meg da jeg hørte klima- og miljøminister Tine Sundtoft diskutere Norges klimainnsats i dagens Politisk Kvarter: Med mantraet «vi mangler åtte millioner tonn i nasjonale utslippskutt» banket Høyre-statsråden inn et budskap som for få år siden SV og Sp måtte kjempe en hard kamp for å vinne igjennom med.'
-  - utsiras-underlige-allianser:
-      title: 'Utsiras underlige allianser'
-      date: '2014-05-19'
-      categories:
-        - kommentert
-      tags:
-        - elektrifisering
-        - miljøbevegelsen
-        - naturvernforbundet
-        - 'norsk klimapolitikk'
-        - utsira
-      language: 'no'
-      abstract: 'Mens miljøpartiene på Stortinget feirer elektrifisering av Utsirahøyden som en kjempeseier, går debatten om elektrifisering høyt i miljøbevegelsen. Enkelte går så langt i å svartmale elektrifisering som klimatiltak at de inngår noen mildt sagt underlige allianser: Både oljeindustri, Fremskrittspartiet og kvote-økonomer blir naturlige støttespillere.'
-  - hva-mener-erna-om-klimakvoter:
-      title: 'Hva mener Erna om klimakvoter?'
-      date: '2014-05-16'
-      categories:
-        - kommentert
-      tags:
-        - arbeiderpartiet
-        - cdm
-        - 'erna solberg'
-        - høyre
-        - kvotehandel
-      language: 'no'
-      abstract: 'Erna Solberg markerer avstand til Arbeiderpartiets blinde tro på klimakvoter. Men hennes egen regjering risikerer å bidra til enda mer usikker kvotehandel i en ny internasjonal klimaavtale.'
-  - burde-krevd-rensing-fra-dag-en:
-      title: 'Burde krevd rensing fra dag én'
-      date: '2014-03-28'
-      categories:
-        - kommentert
-      tags:
-        - arbeiderpartiet
-        - frp
-        - gasskraft
-        - høyre
-        - krf
-        - mongstad
-        - sv
-        - venstre
-      language: 'no'
-      abstract: 'Mediedebatten rundt Stortingets behandling av Mongstad-saken har utviklet seg til et politisk svarteperspill om ansvaret for en feilslått «månelanding».'
-  - velkommen-til-klud:
-      title: 'Velkommen til KLUD'
-      date: '2014-01-09'
-      categories:
-        - kommentert
-      tags:
-        - 'klima- og miljødepartementet'
-        - utenriksdepartementet
-      language: 'no'
-      abstract: 'Det som pleide å hete Miljøverndepartementet blir i stadig større grad et slags grønt utenriksdepartement. Nå har departementet også fått en egen «spesialutsending» for internasjonalt klimaarbeid, mens det virkelige UD er parkert på sidelinja.'
-  - gamle-modeller-og-nye-tanker:
-      title: 'Gamle modeller og nye tanker'
-      date: '2014-01-01'
-      categories:
-        - kommentert
-      tags:
-        - 'anders bjartnes'
-        - 'fns klimaforhandlinger'
-        - 'jens stoltenberg'
-        - 'kjetil lund'
-        - paris
-      language: 'no'
-      abstract: 'Kritikken av «Stoltenberg-modellen» kan gjerne nyanseres. Men utfordringen til Norges internasjonale klimaarbeid står seg: Vi bør tenke nytt hvis vi skal bidra mest mulig effektivt i internasjonal klimapolitikk.'
+      abstract: 'Oljen er Norges viktigste utfordring i «det grønne skiftet». Burde den ikke også være et hovedtema for en sosiologi som ønsker å ha noe å si om den omstillingen vi står overfor?'
   - pengemas-som-fortjent:
       title: 'Pengemas som fortjent'
       date: '2013-11-28'
@@ -432,6 +389,21 @@ sub-items:
         - warszawa
       language: 'no'
       abstract: 'Utviklingslandenes mas om penger til klimatiltak ødelegger for framgangen i forhandlingene om en internasjonal klimaavtale, skriver Aftenpostens Ole Mathismoen. Han mener miljø- og utviklingsorganisasjonene hauser opp konflikten mellom den rike og den fattige delen av verden når de fokuserer på de rike landenes ansvar og brutte løfter i klimapolitikken.'
+  - prinsipplose-i-paris:
+      title: 'Prinsippløse i Paris?'
+      date: '2015-12-07'
+      categories:
+        - kommentert
+      tags:
+        - 'barack obama'
+        - dagbladet-bloggen
+        - 'fns klimaforhandlinger'
+        - klimarettferdighet
+        - nord/sør
+        - paris
+        - ulikhet
+      language: 'no'
+      abstract: 'Etter åpningen av klimatoppmøtet i Paris tidligere denne uka, fikk USAs president Barack Obama kritikk for ikke å nevne ordet «rettferdighet» i en ellers godt mottatt tale. Men Obama er ikke alene'
   - rettferdighet-i-drivhuset:
       title: 'Rettferdighet i drivhuset'
       date: '2013-11-15'
@@ -448,32 +420,67 @@ sub-items:
         - warszawa
       language: 'no'
       abstract: 'Norske politikere er ikke i nærheten av å forstå hva en rettferdig fordeling av klimaansvaret faktisk vil kreve av oss.'
-  - haplost-og-helt-nodvendig:
-      title: 'Håpløst og helt nødvendig'
-      date: '2013-11-11'
-      abstract: 'De som skal analysere resultatene av klimatoppmøtet i Warszawa de kommende to ukene, bør huske at det ikke finnes noe sånt som «globale løsninger» på klimaproblemet.'
-      language: 'no'
+  - rike-land-ma-lytte:
+      title: 'Rike land må lytte'
+      date: '2012-12-10'
       categories:
         - kommentert
       tags:
+        - doha
+        - eu
         - 'fns klimaforhandlinger'
-        - paris
-        - warszawa
-  - hvordan-dele-karbonbudsjettet:
-      title: 'Hvordan dele karbonbudsjettet?'
-      date: '2013-09-27'
-      categories:
-        - kommentert
-      tags:
-        - 'bill mckibben'
-        - 'femte hovedrapport'
-        - 'fns klimaforhandlinger'
-        - 'fns klimapanel'
-        - karbonbudsjett
-        - københavn
+        - kyoto
         - nord/sør
       language: 'no'
-      abstract: 'Den nye rapporten fra FNs klimapanel gir verden et «forurensningsbudsjett». Men klimapanelet kan ikke hjelpe oss med det viktigste spørsmålet: Hvordan budsjettet bør fordeles.'
+      abstract: 'Klimatoppmøtet i Doha vedtok endelig den såkalte «Kyoto 2»-avtalen, med nye utslippsforpliktelser for EU, Norge og enkelte andre rike land i perioden fram til 2020. Men det internasjonale klimaarbeidet kunne ha kommet mye lenger hvis EU hadde lyttet til utviklingslandene og akseptert Kyoto 2 allerede for tre år siden.'
+  - roma-midt-imot:
+      title: 'Roma - midt imot'
+      date: '2015-07-06'
+      tags:
+        - 'laudato si'
+        - miljøbevegelsen
+        - nord/sør
+        - paris
+        - 'pave frans'
+      language: 'no'
+      abstract: 'Toppane i internasjonal klimapolitikk har kanonisert pave Frans i levande live. Dei underslår kor radikal bodskapen hans faktisk er.'
+      authors:
+        - self
+  - star-selve-klimasamarbeidet-i-flammer:
+      title: 'Står selve klimasamarbeidet i flammer?'
+      date: '2025-11-25'
+      tags:
+        - 'donald trump'
+        - 'fns klimaforhandlinger'
+        - 'fossil utfasing'
+        - klimapolitikk
+        - paris
+        - russland
+        - usa
+      language: 'no'
+      abstract: 'Årets klimatoppmøte viser at ideen om en konfliktfri grønn omstilling alltid var en illusjon. Det skriver jeg i en kommentar til toppmøtet COP 30 i Brasil.'
+      authors:
+        - self
+      images:
+        - main:
+            file: assets/images/cop30-fire-l.jpg
+            alt: 'Camp Fire 2018.'
+  - symbolseier-med-langvarige-effekter:
+      title: 'Symbolseier med langvarige effekter'
+      date: '2014-08-12'
+      categories:
+        - kommentert
+      tags:
+        - arbeiderpartiet
+        - høyre
+        - klimamål
+        - kvotehandel
+        - miljøbevegelsen
+        - 'norsk klimapolitikk'
+        - sv
+        - tall
+      language: 'no'
+      abstract: 'Den mest undersolgte miljøseieren under den rødgrønne regjeringen må være det tallfestede målet for nasjonale utslippskutt. Det slo meg da jeg hørte klima- og miljøminister Tine Sundtoft diskutere Norges klimainnsats i dagens Politisk Kvarter: Med mantraet «vi mangler åtte millioner tonn i nasjonale utslippskutt» banket Høyre-statsråden inn et budskap som for få år siden SV og Sp måtte kjempe en hard kamp for å vinne igjennom med.'
   - tilbake-til-mongstad:
       title: 'Tilbake til Mongstad'
       date: '2013-09-23'
@@ -490,53 +497,57 @@ sub-items:
         - sv
       language: 'no'
       abstract: 'Hvordan Jens Stoltenberg vant diskusjonen om månelandingen.'
-  - kyoto-2-darlig-men-nodvendig:
-      title: 'Kyoto 2: Dårlig men nødvendig'
-      date: '2013-06-07'
+  - tvisyn-om-to-grader:
+      title: 'Tvisyn om to grader'
+      date: '2014-10-06'
       categories:
         - kommentert
       tags:
-        - 'fns klimaforhandlinger'
-        - frp
-        - kyoto
-      language: 'no'
-      abstract: 'Fremskrittspartiet har rett i at Kyoto 2 er en dårlig avtale. Men grunnen er den motsatte av det Per-Willy Amundsen hevder. Å droppe den vil bare gjøre det vanskeligere å få store land som Kina til å kutte sine klimagassutslipp.'
-  - rike-land-ma-lytte:
-      title: 'Rike land må lytte'
-      date: '2012-12-10'
-      categories:
-        - kommentert
-      tags:
-        - doha
-        - eu
-        - 'fns klimaforhandlinger'
-        - kyoto
-        - nord/sør
-      language: 'no'
-      abstract: 'Klimatoppmøtet i Doha vedtok endelig den såkalte «Kyoto 2»-avtalen, med nye utslippsforpliktelser for EU, Norge og enkelte andre rike land i perioden fram til 2020. Men det internasjonale klimaarbeidet kunne ha kommet mye lenger hvis EU hadde lyttet til utviklingslandene og akseptert Kyoto 2 allerede for tre år siden.'
-  - hva-anbefalte-klimautvalget:
-      title: 'Hva anbefalte Klimautvalget?'
-      date: 1701388800
-      abstract: 'Rapporten fra Klimautvalget 2050, som jeg bidro til å utarbeide, har skapt debatt om organiseringen av norsk klimapolitikk. I dette innlegget svarer jeg på kritikken fra samfunnsøkonom Bjart Holtsmark om utvalgets forslag når det gjelder bioenergi og CO2-opptak i skogen.'
-      language: 'no'
-      categories:
-        - kommentert
-      tags:
-        - 'klimautvalget 2050'
-        - 'negative utslipp'
-        - 'netto null'
-        - 'norsk klimapolitikk'
-        - skog
-  - om-bruno-latour:
-      title: 'Å sette vitenskapen på (riktig) plass: Om Bruno Latour'
-      date: 1612224000
-      abstract: 'I anledning utgivelsen av Bruno Latours nye bok Où suis-je? har tidsskriftet Vagant bedt flere bidragsytere om å reflektere over hva Latours arbeid har betydd for dem. Mitt bidrag tar for seg betydningen Latour har hatt både for STS som akademisk felt og for klimapolitisk teori og praksis.'
-      language: 'no'
-      categories:
-        - kommentert
-      tags:
-        - 'aktør-nettverk teori'
-        - latour
-        - 'politisk teori'
+        - 'david victor'
+        - 'fns klimapanel'
+        - miljøbevegelsen
         - sts
+        - tall
+        - togradersmålet
+      language: 'no'
+      abstract: 'I forrige uke blusset det opp en debatt om det viktigste målet i internasjonal klimapolitikk: Målet om å begrense den globale temperaturstigningen til to grader. I en artikkel i tidsskriftet Nature den 1. oktober argumenterte de to amerikanske forskerne David Victor og Charles Kennel for at målet burde droppes.'
+  - utehjemme-klimamal-pa-to-nivaer:
+      title: 'Ute/hjemme: Klimamål på to nivåer'
+      date: '2015-02-05'
+      categories:
+        - kommentert
+      tags:
+        - eu
+        - høyre
+        - klimamål
+        - krf
+        - kvotehandel
+        - kyoto
+        - paris
+        - venstre
+      language: 'no'
+      abstract: 'Problemet med norske klimamål er at de alltid har operert på to ulike nivåer. Skuffelsen over avtalen mellom Regjeringen og KrF/Venstre handler om at den kaster bort en unik sjanse til å koble de to nivåene sammen.'
+  - utsiras-underlige-allianser:
+      title: 'Utsiras underlige allianser'
+      date: '2014-05-19'
+      categories:
+        - kommentert
+      tags:
+        - elektrifisering
+        - miljøbevegelsen
+        - naturvernforbundet
+        - 'norsk klimapolitikk'
+        - utsira
+      language: 'no'
+      abstract: 'Mens miljøpartiene på Stortinget feirer elektrifisering av Utsirahøyden som en kjempeseier, går debatten om elektrifisering høyt i miljøbevegelsen. Enkelte går så langt i å svartmale elektrifisering som klimatiltak at de inngår noen mildt sagt underlige allianser: Både oljeindustri, Fremskrittspartiet og kvote-økonomer blir naturlige støttespillere.'
+  - velkommen-til-klud:
+      title: 'Velkommen til KLUD'
+      date: '2014-01-09'
+      categories:
+        - kommentert
+      tags:
+        - 'klima- og miljødepartementet'
+        - utenriksdepartementet
+      language: 'no'
+      abstract: 'Det som pleide å hete Miljøverndepartementet blir i stadig større grad et slags grønt utenriksdepartement. Nå har departementet også fått en egen «spesialutsending» for internasjonalt klimaarbeid, mens det virkelige UD er parkert på sidelinja.'
 ---
