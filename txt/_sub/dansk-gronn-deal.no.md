@@ -8,9 +8,11 @@ tags:
   - klasse
   - klimapolitikk
 language: 'no'
-abstract: 'Til tross for at den maler med bred pensel, er den danske boken "Klima og klasse" et verdifullt innspill i debatten om klima og samfunnsomstilling.'
+abstract: 'Til tross for at den maler med bred pensel, er den danske boka "Klima og klasse" et verdifullt innspill i debatten om klima og samfunnsomstilling.'
 type: blog
 ---
+**Til tross for at den maler med bred pensel, er den danske boken "Klima og klasse" et verdifullt innspill i debatten om klima og samfunnsomstilling.**
+
 For noen år siden deltok jeg i en diskusjon om hvilke tema som burde prioriteres i framtidens forskning på klimaendringer og klimapolitikk. En av deltakerne var en nestor i norsk klimaforskning, som tidligere har bidratt blant annet til å bygge økonomiske modeller for å beregne effekten av klimapolitiske tiltak, og å gjøre klimakunnskap tilgjengelig for finansbransjen. Men i denne diskusjonen var budskapet hans et ganske annet: For å forstå hvorfor det er så vanskelig å kutte klimagassutslipp, mente han, trenger vi først og fremst «skikkelig, marxistisk klasseanalyse».
 
 ::sidebar
