@@ -73,6 +73,10 @@ Problemet er at alliansen mellom grønne kapitalister og grønne brahminer ikke 
 
 I bokas siste kapittel presenterer så forfatterne sin løsning på dette problemet: Å bygge en ny, «folkelig klimakoalition» med tyngdepunkt i arbeider- og middelklassen. For å få til dette, vil de orientere klimadebatten bort fra kulturelle markører knyttet til forbruk og livsstil, og over til spørsmål om produksjon, arbeid og velferd. Grønn industribygging og en offentlig jobbgaranti skal sikre arbeidsplasser og trygg inntekt. Et sterkere sosialt sikkerhetsnett skal sørge for trygghet overfor både kommende klimaendringer og de økonomiske endringene som omstillingen vil medføre. Og i stedet for å ta utgangspunkt i profitt for investorer, skal klimatiltakene bygge på offentlig eierskap og omfordeling – blant annet gjennom jordreform og eiendomsskatt.
 
+::image images/gnd-aoc-l.jpg small
+Demonstrasjon for en Green New Deal i USA. Foto: [Jackie Filson](https://www.flickr.com/people/163813681@N04/) / Food & Water Action (CC BY-NC-SA).
+::
+
 Forfatterne argumenter med andre ord for et tydelig sosialistisk prosjekt i klimapolitikken. Det er sterkt inspirert av amerikanske sosialisters forslag om en Green New Deal (se f.eks. Aronoff m.fl., 2019). Samtidig er deres prosjekt tydelig plassert i en dansk virkelighet, der blant annet eierskap til landbruksarealer og vindkraft er sentrale spørsmål.
 
 ## Inspirasjon til empirisk arbeid
