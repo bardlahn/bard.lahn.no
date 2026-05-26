@@ -30,7 +30,6 @@ Av Rune Møller Stahl, Christoph Houman Ellersgaard og Andreas Møller Mulvad
 
 Informations Forlag, 2025
 
-Denne bokomtalen er skrevet for Sosiologen.no, og ble først [publisert der](https://sosiologen.no/omtale/dansk-gronn-deal/).
 ::
 
 
@@ -47,6 +46,12 @@ Med andre ord: Klimasaken taper på å bli en del av den stadig mer globaliserte
 For å komme ut av dette uføret, vil forfatterne erstatte kulturmotsetninger med økonomiske motsetninger. Siden klimaomstillingen handler om å endre produksjonsforhold og økonomisk organisering, bør den analyseres med utgangspunkt i materielle klassemotsetninger.
 
 Til dette formålet tegner boka opp et kart over «klimakampens klasselandskap», organisert langs to akser. Den ene aksen beskriver tradisjonelle materielle klassemotsetninger, der befolkningen organiseres ut fra økonomisk kapital. På toppen finner vi overklassen (de 1% rikeste) fulgt av «velhaverne» (de neste 9%), middelklassen (40%) og arbeiderklassen (de nederste 50%). Den andre aksen beskriver hvor tett de ulike gruppenes materielle ressurser er knyttet til tradisjonell «fossil økonomi» på høyre side, versus «grønn omstilling» på venstre. De som har store materielle interesser av «det grønne», som ansatte innen fornybar energi eller naturkonsulenter i det offentlige, vil altså havne langt mot venstre. De som er sterkt knyttet til «det sorte» – enten det gjelder fossil energi eller intensivt dansk landbruk – havner lengst til høyre på denne aksen.
+
+::image images/troll-a-l.jpg wide
+Arbeid i oljeindustrien er eksempel på «det sorte» i forfatternes klasselandskap.
+
+Foto: Øyvind Knoph Askeland, Norsk Olje og Gass (CC BY-SA)
+::
 
 Med sin bakgrunn i klasse- og ulikhetsforskning er forfatterne nøye med å plassere analysen sin i faglitteraturen på området. De refererer til Erik Olin Wright (1978) for å påpeke at man kan inneha «motsetningsfylte klasseposisjoner», og de beskriver bruken av en «sort/grønn» akse som inspirert av Nicos Poulantzas’ (1970; 1975) forståelse av ulike «klassefraksjoner» som springer ut av den konkrete organiseringen av produksjonen. Men selv om de bruker en del pass på å posisjonere seg teoretisk, går ikke forfatterne særlig dypt inn i de mange uenighetene om hvordan klassebegrepet bør forstås og operasjonaliseres. Dette er store og sentrale debatter i sosiologien – slik vi for eksempel har sett her på Sosiologen.no – men det er åpenbart ikke denne bokas hovedanliggende.
 
