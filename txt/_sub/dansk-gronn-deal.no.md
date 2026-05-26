@@ -26,9 +26,9 @@ Men om ikke norske forskningsmiljøer tok til seg innspillet den gangen, så få
 
 **Klima og klasse - Hvordan vi undgår at klimakampen ender i kulturkløften**
 
-**Av Rune Møller Stahl, Christoph Houman Ellersgaard og Andreas Møller Mulvad**
+Av Rune Møller Stahl, Christoph Houman Ellersgaard og Andreas Møller Mulvad
 
-**Informations Forlag, 2025**
+Informations Forlag, 2025
 
 Denne bokomtalen er skrevet for Sosiologen.no, og ble først [publisert der](https://sosiologen.no/omtale/dansk-gronn-deal/).
 ::
