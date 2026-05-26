@@ -14,10 +14,15 @@ type: blog
 For noen år siden deltok jeg i en diskusjon om hvilke tema som burde prioriteres i framtidens forskning på klimaendringer og klimapolitikk. En av deltakerne var en nestor i norsk klimaforskning, som tidligere har bidratt blant annet til å bygge økonomiske modeller for å beregne effekten av klimapolitiske tiltak, og å gjøre klimakunnskap tilgjengelig for finansbransjen. Men i denne diskusjonen var budskapet hans et ganske annet: For å forstå hvorfor det er så vanskelig å kutte klimagassutslipp, mente han, trenger vi først og fremst «skikkelig, marxistisk klasseanalyse».
 
 ::sidebar
+Denne bokomtalen er skrevet for Sosiologen.no, og ble først [publisert der](https://sosiologen.no/omtale/dansk-gronn-deal/).
+::
 
-##Bokomtale
+Som sosiolog var jeg kanskje predisponert å være enig i argumentet han framførte: Hvis vi skal lykkes med å kutte klimagassutslipp, så trenger vi å analysere hvordan den nødvendige omstillingen formes av grunnleggende økonomiske og sosiale skillelinjer. Samtidig var jeg ikke overrasket over at forslaget vant lite gjenklang i diskusjonen. Klimaforskningen domineres av naturvitenskapelige og klassiske økonomiske perspektiver. Fra et slikt ståsted kan det virke fremmed å komme trekkende med begreper som klasse.
 
-[![Bokomslag: Klima og klasse]($:url_assets:images/klima-og-klasse-cover-s.png)](https://butik.information.dk/products/klima-og-klasse)
+Men om ikke norske forskningsmiljøer tok til seg innspillet den gangen, så får vi nå drahjelp fra Danmark. Rune Møller Stahl, Christoph Houman Ellersgaard og Andreas Møller Mulvad er sosiologer og statsvitere med økonomisk ulikhet, klasse og eliter som forskningsfelt. I boken Klima og klasse: hvordan vi undgår, at klimakampen ender i kulturkløften viser de nettopp hvordan klasseanalyse kan være fruktbart for å forstå motsetningene i klimadebatten. Og – ikke minst – hvordan en slik analyse kan gi peilepunkter for en politisk strategi. For dette er ikke en tung akademisk bok, men heller en engasjert debattbok som argumenterer for en ny strategi i «klimakampen»: En strategi som forsøker å bygge en ny politisk allianse av ulike klassefraksjoner, for på den måten å «bringe den grønne omstillings forkæmpere tilbage i offensiven» (s. 50). 
+
+::sidebar
+[![Bokomslag: Klima og klasse](:$url_assets:images/klima-og-klasse-cover-s.png)](https://butik.information.dk/products/klima-og-klasse)
 
 **Klima og klasse - Hvordan vi undgår at klimakampen ender i kulturkløften**
 
@@ -28,9 +33,6 @@ For noen år siden deltok jeg i en diskusjon om hvilke tema som burde prioritere
 Denne bokomtalen er skrevet for Sosiologen.no, og ble først [publisert der](https://sosiologen.no/omtale/dansk-gronn-deal/).
 ::
 
-Som sosiolog var jeg kanskje predisponert å være enig i argumentet han framførte: Hvis vi skal lykkes med å kutte klimagassutslipp, så trenger vi å analysere hvordan den nødvendige omstillingen formes av grunnleggende økonomiske og sosiale skillelinjer. Samtidig var jeg ikke overrasket over at forslaget vant lite gjenklang i diskusjonen. Klimaforskningen domineres av naturvitenskapelige og klassiske økonomiske perspektiver. Fra et slikt ståsted kan det virke fremmed å komme trekkende med begreper som klasse.
-
-Men om ikke norske forskningsmiljøer tok til seg innspillet den gangen, så får vi nå drahjelp fra Danmark. Rune Møller Stahl, Christoph Houman Ellersgaard og Andreas Møller Mulvad er sosiologer og statsvitere med økonomisk ulikhet, klasse og eliter som forskningsfelt. I boken Klima og klasse: hvordan vi undgår, at klimakampen ender i kulturkløften viser de nettopp hvordan klasseanalyse kan være fruktbart for å forstå motsetningene i klimadebatten. Og – ikke minst – hvordan en slik analyse kan gi peilepunkter for en politisk strategi. For dette er ikke en tung akademisk bok, men heller en engasjert debattbok som argumenterer for en ny strategi i «klimakampen»: En strategi som forsøker å bygge en ny politisk allianse av ulike klassefraksjoner, for på den måten å «bringe den grønne omstillings forkæmpere tilbage i offensiven» (s. 50). 
 
 ## Kulturkløft og klasselandskap
 
