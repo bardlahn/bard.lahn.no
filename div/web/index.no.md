@@ -17,7 +17,8 @@ Av andre verktøy bruker jeg [Parsedown](https://parsedown.org) og [Symfony Yaml
 Alt innhold på nettsiden er tilgjengelig under Creative Commons-lisensen [BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/), med mindre noe annet er oppgitt. Har du spørsmål om bruk av tekster, bilder eller kode, så <a href="mailto:bard_AT_lahn.no">ta gjerne kontakt</a>.
 
 Bildene på nettsiden er stort sett tatt av meg, med følgende unntak:
-- [Portretter av meg](/:$lang:/bio/img/) - se fotograf
-- Ameriflux-tårnet - [Kyle Spradley](https://www.kspradleyphoto.com) via [Flickr.com](https://flickr.com) (CC BY-NC)
+- Ameriflux-tårnet - [Kyle Spradley](https://www.kspradleyphoto.com) via Flickr.com (CC BY-NC)
 - Camp-brannen (satellitbilde) - Joshua Stevens, [NASA](https://science.nasa.gov/earth/earth-observatory/camp-fire-rages-in-california-144225/) (CC0)
 - Fosselven kraftverk - [Normann Helger](https://kulturnav.org/c70ae073-67ac-4467-806c-de7164ff50be) / Anno Domkirkeodden (CC0)
+- Oljeindustri, diverse bilder - [Offshore Norge](https://www.flickr.com/photos/olfnorge/) via Flicker.com (CC BY-SA)
+- [Portretter av meg](/:$lang:/bio/img/) - se oppgitt fotograf

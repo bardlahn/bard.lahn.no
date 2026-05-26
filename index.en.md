@@ -13,7 +13,7 @@ I'm Bård Lahn. I research and write about the politics of climate change, energ
 Among the things I research: How we come to know about the climate - and how we try to govern it.
 ::
 
-This website collects my academic [publications](/:$lang:/pub/) and other [writings](/:$lang:/txt/), as well as various snippets on my current or previous [projects and topics of interest](/:$lang:/div/). It also contains a fuller [biography](/:$lang:/bio/) including information about my previous roles and my teaching activities.
+This website collects my academic [publications](/:$lang:/pub/) and other [writings](/:$lang:/txt/). It also contains a fuller [biography](/:$lang:/bio/) including information about my previous roles and my teaching activities.
 
 You can also find me in other online spaces, including:
 - [University website](https://www.sv.uio.no/tik/english/people/aca/baardll/index.html)
