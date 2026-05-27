@@ -50,15 +50,15 @@ echo "<!-- DEBUG \n\n";
 
         print_r($element);
 
-    //*
-        if ($key === 'self') {
-            $authors['self'] = $self;
-        } else {
-            $authors[$key] = $author;
+    
+    //    if ($key === 'self') {
+    //        $authors['self'] = $self;
+    //    } else {
+    //        $authors[$key] = $author;
             // TO DO: Parse name into family and given names
             // TO DO: Error checking, ORCID -> URL, etc
-        }
-    *//
+    //    }
+    
 
     }
 
