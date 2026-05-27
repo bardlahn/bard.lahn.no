@@ -25,6 +25,7 @@ pub-data:
     - hulme:
         name: 'Mike Hulme'
   publisher: 'Cambridge University Press'
+  place: Cambridge
   isbn: 9781316514276
   pages: '225-233'
   file: assets/files/pub/lahn-2022.pdf

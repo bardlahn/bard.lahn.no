@@ -154,6 +154,8 @@ foreach ($posts_to_show as $entry) {
             // Other cases handled as report
             $pubString .= (!empty($entry['pub-data']['number'])) ?
                 "(Report " . $entry['pub-data']['number'] . ") " : "";
+            $pubString .= $entry['pub-data']['place'] ?? "<!-- DEBUG: Missing place -->";
+            $pubString .= (!empty($entry['pub-data']['place']) && !empty($entry['pub-data']['publisher'])) ? ": " : "";
             $pubString .= $entry['pub-data']['publisher'] ?? "<!-- DEBUG: Missing publisher -->";
             $pubString .= ".";
             break;

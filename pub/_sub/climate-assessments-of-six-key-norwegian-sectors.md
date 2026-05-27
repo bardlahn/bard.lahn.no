@@ -24,5 +24,6 @@ pub-data:
   pub-type: report
   pub-lang: 'en'
   publisher: 'CICERO Centre for International Climate Research'
+  place: Oslo
   number: '2021:02'
 ---
