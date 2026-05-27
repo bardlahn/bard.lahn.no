@@ -32,6 +32,7 @@ sub-items:
           - hulme:
               name: 'Mike Hulme'
         publisher: 'Cambridge University Press'
+        place: 'Cambridge'
         isbn: 9781316514276
         pages: 225-233
         file: assets/files/pub/lahn-2022.pdf
@@ -158,6 +159,7 @@ sub-items:
         pub-type: report
         pub-lang: en
         publisher: 'CICERO Centre for International Climate Research'
+        place: 'Oslo'
         number: '2021:02'
   - et-fast-punkt-for-klimaet:
       title: 'Et fast punkt for klimaet? Vitenskap og politikk i den svarte "Bali-boksen"'
@@ -276,6 +278,7 @@ sub-items:
         pub-lang: en
         doi: 10.1017/9781009352444.014
         book: 'Stability and Politicization in Climate Governance'
+        place: 'Cambridge'
         publisher: 'Cambridge University Press'
         pages: 163-175
         editors:
