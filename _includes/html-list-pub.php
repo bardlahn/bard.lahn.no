@@ -159,8 +159,9 @@ foreach ($posts_to_show as $entry) {
     // TO DO: Check for publication MD content and link to it if present
 
     $pubString = "";
-    if (!empty($entry['routes']['external'])):
+    if (!empty($entry['routes']['external'])) {
         $pubString .= '<a href="'.htmlspecialchars($entry['routes']['external']).'">'.$txt_goto."</a>\n";
+    }
     if (!empty($entry['pub-data']['file'])) {
         $pdfLink = "?action=download&file=" . $entry['pub-data']['file'];
         $pubString .= (empty($pubString)) ?
