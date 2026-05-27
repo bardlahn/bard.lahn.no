@@ -14,11 +14,12 @@ function fetchSubEntries(string $mainpath, string $filter = '', string $sorting 
                 if (!is_array($item)) continue;
                 foreach ($item as $slug => $fields) {
                     if (!is_array($fields)) continue;
-                    $entries[] = array_merge(
-                        ['slug' => $slug],
-                        array_map(fn($v) => is_int($v) ? (new \DateTime())->setTimestamp($v) : 
-                            (is_string($v) && preg_match('/^\d{4}-\d{2}-\d{2}$/', $v) ? new \DateTime($v) : $v), $fields)
-                    );
+//                    $entries[] = array_merge(
+//                        ['slug' => $slug],
+//                        array_map(fn($v) => is_int($v) ? (new \DateTime())->setTimestamp($v) : 
+//                            (is_string($v) && preg_match('/^\d{4}-\d{2}-\d{2}$/', $v) ? new \DateTime($v) : $v), $fields)
+//                    );
+                    $entries[] = array_merge(['slug' => $slug], $fields);
                 }
             }
         }
