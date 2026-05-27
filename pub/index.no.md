@@ -26,3 +26,6 @@ __Ny bok 2025:__ I boka ["Hvem bestemmer over klimaet?"](hvem-bestemmer/) (Forla
 
 ::include publications.md md
 ::
+
+::include includes/html-list-pub.php php
+::

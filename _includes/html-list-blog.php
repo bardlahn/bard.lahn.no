@@ -10,8 +10,7 @@ echo "<div class=\"content\">\n\n";
 
 // Handling filtering based on query
 
-$allowedFilters = ['year', 'tag', 'category', 'lang'];
-$filters = [];
+$allowedFilters = ['year', 'tag', 'lang'];
 $filters[] = "lang=" . $lang; // Setting default language
 $filter_descriptions = [];
 

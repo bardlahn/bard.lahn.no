@@ -33,6 +33,7 @@ function fetchSubEntries(string $mainpath, string $filter = '', string $sorting 
                         'year'     => isset($entry['date'])       && $entry['date']->format('Y') === $filterValue,
                         'tag'      => isset($entry['tags'])       && in_array($filterValue, $entry['tags']),
                         'category' => isset($entry['categories']) && in_array($filterValue, $entry['categories']),
+                        'pub-type' => isset($entry['pub-data']['pub-type']) && in_array($filterValue, $entry['pub-data']['pub-type']),
                         'lang'     => isset($entry['language'])   && strtolower($entry['language']) === strtolower($filterValue),
                         default    => true,
                     };

@@ -10,15 +10,15 @@ echo "<div class=\"content\">\n\n";
 
 // Handling filtering based on query
 
-$allowedFilters = ['year', 'tag', 'category', 'lang'];
+$allowedFilters = ['year', 'tag', 'pub-type', 'lang'];
 $filters = [];
-$filters[] = "lang=" . $lang; // Setting default language
+// $filters[] = "lang=" . $lang;  // - NO LANGUAGE DIFFERENTIATION
 $filter_descriptions = [];
 
 foreach ($allowedFilters as $key) {
     if (isset($_GET[$key])) {
         $value = htmlspecialchars(strip_tags($_GET[$key]));
-        $filter_descriptions[] = $key . ' <strong>' . $value . '</strong>'; // TO DO: LANGUAGE DIFFERENTIATION
+        $filter_descriptions[] = $key . ' <strong>' . $value . '</strong>';
         $filters[] = $key . '=' . $value;
     }
 }
@@ -37,12 +37,15 @@ $pub = fetchSubEntries($root_path . $self_url, $filter, $sorting);
 $total_posts = count($pub['sub-items']);
 $posts_to_show = $pub['sub-items'];
 
-$txt_show      = ($lang == "no") ? "Viser poster"   : "Showing posts";
-$txt_of        = ($lang == "no") ? "av"             : "of";
-$txt_prev      = ($lang == "no") ? "Forrige"        : "Previous";
-$txt_next      = ($lang == "no") ? "Neste"          : "Next";
-$txt_all       = ($lang == "no") ? "Vis alle"       : "Show all";
-$txt_less      = ($lang == "no") ? "Vis mindre"     : "Show less";
+$txt_and       = ($lang == "no") ? " og "       : " and ";
+$txt_in        = ($lang == "no") ? "I"          : " In";
+$txt_ed        = ($lang == "no") ? "red."       : "ed.";
+$txt_pages     = ($lang == "no") ? "Side"       : "Pp.";
+$txt_deg       = ($lang == "no") ? "Avhandling" : "Thesis";
+$txt_goto      = ($lang == "no") ? "Gå til nettversjon"
+                                                : "Go to web version";
+$txt_pdf       = ($lang == "no") ? "Last ned som PDF"
+                                                : "Download as PDF";
 
 // If filter applies, showing information about filter and total posts
 
@@ -57,15 +60,115 @@ if (!empty($filter_descriptions)) {
 }
 
 foreach ($posts_to_show as $entry) {
-    echo "<p><h2><a href=\"/" . $lang . "/" . $self_url . "/" . $entry['slug'] . "\">" . $entry['title'] . "</a></h2>\n";
+    echo "<p>";
+    // <h2><a href=\"/" . $lang . "/" . $self_url . "/" . $entry['slug'] . "\">" . $entry['title'] . "</a></h2>\n";
     $timestamp = $entry['date'] instanceof DateTime ? $entry['date']->getTimestamp() : (int)$entry['date'];
     $date = (new DateTime())->setTimestamp((int)$timestamp);
-    echo "(" . $date->format('d.m.Y') . ")\n";
-    echo "<br/>" . $entry['abstract'] . "</p>\n\n";
 
-    // THIS IS WHERE FORMATTING OF PUBLICATIONS NEEDS TO HAPPEN
+    $authors = getAuthors($entry['authors'] ?? '');
+    $count = count($authors);
 
+    $formatAuthor = function (array $author): string {
+        $name = htmlspecialchars($author['name'] ?? '');
+        $url  = $author['url'] ?? '';
+        return $url
+            ? '<a href="' . htmlspecialchars($url) . '">' . $name . '</a>'
+            : $name;
+    };
 
+    if ($count > 3) {
+        $parts = array_map($formatAuthor, array_slice($authors, 0, 3));
+        echo implode(', ', $parts) . ', et al.';
+    } elseif ($count === 1) {
+        echo $formatAuthor($authors[0]);
+    } elseif ($count === 2) {
+        echo $formatAuthor($authors[0]) . $txt_and . $formatAuthor($authors[1]);
+    } else {
+        echo $formatAuthor($authors[0]) . ', '
+        . $formatAuthor($authors[1]) . $txt_and
+        . $formatAuthor($authors[2]);
+    }
+
+    // Adding punctuation to title if not already included
+    $title = preg_replace('/([^.!?,;:])\s*$/', '$1.', $entry['title']);
+    $pubString = '';
+
+    echo "(" . $date->format('Y') . "). " . $title . " ";
+
+    switch (strtolower($entry['pub-data']['pub-type'])) {
+
+        case 'article':
+            $pubString .= "<i>";
+            $pubString .= $entry['pub-data']['journal'] ?? "<!-- DEBUG: Missing journal title -->";
+            $pubString .= "</i> ";
+            $pubString .= $entry['pub-data']['volume'] ?? "<!-- DEBUG: Missing volume -->";
+            $pubString .= (!empty($entry['pub-data']['issue'])) ?
+                " (" . $entry['pub-data']['issue'] . ")" : "<!-- DEBUG: Missing issue -->";
+            $pubString .= (!empty($entry['pub-data']['pages'])) ?
+                ": " . $entry['pub-data']['pages'] . ". " : "<!-- DEBUG: Missing pages -->";
+            break;
+
+        case 'chapter':
+            $pubString .= (!empty($entry['pub-data']['pages'])) ?
+                $txt_pages . " " . $entry['pub-data']['pages'] . " " . strtolower($txt_in) . " <i>" :
+                 "<!-- DEBUG: Missing issue -->" . $txt_in . " <i>";
+            $pubString .= $entry['pub-data']['book'] ?? "<!-- DEBUG: Missing book title -->";
+            $pubString .= "</i>";
+
+            // Fetching and processing editor names
+            $editors = getAuthors($entry['pub-data']['editors']);
+            $edString = '';
+            foreach ($editors as $editor) {
+                if (!empty($editor['name'])) {
+                    $edString = (empty($edString)) ? $editor['name'] : ", " . $editor['name'];
+                }
+            }
+            $pubString .= (!empty($edString)) ?
+                " (" . $txt_ed . " " . $edString . "). " : ". <!-- DEBUG: Missing editors -->";
+            // No break - continuing to adding book details
+
+        case 'book':
+            $pubString .= (!empty($entry['pub-data']['place'])) ?
+                $entry['pub-data']['place'] . ": " : "<!-- DEBUG: Missing place -->";
+            $pubString .= (!empty($entry['pub-data']['publisher'])) ?
+                $entry['pub-data']['publisher'] . "." : "<!-- DEBUG: Missing publisher -->";
+            $pubString .= (!empty($entry['pub-data']['isbn'])) ?
+                " (ISBN " . $entry['pub-data']['isbn'] . ")" : "<!-- DEBUG: Missing ISBN -->";
+            break;
+        
+        case 'thesis':
+            $pubString .= (!empty($entry['pub-data']['degree'])) ?
+                $txt_deg . "(" . $entry['pub-data']['degree'] . ") " : "<!-- DEBUG: Missing degree -->";
+            $pubString .= $entry['pub-data']['publisher'] ?? "<!-- DEBUG: Missing publisher -->";
+            $pubString .= ".";
+            break;
+
+        case default:
+            // Other cases handled as report
+            $pubString .= (!empty($entry['pub-data']['number'])) ?
+                "(Report " . $entry['pub-data']['number'] . ") " : "";
+            $pubString .= $entry['pub-data']['publisher'] ?? "<!-- DEBUG: Missing publisher -->";
+            $pubString .= ".";
+            break;
+
+    }
+
+    echo $pubString . "\n<br>";
+
+    // Printing links
+    // TO DO: Check for publication MD content and link to it if present
+
+    $pubString = "";
+    if (!empty($entry['routes']['external'])):
+        $pubString .= '<a href="'.htmlspecialchars($entry['routes']['external']).'">'.$txt_goto."</a>\n";
+    if (!empty($entry['pub-data']['file'])) {
+        $pdfLink = "?action=download&file=" . $entry['pub-data']['file'];
+        $pubString .= (empty($pubString)) ?
+            '<a href="'.$pdfLink.'">'.$txt_pdf."</a>\n" :
+            ' / <a href="'.$pdfLink.'">'.$txt_pdf."</a>\n";
+    }
+
+    echo $pubString . "</p>\n\n";
 
 }
 
