@@ -42,9 +42,15 @@ function getAuthors(mixed $raw): array {
         return ['self' => $self];
     }
 
+echo "<!-- DEBUG \n\n";
+
     // Array of authors
     $authors = [];
-    foreach ($raw as $key => $author) {
+    foreach ($raw as $element) {
+
+        print_r($element);
+
+    //*
         if ($key === 'self') {
             $authors['self'] = $self;
         } else {
@@ -52,7 +58,11 @@ function getAuthors(mixed $raw): array {
             // TO DO: Parse name into family and given names
             // TO DO: Error checking, ORCID -> URL, etc
         }
+    *//
+
     }
+
+echo "\n\n-->";
 
     return $authors;
 }
