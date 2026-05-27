@@ -71,9 +71,10 @@ if (!empty($filter_descriptions)) {
 
 foreach ($posts_to_show as $entry) {
     echo "<p><h2><a href=\"/" . $lang . "/" . $self_url . "/" . $entry['slug'] . "\">" . $entry['title'] . "</a></h2>\n";
-    $timestamp = $entry['date'] instanceof DateTime ? $entry['date']->getTimestamp() : (int)$entry['date'];
-    $date = (new DateTime())->setTimestamp((int)$timestamp);
-    echo "(" . $date->format('d.m.Y') . ")\n";
+    // $timestamp = $entry['date'] instanceof DateTime ? $entry['date']->getTimestamp() : (int)$entry['date'];
+    // $date = (new DateTime())->setTimestamp((int)$timestamp);
+    $date = (new DateTime($entry['date']))->format('d.m.Y');
+    echo "(" . $date . ")\n";
     echo "<br/>" . $entry['abstract'] . "</p>\n\n";
 }
 
