@@ -348,7 +348,7 @@ sub-items:
       abstract: 'Påtroppende USA-president Joe Biden vil verne Arktis mot oljevirksomhet. Danmark stopper oljeleting av hensyn til klimaet. Det blir stadig vanskeligere for Norge å kombinere klimatroverdighet og oljeproduksjon.'
   - om-bruno-latour:
       title: 'Å sette vitenskapen på (riktig) plass: Om Bruno Latour'
-      date: 1612224000
+      date: '2021-02-02'
       abstract: 'I anledning utgivelsen av Bruno Latours nye bok Où suis-je? har tidsskriftet Vagant bedt flere bidragsytere om å reflektere over hva Latours arbeid har betydd for dem. Mitt bidrag tar for seg betydningen Latour har hatt både for STS som akademisk felt og for klimapolitisk teori og praksis.'
       language: 'no'
       categories:
