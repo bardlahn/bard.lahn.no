@@ -10,7 +10,7 @@ $self_profile_rel_path = '/bio/';
 
 // Introducing public functions to fetch various configs
 
-function getAuthors(mixed $raw): array {
+function getAuthors(mixed $raw): mixed {
 
     global $base_url;
     global $self_profile_rel_path;

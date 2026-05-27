@@ -65,7 +65,11 @@ foreach ($posts_to_show as $entry) {
     $timestamp = $entry['date'] instanceof DateTime ? $entry['date']->getTimestamp() : (int)$entry['date'];
     $date = (new DateTime())->setTimestamp((int)$timestamp);
 
-    $authors = getAuthors($entry['authors'] ?? '');
+    $authors = getAuthors($entry['authors'] ?? 'self');
+    if (!$authors) {
+        // No authors returned - not even 'self'
+        die('For some reason, no authors were returned');
+    }
 
     $formatAuthor = function (array $author): string {
         $name = htmlspecialchars($author['name'] ?? '');
@@ -115,15 +119,19 @@ foreach ($posts_to_show as $entry) {
             $pubString .= "</i>";
 
             // Fetching and processing editor names
-            $editors = getAuthors($entry['pub-data']['editors']);
-            $edString = '';
-            foreach ($editors as $editor) {
-                if (!empty($editor['name'])) {
-                    $edString = (empty($edString)) ? $editor['name'] : ", " . $editor['name'];
+            $editors = getAuthors($entry['pub-data']['editors'] ?? '');
+            if ($editors) {
+                $edString = '';
+                foreach ($editors as $editor) {
+                    if (!empty($editor['name'])) {
+                        $edString = (empty($edString)) ? $editor['name'] : ", " . $editor['name'];
+                    }
                 }
+                $pubString .= " (" . $txt_ed . " " . $edString . "). ";
+            } else {
+                $pubString .= ". <!-- DEBUG: Missing editors -->";
             }
-            $pubString .= (!empty($edString)) ?
-                " (" . $txt_ed . " " . $edString . "). " : ". <!-- DEBUG: Missing editors -->";
+
             // No break - continuing to adding book details
 
         case 'book':
