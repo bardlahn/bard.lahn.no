@@ -61,13 +61,10 @@ if (!empty($filter_descriptions)) {
 
 foreach ($posts_to_show as $entry) {
     echo "<p>";
-    // <h2><a href=\"/" . $lang . "/" . $self_url . "/" . $entry['slug'] . "\">" . $entry['title'] . "</a></h2>\n";
-    $timestamp = $entry['date'] instanceof DateTime ? $entry['date']->getTimestamp() : (int)$entry['date'];
-    $date = (new DateTime())->setTimestamp((int)$timestamp);
 
     $authors = getAuthors($entry['authors'] ?? 'self');
     if (!$authors) {
-        // No authors returned - not even 'self'
+        // No authors returned - not even 'self'. NEEDS BETTER ERROR HANDLING!
         die('For some reason, no authors were returned');
     }
 
@@ -97,7 +94,7 @@ foreach ($posts_to_show as $entry) {
     $title = preg_replace('/([^.!?,;:])\s*$/', '$1.', $entry['title']);
     $pubString = '';
 
-    echo " (" . $date->format('Y') . "). <em>" . $title . "</em> ";
+    echo " (" . (new DateTime($entry['date']))->format('Y') . "). <em>" . $title . "</em> ";
 
     switch (strtolower($entry['pub-data']['pub-type'])) {
 
