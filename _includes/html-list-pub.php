@@ -73,7 +73,8 @@ foreach ($posts_to_show as $entry) {
 
     $formatAuthor = function (array $author): string {
         $name = htmlspecialchars($author['name'] ?? '');
-        $url  = $author['url'] ?? '';
+        // $url  = $author['url'] ?? '';
+        $url = ""; // No URL links in author names
         return $url
             ? '<a href="' . htmlspecialchars($url) . '">' . $name . '</a>'
             : $name;
@@ -96,7 +97,7 @@ foreach ($posts_to_show as $entry) {
     $title = preg_replace('/([^.!?,;:])\s*$/', '$1.', $entry['title']);
     $pubString = '';
 
-    echo "(" . $date->format('Y') . "). " . $title . " ";
+    echo " (" . $date->format('Y') . "). <em>" . $title . "</em> ";
 
     switch (strtolower($entry['pub-data']['pub-type'])) {
 
