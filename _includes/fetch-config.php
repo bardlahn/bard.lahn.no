@@ -49,7 +49,6 @@ function getAuthors(mixed $raw): array {
             $authors['self'] = $self;
         } else {
             $authors[$key] = $author;
-            echo "<!-- DEBUG INFO: author key/content ". $authors[$key] . " / " . print_r($author) . " -->";
             // TO DO: Parse name into family and given names
             // TO DO: Error checking, ORCID -> URL, etc
         }
