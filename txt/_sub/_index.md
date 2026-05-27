@@ -4,7 +4,7 @@ language: 'no'
 type: resource
 sub-type: blog
 sub-sort: date=descending
-sub-indexed: 2026-05-26
+sub-indexed: 2026-05-27
 sub-items:
   - a-se-seg-blind-pa-tallene:
       title: 'Å se seg blind på tallene'
@@ -47,7 +47,7 @@ sub-items:
         - klasse
         - klimapolitikk
       language: 'no'
-      abstract: 'Til tross for at den maler med bred pensel, er den danske boken "Klima og klasse" et verdifullt innspill i debatten om klima og samfunnsomstilling.'
+      abstract: 'Til tross for at den maler med bred pensel, er den danske boka "Klima og klasse" et verdifullt innspill i debatten om klima og samfunnsomstilling.'
   - etikk-er-ogsa-politikk:
       title: 'Etikk er også politikk'
       date: '2025-12-02'
@@ -255,6 +255,20 @@ sub-items:
         - kyoto
       language: 'no'
       abstract: 'Fremskrittspartiet har rett i at Kyoto 2 er en dårlig avtale. Men grunnen er den motsatte av det Per-Willy Amundsen hevder. Å droppe den vil bare gjøre det vanskeligere å få store land som Kina til å kutte sine klimagassutslipp.'
+  - last-til-oljen:
+      title: 'Låst til oljen'
+      date: '2020-06-11'
+      abstract: 'Hva betyr enigheten om en krisepakke for oljeindustrien for den videre politiske debatten om olje, klima og omstilling? spør Bård Lahn og Håkon Endresen Normann i denne kronikken.'
+      language: 'no'
+      tags:
+        - omstilling
+        - oljepolitikk
+        - oljeskatt
+      authors:
+        - self
+        - normann:
+            - name: 'Håkon Endresen Normann'
+            - url: 'https://www.nifu.no/ansatte/hakon-endresen-normann/'
   - mer-eller-mindre-demokrati:
       title: 'Mer eller mindre demokrati?'
       date: '2022-07-29'
