@@ -15,6 +15,7 @@ function getAuthors(mixed $raw): array {
     global $base_url;
     global $self_profile_rel_path;
 
+    // 'self' author information is hardcoded - to be replaced by fetch from config YAML
     $self = [
         'familyName'    => 'Lahn',
         'givenName'     => 'Bård',
@@ -48,6 +49,7 @@ function getAuthors(mixed $raw): array {
             $authors['self'] = $self;
         } else {
             $authors[$key] = $author;
+            echo "<!-- DEBUG INFO: author key/content ". $authors[$key] . " / " . print_r($author) . " -->";
             // TO DO: Parse name into family and given names
             // TO DO: Error checking, ORCID -> URL, etc
         }

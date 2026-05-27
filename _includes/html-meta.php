@@ -68,9 +68,6 @@ if ($self_type != PAGE_ERROR) {
     }
 
     $meta_authors = getAuthors($fmatter['authors'] ?? 'self');
-    echo "<!--  ";
-    var_dump($meta_authors);
-    echo "  -->";
 
     if ($self_type == PAGE_MAIN) {
 
