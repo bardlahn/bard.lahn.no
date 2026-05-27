@@ -94,7 +94,9 @@ foreach ($posts_to_show as $entry) {
     $title = preg_replace('/([^.!?,;:])\s*$/', '$1.', $entry['title']);
     $pubString = '';
 
-    echo " (" . (new DateTime($entry['date']))->format('Y') . "). <em>" . $title . "</em> ";
+    // Printing date and title
+    $date = $entry['date'] instanceof DateTime ? $entry['date'] : new DateTime($entry['date']);
+    echo " (" . $date->format('Y') . "). <em>" . $title . "</em> ";
 
     switch (strtolower($entry['pub-data']['pub-type'])) {
 
