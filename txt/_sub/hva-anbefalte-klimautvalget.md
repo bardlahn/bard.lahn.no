@@ -1,6 +1,6 @@
 ---
 title: 'Hva anbefalte Klimautvalget?'
-date: '1701388800'
+date: '2023-12-01'
 abstract: 'Rapporten fra Klimautvalget 2050, som jeg bidro til å utarbeide, har skapt debatt om organiseringen av norsk klimapolitikk. I dette innlegget svarer jeg på kritikken fra samfunnsøkonom Bjart Holtsmark om utvalgets forslag når det gjelder bioenergi og CO2-opptak i skogen.'
 language: 'no'
 type: blog
