@@ -143,7 +143,7 @@ foreach ($posts_to_show as $entry) {
             $pubString .= ".";
             break;
 
-        case default:
+        default:
             // Other cases handled as report
             $pubString .= (!empty($entry['pub-data']['number'])) ?
                 "(Report " . $entry['pub-data']['number'] . ") " : "";
