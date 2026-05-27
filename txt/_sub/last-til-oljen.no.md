@@ -11,8 +11,8 @@ type: blog
 authors:
   - self
   - normann:
-    - name: 'Håkon Endresen Normann'
-    - url: https://www.nifu.no/ansatte/hakon-endresen-normann/
+      name: 'Håkon Endresen Normann'
+      url: https://www.nifu.no/ansatte/hakon-endresen-normann/
 
 ---
 Mandag ble det enighet på Stortinget om nye skatteregler for oljeindustrien. Hva betyr enigheten for den videre politiske debatten om olje, klima og omstilling?
