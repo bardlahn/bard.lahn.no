@@ -120,6 +120,7 @@ if ($self_type != PAGE_ERROR) {
         $schemaJson['datePublished']    = $meta_date;
 
         // Printing author(s)
+        // TO DO: Distinguish between name and URL, check for ORCID etc
         foreach ($meta_authors as $author) {
             if (!empty($author['url'])) {
                 echo $pre . '<meta property="article:author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
