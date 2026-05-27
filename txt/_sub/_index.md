@@ -262,8 +262,8 @@ sub-items:
       language: 'no'
       tags:
         - omstilling
-        - oljepolitikk
-        - oljeskatt
+        - olje
+        - skatt
       authors:
         - self
         - normann:

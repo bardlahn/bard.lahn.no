@@ -5,8 +5,8 @@ abstract: 'Hva betyr enigheten om en krisepakke for oljeindustrien for den vider
 language: 'no'
 tags:
   - omstilling
-  - oljepolitikk
-  - oljeskatt
+  - olje
+  - skatt
 type: blog
 authors:
   - self
