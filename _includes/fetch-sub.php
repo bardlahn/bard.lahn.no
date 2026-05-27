@@ -4,7 +4,7 @@ function fetchSubEntries(string $mainpath, string $filter = '', string $sorting 
     $parsed = parseMDFile($mainpath . '/_sub/_index.md');
     $frontmatter = $parsed['frontmatter'];
 
-    if ($frontmatter['sub-type'] == PAGE_SUB_BLOG) {
+//  if ($frontmatter['sub-type'] == PAGE_SUB_BLOG) {
 
         $rawItems = $frontmatter['sub-items'] ?? [];
         $entries = [];
@@ -67,9 +67,9 @@ function fetchSubEntries(string $mainpath, string $filter = '', string $sorting 
             ['sub-items' => array_values($entries)]
         );
 
-    } else {
+//  } else {
         // Sub-type is not blog!
-    }
+//  }
 
 }
 
