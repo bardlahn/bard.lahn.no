@@ -66,7 +66,6 @@ foreach ($posts_to_show as $entry) {
     $date = (new DateTime())->setTimestamp((int)$timestamp);
 
     $authors = getAuthors($entry['authors'] ?? '');
-    $count = count($authors);
 
     $formatAuthor = function (array $author): string {
         $name = htmlspecialchars($author['name'] ?? '');
@@ -76,17 +75,17 @@ foreach ($posts_to_show as $entry) {
             : $name;
     };
 
+    $parts  = array_values(array_filter(array_map($formatAuthor, $authors)));
+    $count = count($authors);
+
     if ($count > 3) {
-        $parts = array_map($formatAuthor, array_slice($authors, 0, 3));
-        echo implode(', ', $parts) . ', et al.';
+        echo implode(', ', array_slice($parts, 0, 3)) . ', et al.';
     } elseif ($count === 1) {
-        echo $formatAuthor($authors[0]);
+        echo $parts[0];
     } elseif ($count === 2) {
-        echo $formatAuthor($authors[0]) . $txt_and . $formatAuthor($authors[1]);
+        echo $parts[0] . $txt_and . $parts[1];
     } else {
-        echo $formatAuthor($authors[0]) . ', '
-        . $formatAuthor($authors[1]) . $txt_and
-        . $formatAuthor($authors[2]);
+        echo $parts[0] . ', ' . $parts[1] . $txt_and . $parts[2];
     }
 
     // Adding punctuation to title if not already included
