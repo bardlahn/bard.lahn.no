@@ -25,7 +25,6 @@ pub-data:
   pub-lang: 'en'
   doi: '10.1017/9781009352444.014'
   book: 'Stability and Politicization in Climate Governance'
-  place: Cambridge
   publisher: 'Cambridge University Press'
   pages: 163-175
   editors:

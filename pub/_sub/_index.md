@@ -32,7 +32,6 @@ sub-items:
           - hulme:
               name: 'Mike Hulme'
         publisher: 'Cambridge University Press'
-        place: 'Cambridge'
         isbn: 9781316514276
         pages: 225-233
         file: assets/files/pub/lahn-2022.pdf
@@ -278,7 +277,6 @@ sub-items:
         pub-lang: en
         doi: 10.1017/9781009352444.014
         book: 'Stability and Politicization in Climate Governance'
-        place: 'Cambridge'
         publisher: 'Cambridge University Press'
         pages: 163-175
         editors:
