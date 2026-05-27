@@ -145,7 +145,7 @@ foreach ($posts_to_show as $entry) {
         
         case 'thesis':
             $pubString .= (!empty($entry['pub-data']['degree'])) ?
-                $txt_deg . " (" . $entry['pub-data']['degree'] . ") " : "<!-- DEBUG: Missing degree -->";
+                $txt_deg . " (" . $entry['pub-data']['degree'] . "), " : "<!-- DEBUG: Missing degree -->";
             $pubString .= $entry['pub-data']['publisher'] ?? "<!-- DEBUG: Missing publisher -->";
             $pubString .= ".";
             break;
