@@ -96,7 +96,7 @@ foreach ($posts_to_show as $entry) {
 
     // Printing date and title
     $date = $entry['date'] instanceof DateTime ? $entry['date'] : new DateTime($entry['date']);
-    echo " (" . $date->format('Y') . "). <em>" . $title . "</em> ";
+    echo " (" . $date->format('Y') . "). <strong>" . $title . "</strong> ";
 
     switch (strtolower($entry['pub-data']['pub-type'])) {
 
