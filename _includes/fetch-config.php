@@ -10,7 +10,7 @@ function getConfig(string $configfile, string $lang = '', string $element = '') 
 
     global $includes_path;
     global $config_path;
-    include_once $includes_path . 'md-parse.php';
+    
     $file = $config_path . $configfile . '.md';
     if (!empty($lang)) {
         // $lang is set - checking if language-specific file exists
