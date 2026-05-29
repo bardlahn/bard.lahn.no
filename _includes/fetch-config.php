@@ -47,13 +47,23 @@ function getAuthors(mixed $raw): mixed {
 
     // Assembling author list from frontmatter, returning as an array
 
-    // Fetching predefined authors from config file
-    $authConfig = getConfig('authors', element: 'authors');
-    if (!$authConfig) {
+    // Fetching predefined authors from config file and processing them
+    $config = getConfig('authors', element: 'authors');
+    if (!$config) {
         return false;
     }
-
-    $authConfig = array_merge(...array_values($authConfig));
+    $config = array_merge(...array_values($config));
+    $authConfig = [];
+    foreach ($config as $aC) {
+        if (isset($aC['worksFor'])) {
+            $aC['worksFor']['@type'] = "Organization";
+        }
+        if (isset($aC['orcid'])) {
+            $aC['sameAs'] = $aC['sameAs'] ?? 'https://orcid.org/' . $aC['orcid'];
+            $aC['url'] = $aC['url'] ?? $aC['sameAs'];
+        }
+        $authConfig[] = $aC;
+    }
 
     if (!isset($authConfig['self'])) {
         $authConfig['self'] = ['name' => "('self' name not set)", 'url' => "('self' URL not set)"];
@@ -79,9 +89,6 @@ function getAuthors(mixed $raw): mixed {
         } else {
             $thisAuthor = $element;
             if (isset($authConfig[$thisAuthor])) {
-                if (isset($authConfig[$thisAuthor]['worksFor'])) {
-                    $authConfig[$thisAuthor]['worksFor']['@type'] = "Organization";
-                }
                 $authors[$thisAuthor] = $authConfig[$thisAuthor];
             } else {
                 $authors[$thisAuthor] = [
@@ -95,9 +102,7 @@ function getAuthors(mixed $raw): mixed {
 
         if (isset($authors[$thisAuthor]['orcid'])) {
             $authors[$thisAuthor]['sameAs'] = 'https://orcid.org/' . $authors[$thisAuthor]['orcid'];
-            $authors[$thisAuthor]['url'] = (empty($authors[$thisAuthor]['url'])) ?
-                $authors[$thisAuthor]['sameAs'] :
-                $authors[$thisAuthor]['url'];
+            $authors[$thisAuthor]['url'] = $authors[$thisAuthor]['url'] ?? $authors[$thisAuthor]['sameAs'];
         }
 
     }
