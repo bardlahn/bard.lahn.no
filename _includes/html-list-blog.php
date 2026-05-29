@@ -48,6 +48,9 @@ $showing_count = count($posts_to_show);
 $showing_from  = $total_posts > 0 ? $start_from + 1 : 0;
 $showing_to    = $start_from + $showing_count;
 
+$txt = getConfig('strings', $lang, 'list-blog');
+var_dump($txt);
+
 $txt_show      = ($lang == "no") ? "Viser poster"   : "Showing posts";
 $txt_of        = ($lang == "no") ? "av"             : "of";
 $txt_prev      = ($lang == "no") ? "Forrige"        : "Previous";
