@@ -61,9 +61,6 @@ if (!empty($filter_descriptions)) {
 
 foreach ($posts_to_show as $entry) {
     echo "<p>";
-    echo "<!-- DEBUG: AUTHORS FROM PUB \n\n";
-    print_r($entry['authors']);
-    echo "\n\n-->\n";
 
     $authors = getAuthors($entry['authors'] ?? 'self');
     if (!$authors) {

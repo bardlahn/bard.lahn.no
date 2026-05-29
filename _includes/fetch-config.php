@@ -29,9 +29,6 @@ function getConfig(string $configfile, string $lang = '', string $element = '') 
     if (file_exists($file)) {
         // File exists - parses and returns
         $config = parseMDFile($file);
-        echo "<!-- DEBUG: Found file ".$file." - returned \n";
-        print_r($config);
-        echo "\n\n-->";
         if (!empty($element) && isset($config['frontmatter'][$element])) {
             // $element is set - returning only specified element
             return $config['frontmatter'][$element];
@@ -53,11 +50,10 @@ function getAuthors(mixed $raw): mixed {
     // Fetching predefined authors from config file
     $authConfig = getConfig('authors', element: 'authors');
     if (!$authConfig) {
-        echo "<!-- DEBUG: Error fetching config 'authors' -->";
         return false;
     }
 
-    $authConfig = array_merge(...array_values($authConfig));
+    // $authConfig = array_merge(...array_values($authConfig));
 
     if (!isset($authConfig['self'])) {
         $authConfig['self'] = ['name' => '(Author-name SELF not set)', 'url' => '(Author URL SELF not set)'];
@@ -79,8 +75,10 @@ function getAuthors(mixed $raw): mixed {
 
         if (is_array($element)) {
             $thisAuthor = key($element);
-            $authors[$thisAuthor] = $element[$thisAuthor];           
+            echo "<!-- DEBUG: IS ARRAY - " . $thisAuthor . " -->\n";
+            $authors[$thisAuthor] = $element[$thisAuthor];
         } else {
+            echo "<!-- DEBUG: IS NOT ARRAY - " . $element . " -->\n";
             if (isset($authConfig[$element])) {
                 if (isset($authConfig[$element]['sameAs'])) {
                     $authConfig[$element]['sameAs']['@type'] = "Organization";
