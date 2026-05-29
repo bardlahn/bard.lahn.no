@@ -16,6 +16,12 @@ authors:
   - svenberg:
       name: 'Sebastian Svenberg'
       orcid: '0000-0003-1264-7285'
+  - sundqvist:
+      name: 'Göran Sundqvist'
+  -  hermansen:
+      name: 'Erlend A. T. Hermansen'
+      url: 'https://cicero.oslo.no/en/employees/erlend-hermansen'
+      orcid: '0000-0002-0688-915X'
   - dooley:
       name: 'Kate Dooley'
       url: 'https://orcid.org/0000-0001-5636-6691'
@@ -38,8 +44,10 @@ authors:
       name: 'Harald Winkler'
   - athanasiou:
       name: 'Tom Athanasiou'
+      url: 'https://www.ecoequity.org/about/'
   - caney:
       name: 'Simon Caney'
+      url: 'https://www.law.ox.ac.uk/people/simon-caney'
   - cripps:
       name: 'Elizabeth Cripps'
   - dubash:

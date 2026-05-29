@@ -15,10 +15,7 @@ authors:
       name: 'Fay M. Farstad'
       url: 'https://www4.uib.no/en/find-employees/fay.farstad'
       orcid: '0000-0003-4190-6899'
-  -  hermansen:
-      name: 'Erlend A. T. Hermansen'
-      url: 'https://cicero.oslo.no/en/employees/erlend-hermansen'
-      orcid: '0000-0002-0688-915X'
+  -  hermansen
   -  self
 pub-data:
   pub-type: 'chapter'

@@ -14,8 +14,7 @@ routes:
 type: publication
 authors:
   - self
-  - sundqvist:
-      name: 'Göran Sundqvist'
+  - sundqvist
 pub-data:
   pub-type: 'article'
   pub-lang: 'no'
