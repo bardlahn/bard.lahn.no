@@ -54,7 +54,7 @@ function getAuthors(mixed $raw): mixed {
     }
     $config = array_merge(...array_values($config));
     $authConfig = [];
-    foreach ($config as $aC) {
+    foreach ($config as $aK => $aC) {
         if (isset($aC['worksFor'])) {
             $aC['worksFor']['@type'] = "Organization";
         }
@@ -62,8 +62,7 @@ function getAuthors(mixed $raw): mixed {
             $aC['sameAs'] = $aC['sameAs'] ?? 'https://orcid.org/' . $aC['orcid'];
             $aC['url'] = $aC['url'] ?? $aC['sameAs'];
         }
-        $authConfig[key($aC)] = $aC;
-        echo "<!-- DEBUG: \n" . print_r($aC) . "\n-->";
+        $authConfig[$aK] = $aC;
     }
 
     if (!isset($authConfig['self'])) {
