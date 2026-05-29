@@ -31,7 +31,7 @@ function fetchSubEntries(string $mainpath, string $filter = '', string $sorting 
             $entries = array_filter($entries, function($entry) use ($filters) {
                 foreach ($filters as [$filterKey, $filterValue]) {
                     $match = match($filterKey) {
-                        'year'     => isset($entry['date'])       && $entry['date']->format('Y') === $filterValue,
+                        'year'     => isset($entry['date'])       && (new DateTime($entry['date']))->format('Y') === $filterValue,
                         'tag'      => isset($entry['tags'])       && in_array($filterValue, $entry['tags']),
                         'category' => isset($entry['categories']) && in_array($filterValue, $entry['categories']),
                         'pub-type' => isset($entry['pub-data']['pub-type']) && in_array($filterValue, $entry['pub-data']['pub-type']),
