@@ -60,7 +60,7 @@ if ($self_type != PAGE_ERROR) {
     echo $pre . '<meta property="og:site_name" content="'.$site_title.'">';
 
     if (isset($fmatter['date'])) {
-        $meta_date = htmlspecialchars($fmatter['date']->format('Y-m-d'));
+        $meta_date = htmlspecialchars($fmatter['date']->format('Y-m-d')) ?? "";
     } else {
         $meta_date = "";
     }
