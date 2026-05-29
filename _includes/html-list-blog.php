@@ -61,7 +61,9 @@ $showing_to    = $start_from + $showing_count;
 if (!empty($filterDesc)) {
     $summary = $txt['total']."<strong>{$total_posts}</strong>".$txt['marked'].implode(" ".$txt['and'], $filterDesc);
     $summary .= (!empty($langName)) ? "(" . $txt['and']. $txt['in'] . " " . $langName . ")" : "";
-    echo "<p>{$summary}.</p>\n<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
+    $clearfilters = '<a href="/'.$lang.'/'.$self_url.'/">'.$txt['clear'].'</a>';
+    echo "<p>{$summary}. {$clearfilters}</p>\n";
+    echo "<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
 } elseif (!empty($langName)) {
     echo "<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong> (".$txt['in']." {$langName}).</p>\n";
 }
@@ -76,6 +78,7 @@ foreach ($posts_to_show as $entry) {
 }
 
 echo "<p>".$txt['show']." {$showing_from}–{$showing_to} ".$txt['of']." {$total_posts}</p>\n";
+echo "<p>";
 
 if (!$show_all) {
     if ($start_from > 0) {
@@ -89,10 +92,12 @@ if (!$show_all) {
     }
 
     echo "<a href=\"?{$filter_query}&StartFrom=0&NumberPosts=0\">".$txt['all']."</a>";
+    echo $clearfilters ?? "\n";
 } else {
     echo "<a href=\"?{$filter_query}\">".$txt['less']."</a>";
+    echo $clearfilters ?? "\n";
 }
 
-echo "</div>\n\n";
+echo "</p></div>\n\n";
 
 ?>

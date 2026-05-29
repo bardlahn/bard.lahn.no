@@ -14,6 +14,7 @@ list-blog:
   and: "og "
   in: "på"
   lang: "språk"
+  clear: "Fjern alle filter"
 list-pub:
   and: " og "
   in: " I"

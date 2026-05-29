@@ -14,6 +14,7 @@ list-blog:
   and: "and "
   in: "in"
   lang: "language"
+  clear: "Clear all filters"
 list-pub:
   and: " and "
   in: " In"
