@@ -68,8 +68,12 @@ foreach ($posts_to_show as $entry) {
         die('For some reason, no authors were returned');
     }
 
-    $formatAuthor = function (array $author): string {
-        $name = htmlspecialchars($author['name'] ?? '');
+    $formatAuthor = function ($author): string {
+        if (is_array($author)) {
+            $name = htmlspecialchars($author['name'] ?? '(no name given)');
+        } else {
+            $name = $author ?? '(no name given)';
+        }
         // $url  = $author['url'] ?? '';
         $url = ""; // No URL links in author names
         return $url
