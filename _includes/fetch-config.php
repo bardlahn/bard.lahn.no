@@ -56,7 +56,7 @@ function getAuthors(mixed $raw): mixed {
     $authConfig = array_merge(...array_values($authConfig));
 
     if (!isset($authConfig['self'])) {
-        $authConfig['self'] = ['name' => '(Author-name SELF not set)', 'url' => '(Author URL SELF not set)'];
+        $authConfig['self'] = ['name' => "('self' name not set)", 'url' => "('self' URL not set)"];
     }
 
     // No authors defined — return false
@@ -75,19 +75,18 @@ function getAuthors(mixed $raw): mixed {
 
         if (is_array($element)) {
             $thisAuthor = key($element);
-            echo "<!-- DEBUG: IS ARRAY - " . $thisAuthor . " -->\n";
             $authors[$thisAuthor] = $element[$thisAuthor];
         } else {
-            echo "<!-- DEBUG: IS NOT ARRAY - " . $element . " -->\n";
-            if (isset($authConfig[$element])) {
-                if (isset($authConfig[$element]['sameAs'])) {
-                    $authConfig[$element]['sameAs']['@type'] = "Organization";
+            $thisAuthor = $element;
+            if (isset($authConfig[$thisAuthor])) {
+                if (isset($authConfig[$thisAuthor]['sameAs'])) {
+                    $authConfig[$thisAuthor]['sameAs']['@type'] = "Organization";
                 }
-                $authors[$element] = $authConfig[$element];
+                $authors[$thisAuthor] = $authConfig[$thisAuthor];
             } else {
-                $authors[$element] = [
-                    'name' => '(Author-name '.$element.' not set in config file)', 
-                    'url' => '(Author URL '.$element.' not set in config file)'
+                $authors[$thisAuthor] = [
+                    'name' => "('".$thisAuthor."' name not set)", 
+                    'url' => "('".$thisAuthor."' url not set)"
                     ];
             }
         }

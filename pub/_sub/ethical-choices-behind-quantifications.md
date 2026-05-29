@@ -14,10 +14,7 @@ tags:
   - 'integrated assessment models'
   - 'climate policy'
 authors:
-  - dooley:
-      name: 'Kate Dooley'
-      url: 'https://orcid.org/0000-0001-5636-6691'
-      orcid: '0000-0001-5636-6691'
+  - dooley
   - holz:
       name: 'Ceecee Holz'
       url: 'https://orcid.org/0000-0003-0722-1044'
