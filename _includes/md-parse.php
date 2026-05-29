@@ -20,8 +20,17 @@ function parseMDFile(string $filePath): array {
         ];
     }
 
+    $yaml = Yaml::parse($matches[1]);
+
+    array_walk_recursive($yaml, function(&$value, $key) {
+        $key = strtolower($key);
+        if (str_contains($key, 'date') && is_int($value)) {
+            $value = (new DateTime())->setTimestamp($value)->format('Y-m-d');
+        }
+    });
+
     return [
-        'frontmatter' => Yaml::parse($matches[1]),
+        'frontmatter' => $yaml,
         'content'     => trim($matches[2]),
     ];
 }
