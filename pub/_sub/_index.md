@@ -38,7 +38,7 @@ sub-items:
   - carbon-connections:
       title: 'Carbon Connections: On the Work of Making Climate Change an Issue for Politics and Government'
       date: '2022-04-28'
-      abstract: 'None'
+      abstract: 
       language: en
       routes:
         external: 'https://hdl.handle.net/10852/97652'
@@ -53,7 +53,7 @@ sub-items:
   - cascading-biases-against-poorer-countries:
       title: 'Cascading Biases against Poorer Countries'
       date: '2018-05-01'
-      abstract: 'None'
+      abstract: 
       language: en
       routes:
         external: 'https://doi.org/10.1038/s41558-018-0152-7'
@@ -147,7 +147,7 @@ sub-items:
         - unfccc
         - science/policy
       routes:
-        external: 'None'
+        external: 
       authors:
         - self
         - sundqvist
@@ -203,7 +203,7 @@ sub-items:
   - for-better-or-for-worse:
       title: 'For Better or for Worse: A Break with Norway''s Consensual Climate Tradition?'
       date: 2025
-      abstract: 'None'
+      abstract: 
       language: en
       tags:
         - 'norwegian climate policy'
@@ -279,7 +279,7 @@ sub-items:
   - from-oil-as-welfare-to-oil-as-risk:
       title: 'From Oil as Welfare to Oil as Risk? Norwegian Petroleum Resource Governance and Climate Policy'
       date: 2019
-      abstract: 'None'
+      abstract: 
       language: en
       routes:
         external: 'https://doi.org/10.1080/14693062.2019.1692774'
@@ -305,7 +305,7 @@ sub-items:
   - governing-as-valuing:
       title: 'Governing as Valuing: Assetization and the Making of the Norwegian Oil Fund'
       date: 2024
-      abstract: 'None'
+      abstract: 
       language: en
       tags:
         - 'norwegian oil policy'
@@ -352,14 +352,14 @@ sub-items:
   - how-to-be-a-frontrunner:
       title: 'How to Be a "Front-Runner": Norway in International Climate Politics'
       date: 2015
-      abstract: 'None'
-      language: 'None'
+      abstract: 
+      language: en
       routes:
-        external: 'None'
+        external: 
       authors:
         - self
-        - rowe: 'None'
-          name: 'Elana Wilson Rowe'
+        - rowe:
+            name: 'Elana Wilson Rowe'
       tags:
         - 'norwegian climate policy'
         - 'status seeking'
@@ -381,7 +381,7 @@ sub-items:
   - in-the-light-of-equity-and-science:
       title: 'In the Light of Equity and Science: Scientific Expertise and Climate Justice after Paris'
       date: 2018
-      abstract: 'None'
+      abstract: 
       language: en
       tags:
         - ipcc
@@ -429,10 +429,10 @@ sub-items:
   - klimapolitikk-i-norden:
       title: 'Klimapolitikk i Norden: En sammenligning av mål og virkemidler i de nordiske landene'
       date: 2016
-      abstract: 'None'
+      abstract: 
       language: 'no'
       routes:
-        external: 'None'
+        external: 
       tags:
         - 'norsk klimapolitikk'
         - 'norwegian climate policy'
@@ -455,7 +455,7 @@ sub-items:
   - klimapolitikk-i-oljestaten:
       title: 'Klimapolitikk i oljestaten: Robust folkestyre eller sementerte næringsinteresser?'
       date: 2023
-      abstract: 'None'
+      abstract: 
       language: 'no'
       routes:
         external: 'https://doi.org/10.18261/nost.7.4-5.5'
@@ -480,10 +480,10 @@ sub-items:
   - norway-a-dissonant-cognitive-leader:
       title: 'Norway: A Dissonant Cognitive Leader?'
       date: 2017
-      abstract: 'None'
+      abstract: 
       language: en
       routes:
-        external: 'None'
+        external: 
       authors:
         - boasson
         - self

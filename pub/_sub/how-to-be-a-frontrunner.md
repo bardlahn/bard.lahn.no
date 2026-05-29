@@ -2,14 +2,14 @@
 title: 'How to Be a "Front-Runner": Norway in International Climate Politics'
 date: '2015'
 abstract:
-language:
+language: en
 routes:
   external: 
 type: publication
 authors:
   - self
   - rowe:
-    name: 'Elana Wilson Rowe'
+      name: 'Elana Wilson Rowe'
 tags:
   - 'norwegian climate policy'
   - 'status seeking'

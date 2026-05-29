@@ -10,7 +10,7 @@ function getConfig(string $configfile, string $lang = '', string $element = '') 
 
     global $includes_path;
     global $config_path;
-    
+
     $file = $config_path . $configfile . '.md';
     if (!empty($lang)) {
         // $lang is set - checking if language-specific file exists
@@ -70,7 +70,9 @@ function getAuthors(mixed $raw): mixed {
         return ['self' => $authConfig['self']];
     }
 
-    // Array of authors
+    // If input is string, converting to array
+    $raw = is_array($raw) ? $raw : [$raw];
+
     $authors = [];
     foreach ($raw as $element) {
 
@@ -79,14 +81,7 @@ function getAuthors(mixed $raw): mixed {
             $authors[$thisAuthor] = $element[$thisAuthor];
         } else {
             $thisAuthor = $element;
-            if (isset($authConfig[$thisAuthor])) {
-                $authors[$thisAuthor] = $authConfig[$thisAuthor];
-            } else {
-                $authors[$thisAuthor] = [
-                    'name' => "('".$thisAuthor."' name not set)", 
-                    'url' => "('".$thisAuthor."' url not set)"
-                    ];
-            }
+            $authors[$thisAuthor] = $authConfig[$thisAuthor] ?? ['name' => $element];
         }
 
         // TO DO: Parse name into family and given names
