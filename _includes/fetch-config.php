@@ -26,10 +26,12 @@ function getConfig(string $configfile, string $lang = '', string $element = '') 
         $check = $config_path . $configfile . '.' . $lang . '.md';
         $file = (file_exists($check)) ? $check : $file;
     }
-echo "<!-- DEBUG: Checking for file ".$file." -->";
     if (file_exists($file)) {
         // File exists - parses and returns
         $config = parseMDFile($file);
+        echo "<!-- DEBUG: Found file ".$file." - returned \n";
+        print_r($config);
+        echo "\n\n-->";
         if (!empty($element) && isset($config['frontmatter'][$element])) {
             // $element is set - returning only specified element
             return $config['frontmatter'][$element];
