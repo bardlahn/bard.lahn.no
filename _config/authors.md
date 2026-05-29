@@ -7,7 +7,7 @@ authors:
       givenName: Bård
       familyName: Lahn
       url: https://bard.lahn.no/bio/
-      birthDate: 1983-05-26
+      birthDate: '1983-05-26'
       orcid: 0000-0001-9161-9455
       worksFor:
         name: 'University of Oslo'
