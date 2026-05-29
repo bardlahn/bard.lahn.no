@@ -3,16 +3,16 @@ title: config file authors
 type: resource
 authors:
   - self:
-      - name: 'Bård Lahn'
-      - givenName: Bård
-      - familyName: Lahn
-      - url: https://bard.lahn.no/bio/
-      - birthDate: 1983-05-26
-      - orcid: 0000-0001-9161-9455
-      - worksFor:
-          - name: 'University of Oslo'
-          - alternateName: 'Universitetet i Oslo'
-          - url: https://www.uio.no
+      name: 'Bård Lahn'
+      givenName: Bård
+      familyName: Lahn
+      url: https://bard.lahn.no/bio/
+      birthDate: 1983-05-26
+      orcid: 0000-0001-9161-9455
+      worksFor:
+        name: 'University of Oslo'
+        alternateName: 'Universitetet i Oslo'
+        url: https://www.uio.no
   - dooley:
       name: 'Kate Dooley'
       url: 'https://orcid.org/0000-0001-5636-6691'
