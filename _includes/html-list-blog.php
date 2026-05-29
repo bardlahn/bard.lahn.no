@@ -63,7 +63,7 @@ if (!empty($filterDesc)) {
     $summary .= (!empty($langName)) ? "(" . $txt['and']. $txt['in'] . " " . $langName . ")" : "";
     echo "<p>{$summary}.</p>\n<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
 } elseif (!empty($langName)) {
-    echo "<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong> (".$txt['in']." {$langName})</p>\n";
+    echo "<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong> (".$txt['in']." {$langName}).</p>\n";
 }
 
 foreach ($posts_to_show as $entry) {
