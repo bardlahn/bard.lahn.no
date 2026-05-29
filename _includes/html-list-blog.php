@@ -59,7 +59,7 @@ $showing_to    = $start_from + $showing_count;
 // If filter applies, showing information about filter and total posts
 
 if (!empty($filterDesc)) {
-    $summary = $txt['total']."<strong>{$total_posts}</strong>".$txt['marked'].implode($txt['and'], $filterDesc);
+    $summary = $txt['total']."<strong>{$total_posts}</strong>".$txt['marked'].implode(" ".$txt['and'], $filterDesc);
     $summary .= (!empty($langName)) ? "(" . $txt['and']. $txt['in'] . " " . $langName . ")" : "";
     echo "<p>{$summary}.</p>\n<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
 } elseif (!empty($langName)) {

@@ -11,7 +11,7 @@ list-blog:
   less: "Show less"
   total: "A total of "
   marked: " posts matching "
-  and: " and "
+  and: "and "
   in: "in"
   lang: "language"
 list-pub:

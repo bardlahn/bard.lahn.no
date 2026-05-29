@@ -11,7 +11,7 @@ list-blog:
   less: "Vis mindre"
   total: "Totalt "
   marked: " poster er merket med "
-  and: " og "
+  and: "og "
   in: "på"
   lang: "språk"
 list-pub:
