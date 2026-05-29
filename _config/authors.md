@@ -13,6 +13,9 @@ authors:
         name: 'University of Oslo'
         alternateName: 'Universitetet i Oslo'
         url: https://www.uio.no
+  - svenberg:
+      name: 'Sebastian Svenberg'
+      orcid: '0000-0003-1264-7285'
   - dooley:
       name: 'Kate Dooley'
       url: 'https://orcid.org/0000-0001-5636-6691'

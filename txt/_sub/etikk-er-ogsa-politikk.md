@@ -14,8 +14,7 @@ tags:
 type: blog
 authors:
   - self
-  - svenberg:
-      name: 'Sebastian Svenberg'
+  - svenberg
 
 ---
 **Jens Stoltenbergs maktgrep for å sette Etikkrådet ut av spill viser at Oljefondets etiske rammeverk aldri har vært så apolitisk som det har blitt fremstilt som. Det skriver Sebastian Svenberg og jeg i en kronikk i Dagens Næringsliv.**
