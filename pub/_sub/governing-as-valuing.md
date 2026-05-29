@@ -14,7 +14,7 @@ routes:
 type: publication
 authors:
   - asdal:
-    name: 'Kristin Asdal'
+      name: 'Kristin Asdal'
   - self
 pub-data:
   pub-type: 'article'

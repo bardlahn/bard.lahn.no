@@ -14,7 +14,7 @@ tags:
   - 'norwegian climate policy'
 authors:
   - bang:
-    name: 'Guri Bang'
+      name: 'Guri Bang'
   - self
 pub-data:
   pub-type: 'article'

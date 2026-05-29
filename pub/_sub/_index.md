@@ -290,8 +290,8 @@ sub-items:
         - 'norwegian oil policy'
         - 'norwegian climate policy'
       authors:
-        - bang: 'None'
-          name: 'Guri Bang'
+        - bang:
+            name: 'Guri Bang'
         - self
       pub-data:
         pub-type: article
@@ -315,8 +315,8 @@ sub-items:
       routes:
         external: 'https://doi.org/10.1177/0308518X241260588'
       authors:
-        - asdal: 'None'
-          name: 'Kristin Asdal'
+        - asdal:
+            name: 'Kristin Asdal'
         - self
       pub-data:
         pub-type: article
