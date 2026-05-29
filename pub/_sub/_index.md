@@ -390,8 +390,7 @@ sub-items:
         - equity
       routes:
         external: 'https://doi.org/10.1007/s10784-017-9375-8'
-      authors:
-        - self
+      authors: self
       pub-data:
         pub-type: article
         pub-lang: en
@@ -444,8 +443,7 @@ sub-items:
         - klimapolitikk
       authors:
         - self
-        - leiren:
-            name: 'Merethe Dotterud Leiren'
+        - 'Merethe Dotterud Leiren'
       pub-data:
         pub-type: report
         pub-lang: 'no'
