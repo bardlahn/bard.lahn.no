@@ -96,7 +96,11 @@ foreach ($posts_to_show as $entry) {
 
     // Printing date and title
     var_dump($entry['date']);
-    $date = $entry['date'] instanceof DateTime ? $entry['date'] : new DateTime($entry['date']);
+    $date = $entry['date'] instanceof DateTime
+    ? $entry['date']
+    : (is_numeric($entry['date']) && (int)$entry['date'] <= 9999
+        ? new DateTime((int)$entry['date'] . '-01-01')
+        : new DateTime((string)$entry['date']));
     echo " (" . $date->format('Y') . "). <strong>" . $title . "</strong> ";
 
     switch (strtolower($entry['pub-data']['pub-type'])) {
