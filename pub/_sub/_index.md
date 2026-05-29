@@ -254,4 +254,76 @@ sub-items:
         pub-lang: en
         publisher: 'University of Oslo'
         degree: 'MA'
+  - fra-kobenhavn-til-paris:
+      title: 'Fra København til Paris: FNs klimatoppmøter og rettferdig fordeling av atmosfæren'
+      date: 2015
+      abstract: 'Denne artikkelen analyserer utviklingen i FNs klimaforhandlinger som et møte mellom to måter å forstå klimaproblemet på: På den ene siden en naturvitenskapelig tilnærming, og på den andre siden en forståelse av klimaproblemet som et spørsmål om rettferdighet mellom Nord og Sør. Til sammen bidro disse to tilnærmingene fram mot København-toppmøtet i 2009 til å gjøre forhandlingene til et spørsmål om fordeling av «retten til å forurense», sterkt dominert av en konflikt mellom industriland og utviklingsland.'
+      language: 'no'
+      routes:
+        external: 'https://www.scup.com/doi/full/10.18261/ISSN1891-1757-2015-04-06'
+      tags:
+        - unfccc
+        - københavn-toppmøtet
+        - nord/sør
+        - klimapolitikk
+      authors:
+        - self
+      pub-data:
+        pub-type: article
+        pub-lang: 'no'
+        journal: 'Internasjonal Politikk'
+        volume: 73
+        issue: 04
+        pages: 538–46
+        doi: 10.18261/ISSN1891-1757-2015-04-06
+  - from-oil-as-welfare-to-oil-as-risk:
+      title: 'From Oil as Welfare to Oil as Risk? Norwegian Petroleum Resource Governance and Climate Policy'
+      date: 2019
+      abstract: 'None'
+      language: en
+      routes:
+        external: 'https://doi.org/10.1080/14693062.2019.1692774'
+      tags:
+        - oil
+        - 'fossil fuels'
+        - 'supply-side policy'
+        - 'norwegian oil policy'
+        - 'norwegian climate policy'
+      authors:
+        - bang: 'None'
+          name: 'Guri Bang'
+        - self
+      pub-data:
+        pub-type: article
+        pub-lang: en
+        doi: 10.1080/14693062.2019.1692774
+        journal: 'Climate Policy'
+        volume: 20
+        issue: 8
+        pages: 997–1009
+  - governing-as-valuing:
+      title: 'Governing as Valuing: Assetization and the Making of the Norwegian Oil Fund'
+      date: 2024
+      abstract: 'None'
+      language: en
+      tags:
+        - 'norwegian oil policy'
+        - 'norwegian oil fund'
+        - nbim
+        - assetization
+        - valuation
+      routes:
+        external: 'https://doi.org/10.1177/0308518X241260588'
+      authors:
+        - asdal: 'None'
+          name: 'Kristin Asdal'
+        - self
+      pub-data:
+        pub-type: article
+        pub-lang: en
+        doi: 10.1177/0308518X241260588
+        journal: 'Environment and Planning A: Economy and Space'
+        volume: 56
+        issue: 8
+        pages: 2089–104
 ---

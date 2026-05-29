@@ -2,15 +2,20 @@
 title: 'From Oil as Welfare to Oil as Risk? Norwegian Petroleum Resource Governance and Climate Policy'
 date: '2019'
 abstract:
-language:
+language: en
 routes:
   external: 'https://doi.org/10.1080/14693062.2019.1692774'
 type: publication
+tags:
+  - 'oil'
+  - 'fossil fuels'
+  - 'supply-side policy'
+  - 'norwegian oil policy'
+  - 'norwegian climate policy'
 authors:
-  bang:
+  - bang:
     name: 'Guri Bang'
-  lahn:
-    name: 'Bård Lahn'
+  - self
 pub-data:
   pub-type: 'article'
   pub-lang: 'en'
