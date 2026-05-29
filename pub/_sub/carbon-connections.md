@@ -11,7 +11,9 @@ authors:
 pub-data:
   pub-type: thesis
   pub-lang: 'en'
-  publisher: 'University of Oslo'
+  publisher:
+    en: 'University of Oslo'
+    no: 'Universitetet i Oslo'
   degree: 'Ph.D.'
   issn: 15043991
 ---

@@ -1,0 +1,58 @@
+---
+title: config file authors
+type: resource
+authors:
+  - self:
+      - name: 'Bård Lahn'
+      - givenName: Bård
+      - familyName: Lahn
+      - url: https://bard.lahn.no/bio/
+      - birthDate: 1983-05-26
+      - orcid: 0000-0001-9161-9455
+      - worksFor:
+          - name: 'University of Oslo'
+          - alternateName: 'Universitetet i Oslo'
+          - url: https://www.uio.no
+  - dooley:
+      name: 'Kate Dooley'
+      url: 'https://orcid.org/0000-0001-5636-6691'
+      orcid: '0000-0001-5636-6691'
+  - holz:
+      name: 'Ceecee Holz'
+      url: 'https://orcid.org/0000-0003-0722-1044'
+      orcid: '0000-0003-0722-1044'
+  - kartha:
+      name: 'Sivan Kartha'
+      url: 'https://orcid.org/0000-0002-6014-2161'
+      orcid: '0000-0002-6014-2161'
+  - klinsky:
+      name: 'Sonja Klinsky'
+  - roberts:
+      name: 'J. Timmons Roberts'
+  - shue:
+      name: 'Henry Shue'
+  - winkler:
+      name: 'Harald Winkler'
+  - athanasiou:
+      name: 'Tom Athanasiou'
+  - caney:
+      name: 'Simon Caney'
+  - cripps:
+      name: 'Elizabeth Cripps'
+  - dubash:
+      name: 'Navroz K. Dubash'
+  - hall:
+      name: 'Galen Hall'
+  - harris:
+      name: 'Paul G. Harris'
+  - moellendorf:
+      name: 'Darrel Moellendorf'
+  - muller:
+      name: 'Benito Müller'
+  - sagar:
+      name: 'Ambuj Sagar'
+  - singer:
+      name: 'Peter Singer'     
+      url: 'https://orcid.org/0000-0003-3741-4314'
+      orcid: '0000-0003-3741-4314'
+---

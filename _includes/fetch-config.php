@@ -1,5 +1,6 @@
 <?php
 
+
 // Configurable variables are hardcoded as of now
 
 $site_title = "Bård Lahn";
@@ -10,27 +11,52 @@ $self_profile_rel_path = '/bio/';
 
 // Introducing public functions to fetch various configs
 
+function getConfig(string $configfile, string $lang = '', string $element = '') {
+
+    // Fetching config from frontmatter of specified file.
+    // If $lang is set, checks for filename containing language suffix.
+    // If $element is set, returns only the specified frontmatter (top-level) element.
+
+    global $includes_path;
+    global $config_path;
+    include_once $includes_path . 'md-parse.php';
+    $file = $config_path . $configfile . '.md';
+    if (!empty($lang)) {
+        // $lang is set - checking if language-specific file exists
+        $check = $config_path . $configfile . '.' . $lang . '.md';
+        $file = (file_exists($check)) ? $check : $file;
+    }
+    if (file_exists($file)) {
+        // File exists - parses and returns
+        $config = parseMDFile($file)['frontmatter'];
+        if (!empty($element) && isset($config[$element])) {
+            // $element is set - returning only specified element
+            return $config[$element];
+        } else {
+            // Returning full frontmatter
+            return $config;
+        }
+    } else {
+        // Config file does not exist
+        return false;
+    }
+
+}
+
 function getAuthors(mixed $raw): mixed {
 
-    global $base_url;
-    global $self_profile_rel_path;
+    // Assembling author list from frontmatter, returning as an array
 
-    // 'self' author information is hardcoded - to be replaced by fetch from config YAML
-    $self = [
-        'familyName'    => 'Lahn',
-        'givenName'     => 'Bård',
-        'name'          => 'Bård Lahn',
-        'url'           => $base_url . $self_profile_rel_path,
-        'birthDate'     => '1983-05-26',
-        'sameAs'        => 'https://orcid.org/0000-0001-9161-9455',
-        'worksFor'      => [[
-                '@type'         => 'Organization',
-                'name'          => 'University of Oslo',
-                'alternateName' => 'Universitetet i Oslo',
-                'alternateName' => 'UiO',
-                'url'           => 'https://www.uio.no'
-                ]]
-    ];
+    // Fetching predefined authors from config file
+    $authConfig = getConfig('authors', element: 'authors');
+    if (!$authConfig) {
+        print "<!-- DEBUG: Error fetching config 'authors' -->";
+        return false;
+    }
+
+    if (!isset($authConfig['self'])) {
+        $authConfig['self'] = ['name' => '(Author-name SELF not set)', 'url' => '(Author URL SELF not set)'];
+    }
 
     // No authors defined — return false
     if (empty($raw)) {
@@ -39,7 +65,7 @@ function getAuthors(mixed $raw): mixed {
 
     // Single string value "self"
     if ($raw === 'self') {
-        return ['self' => $self];
+        return ['self' => $authConfig['self']];
     }
 
     // Array of authors
@@ -48,16 +74,29 @@ function getAuthors(mixed $raw): mixed {
 
         if (is_array($element)) {
             $thisAuthor = key($element);
-            if ($thisAuthor == 'self') {
-                $authors['self'] = $self;
-            } elseif (is_array($element[$thisAuthor])) {
-                $authors[$thisAuthor] = $element[$thisAuthor];
-                // TO DO: Parse name into family and given names
-                // TO DO: Error checking, ORCID -> URL, etc
+            $authors[$thisAuthor] = $element[$thisAuthor];           
+        } else {
+            if (isset($authConfig[$element])) {
+                if (isset($authConfig[$element]['sameAs'])) {
+                    $authConfig[$element]['sameAs']['@type'] = "Organization";
+                }
+                $authors[$element] = $authConfig[$element];
+            } else {
+                $authors[$element] = [
+                    'name' => '(Author-name '.$element.' not set in config file)', 
+                    'url' => '(Author URL '.$element.' not set in config file)'
+                    ];
             }
-        } elseif ($element == 'self') {
-            $authors['self'] = $self;
-        }  
+        }
+
+        // TO DO: Parse name into family and given names
+
+        if (isset($authors[$thisAuthor]['orcid'])) {
+            $authors[$thisAuthor]['sameAs'] = 'https://orcid.org/' . $authors[$thisAuthor]['orcid'];
+            $authors[$thisAuthor]['url'] = (empty($authors[$thisAuthor]['url'])) ?
+                $authors[$thisAuthor]['sameAs'] :
+                $authors[$thisAuthor]['url'];
+        }
 
     }
 
