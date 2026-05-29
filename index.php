@@ -11,10 +11,10 @@ This file (index.php) and the file _paths.php must be present in the root dir.
 */
 
 // Setting up initial path config
-include '_paths.php';
+include_once '_paths.php';
 
 // Running initialisation
-include $includes_path . "init.php";
+include_once $includes_path . "init.php";
 
 // Fetching content
 if (empty($serve_error)) include $includes_path . "fetch-main.php";

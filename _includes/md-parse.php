@@ -1,6 +1,7 @@
 <?php
 
 // Requires Parsedown, placed in lib folder
+global $lib_path;
 require_once $lib_path . 'vendor/autoload.php';
 use Symfony\Component\Yaml\Yaml;
 
