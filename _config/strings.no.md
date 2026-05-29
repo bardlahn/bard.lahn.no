@@ -12,6 +12,8 @@ list-blog:
   total: "Totalt "
   marked: " poster er merket med "
   and: " og "
+  in: "på"
+  lang: "språk"
 list-pub:
   and: " og "
   in: " I"

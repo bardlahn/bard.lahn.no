@@ -12,6 +12,8 @@ list-blog:
   total: "A total of "
   marked: " posts matching "
   and: " and "
+  in: "in"
+  lang: "language"
 list-pub:
   and: " and "
   in: " In"

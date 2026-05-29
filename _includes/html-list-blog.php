@@ -3,21 +3,31 @@
 global $self_url;
 global $includes_path;
 global $lang;
+global $site_config;
 
 include_once $includes_path . 'fetch-sub.php';
 
 echo "<div class=\"content\">\n\n";
 
+// Fetching language strings
+$txt = getConfig('strings', $lang, 'list-blog');
+
 // Handling filtering based on query
 
 $allowedFilters = ['year', 'tag', 'lang'];
 $filters[] = "lang=" . $lang; // Setting default language
-$filter_descriptions = [];
+$filterDesc = [];
+$langDesc = "";
 
 foreach ($allowedFilters as $key) {
     if (isset($_GET[$key])) {
         $value = htmlspecialchars(strip_tags($_GET[$key]));
-        $filter_descriptions[] = $key . ' <strong>' . $value . '</strong>'; // TO DO: LANGUAGE DIFFERENTIATION
+        if ($key == 'lang') {
+            $langName = $site_config['languages'][$value]['name'] ?? $txt['lang'] . " '" . $value . "'";
+            $langDesc = $txt['show'] . " " . $txt['in'] . " " . $langName;
+        } else {
+            $filterDesc[] = $key . ' <strong>' . $value . '</strong>';
+        }
         $filters[] = $key . '=' . $value;
     }
 }
@@ -48,15 +58,12 @@ $showing_count = count($posts_to_show);
 $showing_from  = $total_posts > 0 ? $start_from + 1 : 0;
 $showing_to    = $start_from + $showing_count;
 
-// Fetching language strings
-$txt = getConfig('strings', $lang, 'list-blog');
-
 // If filter applies, showing information about filter and total posts
 
-if (!empty($filter_descriptions)) {
-    $summary = $txt['total']."<strong>{$total_posts}</strong>".$txt['marked'].implode($txt['and'], $filter_descriptions) . ".";
+if (!empty($filterDesc)) {
+    $summary = $txt['total']."<strong>{$total_posts}</strong>".$txt['marked'].implode($txt['and'], $filterDesc) . ".";
     echo "<p>{$summary}</p>\n<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
-
+    echo (!empty($langDesc)) ? "<p>{$langDesc}.</p>\n" : "";
 }
 
 foreach ($posts_to_show as $entry) {

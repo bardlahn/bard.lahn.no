@@ -31,14 +31,14 @@ $self_type = PAGE_MAIN;
 
 // Fetching core site settings
 
-$siteConf = getConfig('site', $lang);
+$site_config = getConfig('site', $lang);
 
-if ($siteConf) {
+if ($site_config) {
 
-    $site_title             = $siteConf['site-title'];
-    $base_url               = $siteConf['site-url'];
-    $assets_rel_path        = $siteConf['paths']['assets-rel'];
-    $self_profile_rel_path  = $siteConf['paths']['profile-rel'];
+    $site_title             = $site_config['site-title'];
+    $base_url               = $site_config['site-url'];
+    $assets_rel_path        = $site_config['paths']['assets-rel'];
+    $self_profile_rel_path  = $site_config['paths']['profile-rel'];
 
 } else {
     $serve_error = 500;

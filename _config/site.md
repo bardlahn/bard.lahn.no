@@ -10,6 +10,6 @@ languages:
   - en:
       name: English
   - no:
-      name: Norsk
+      name: norsk
 ---
 
