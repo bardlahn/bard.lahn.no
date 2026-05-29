@@ -57,6 +57,8 @@ function getAuthors(mixed $raw): mixed {
         return false;
     }
 
+    $authConfig = array_merge(...array_values($authConfig));
+
     if (!isset($authConfig['self'])) {
         $authConfig['self'] = ['name' => '(Author-name SELF not set)', 'url' => '(Author URL SELF not set)'];
     }
