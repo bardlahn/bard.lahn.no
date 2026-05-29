@@ -92,10 +92,10 @@ if (!$show_all) {
     }
 
     echo "<a href=\"?{$filter_query}&StartFrom=0&NumberPosts=0\">".$txt['all']."</a>";
-    echo $clearfilters ?? "\n";
+    echo (!empty($clearfilters)) ? " / ".$clearfilters."\n" : "\n";
 } else {
     echo "<a href=\"?{$filter_query}\">".$txt['less']."</a>";
-    echo $clearfilters ?? "\n";
+    echo (!empty($clearfilters)) ? " / ".$clearfilters."\n" : "\n";
 }
 
 echo "</p></div>\n\n";
