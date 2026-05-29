@@ -63,6 +63,7 @@ function getAuthors(mixed $raw): mixed {
             $aC['url'] = $aC['url'] ?? $aC['sameAs'];
         }
         $authConfig[key($aC)] = $aC;
+        echo "<!-- DEBUG: Checked " . key($aC) . "-->";
     }
 
     if (!isset($authConfig['self'])) {
