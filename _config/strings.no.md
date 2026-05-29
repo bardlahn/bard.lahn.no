@@ -21,7 +21,8 @@ list-pub:
   ed: "red."
   pages: "Side"
   deg: "Avhandling"
-  goto: "Gå til nettversjon"
-  pdf: "Last ned som PDF"
+  goto: "Les på nett"
+  pdf: "Last ned PDF"
+  cite: "Last ned sitering"
 ---
 

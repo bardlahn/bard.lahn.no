@@ -3,6 +3,7 @@
 global $self_url;
 global $includes_path;
 global $lang;
+global $site_config;
 
 include_once $includes_path . 'fetch-sub.php';
 
@@ -37,24 +38,17 @@ $pub = fetchSubEntries($root_path . $self_url, $filter, $sorting);
 $total_posts = count($pub['sub-items']);
 $posts_to_show = $pub['sub-items'];
 
-$txt_and       = ($lang == "no") ? " og "       : " and ";
-$txt_in        = ($lang == "no") ? "I"          : " In";
-$txt_ed        = ($lang == "no") ? "red."       : "ed.";
-$txt_pages     = ($lang == "no") ? "Side"       : "Pp.";
-$txt_deg       = ($lang == "no") ? "Avhandling" : "Thesis";
-$txt_goto      = ($lang == "no") ? "Gå til nettversjon"
-                                                : "Go to web version";
-$txt_pdf       = ($lang == "no") ? "Last ned som PDF"
-                                                : "Download as PDF";
+// Fetching language strings
+$txt = getConfig('strings', $lang, 'list-pub');
 
 // If filter applies, showing information about filter and total posts
 
 if (!empty($filter_descriptions)) {
 
     if ($lang == "no") {
-        $summary = "<p>Totalt <strong>{$total_posts}</strong> publikasjoner er merket med " . implode(" og ", $filter_descriptions) . ".</p>\n";
+        $summary = "<p>Totalt <strong>{$total_posts}</strong> publikasjoner er merket med " . implode($txt['and'], $filter_descriptions) . ".</p>\n";
     } else {
-        $summary = "<p>A total of <strong>{$total_posts}</strong> publications matching " . implode(" and ", $filter_descriptions) . ".</p>\n";
+        $summary = "<p>A total of <strong>{$total_posts}</strong> publications matching " . implode($txt['and'], $filter_descriptions) . ".</p>\n";
     }
 
 }
@@ -89,9 +83,9 @@ foreach ($posts_to_show as $entry) {
     } elseif ($count === 1) {
         echo $parts[0];
     } elseif ($count === 2) {
-        echo $parts[0] . $txt_and . $parts[1];
+        echo $parts[0] . $txt['and'] . $parts[1];
     } else {
-        echo $parts[0] . ', ' . $parts[1] . $txt_and . $parts[2];
+        echo $parts[0] . ', ' . $parts[1] . $txt['and'] . $parts[2];
     }
 
     // Adding punctuation to title if not already included
@@ -121,8 +115,8 @@ foreach ($posts_to_show as $entry) {
 
         case 'chapter':
             $pubString .= (!empty($entry['pub-data']['pages'])) ?
-                $txt_pages . " " . $entry['pub-data']['pages'] . " " . strtolower($txt_in) . " <i>" :
-                 "<!-- DEBUG: Missing issue -->" . $txt_in . " <i>";
+                $txt['pages'] . " " . $entry['pub-data']['pages'] . " " . strtolower($txt['in']) . " <i>" :
+                 "<!-- DEBUG: Missing issue -->" . $txt['in'] . " <i>";
             $pubString .= $entry['pub-data']['book'] ?? "<!-- DEBUG: Missing book title -->";
             $pubString .= "</i>";
 
@@ -135,7 +129,7 @@ foreach ($posts_to_show as $entry) {
                         $edString .= (empty($edString)) ? $editor['name'] : ", " . $editor['name'];
                     }
                 }
-                $pubString .= " (" . $txt_ed . " " . $edString . "). ";
+                $pubString .= " (" . $txt['ed'] . " " . $edString . "). ";
             } else {
                 $pubString .= ". <!-- DEBUG: Missing editors -->";
             }
@@ -153,7 +147,7 @@ foreach ($posts_to_show as $entry) {
         
         case 'thesis':
             $pubString .= (!empty($entry['pub-data']['degree'])) ?
-                $txt_deg . " (" . $entry['pub-data']['degree'] . "), " : "<!-- DEBUG: Missing degree -->";
+                $txt['deg'] . " (" . $entry['pub-data']['degree'] . "), " : "<!-- DEBUG: Missing degree -->";
             $pubString .= $entry['pub-data']['publisher'] ?? "<!-- DEBUG: Missing publisher -->";
             $pubString .= ".";
             break;
@@ -177,14 +171,19 @@ foreach ($posts_to_show as $entry) {
 
     $pubString = "";
     if (!empty($entry['routes']['external'])) {
-        $pubString .= '<a href="'.htmlspecialchars($entry['routes']['external']).'">'.$txt_goto."</a>\n";
+        $pubString .= '<a href="'.htmlspecialchars($entry['routes']['external']).'">'.$txt['goto']."</a>\n";
     }
     if (!empty($entry['pub-data']['file'])) {
         $pdfLink = "?action=download&file=" . $entry['pub-data']['file'];
         $pubString .= (empty($pubString)) ?
-            '<a href="'.$pdfLink.'">'.$txt_pdf."</a>\n" :
-            ' / <a href="'.$pdfLink.'">'.$txt_pdf."</a>\n";
+            '<a href="'.$pdfLink.'">'.$txt['pdf']."</a>\n" :
+            ' / <a href="'.$pdfLink.'">'.$txt['pdf']."</a>\n";
     }
+
+    $citeLink = "/" . $lang . "/" . $self_url . "/" . $entry['slug'] . "?action=cite&format=ris";
+    $pubString .= (empty($pubString)) ?
+        '<a href="'.$citeLink.'">'.$txt['cite']."</a>\n" :
+        ' / <a href="'.$citeLink.'">'.$txt['cite']."</a>\n";
 
     echo $pubString . "</p>\n\n";
 

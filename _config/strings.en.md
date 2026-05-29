@@ -21,7 +21,8 @@ list-pub:
   ed: "ed."
   pages: "Pp."
   deg: "Thesis"
-  goto: "Go to web version"
-  pdf: "Download as PDF"
+  goto: "Read online"
+  pdf: "Download PDF"
+  cite: "Download citation"
 ---
 
