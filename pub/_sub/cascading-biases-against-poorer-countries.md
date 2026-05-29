@@ -13,8 +13,7 @@ authors:
   - cripps
   - dooley
   - dubash
-  - fei:
-      name: 'Fei Teng'
+  - 'Fei Teng'
   - harris
   - holz
   - self

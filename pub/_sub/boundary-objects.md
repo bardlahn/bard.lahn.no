@@ -12,8 +12,7 @@ tags:
   - 'climate science'
   - 'science/policy'
   - sts
-authors:
-  - self
+authors: self
 pub-data:
   pub-type: 'chapter'
   pub-lang: 'en'

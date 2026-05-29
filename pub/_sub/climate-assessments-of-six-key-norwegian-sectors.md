@@ -7,19 +7,13 @@ routes:
   external: https://hdl.handle.net/11250/2730979
 type: publication
 authors:
-  - alnes:
-      name: 'Kristina Alnes'
-  - saelen:
-      name: 'Håkon Sælen'
-  - lund:
-      name: 'Harald Francke Lund'
+  - 'Kristina Alnes'
+  - 'Håkon Sælen'
+  - 'Harald Francke Lund'
   - self
-  - eine:
-      name: 'Kristin Eine'
-  - alfsen:
-      name: 'Knut H. Alfsen'
-  - schiessl:
-      name: 'Bernhard Schiessl'
+  - 'Kristin Eine'
+  - 'Knut H. Alfsen'
+  - 'Bernhard Schiessl'
 pub-data:
   pub-type: report
   pub-lang: 'en'

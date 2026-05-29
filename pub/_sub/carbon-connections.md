@@ -6,8 +6,7 @@ language: en
 routes:
   external: https://hdl.handle.net/10852/97652
 type: publication
-authors:
-  - self
+authors: self
 pub-data:
   pub-type: thesis
   pub-lang: 'en'

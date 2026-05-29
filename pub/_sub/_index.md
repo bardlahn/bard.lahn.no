@@ -19,8 +19,7 @@ sub-items:
         - 'climate science'
         - science/policy
         - sts
-      authors:
-        - self
+      authors: self
       pub-data:
         pub-type: chapter
         pub-lang: en
@@ -42,8 +41,7 @@ sub-items:
       language: en
       routes:
         external: 'https://hdl.handle.net/10852/97652'
-      authors:
-        - self
+      authors: self
       pub-data:
         pub-type: thesis
         pub-lang: en
@@ -64,8 +62,7 @@ sub-items:
         - cripps
         - dooley
         - dubash
-        - fei:
-            name: 'Fei Teng'
+        - 'Fei Teng'
         - harris
         - holz
         - self
@@ -116,19 +113,13 @@ sub-items:
       routes:
         external: 'https://hdl.handle.net/11250/2730979'
       authors:
-        - alnes:
-            name: 'Kristina Alnes'
-        - saelen:
-            name: 'Håkon Sælen'
-        - lund:
-            name: 'Harald Francke Lund'
+        - 'Kristina Alnes'
+        - 'Håkon Sælen'
+        - 'Harald Francke Lund'
         - self
-        - eine:
-            name: 'Kristin Eine'
-        - alfsen:
-            name: 'Knut H. Alfsen'
-        - schiessl:
-            name: 'Bernhard Schiessl'
+        - 'Kristin Eine'
+        - 'Knut H. Alfsen'
+        - 'Bernhard Schiessl'
       pub-data:
         pub-type: report
         pub-lang: en
@@ -390,7 +381,8 @@ sub-items:
         - equity
       routes:
         external: 'https://doi.org/10.1007/s10784-017-9375-8'
-      authors: self
+      authors:
+        - self
       pub-data:
         pub-type: article
         pub-lang: en
@@ -443,7 +435,8 @@ sub-items:
         - klimapolitikk
       authors:
         - self
-        - 'Merethe Dotterud Leiren'
+        - leiren:
+            name: 'Merethe Dotterud Leiren'
       pub-data:
         pub-type: report
         pub-lang: 'no'
