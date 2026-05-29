@@ -39,6 +39,7 @@ if ($siteConf) {
     $base_url               = $siteConf['site-url'];
     $assets_rel_path        = $siteConf['paths']['assets-rel'];
     $self_profile_rel_path  = $siteConf['paths']['profile-rel'];
+    echo "<h1>VI ER HER</h1>";
 } else {
     $serve_error = 500;
     include $includes_path . 'fetch-error.php';
