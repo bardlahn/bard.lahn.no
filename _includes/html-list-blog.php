@@ -21,11 +21,11 @@ $langDesc = "";
 
 foreach ($allowedFilters as $key) {
     if (isset($_GET[$key])) {
-        echo "<!-- DEBUG: key {$key} -->";
         $value = htmlspecialchars(strip_tags($_GET[$key]));
         if ($key == 'lang') {
             $langName = $site_config['languages'][$value]['name'] ?? $txt['lang'] . " '" . $value . "'";
             $langDesc = $txt['show'] . " " . $txt['in'] . " " . $langName;
+            echo "<!-- DEBUG: langDesc {$langDesc} -->";
         } else {
             $filterDesc[] = $key . ' <strong>' . $value . '</strong>';
         }
