@@ -25,7 +25,7 @@ foreach ($allowedFilters as $key) {
         if ($key == 'lang') {
             $langName = $site_config['languages'][$value]['name'] ?? $txt['lang'] . " '" . $value . "'";
             $langDesc = $txt['show'] . " " . $txt['in'] . " " . $langName;
-            echo "<!-- DEBUG: langDesc {$langDesc} -->";
+            var_dump($site_config);
         } else {
             $filterDesc[] = $key . ' <strong>' . $value . '</strong>';
         }
