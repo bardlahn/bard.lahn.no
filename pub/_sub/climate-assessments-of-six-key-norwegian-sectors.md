@@ -23,9 +23,7 @@ authors:
 pub-data:
   pub-type: report
   pub-lang: 'en'
-  publisher: 
-    en: 'CICERO Centre for International Climate Research'
-    no: 'CICERO Senter for klimaforskning'
+  publisher: 'CICERO Centre for International Climate Research'
   place: Oslo
   number: '2021:02'
 ---

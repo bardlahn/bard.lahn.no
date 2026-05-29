@@ -17,8 +17,6 @@ tags:
 pub-data:
   pub-type: thesis
   pub-lang: 'en'
-  publisher:
-    no: 'Universitetet i Oslo'
-    en: 'University of Oslo'
+  publisher: 'University of Oslo'
   degree: MA
 ---

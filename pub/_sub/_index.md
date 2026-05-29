@@ -47,9 +47,7 @@ sub-items:
       pub-data:
         pub-type: thesis
         pub-lang: en
-        publisher:
-          en: 'University of Oslo'
-          no: 'Universitetet i Oslo'
+        publisher: 'Universitetet i Oslo'
         degree: 'Ph.D.'
         issn: 15043991
   - cascading-biases-against-poorer-countries:
@@ -134,9 +132,7 @@ sub-items:
       pub-data:
         pub-type: report
         pub-lang: en
-        publisher:
-          en: 'CICERO Centre for International Climate Research'
-          no: 'CICERO Senter for klimaforskning'
+        publisher: 'CICERO Centre for International Climate Research'
         place: 'Oslo'
         number: '2021:02'
   - et-fast-punkt-for-klimaet:
@@ -256,8 +252,6 @@ sub-items:
       pub-data:
         pub-type: thesis
         pub-lang: en
-        publisher:
-          no: 'Universitetet i Oslo'
-          en: 'University of Oslo'
+        publisher: 'University of Oslo'
         degree: 'MA'
 ---
