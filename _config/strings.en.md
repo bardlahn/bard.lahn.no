@@ -9,6 +9,9 @@ list-blog:
   next: "Next"
   all: "Show all"
   less: "Show less"
+  total: "A total of "
+  marked: " posts matching "
+  and: " and "
 list-pub:
   and: " and "
   in: " In"

@@ -48,27 +48,14 @@ $showing_count = count($posts_to_show);
 $showing_from  = $total_posts > 0 ? $start_from + 1 : 0;
 $showing_to    = $start_from + $showing_count;
 
+// Fetching language strings
 $txt = getConfig('strings', $lang, 'list-blog');
-var_dump($txt);
-
-$txt_show      = ($lang == "no") ? "Viser poster"   : "Showing posts";
-$txt_of        = ($lang == "no") ? "av"             : "of";
-$txt_prev      = ($lang == "no") ? "Forrige"        : "Previous";
-$txt_next      = ($lang == "no") ? "Neste"          : "Next";
-$txt_all       = ($lang == "no") ? "Vis alle"       : "Show all";
-$txt_less      = ($lang == "no") ? "Vis mindre"     : "Show less";
 
 // If filter applies, showing information about filter and total posts
 
 if (!empty($filter_descriptions)) {
-
-    if ($lang == "no") {
-        $summary = "Totalt <strong>{$total_posts}</strong> poster er merket med " . implode(" og ", $filter_descriptions) . ".";
-    } else {
-        $summary = "A total of <strong>{$total_posts}</strong> posts matching " . implode(" and ", $filter_descriptions) . ".";
-    }
-
-    echo "<p>{$summary}</p>\n<p>{$txt_show} <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
+    $summary = $txt['total']."<strong>{$total_posts}</strong>".$txt['marked'].implode($txt['and'], $filter_descriptions) . ".";
+    echo "<p>{$summary}</p>\n<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
 
 }
 
@@ -81,22 +68,22 @@ foreach ($posts_to_show as $entry) {
     echo "<br/>" . $entry['abstract'] . "</p>\n\n";
 }
 
-echo "<p>{$txt_show} {$showing_from}–{$showing_to} {$txt_of} {$total_posts}</p>\n";
+echo "<p>".$txt['show']." {$showing_from}–{$showing_to} ".$txt['of']." {$total_posts}</p>\n";
 
 if (!$show_all) {
     if ($start_from > 0) {
         $prev_start = max(0, $start_from - $num_posts);
-        echo "<a href=\"?{$filter_query}&StartFrom={$prev_start}&NumberPosts={$num_posts}\">← {$txt_prev}</a> ";
+        echo "<a href=\"?{$filter_query}&StartFrom={$prev_start}&NumberPosts={$num_posts}\">← ".$txt['prev']."</a> ";
     }
 
     if ($showing_to < $total_posts) {
         $next_start = $start_from + $num_posts;
-        echo "<a href=\"?{$filter_query}&StartFrom={$next_start}&NumberPosts={$num_posts}\">{$txt_next} →</a> ";
+        echo "<a href=\"?{$filter_query}&StartFrom={$next_start}&NumberPosts={$num_posts}\">".$txt['next']." →</a> ";
     }
 
-    echo "<a href=\"?{$filter_query}&StartFrom=0&NumberPosts=0\">{$txt_all}</a>";
+    echo "<a href=\"?{$filter_query}&StartFrom=0&NumberPosts=0\">".$txt['all']."</a>";
 } else {
-    echo "<a href=\"?{$filter_query}\">{$txt_less}</a>";
+    echo "<a href=\"?{$filter_query}\">".$txt['less']."</a>";
 }
 
 echo "</div>\n\n";

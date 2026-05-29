@@ -9,6 +9,9 @@ list-blog:
   next: "Neste"
   all: "Vis alle"
   less: "Vis mindre"
+  total: "Totalt "
+  marked: " poster er merket med "
+  and: " og "
 list-pub:
   and: " og "
   in: " I"
