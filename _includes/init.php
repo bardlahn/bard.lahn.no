@@ -37,7 +37,7 @@ $siteConf = getConfig('site', $lang);
 if ($siteConf) {
     $site_title             = $siteConf['site-title'];
     $base_url               = $siteConf['site-url'];
-    $assets_rel_path        = $siteConf['paths']['asset-rel'];
+    $assets_rel_path        = $siteConf['paths']['assets-rel'];
     $self_profile_rel_path  = $siteConf['paths']['profile-rel'];
 } else {
     $serve_error = 500;

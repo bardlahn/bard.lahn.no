@@ -244,7 +244,7 @@ function renderMDContent(string $text) {
 function replaceVars(string $input): string {
     return preg_replace_callback(
         '/:\$([^:]+):/',
-        function (array $matches): string {
+        function (array $matches) {
             $args = explode('/', $matches[1]);
             $new = '';
             $urlLang = '';
