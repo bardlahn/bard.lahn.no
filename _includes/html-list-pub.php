@@ -180,7 +180,7 @@ foreach ($posts_to_show as $entry) {
             ' / <a href="'.$pdfLink.'">'.$txt['pdf']."</a>\n";
     }
 
-    $citeLink = "/" . $entry['lang'] . "/" . $self_url . "/" . $entry['slug'] . "?action=cite&format=ris";
+    $citeLink = "/" . ($entry['language'] ?? $entry['pub-data']['pub-lang'] ?? $lang) . "/" . $self_url . "/" . $entry['slug'] . "?action=cite&format=ris";
     $pubString .= (empty($pubString)) ?
         '<a href="'.$citeLink.'">'.$txt['cite']."</a>\n" :
         ' / <a href="'.$citeLink.'">'.$txt['cite']."</a>\n";
