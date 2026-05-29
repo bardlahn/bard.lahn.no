@@ -26,10 +26,8 @@ sub-items:
         doi: 10.1017/9781009082099.030
         book: 'A Critical Assessment of the Intergovernmental Panel on Climate Change'
         editors:
-          - depryck:
-              name: 'Kari De Pryck'
-          - hulme:
-              name: 'Mike Hulme'
+          - depryck
+          - hulme
         publisher: 'Cambridge University Press'
         isbn: 9781316514276
         pages: 225-233
@@ -514,4 +512,138 @@ sub-items:
         publisher: 'CICERO Centre for International Climate Research'
         place: 'Oslo'
         number: 2019-10
+  - postparis-policy-relevance:
+      title: 'Post-Paris Policy Relevance: Lessons from the IPCC SR15 Process'
+      date: 2021
+      abstract: 
+      language: en
+      routes:
+        external: 'https://doi.org/10.1007/s10584-021-03210-0'
+      tags:
+        - ipcc
+        - sr15
+        - unfccc
+        - 'paris agreement'
+        - science/policy
+      authors:
+        - hermansen
+        - self
+        - sundqvist
+        - 'Eirik Øye'
+      pub-data:
+        pub-type: article
+        pub-lang: en
+        doi: 10.1007/s10584-021-03210-0
+        journal: 'Climatic Change'
+        volume: 169
+        issue: 1
+        pages: 7
+  - redusert-oljeutvinning-som-klimatiltak:
+      title: 'Redusert oljeutvinning som klimatiltak: Faglige og politiske perspektiver'
+      date: 2017
+      abstract: 
+      language: 'no'
+      routes:
+        external: 'http://hdl.handle.net/11250/2434201'
+      authors: self
+      tags:
+        - 'norsk oljepolitikk'
+        - 'norsk klimapolitikk'
+        - 'supply-side climate policy'
+      pub-data:
+        pub-type: report
+        pub-lang: 'no'
+        publisher: 'CICERO Centre for International Climate Research'
+        place: 'Oslo'
+        number: 'Policy Note 2017:01'
+  - science-as-a-fixed-point:
+      title: 'Science as a "Fixed Point"? Quantification and Boundary Objects in International Climate Politics'
+      date: 2017
+      abstract: 
+      language: en
+      routes:
+        external: 'https://doi.org/10.1016/j.envsci.2016.11.001'
+      tags:
+        - sts
+        - north/south
+        - equity
+        - quantification
+        - 'boundary objects'
+        - 'climate policy'
+        - ipcc
+        - unfccc
+      authors:
+        - self
+        - sundqvist
+      pub-data:
+        pub-type: article
+        pub-lang: en
+        doi: 10.1016/j.envsci.2016.11.001
+        journal: 'Environmental Science & Policy'
+        volume: 67
+        pages: 8–15
+  - three-institutional-pathways-ipcc:
+      title: 'Three Institutional Pathways to Envision the Future of the IPCC'
+      date: 2023
+      abstract: 
+      language: en
+      tags:
+        - ipcc
+        - science/policy
+        - 'paris agreement'
+      routes:
+        external: 'https://doi.org/10.1038/s41558-023-01780-8'
+      authors:
+        - 'Shinichiro Asayama'
+        - depryck
+        - 'Silke Beck'
+        - 'Béatrice Cointe'
+        - 'Paul N. Edwards'
+        - 'Hélène Guillemot'
+        - 'Karin M. Gustafsson'
+        - 'Friederike Hartz'
+        - 'Hannah Hughes'
+        - self
+        - 'Olivier Leclerc'
+        - 'Rolf Lidskog'
+        - 'Jasmine E. Livingston'
+        - 'Irene Lorenzoni'
+        - 'Joanna Petrasek MacDonald'
+        - 'Martin Mahony'
+        - 'Jean Carlos Hochsprung Miguel'
+        - 'Marko Monteiro'
+        - 'Jessica O’Reilly'
+        - 'Warren Pearce'
+        - 'Arthur Petersen'
+        - 'Bernd Siebenhüner'
+        - 'Tora Skodvin'
+        - 'Adam Standring'
+        - sundqvist
+        - 'Renzo Taddei'
+        - 'Bianca van Bavel'
+        - 'Mark Vardy'
+        - 'Yulia Yamineva'
+        - hulme
+      pub-data:
+        pub-type: article
+        pub-lang: 'no'
+        doi: 10.1038/s41558-023-01780-8
+        journal: 'Nature Climate Change'
+  - togradersmalet-og-norsk-sokkel:
+      title: 'Togradersmålet og åpning av nye leteområder på norsk sokkel'
+      date: 2010
+      abstract: 
+      language: 'no'
+      routes:
+        external: 
+      tags:
+        - karbonbudsjett
+        - olje
+        - 'norsk oljepolitikk'
+      authors: self
+      pub-data:
+        pub-type: report
+        pub-lang: 'no'
+        publisher: 'Norges Naturvernforbund'
+        place: 'Oslo'
 ---

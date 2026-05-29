@@ -19,10 +19,8 @@ pub-data:
   doi: '10.1017/9781009082099.030'
   book: 'A Critical Assessment of the Intergovernmental Panel on Climate Change'
   editors:
-    - depryck:
-        name: 'Kari De Pryck'
-    - hulme:
-        name: 'Mike Hulme'
+    - depryck
+    - hulme
   publisher: 'Cambridge University Press'
   isbn: 9781316514276
   pages: '225-233'

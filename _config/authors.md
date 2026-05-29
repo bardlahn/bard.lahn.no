@@ -70,5 +70,11 @@ authors:
       name: 'Peter Singer'     
       url: 'https://orcid.org/0000-0003-3741-4314'
       orcid: '0000-0003-3741-4314'
+  - depryck:
+      name: 'Kari De Pryck'
+      orcid: 0000-0002-0203-5421
+  - hulme:
+      name: 'Mike Hulme'
+      orcid: 0000-0002-1273-7662
 ---
 

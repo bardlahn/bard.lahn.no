@@ -126,7 +126,7 @@ if ($self_type != PAGE_ERROR) {
         // TO DO: Distinguish between name and URL, check for ORCID etc
         foreach ($meta_authors as $author) {
             if (!empty($author['url'])) {
-                echo $pre . '<meta property="article:author" content="' . htmlspecialchars($author['url']) . '">' . "\n";
+                echo $pre . '<meta property="article:author" content="' . htmlspecialchars($author['url']) . '">';
                 $schemaJson['author'][] = [
                     '@type' => 'Person',
                     'name'  => $author['name'],
