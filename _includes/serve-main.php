@@ -17,6 +17,22 @@ if (!empty($_GET['action'])) {
                 include($includes_path.'fetch-error.php');
             }
             break;
+    
+        case 'cite':
+            if ($self_type == PAGE_SUB_PUB) {
+                include($includes_path."serve-citation.php");
+                $cite = serveCitation($fmatter);
+                if ($cite == SERVE_SUCCESS) {
+                    // Success serving citation file - exiting
+                    exit;
+                } else {
+                    $serve_error = strval($cite);
+                }
+            } else {
+                $serve_error = 400;
+            }
+            include($includes_path.'fetch-error.php');
+            break;
 
         // Other ACTION cases to be added as needed...
 
