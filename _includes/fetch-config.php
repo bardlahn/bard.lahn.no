@@ -80,8 +80,7 @@ function getAuthors(mixed $raw): mixed {
             $thisAuthor = $element;
             if (isset($authConfig[$thisAuthor])) {
                 if (isset($authConfig[$thisAuthor]['worksFor'])) {
-                    $authConfig[$thisAuthor]['worksFor']['@type'] = (!empty($authConfig[$thisAuthor]['worksFor']['@type'])) ? 
-                        $authConfig[$thisAuthor]['worksFor']['@type'] : "Organization";
+                    $authConfig[$thisAuthor]['worksFor']['@type'] = "Organization";
                 }
                 $authors[$thisAuthor] = $authConfig[$thisAuthor];
             } else {
