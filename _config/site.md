@@ -7,9 +7,9 @@ paths:
   assets-rel: /_assets/
   profile-rel: /bio/
 languages:
-  - en:
-      name: English
-  - no:
-      name: norsk
+  en:
+    name: English
+  no:
+    name: norsk
 ---
 

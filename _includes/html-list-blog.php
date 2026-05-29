@@ -17,7 +17,6 @@ $txt = getConfig('strings', $lang, 'list-blog');
 $allowedFilters = ['year', 'tag', 'lang'];
 $filters[] = "lang=" . $lang; // Setting default language
 $filterDesc = [];
-$langDesc = "";
 
 foreach ($allowedFilters as $key) {
     if (isset($_GET[$key])) {
@@ -25,7 +24,6 @@ foreach ($allowedFilters as $key) {
         if ($key == 'lang') {
             $langName = $site_config['languages'][$value]['name'] ?? $txt['lang'] . " '" . $value . "'";
             $langDesc = $txt['show'] . " " . $txt['in'] . " " . $langName;
-            var_dump($site_config);
         } else {
             $filterDesc[] = $key . ' <strong>' . $value . '</strong>';
         }
@@ -62,9 +60,11 @@ $showing_to    = $start_from + $showing_count;
 // If filter applies, showing information about filter and total posts
 
 if (!empty($filterDesc)) {
-    $summary = $txt['total']."<strong>{$total_posts}</strong>".$txt['marked'].implode($txt['and'], $filterDesc) . ".";
-    echo "<p>{$summary}</p>\n<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
-    echo (!empty($langDesc)) ? "<p>{$langDesc}.</p>\n" : "";
+    $summary = $txt['total']."<strong>{$total_posts}</strong>".$txt['marked'].implode($txt['and'], $filterDesc);
+    $summary .= (!empty($langName)) ? "(" . $txt['and']. $txt['in'] . " " . $langName . ")" : "";
+    echo "<p>{$summary}.</p>\n<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
+} elseif (!empty($langDesc)) {
+    echo "<p>{$langDesc}.</p>\n<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
 }
 
 foreach ($posts_to_show as $entry) {
