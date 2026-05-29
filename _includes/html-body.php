@@ -15,7 +15,7 @@
     echo '<div class="content"><h1>' . $self_title . '</h1></div>';
 
     if ($self_type == PAGE_SUB_BLOG) {
-        $date = (new DateTime())->setTimestamp((int)$fmatter['date']);
+        $date = (new DateTime($fmatter['date']));
         echo '<div class="content"><p>' . $date->format('d.m.Y') . '</p></div>';
     }
 
