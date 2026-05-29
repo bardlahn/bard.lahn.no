@@ -23,7 +23,6 @@ foreach ($allowedFilters as $key) {
         $value = htmlspecialchars(strip_tags($_GET[$key]));
         if ($key == 'lang') {
             $langName = $site_config['languages'][$value]['name'] ?? $txt['lang'] . " '" . $value . "'";
-            $langDesc = $txt['show'] . " " . $txt['in'] . " " . $langName;
         } else {
             $filterDesc[] = $key . ' <strong>' . $value . '</strong>';
         }
@@ -63,8 +62,8 @@ if (!empty($filterDesc)) {
     $summary = $txt['total']."<strong>{$total_posts}</strong>".$txt['marked'].implode($txt['and'], $filterDesc);
     $summary .= (!empty($langName)) ? "(" . $txt['and']. $txt['in'] . " " . $langName . ")" : "";
     echo "<p>{$summary}.</p>\n<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
-} elseif (!empty($langDesc)) {
-    echo "<p>{$langDesc}.</p>\n<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
+} elseif (!empty($langName)) {
+    echo "<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong> (".$txt['in']." {$langName})</p>\n";
 }
 
 foreach ($posts_to_show as $entry) {
