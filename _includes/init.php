@@ -2,6 +2,7 @@
 
 // Setting general variables
 
+$config_path    = $root_path . '_config/'; // Remove once added to dev env
 include_once $includes_path . 'fetch-config.php';
 
 
