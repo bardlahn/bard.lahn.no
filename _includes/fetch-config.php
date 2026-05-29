@@ -62,7 +62,7 @@ function getAuthors(mixed $raw): mixed {
             $aC['sameAs'] = $aC['sameAs'] ?? 'https://orcid.org/' . $aC['orcid'];
             $aC['url'] = $aC['url'] ?? $aC['sameAs'];
         }
-        $authConfig[] = $aC;
+        $authConfig[key($aC)] = $aC;
     }
 
     if (!isset($authConfig['self'])) {
