@@ -95,7 +95,6 @@ foreach ($posts_to_show as $entry) {
     $pubString = '';
 
     // Printing date and title
-    var_dump($entry['date']);
     $date = $entry['date'] instanceof DateTime
     ? $entry['date']
     : (is_numeric($entry['date']) && (int)$entry['date'] <= 9999
