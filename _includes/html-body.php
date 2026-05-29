@@ -15,8 +15,12 @@
     echo '<div class="content"><h1>' . $self_title . '</h1></div>';
 
     if ($self_type == PAGE_SUB_BLOG) {
-        $date = (new DateTime($fmatter['date']));
-        echo '<div class="content"><p>' . $date->format('d.m.Y') . '</p></div>';
+        $dt = $fmatter['date'] instanceof DateTime
+            ? $fmatter['date']
+            : (is_numeric($fmatter['date'])
+                ? (new DateTime())->setTimestamp((int)$fmatter['date'])
+                : new DateTime((string)$fmatter['date']));
+        echo '<div class="content"><p>' . $dt->format('d.m.Y') . '</p></div>';
     }
 
     renderMDContent($content); 
