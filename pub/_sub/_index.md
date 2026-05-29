@@ -4,7 +4,7 @@ language: 'no'
 type: resource
 sub-type: publication
 sub-sort: date=descending
-sub-indexed: 2026-05-27
+sub-indexed: 2026-05-29
 sub-items:
   - boundary-objects:
       title: 'Boundary Objects'
@@ -47,7 +47,9 @@ sub-items:
       pub-data:
         pub-type: thesis
         pub-lang: en
-        publisher: 'University of Oslo'
+        publisher:
+          en: 'University of Oslo'
+          no: 'Universitetet i Oslo'
         degree: 'Ph.D.'
         issn: 15043991
   - cascading-biases-against-poorer-countries:
@@ -58,49 +60,24 @@ sub-items:
       routes:
         external: 'https://doi.org/10.1038/s41558-018-0152-7'
       authors:
-        - kartha:
-            name: 'Sivan Kartha'
-            url: 'https://orcid.org/0000-0002-6014-2161'
-            orcid: 0000-0002-6014-2161
-        - athanasiou:
-            name: 'Tom Athanasiou'
-            url: 'https://www.ecoequity.org/about/'
-        - caney:
-            name: 'Simon Caney'
-            url: 'https://www.law.ox.ac.uk/people/simon-caney'
-        - cripps:
-            name: 'Elizabeth Cripps'
-        - dooley:
-            name: 'Kate Dooley'
-            url: 'https://orcid.org/0000-0001-5636-6691'
-            orcid: 0000-0001-5636-6691
-        - dubash:
-            name: 'Navroz K. Dubash'
+        - kartha
+        - athanasiou
+        - caney
+        - cripps
+        - dooley
+        - dubash
         - fei:
             name: 'Fei Teng'
-        - harris:
-            name: 'Paul G. Harris'
-        - holz:
-            name: 'Ceecee Holz'
-            url: 'https://orcid.org/0000-0003-0722-1044'
-            orcid: 0000-0003-0722-1044
+        - harris
+        - holz
         - self
-        - moellendorf:
-            name: 'Darrel Moellendorf'
-        - muller:
-            name: 'Benito Müller'
-        - roberts:
-            name: 'Timmons J. Roberts'
-        - sagar:
-            name: 'Ambuj Sagar'
-        - shue:
-            name: 'Henry Shue'
-        - singer:
-            name: 'Peter Singer'
-            url: 'https://orcid.org/0000-0003-3741-4314'
-            orcid: 0000-0003-3741-4314
-        - winkler:
-            name: 'Harald Winkler'
+        - moellendorf
+        - muller
+        - roberts
+        - sagar
+        - shue
+        - singer
+        - winkler
       pub-data:
         pub-type: article
         pub-lang: en
@@ -157,7 +134,9 @@ sub-items:
       pub-data:
         pub-type: report
         pub-lang: en
-        publisher: 'CICERO Centre for International Climate Research'
+        publisher:
+          en: 'CICERO Centre for International Climate Research'
+          no: 'CICERO Senter for klimaforskning'
         place: 'Oslo'
         number: '2021:02'
   - et-fast-punkt-for-klimaet:
@@ -175,8 +154,7 @@ sub-items:
         external: 'None'
       authors:
         - self
-        - sundqvist:
-            name: 'Göran Sundqvist'
+        - sundqvist
       pub-data:
         pub-type: article
         pub-lang: 'no'
@@ -200,49 +178,24 @@ sub-items:
         - 'integrated assessment models'
         - 'climate policy'
       authors:
-        - dooley:
-            name: 'Kate Dooley'
-            url: 'https://orcid.org/0000-0001-5636-6691'
-            orcid: 0000-0001-5636-6691
-        - holz:
-            name: 'Ceecee Holz'
-            url: 'https://orcid.org/0000-0003-0722-1044'
-            orcid: 0000-0003-0722-1044
-        - kartha:
-            name: 'Sivan Kartha'
-            url: 'https://orcid.org/0000-0002-6014-2161'
-            orcid: 0000-0002-6014-2161
-        - klinsky:
-            name: 'Sonja Klinsky'
-        - roberts:
-            name: 'J. Timmons Roberts'
-        - shue:
-            name: 'Henry Shue'
-        - winkler:
-            name: 'Harald Winkler'
-        - athanasiou:
-            name: 'Tom Athanasiou'
-        - caney:
-            name: 'Simon Caney'
-        - cripps:
-            name: 'Elizabeth Cripps'
-        - dubash:
-            name: 'Navroz K. Dubash'
-        - hall:
-            name: 'Galen Hall'
-        - harris:
-            name: 'Paul G. Harris'
+        - dooley
+        - holz
+        - kartha
+        - klinsky
+        - roberts
+        - shue
+        - winkler
+        - athanasiou
+        - caney
+        - cripps
+        - dubash
+        - hall
+        - harris
         - self
-        - moellendorf:
-            name: 'Darrel Moellendorf'
-        - muller:
-            name: 'Benito Müller'
-        - sagar:
-            name: 'Ambuj Sagar'
-        - singer:
-            name: 'Peter Singer'
-            url: 'https://orcid.org/0000-0003-3741-4314'
-            orcid: 0000-0003-3741-4314
+        - moellendorf
+        - muller
+        - sagar
+        - singer
       pub-data:
         pub-type: article
         pub-lang: en
@@ -267,10 +220,7 @@ sub-items:
             name: 'Fay M. Farstad'
             url: 'https://www4.uib.no/en/find-employees/fay.farstad'
             orcid: 0000-0003-4190-6899
-        - hermansen:
-            name: 'Erlend A. T. Hermansen'
-            url: 'https://cicero.oslo.no/en/employees/erlend-hermansen'
-            orcid: 0000-0002-0688-915X
+        - hermansen
         - self
       pub-data:
         pub-type: chapter
@@ -288,4 +238,26 @@ sub-items:
               name: 'Stacy D. VanDeveer'
         isbn: 978-1-009-35245-1
         file: assets/files/pub/farstad-etal-2025.pdf
+  - forests-through-the-paper-mill:
+      title: 'Forests through the Paper Mill: Assembling REDD+ through the Production of Documents'
+      date: 2016
+      abstract: 'This thesis explores the role of documents in bringing about a specific approach to reducing deforestation in developing countries, known as REDD+. Following a material-semiotic approach, it asks how the production of documents within the United Nations Framework Convention on Climate Change (UNFCCC) shapes REDD+ as a technology for governing deforestation.'
+      language: en
+      routes:
+        external: 'https://hdl.handle.net/10852/51274'
+      authors:
+        - self
+      tags:
+        - redd+
+        - unfccc
+        - sts
+        - governmentality
+        - ant
+      pub-data:
+        pub-type: thesis
+        pub-lang: en
+        publisher:
+          no: 'Universitetet i Oslo'
+          en: 'University of Oslo'
+        degree: 'MA'
 ---
