@@ -2,10 +2,6 @@
 
 include_once $includes_path . 'md-parse.php';
 
-$otherLang = $lang === 'en' ? 'no' : 'en';
-$md_path = $assets_path; // Default Md path
-$self_path = $self_url; // self_path defaults to self_url, but points to parent path of _sub pages
-
 $replace_lang = false;
 
 // Checks for markdown files to parse

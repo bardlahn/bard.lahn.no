@@ -1,14 +1,5 @@
 <?php
 
-
-// Configurable variables are hardcoded as of now
-
-$site_title = "Bård Lahn";
-$base_url = "https://bard.lahn.no";
-$assets_rel_path = '/_assets/';
-$self_profile_rel_path = '/bio/';
-
-
 // Introducing public functions to fetch various configs
 
 function getConfig(string $configfile, string $lang = '', string $element = '') {

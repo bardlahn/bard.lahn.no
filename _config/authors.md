@@ -13,6 +13,10 @@ authors:
         name: 'University of Oslo'
         alternateName: 'Universitetet i Oslo'
         url: https://www.uio.no
+  - boasson:
+      name: 'Elin Lerum Boasson'
+      url: https://www.sv.uio.no/isv/english/people/aca/elinlb/index.html
+      orcid: 0000-0002-1987-3501
   - svenberg:
       name: 'Sebastian Svenberg'
       orcid: '0000-0003-1264-7285'

@@ -15,6 +15,7 @@ tags:
 authors:
   - bang:
       name: 'Guri Bang'
+      url: https://www.nmbu.no/en/about/employees/guri-bang
   - self
 pub-data:
   pub-type: 'article'

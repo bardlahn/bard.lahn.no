@@ -17,7 +17,7 @@ include '_paths.php';
 include $includes_path . "init.php";
 
 // Fetching content
-include $includes_path . "fetch-main.php";
+if (empty($serve_error)) include $includes_path . "fetch-main.php";
 
 // Serving content
 include $includes_path . "serve-main.php";
@@ -38,6 +38,7 @@ global $root_path;              // Absolute path to site root on the server, inc
 global $admin_path;             // Absolute path to root of admin page, inc leading/trailing /
 global $includes_path;          // Absolute path to includes directory, inc leading/trailing /
 global $assets_path;            // Absolute path to assets directory, inc leading/trailing /
+global $config_path;            // Absolute path to config directory, inc leading/trailing /
 global $assets_rel_path;        // Relative path to assets directory, inc leading/trailing /
 global $lib_path;               // Absolute path to library directory, inc leading/trailing /
 
@@ -47,12 +48,19 @@ global $self_path;              // Defaults to self_url, but points to parent pa
 
 AVAILABLE SHARED FUNCTIONS
 
-getAuthors(mixed $raw): array
+getConfig(string $configfile, string $lang = '', string $element = ''): array / false
+    // Established in fetch-config.php
+    // Used to fetch the frontmatter elements of $configfile in $config_path.
+    // If $lang is set, checks for configfile with language suffix (defaults to no suffix).
+    // If $element is set, returns only that element (with sub-elements) from config frontmatter.
+    // Returns false on error.
+
+getAuthors(mixed $raw): array / false
     // Established in fetch-config.php
     // Used to fetch an array of author(s) for a given document 
     // based on the 'authors' element of the frontmatter.
-    // Always returns the default (self) author, in addition to others
-    // given in the frontmatter.
+    // Checks author tags against 'author' config file.
+    // Returns false on error.
 
 fetchSubEntries(string $mainpath, string $filter = '', string $sorting = ''): array
     // Established in fetch-sub.php

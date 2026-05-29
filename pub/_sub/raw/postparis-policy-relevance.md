@@ -6,15 +6,14 @@ language:
 routes:
   external: 'https://doi.org/10.1007/s10584-021-03210-0'
 type: publication
+tags:
+  - 
 authors:
-  hermansen:
-    name: 'Erlend A. T. Hermansen'
-  lahn:
-    name: 'Bård Lahn'
-  sundqvist:
-    name: 'Göran Sundqvist'
-  ye:
-    name: 'Eirik Øye'
+  - hermansen
+  - self
+  - sundqvist
+  - oye:
+      name: 'Eirik Øye'
 pub-data:
   pub-type: 'article'
   pub-lang: 'en'

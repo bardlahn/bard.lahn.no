@@ -2,13 +2,17 @@
 title: 'In the Light of Equity and Science: Scientific Expertise and Climate Justice after Paris'
 date: '2018'
 abstract:
-language:
+language: en
+tags:
+  - ipcc
+  - unfccc
+  - 'north/south'
+  - equity
 routes:
   external: 'https://doi.org/10.1007/s10784-017-9375-8'
 type: publication
 authors:
-  lahn:
-    name: 'Bård Lahn'
+  - self
 pub-data:
   pub-type: 'article'
   pub-lang: 'en'
