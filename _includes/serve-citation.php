@@ -36,10 +36,13 @@ function serveCitation(array $pub): int {
     }
 
     // Printing publication year
-    $date = $pub['date'] instanceof DateTime ? $pub['date']
-    : (is_numeric($pub['date']) && (int)$pub['date'] <= 9999
-        ? new DateTime((int)$pub['date'] . '-01-01')
-        : new DateTime((string)$pub['date']));
+    $date = match(true) {
+        $pub['date'] instanceof DateTime => $pub['date'],
+        is_numeric($pub['date']) && (int)$pub['date'] <= 9999
+                                         => new DateTime((int)$pub['date'] . '-01-01'),
+        is_numeric($pub['date'])         => (new DateTime())->setTimestamp((int)$pub['date']),
+        default                          => new DateTime((string)$pub['date']),
+    };
     $pYear = $date->format('Y') ?? 'n/a';
     $out .= "PY"    .$dl.   $pYear          .$ln;
     
