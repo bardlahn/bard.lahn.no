@@ -12,7 +12,7 @@ tags:
 routes:
   external: https://doi.org/10.1177/0306312720941933
 type: publication
-author: self
+authors: self
 pub-data:
   pub-type: article
   pub-lang: en

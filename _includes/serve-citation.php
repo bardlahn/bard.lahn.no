@@ -19,7 +19,7 @@ function serveCitation(array $pub): int {
 
     header('Content-Type: application/x-research-info-systems');
     header('Content-Length: ' . strlen($out));
-    header('Content-Disposition: attachment; filename="FILENAME"');
+    header('Content-Disposition: attachment; filename="FILENAME.ris"');
 
     print $out;
 

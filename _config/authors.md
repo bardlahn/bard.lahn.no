@@ -34,6 +34,9 @@ authors:
       name: 'Ceecee Holz'
       url: 'https://orcid.org/0000-0003-0722-1044'
       orcid: '0000-0003-0722-1044'
+  - sognnaes:
+      name: 'Ida Sognnaes'
+      orcid: '0000-0002-7042-4613'
   - kartha:
       name: 'Sivan Kartha'
       url: 'https://orcid.org/0000-0002-6014-2161'
