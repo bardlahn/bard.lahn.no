@@ -624,7 +624,7 @@ sub-items:
         - 'Shinichiro Asayama'
         - depryck
         - 'Silke Beck'
-        - 'Béatrice Cointe'
+        - cointe
         - 'Paul N. Edwards'
         - 'Hélène Guillemot'
         - 'Karin M. Gustafsson'
@@ -653,9 +653,11 @@ sub-items:
         - hulme
       pub-data:
         pub-type: article
-        pub-lang: 'no'
+        pub-lang: en
         doi: 10.1038/s41558-023-01780-8
         journal: 'Nature Climate Change'
+        volume: 13
+        pages: 877–880
   - togradersmalet-og-norsk-sokkel:
       title: 'Togradersmålet og åpning av nye leteområder på norsk sokkel'
       date: 2010

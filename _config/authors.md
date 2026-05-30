@@ -17,11 +17,15 @@ authors:
       name: 'Elin Lerum Boasson'
       url: https://www.sv.uio.no/isv/english/people/aca/elinlb/index.html
       orcid: 0000-0002-1987-3501
+  - cointe:
+      name: 'Béatrice Cointe'
+      orcid: 0000-0002-3647-8327
+      url: https://www.csi.minesparis.psl.eu/en/people/researchers/beatrice-cointe/
+  - sundqvist:
+      name: 'Göran Sundqvist'
   - svenberg:
       name: 'Sebastian Svenberg'
       orcid: '0000-0003-1264-7285'
-  - sundqvist:
-      name: 'Göran Sundqvist'
   -  hermansen:
       name: 'Erlend A. T. Hermansen'
       url: 'https://cicero.oslo.no/en/employees/erlend-hermansen'
