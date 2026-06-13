@@ -27,4 +27,22 @@ The page *:$title:* is under development - please check back later.
         <span>machineries of finance</span>
       </div>
     </a>
+    <a class="portfolio-item" href="">
+      <img src=":$url_assets:/images/solberg-oljetale-q.jpg" alt="norway's oil and climate policy">
+      <div class="portfolio-title">
+        <span>norway's oil and climate policy</span>
+      </div>
+    </a>
+    <a class="portfolio-item" href="">
+      <img src=":$url_assets:/images/kth-reaktor-q.jpg" alt="governing energy resource">
+      <div class="portfolio-title">
+        <span>governing energy resources</span>
+      </div>
+    </a>
+    <a class="portfolio-item" href="">
+      <img src=":$url_assets:/images/takvindu-q.jpg" alt="technopolitics">
+      <div class="portfolio-title">
+        <span>technopolitics</span>
+      </div>
+    </a>
 </div>
