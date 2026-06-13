@@ -39,7 +39,7 @@ The page *:$title:* is under development - please check back later.
         <span>norway & oil</span>
       </div>
     </a>
-    <a class="portfolio-item" href="">
+    <a class="portfolio-item" href="/en/div/technopolitics/">
       <img src=":$url_assets:/images/takvindu-q.jpg" alt="technopolitics">
       <div class="portfolio-title">
         <span>technopolitics</span>
