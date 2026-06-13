@@ -12,7 +12,7 @@ The page *:$title:* is under development - please check back later.
     <a class="portfolio-item" href="">
       <img src=":$url_assets:/images/kth-reaktor-q.jpg" alt="governing energy resource">
       <div class="portfolio-title">
-        <span>governing energy resources</span>
+        <span>governing energy</span>
       </div>
     </a>
     <a class="portfolio-item" href="">
