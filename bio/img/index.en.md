@@ -11,7 +11,7 @@ These are photos that can be used in presentations and by media. They are free t
 
 <div class="image-grid">
     <a class="portfolio-item" href="?action=download&file=assets/images/portrait-uio-l.png">
-        <img src=":$url_assets:/images/portrait-uio-.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
+        <img src=":$url_assets:/images/portrait-uio-s.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
     <div class="portfolio-title">
       <span>Photo: Erik Engblad, University of Oslo.</span>
     </div>
@@ -22,7 +22,7 @@ These are photos that can be used in presentations and by media. They are free t
       <span>Photo: Heidi Furre.</span>
     </div>
     </a>
-    <a class="portfolio-item" href="?action=download&file=/images/portrait-zero-olguin-l.jpg">
+    <a class="portfolio-item" href="?action=download&file=/images/zero-olguin-l.jpg">
         <img src=":$url_assets:/images/zero-olguin-l.jpg" alt="Bård Lahn chairing a talk at the ZERO Conference 2016. Photo: Brian Cliff Olguin, ZERO (CC BY).">
     <div class="portfolio-title">
       <span>Photo: Brian Cliff Olguin, ZERO (CC BY).</span>
