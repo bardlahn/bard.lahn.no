@@ -36,7 +36,7 @@ The page *:$title:* is under development - please check back later.
     <a class="portfolio-item" href="">
       <img src=":$url_assets:/images/solberg-oljetale-q.jpg" alt="norway's oil and climate policy">
       <div class="portfolio-title">
-        <span>norway / climate / oil</span>
+        <span>norway's oil & climate policy</span>
       </div>
     </a>
     <a class="portfolio-item" href="">
