@@ -22,4 +22,10 @@ These are photos that can be used in presentations and by media. They are free t
       <span>Photo: Heidi Furre.</span>
     </div>
     </a>
+    <a class="portfolio-item" href="?action=download&file=/images/portrait-zero-olguin-l.jpg">
+        <img src=":$url_assets:/images/zero-olguin-s.jpg" alt="Bård Lahn chairing a talk at the ZERO Conference 2016. Photo: Brian Cliff Olguin, ZERO (CC BY).">
+    <div class="portfolio-title">
+      <span>Photo: Brian Cliff Olguin, ZERO (CC BY).</span>
+    </div>
+    </a>
 </div>
