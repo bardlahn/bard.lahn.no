@@ -4,7 +4,7 @@ language: 'no'
 type: resource
 sub-type: publication
 sub-sort: date=descending
-sub-indexed: 2026-05-30
+sub-indexed: 2026-06-08
 sub-items:
   - analysing-emission-scenarios:
       title: 'Analysing the use of emissions scenarios in practice'
@@ -386,10 +386,8 @@ sub-items:
         pub-lang: en
         book: 'Small States and Status Seeking: Norway''s Quest for International Standing'
         editors:
-          - carvalho:
-              name: 'Benjamin de Carvalho'
-          - neumann:
-              name: 'Iver B. Neumann'
+          - 'Benjamin de Carvalho'
+          - 'Iver B. Neumann'
         publisher: 'Routledge'
         place: 'Oxford'
         pages: 126-145

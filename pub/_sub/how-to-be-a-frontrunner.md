@@ -20,10 +20,8 @@ pub-data:
   pub-lang: 'en'
   book: "Small States and Status Seeking: Norway's Quest for International Standing"
   editors:
-    - carvalho:
-        name: 'Benjamin de Carvalho'
-    - neumann:
-        name: 'Iver B. Neumann'
+    - 'Benjamin de Carvalho'
+    - 'Iver B. Neumann'
   publisher: Routledge
   place: Oxford
   pages: 126-145
