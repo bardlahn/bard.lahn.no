@@ -23,7 +23,7 @@ Basert på dette arbeidet har jeg senere skrevet mye om internasjonal klimapolit
 
 ::sidebar
 <div class="image-grid">
-    <a class="portfolio-item" href="/no/pub/klimaspillet/">
+    <a href="/no/pub/klimaspillet/">
         <img src=":$url_assets:/images/klimaspillet-cover-s.jpg" alt="Bok: Klimaspillet">
     </a>
 </div>

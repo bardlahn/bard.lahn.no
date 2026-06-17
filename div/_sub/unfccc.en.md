@@ -23,7 +23,7 @@ Following my work on the UNFCCC negotiations as a practitioner, I have written e
 
 ::sidebar
 <div class="image-grid">
-    <a class="portfolio-item" href="/no/pub/klimaspillet/">
+    <a href="/no/pub/klimaspillet/">
         <img src=":$url_assets:/images/klimaspillet-cover-s.jpg" alt="Bok: Klimaspillet">
     </a>
 </div>
