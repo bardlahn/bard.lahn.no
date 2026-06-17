@@ -56,4 +56,6 @@ Jeg har publisert vitenskapelige artikler om blant annet...
 
 ## Undervisning og foredrag
 
-Jeg foreleser jevnlig om rettferdighet og Nord/Sør-konflikten i internasjonal klimapolitikk.
+Jeg foreleser jevnlig om rettferdighet og Nord/Sør-konflikten i internasjonal klimapolitikk. Jeg har også ofte holdt foredrag om Parisavtalen, Norges rolle i internasjonal klimapolitikk og lignende tema. 
+
+Jeg følger ikke lenger FNs klimaforhandlinger tett, og kan ikke kommentere på utviklingen i disse forhandlingene (bortsett fra når det gjelder diskusjonen om [utfasing av fossil energi](/no/div/fossil/)).
