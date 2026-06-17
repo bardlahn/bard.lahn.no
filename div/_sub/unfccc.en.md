@@ -16,7 +16,10 @@ I have worked on international climate politics, and in particular the negotiati
 
 From 2008 to 2013, I followed the UNFCCC negotiations very closely, participating in most negotiation sessions either as part of Norway's official delegation or as an NGO observer. At the time, I was working for Friends of the Earth Norway and Rainforest Foundation Norway, focusing in particular on the negotiations on REDD+ and Norway's International Climate and Forests Initiative.
 
-Following my work on the UNFCCC negotiations as a practitioner, I have also published several texts on international climate politics. In 2013, I published the Norwegian-language monograph _Klimaspillet_, which details the negotiations around the failed Copenhagen summit in 2009 and explains the fundamental North/South conflict that has structured UN negotiations on climate change. I have also published research articles on...
+Following my work on the UNFCCC negotiations as a practitioner, I have also published several texts on international climate politics. In 2013, I published the Norwegian-language monograph _Klimaspillet_, which details the negotiations around the failed Copenhagen summit in 2009 and explains the fundamental North/South conflict that has structured UN negotiations on climate change. 
+
+I have also published research articles on...
+
 ::quote
 ...the role of science in international climate politics
 ::
