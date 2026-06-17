@@ -10,19 +10,19 @@ abstract: 'Photos of Bård Lahn, free to download and use for press and profile 
 These are photos that can be used in presentations and by media. They are free to share and use as long as the photograph is credited. Click to download high-resolution versions (note that some files are quite big).
 
 <div class="image-grid">
-    <a class="portfolio-item" href="?action=download&file=assets/images/portrait-uio-l.png">
+    <a href="?action=download&file=assets/images/portrait-uio-l.png">
         <img src=":$url_assets:/images/portrait-uio-s.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
     <div class="portfolio-title">
       <span>Photo: Erik Engblad, University of Oslo.</span>
     </div>
     </a>
-    <a class="portfolio-item" href="?action=download&file=/images/portrait-furre-l.jpg">
+    <a href="?action=download&file=assets/images/portrait-furre-l.jpg">
         <img src=":$url_assets:/images/portrait-furre-l.jpg" alt="Portrait of Bård Lahn. Photo: Heidi Furre.">
     <div class="portfolio-title">
       <span>Photo: Heidi Furre.</span>
     </div>
     </a>
-    <a class="portfolio-item" href="?action=download&file=/images/zero-olguin-l.jpg">
+    <a href="?action=download&file=assets/images/zero-olguin-l.jpg">
         <img src=":$url_assets:/images/zero-olguin-l.jpg" alt="Bård Lahn chairing a talk at the ZERO Conference 2016. Photo: Brian Cliff Olguin, ZERO (CC BY).">
     <div class="portfolio-title">
       <span>Photo: Brian Cliff Olguin, ZERO (CC BY).</span>

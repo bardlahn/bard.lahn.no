@@ -12,10 +12,10 @@ description: 'Bård Lahn skriver blant annet om klimapolitikk, energiressurser, 
 __Ny bok 2025:__ I boka ["Hvem bestemmer over klimaet?"](hvem-bestemmer/) (Forlaget Manifest) diskuterer jeg hvem som har ansvar for og mulighet til å gjøre noe med klimaproblemet.
 
 <div class="image-grid">
-    <a class="portfolio-item" href="hvem-bestemmer/">
+    <a href="hvem-bestemmer/">
         <img src=":$url_assets:/images/hvem-bestemmer-cover-s.jpg" alt="Bok: Hvem bestemmer over klimaet?">
     </a>
-    <a class="portfolio-item" href="klimaspillet/">
+    <a href="klimaspillet/">
         <img src=":$url_assets:/images/klimaspillet-cover-s.jpg" alt="Bok: Klimaspillet">
     </a>
 </div>

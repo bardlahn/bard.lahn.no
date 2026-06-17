@@ -20,7 +20,7 @@ Jeg er også opptatt av litteratur og teater, og hvordan både kunst, vitenskap 
 
 ::sidebar
 <div class="image-grid">
-    <a class="portfolio-item" href="img/">
+    <a href="img/">
         <img src=":$url_assets:images/portrait-uio-s.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
     <div class="portfolio-title">
       <span>Sånn ser jeg ut.<br/>Foto: Erik Engblad, UiO.</span>

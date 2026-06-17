@@ -20,7 +20,7 @@ My disciplinary background is in Science and Technology Studies (STS) and sociol
 
 ::sidebar
 <div class="image-grid">
-    <a class="portfolio-item" href="img/">
+    <a href="img/">
         <img src=":$url_assets:/images/portrait-uio-s.png" alt="Portrait of Bård Lahn. Photo: Erik Engblad, UiO.">
     <div class="portfolio-title">
       <span>This is how I look.<br/>Photo by Erik Engblad, UiO.</span>
