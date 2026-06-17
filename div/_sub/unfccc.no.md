@@ -38,17 +38,20 @@ Jeg har publisert vitenskapelige artikler om blant annet...
 ::
 - Smith, Lahn & Øverland (2022), [Klimaklubbkvaler](https://tidsskriftet-ip.no/index.php/intpol/article/view/3765). _Internasjonal Politikk_.
 - Lahn & Wilson Rowe (2015), How to be a 'front-runner': Norway in international climate politics. Kapittel i boka _Small States and Status Seeking: Norway's quest for international standing_ (Routledge).
+
 ::quote
 ...ulike forståelser av rettferdighet mellom Nord og Sør
 ::
 - Lahn (2015), [Fra København til Paris: FNs klimatoppmøter og rettferdig fordeling av atmosfæren](https://www.scup.com/doi/full/10.18261/ISSN1891-1757-2015-04-06). _Internasjonal Politikk_.
+- Dooley et al. (2021) [Ethical choices behind quantifications of fair contributions under the Paris Agreement](http://www.nature.com/articles/s41558-021-01015-8). _Nature Cliamte Change_.
 - Kartha et al. (2018), [Cascading biases against poorer countries](http://www.nature.com/articles/s41558-018-0152-7). _Nature Climate Change_.
-- Dooley et al. [Ethical choices behind quantifications of fair contributions under the Paris Agreement](http://www.nature.com/articles/s41558-021-01015-8). _Nature Cliamte Change_.
+
 ::quote
 ...vitenskapelig kunnskap i internasjonal klimapolitikk
 ::
 - Lahn & Sundqvist (2017), [Science as a "fixed point": Quantification and boundary objects in international climate politics](https://doi.org/10.1016/j.envsci.2016.11.001). _Environmental Science & Policy_.
 - Lahn (2018), [In the light of equity and science: scientific expertise and climate justice after Paris](http://link.springer.com/10.1007/s10784-017-9375-8). _International Environmental Agreements: Politics, Law and Economics_.
+
 ::quote
 ...forhandlingsgrupper i FNs klimaforhandlinger, spesielt gruppa 'Like-Minded Developing Countries'
 ::
