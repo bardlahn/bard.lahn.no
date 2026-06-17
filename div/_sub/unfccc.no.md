@@ -37,7 +37,7 @@ Jeg har publisert vitenskapelige artikler om blant annet...
 ...Norges rolle i internasjonal klimapolitikk
 ::
 - Smith, Lahn & Øverland (2022), [Klimaklubbkvaler](https://tidsskriftet-ip.no/index.php/intpol/article/view/3765). _Internasjonal Politikk_.
-- Lahn & Wilson Rowe (2015), How to be a 'front-runner': Norway in international climate politics. In _Small States and Status Seeking: Norway's quest for international standing_ (Routledge).
+- Lahn & Wilson Rowe (2015), How to be a 'front-runner': Norway in international climate politics. Kapittel i boka _Small States and Status Seeking: Norway's quest for international standing_ (Routledge).
 ::quote
 ...ulike forståelser av rettferdighet mellom Nord og Sør
 ::
@@ -52,4 +52,8 @@ Jeg har publisert vitenskapelige artikler om blant annet...
 ::quote
 ...forhandlingsgrupper i FNs klimaforhandlinger, spesielt gruppa 'Like-Minded Developing Countries'
 ::
-- Blaxekjær et al. (2021), The narrative position of the Like-Minded Developing Countries in global climate negotiations. In _Coalitions in the Climate Change Negotiations_ (Routledge).
+- Blaxekjær et al. (2021), The narrative position of the Like-Minded Developing Countries in global climate negotiations. Kapittel i boka _Coalitions in the Climate Change Negotiations_ (Routledge).
+
+## Undervisning og foredrag
+
+Jeg foreleser jevnlig om rettferdighet og Nord/Sør-konflikten i internasjonal klimapolitikk.
