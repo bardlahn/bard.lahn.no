@@ -1,7 +1,7 @@
 ---
 title: 'Internasjonal klimapolitikk'
 date: 2026-06-17
-language: 'en'
+language: 'no'
 abstract: 
 type: main
 ---
