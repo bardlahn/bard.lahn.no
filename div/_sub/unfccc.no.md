@@ -6,16 +6,18 @@ abstract:
 type: main
 ---
 
-Jeg har jobbet med internasjonal klimapolitikk, og spesielt forhandlingene under FNs klimakonvensjon (UNFCCC) på forskjellige måter i nesten 20 år. I dette arbeidet har jeg vært spesielt interessert i
-- utformingen av det internasjonal klimaregimet og utarbeidelsen av Parisavtalen
-- konflikten mellom Nord og Sør i internasjonal klimapolitikk
-- skogbevaring og avskoging som utslippsreduserende tiltak, og spesielt _REDD+_
+Jeg har jobbet med internasjonal klimapolitikk, og spesielt forhandlingene under FNs klimakonvensjon (UNFCCC) på forskjellige måter i nesten 20 år. Jeg har vært spesielt interessert i
+- endringer i det internasjonal klimaregimet og utarbeidelsen av **Parisavtalen**
+- konflikten mellom **Nord og Sør** i internasjonal klimapolitikk
+- skogbevaring og avskoging som utslippsreduserende tiltak, og spesielt initiativet **REDD+**
 
 ::image images/cancun-forchhammer-l.jpg small
 Mobilpause under klimatoppmøtet i Cancun, 2010. Foto: Julie Forchhammer.
 ::
 
-Fra 2008 til 2013 fulgte jeg FNs klimaforhandlinger tett, og deltok i de fleste forhandlingsmøtene enten som en del av Norges offisielle delegasjon eller som NGO-observatør. Jeg jobbet for Norges Naturvernforbund og Regnskogfondet, og fulgte spesielt forhandlingene om REDD+ og arbeidet med Norges internasjonale klima- og skoginitiativ (de såkalte _regnskogmilliardene_).
+## Politisk arbeid
+
+Fra 2008 til 2013 fulgte jeg FNs klimaforhandlinger tett, og deltok i de fleste forhandlingsmøtene enten som en del av Norges offisielle delegasjon eller som NGO-observatør. Jeg jobbet for [Norges Naturvernforbund](https://www.naturvernforbundet.no) og [Regnskogfondet](https://regnskog.no), og fulgte spesielt forhandlingene om REDD+ og arbeidet med Norges internasjonale klima- og skoginitiativ (de såkalte _regnskogmilliardene_).
 
 Basert på dette arbeidet har jeg senere skrevet mye om internasjonal klimapolitikk. I 2013 skrev jeg boka **[Klimaspillet: En fortelling fra innsiden av FNs klimatoppmøter](/no/pub/klimaspillet/).** Boka skildrer forhandlingene rundt det feilslåtte København-toppmøtet i 2009 og forklarer den grunnleggende konflikten mellom Nord og Sør i det internasjonale klimaarbeidet.
 
@@ -27,7 +29,9 @@ Basert på dette arbeidet har jeg senere skrevet mye om internasjonal klimapolit
 </div>
 ::
 
-Jeg har også publisert vitenskapelige artikler om...
+## Forskning
+
+Jeg har publisert vitenskapelige artikler om blant annet...
 
 ::quote
 ...Norges rolle i internasjonal klimapolitikk
