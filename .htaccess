@@ -6,6 +6,8 @@
 
 RewriteEngine On
 
+RewriteRule ^author/bardlahn/?$ /en/bio [R=301,L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ /index.php [QSA,L]
 
