@@ -1,5 +1,5 @@
 ---
-title: Projects and topics
+title: Projects
 language: en
 routes:
   default: '/div/'

@@ -32,7 +32,7 @@ PS - ifølge Ane Breiviks [bokomtale på Altinget.no](https://www.altinget.no/ar
 
 For en presentasjon av boka, hør [podkasten Erik M](https://podcasts.apple.com/no/podcast/1-b%C3%A5rd-lahn-hvorfor-klarer-vi-ikke-%C3%A5-l%C3%B8se-klimaproblemet/id1861847450?i=1000741545442&l=nb), der jeg diskuterer boka med klimajournalist Erik Martiniussen.
 
-...eller besøk et arrangement der boka presenteres:
+Jeg har også presentert boka på flere arrangementer:
 
 - 28.04.2026: [Bokpresentasjon på Stange bibliotek](https://www.facebook.com/events/1097400589229905/), Stange
 - 20.03.2026: [Panelsamtale](https://www.sv.uio.no/tik/forskning/aktuelt/arrangementer/gjesteforelesninger-seminarer/2026/klimakommunikasjon-som-hverdagsdemokrati.html) med Nina Wormbs på Universitetet i Oslo

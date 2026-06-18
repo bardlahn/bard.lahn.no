@@ -9,13 +9,13 @@ description: 'Bård Lahn skriver blant annet om klimapolitikk, energiressurser, 
 
 ## Bøker
 
-__Ny bok 2025:__ I boka ["Hvem bestemmer over klimaet?"](hvem-bestemmer/) (Forlaget Manifest) diskuterer jeg hvem som har ansvar for og mulighet til å gjøre noe med klimaproblemet.
+__Ny bok 2025:__ I boka ["Hvem bestemmer over klimaet?"](/no/pub/hvem-bestemmer/) (Forlaget Manifest) diskuterer jeg hvem som har ansvar for og mulighet til å gjøre noe med klimaproblemet.
 
 <div class="image-grid">
-    <a href="hvem-bestemmer/">
+    <a href="/no/pub/hvem-bestemmer/">
         <img src=":$url_assets:/images/hvem-bestemmer-cover-s.jpg" alt="Bok: Hvem bestemmer over klimaet?">
     </a>
-    <a href="klimaspillet/">
+    <a href="/no/pub/klimaspillet/">
         <img src=":$url_assets:/images/klimaspillet-cover-s.jpg" alt="Bok: Klimaspillet">
     </a>
 </div>

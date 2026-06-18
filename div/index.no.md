@@ -1,5 +1,5 @@
 ---
-title: Prosjekter og tema
+title: Prosjekter
 language: no
 routes:
   default: '/no/div/'
