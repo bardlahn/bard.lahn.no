@@ -1,6 +1,7 @@
 <!-- DEBUG
 
 <?php
+global $self_path_segments;
 print_r($self_path_segments);
 ?>
 
