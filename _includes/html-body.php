@@ -36,19 +36,7 @@ if ($self_type == PAGE_SUB_BLOG) {
         : (is_numeric($fmatter['date'])
             ? (new DateTime())->setTimestamp((int)$fmatter['date'])
             : new DateTime((string)$fmatter['date']));
-} else $postDate = null;
-
-if ($breadcrumbs OR $postDate) {
-    echo "<div class=\"content\"><p>\n";
-    echo ($postDate) ? $postDate->format('d.m.Y') : '';
-    if ($breadcrumbs) {
-        echo ($postDate) ? "<br>\n" : "";
-        echo '<a href="/' . $lang . '/">' . $site_title . '</a> / ';
-        foreach ($breadcrumbs as $crumb) {
-            echo '<a href="' . $crumb['url'] . '">' . $crumb['title'] . '</a> / ';
-        }
-    }
-    echo "\n</p></div>";
+    echo '<div class="content"><p>' . $postDate->format('d.m.Y') . "</p></div>\n";
 }
 
 renderMDContent($content); 
