@@ -1,10 +1,3 @@
-<!-- DEBUG
-
-<?php
-var_dump($self_url_segments);
-?>
-
--->
 
 <div class="container">
     <div class="header">
@@ -19,6 +12,9 @@ var_dump($self_url_segments);
 
     <?php 
     
+// Debug
+var_dump($self_url_segments);
+
     include_once $includes_path . 'md-render.php';
     echo '<div class="content"><h1>' . $self_title . '</h1></div>';
 
