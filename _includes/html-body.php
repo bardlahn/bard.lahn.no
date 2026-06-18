@@ -15,18 +15,29 @@
     include_once $includes_path . 'md-render.php';
     echo '<div class="content"><h1>' . $self_title . '</h1></div>';
 
-    if (count($self_url_segments) > 1) {
-        $breadcrumbs = buildBreadcrumbs(array_slice($self_url_segments, 0, -1), $lang);
-        var_dump($breadcrumbs);
-    }
+    $breadcrumbs = (count($self_url_segments) > 1) 
+        ? buildBreadcrumbs(array_slice($self_url_segments, 0, -1), $lang)
+        : null;
 
     if ($self_type == PAGE_SUB_BLOG) {
-        $dt = $fmatter['date'] instanceof DateTime
+        $postDate = $fmatter['date'] instanceof DateTime
             ? $fmatter['date']
             : (is_numeric($fmatter['date'])
                 ? (new DateTime())->setTimestamp((int)$fmatter['date'])
                 : new DateTime((string)$fmatter['date']));
-        echo '<div class="content"><p>' . $dt->format('d.m.Y') . '</p></div>';
+    } else $postDate = null;
+
+    if ($breadcrumbs OR $postDate) {
+        echo '<div class="content">';
+        echo ($postDate) ? '<p>' . $postDate->format('d.m.Y') . '</p>' : '';
+        if ($breadcrumbs) {
+            echo '<p><a href="/' . $lang . '/">' . $site_title . '</a> / ';
+            foreach ($breadcrumbs as $crumb) {
+                echo '<a href="' . $crumb['url'] . '">' . $crumb['title'] . '</a> / ';
+            }
+            echo '</p>';
+        }
+        echo '</div>';
     }
 
     renderMDContent($content); 
