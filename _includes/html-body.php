@@ -2,7 +2,7 @@
 
 <?php
 global $self_path_segments;
-dump_var($self_path_segments);
+var_dump($self_path_segments);
 ?>
 
 -->
