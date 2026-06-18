@@ -1,3 +1,11 @@
+<!-- DEBUG
+
+<?php
+print_r($self_path_segments);
+?>
+
+-->
+
 <div class="container">
     <div class="header">
         <div class="menu-icon" id="menuToggle"><img src="<?= $assets_rel_path ?>icons/w95prog.32.png" height="32" width="32" alt="☰"></div>
