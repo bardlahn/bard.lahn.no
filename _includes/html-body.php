@@ -18,6 +18,7 @@ if ($breadcrumbs) {
 }
 
 ?>
+        /
         </div>
     </div>
     <div class="header-right">
