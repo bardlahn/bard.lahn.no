@@ -10,13 +10,15 @@
         </div>
     </div>
 
-    <?php 
-    
-// Debug
-var_dump($self_url_segments);
+    <?php
 
     include_once $includes_path . 'md-render.php';
     echo '<div class="content"><h1>' . $self_title . '</h1></div>';
+
+    if (count($self_url_segments) > 1) {
+        $breadcrumbs = buildBreadcrumbs(array_slice($self_url_segments, 0, -1), $lang);
+        var_dump($breadcrumbs);
+    }
 
     if ($self_type == PAGE_SUB_BLOG) {
         $dt = $fmatter['date'] instanceof DateTime

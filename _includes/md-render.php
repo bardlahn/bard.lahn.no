@@ -1,7 +1,7 @@
 <?php
 
 // Function for rendering markdown and parsing special blocks
-// NOTE: Must be called from body.php
+// NOTE: Must be called from html-body.php
 //
 // Syntax for special blocks:
 //   ::block-id arg1 arg2 arg3 ...
@@ -319,6 +319,54 @@ function replaceVars(string $input): string {
         },
         $input
     );
+}
+
+
+// Helper function to build breadcrumbs based on path segments and language
+
+function buildBreadcrumbs(array $pathSegments, string $lang): ?array
+{
+    global $root_path;
+
+    $breadcrumbs = [];
+    $accumulatedSegments = [];
+
+    foreach ($pathSegments as $segment) {
+        $accumulatedSegments[] = $segment;
+        $relativePath = implode('/', $accumulatedSegments);
+        $folderPath = rtrim($root_path, '/') . '/' . $relativePath;
+
+        $candidates = [
+            $folderPath . '/index.' . $lang . '.md',
+            $folderPath . '/index.md',
+        ];
+
+        $title = null;
+
+        foreach ($candidates as $candidateFile) {
+            if (!is_file($candidateFile)) {
+                continue;
+            }
+
+            $fields = getFrontmatterFields($candidateFile, ['title', 'language']);
+
+            if ($fields['language'] === $lang) {
+                $title = $fields['title'];
+                break;
+            }
+        }
+
+        if ($title === null) {
+            return null;
+        }
+
+        $breadcrumbs[] = [
+            'title' => $title,
+            'url' => '/' . $lang . '/' . $relativePath,
+        ];
+    }
+
+    return $breadcrumbs;
 }
 
 ?>
