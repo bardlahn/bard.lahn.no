@@ -1,8 +1,7 @@
 <!-- DEBUG
 
 <?php
-global $self_path_segments;
-var_dump($self_path_segments);
+var_dump($self_url_segments);
 ?>
 
 -->
