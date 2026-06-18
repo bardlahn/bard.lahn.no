@@ -28,16 +28,16 @@
     } else $postDate = null;
 
     if ($breadcrumbs OR $postDate) {
-        echo '<div class="content">';
-        echo ($postDate) ? '<p>' . $postDate->format('d.m.Y') . '</p>' : '';
+        echo "<div class=\"content\"><p>\n";
+        echo ($postDate) ? $postDate->format('d.m.Y') : '';
         if ($breadcrumbs) {
-            echo '<p><a href="/' . $lang . '/">' . $site_title . '</a> / ';
+            echo ($postDate) ? "<br>\n" : "";
+            echo '<a href="/' . $lang . '/">' . $site_title . '</a> / ';
             foreach ($breadcrumbs as $crumb) {
                 echo '<a href="' . $crumb['url'] . '">' . $crumb['title'] . '</a> / ';
             }
-            echo '</p>';
         }
-        echo '</div>';
+        echo "\n</p></div>";
     }
 
     renderMDContent($content); 
