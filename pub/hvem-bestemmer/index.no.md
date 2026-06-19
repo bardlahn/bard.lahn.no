@@ -26,7 +26,10 @@ Boka gir en oversikt over hvordan klimapolitikken har utviklet seg de siste tiå
 
 __Les mer og bestill boka hos [Forlaget Manifest](:$head/url:).__
 
-PS - ifølge Ane Breiviks [bokomtale på Altinget.no](https://www.altinget.no/artikkel/6-a-er-mesterlig-formidlingskunst-om-klima) er boka "mesterlig formidlingskunst". Bare nevner det.
+## Omtale
+
+- [Altinget.no](https://www.altinget.no/artikkel/6-a-er-mesterlig-formidlingskunst-om-klima) kaller boka "mesterlig formidlingskunst om klima".
+- [Tidsskriftet Prosa](https://prosa.no/artikler/spalter/naturens-sak/et-oppslagsverk-til-krisetiden)s anmelder mener at den er "imponerende godt" skrevet. 
 
 ## Presentasjoner og arrangementer
 
