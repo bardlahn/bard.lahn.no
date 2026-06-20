@@ -24,6 +24,11 @@ if ($breadcrumbs) {
     <div class="header-right">
         <div class="lang-toggle">
             <a href="/no/<?= $self_url ?>">no</a> / <a href="/en/<?= $self_url ?>">en</a>
+<?php
+
+    // TO DO: LANGUAGE LOOP BASED ON $lang_list
+
+?>
         </div>
     </div>
 

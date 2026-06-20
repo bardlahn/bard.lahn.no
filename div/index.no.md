@@ -2,8 +2,8 @@
 title: Prosjekter
 language: no
 routes:
-  default: '/no/div/'
-  canonical: '/no/div/'
+  default: '/div/'
+  canonical: '/div/'
 ---
 
-Siden *:$title:* er under utvikling.
+Under utvikling.

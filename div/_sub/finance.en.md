@@ -1,13 +1,13 @@
 ---
-title: 'Technopolitics'
+title: 'Machineries of finance'
 date: 2026-06-13
 language: 'en'
 abstract: 
 type: main
 routes:
-  canonical: /div/technopolitics/
+  canonical: /div/finance/
   languages:
-    no: /div/teknopolitikk/
+    no: /div/finans/
 ---
 
 Under development.
