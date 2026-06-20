@@ -10,9 +10,7 @@ languages:
   en:
     name: English
   no:
-    name: bokmål
-  nn:
-    name: nynorsk
+    name: norsk
 language-default: no
 ---
 
