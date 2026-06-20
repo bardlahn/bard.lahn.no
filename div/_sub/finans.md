@@ -25,7 +25,7 @@ Interessen for de teknologiske og politiske sidene av finans stammer delvis fra 
 
 I dag er SPU som kjent verdens største statlige investeringsfond. Gjennom det nordiske prosjektet [Fossil Free Futures](https://www.su.se/english/research/research-catalogue/research-projects/b/fossil-free-futures-divestment-across-the-nordic-countries-) har jeg studert hvordan SPU forsøker å operere som en ansvarlig investor på klima- og miljøområdet, og hvordan de går fram i praksis for å bedrive **'aktivt eierskap'.** Denne forskningen er foreløpig under arbeid.
 
-Ved siden av SPU har jeg også forsket på digital finansteknologi og krypto-finans. Jeg har undersøkt hvordan bitcoin-mining brukes til å gjøre såkalt "strandet" fossil energi verdifull. Denne forskningen vil publiseres i tidsskriftet _Valuation Studies_.
+Ved siden av SPU har jeg også forsket på digital **finansteknologi og krypto.** Jeg har undersøkt hvordan bitcoin-mining brukes til å gjøre såkalt "strandet" fossil energi verdifull. Denne forskningen vil publiseres i tidsskriftet _Valuation Studies_.
 
 Jeg vil fortsette å utvikle forskningen min på finansteknologi og økonomisk verdsetting framover. Jeg er spesielt interessert i knytte sammen forskningslitteratur fra STS, verdsettings-studier og økonomisk sosiologi.
 

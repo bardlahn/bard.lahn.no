@@ -25,7 +25,7 @@ My interest in the techno-political side of finance stems in part from work on t
 
 Today, GPFG is the world's largest Sovereign Wealth Fund. Through the project [Fossil Free Futures](https://www.su.se/english/research/research-catalogue/research-projects/b/fossil-free-futures-divestment-across-the-nordic-countries-) I have been investigating how GPFG assesses the environmental impacts of its investments, and how it seeks to mitigate climate risk through what the fund's managers call **'active ownership'**. Publications based on this research are forthcoming.
 
-In addition to my focus on GPFG, I have also done research on digital fin-tech and cryptocurrency. I have studied how bitcoin-mining is used to re-value fossil fuels that were though to be 'stranded', i.e. without value, in research forthcoming in the journal _Valuation Studies_.
+In addition to my focus on GPFG, I have also done research on **digital fin-tech and cryptocurrency.** I have studied how bitcoin-mining is used to re-value fossil fuels that were though to be 'stranded', i.e. without value, in research forthcoming in the journal _Valuation Studies_.
 
 I will continue to develop my work on finance and economic valuation, and I am especially interested in bringing STS approaches to markets and valuation together with economic sociology and political economy.
 
