@@ -10,6 +10,8 @@ languages:
   en:
     name: English
   no:
-    name: norsk
+    name: bokmål
+  nn:
+    name: nynorsk
 ---
 
