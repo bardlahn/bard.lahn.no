@@ -13,5 +13,6 @@ languages:
     name: bokmål
   nn:
     name: nynorsk
+language-default: no
 ---
 

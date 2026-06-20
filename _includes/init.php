@@ -18,8 +18,10 @@ if ($site_config) {
 
     $lang_list = [];
     foreach ($site_config['languages'] as $code => $lang) {
-        $lang_list[$code] = $lang['name'];
+        $lang_list[strtolower($code)] = $lang['name'];
     }
+
+    $lang_default = !empty($site_config['language-default']) ? strtolower($site_config['language-default']) : array_keys[$lang_list][0];
 
 } else {
     $serve_error = 500;
@@ -27,14 +29,14 @@ if ($site_config) {
 }
 
 // Setting language based on browser check (defaults to "en")
-$browserLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? '', 0, 2);
-$lang = in_array($browserLang, ['no', 'en']) ? $browserLang : 'no';             // TO DO: REPLACE WITH SITE CONFIG CHECK
-$otherLang = $lang === 'en' ? 'no' : 'en';                                      //   AND MAKE $otherLang REDUNDANT
+$browserLang = strtolower(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? '', 0, 2));
+$lang = in_array($browserLang, array_keys($lang_list)) ? $browserLang : $lang_default;
+$otherLang = $lang === 'en' ? 'no' : 'en';                                      //   TO DO: MAKE $otherLang REDUNDANT
 
 // Retrieving requested URL, resets language based on URL
 $self_url_segments = array_values(array_filter(explode('/', trim(strtok($_SERVER['REQUEST_URI'] ?? '', '?'), '/'))));
-if (in_array($self_url_segments[0] ?? '', ['en', 'no'])) {
-    $lang = $self_url_segments[0];
+if (in_array($self_url_segments[0] ?? '', array_keys($lang_list))) {
+    $lang = strtolower($self_url_segments[0]);
     array_shift($self_url_segments);
 }
 $self_url = implode('/', $self_url_segments);
