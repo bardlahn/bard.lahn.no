@@ -45,7 +45,7 @@ if (isset($fmatter['routes']) && isset($fmatter['routes']['languages'])) {
             echo $pre . '<link rel="alternate" hreflang="'
             . htmlspecialchars($lang_key) . '" href="'
             . $base_url . '/' . htmlspecialchars($lang_key)
-            . $lang_path . '">';
+            . '/' . $lang_path . '">';
         }
     }
 } else {
