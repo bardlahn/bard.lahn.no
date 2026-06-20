@@ -36,14 +36,17 @@ I have also co-authored several book chapters about Norway's climate policy ambi
 - Boasson & Lahn (2017), **Norway: a dissonant cognitive leader?** In _Still taking a lead? The European Union in international climate change politics_ (Routledge).
 - Lahn & Wilson Rowe (2015), **How to be a 'front-runner': Norway in international climate politics.** In _Small States and Status Seeking: Norway's quest for international standing_ (Routledge).
 
-In addition to my academic publications, I have also written a number of [essays and op-eds in Norwegian](/no/txt/), in which I comment on ongoing debates about Norway's climate and oil policies.
-
 ::sidebar
 [![Podcast series: The Black Thread](:$url_assets:images/black-thread-s.png)](https://drilled.media/news/black-thread-01)
 
-If you are interested in Norway's oil and climate dillemmas, this [podcast series by Dickon Bonvik-Stone](https://drilled.media/news/black-thread-01) (which I contributed to) is a great introduction.
+If you are interested in Norway's oil and climate dillemmas, this [podcast series by Dickon Bonvik-Stone](https://drilled.media/news/black-thread-01) (which I contributed to) is a nice introduction.
 ::
+
+In addition to my academic publications, I have also written a number of [essays and op-eds in Norwegian](/no/txt/), in which I comment on ongoing debates about Norway's climate and oil policies.
+
 
 ## What I think
 
-As a researcher, I am interested in understanding Norway's climate ambitions and oil connections as a political and cultural phenomenon. However, I do not pretend to be a completely neutral observer of these debates: I believe that Norway needs to take active steps to transition away from oil and gas production, and that this transition should be politically managed and planned rather than market-led. As an academic, I see my role as contributing to an informed debate about these issues in Norway, as well as to analysing and explaining the Norwegian debate to outsiders interested in understanding the political dynamics around climate change in an oil-exporting country.
+As a researcher, I am interested in understanding Norway's climate ambitions and oil connections as a political and cultural phenomenon. However, I do not pretend to be a completely neutral observer of these debates: I believe that Norway needs to take active steps to transition away from oil and gas production, and that this transition should be politically managed and planned rather than market-led. 
+
+As an academic, I see my role as contributing to an informed debate about these issues in Norway, as well as to analysing and explaining the Norwegian debate to outsiders interested in understanding the political dynamics around climate change in an oil-exporting country.
