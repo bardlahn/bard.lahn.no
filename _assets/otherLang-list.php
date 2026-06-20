@@ -6,6 +6,7 @@ global $foundfiles;
 global $lang_list;
 global $self_url;
 
+echo '<div class="content">';
 echo "\n<p><ul>\n";
 
 if (is_array($foundfiles) && count($foundfiles) > 0) {
@@ -18,6 +19,6 @@ if (is_array($foundfiles) && count($foundfiles) > 0) {
     echo "<li>(No other languages available)</li>\n";
 }
 
-echo "</ul></p>\n\n";
+echo "</ul></p>\n</div>\n\n";
 
 ?>
