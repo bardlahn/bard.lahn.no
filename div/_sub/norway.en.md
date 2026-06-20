@@ -20,7 +20,7 @@ Former PM Erna Solberg speaking to the oil industry. Photo: Kilian Munch, Norsk 
 
 For the last ten years, I have been analysing how climate policymaking and oil resource governance intersects, primarily in Norway but also globally. My main interest is in understanding how the tensions between climate ambitions and oil production are managed in practical politics: Through which practices, discourses, justifications and technical devices  do bureaucrats and political leaders square the circle?
 
-As part of my wider interest in how the oil industry shapes Norwegian society, I have also co-founded a [research network on Oil & Society](https://www.sv.uio.no/tik/english/research/network/oil-and-society/) at the University of Oslo, and I regularily contribute to the public debate about Norway's climate responsibilities as an oil producing country. I also lecture on Norwegian climate and oil policy, and I am happy to [supervise](https://hdl.handle.net/10852/100961) [students](https://hdl.handle.net/10852/103258) writing on these topics.
+As part of my wider interest in how the oil industry shapes Norwegian society, I have also co-founded a [research network on **Oil & Society**](https://www.sv.uio.no/tik/english/research/network/oil-and-society/) at the University of Oslo, and I regularily contribute to the public debate about Norway's climate responsibilities as an oil producing country. I also lecture on Norwegian climate and oil policy, and I am happy to [supervise](https://hdl.handle.net/10852/100961) [students](https://hdl.handle.net/10852/103258) writing on these topics.
 
 ::break
 ::
