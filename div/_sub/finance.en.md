@@ -17,7 +17,7 @@ My interest in the techno-political side of finance stems in part from work on t
 - Asdal & Lahn (2024), **[Governing as valuing: Assetization and the making of the Norwegian oil fund](https://journals.sagepub.com/doi/10.1177/0308518X241260588).** _Environment and Planning A: Economy and Space_.
 
 ::sidebar
-[![Photo of Norges Bank, the Norwegian Central Bank](:$url_assets:images/norgesbank-s.png)]
+![Photo of Norges Bank, the Norwegian Central Bank](:$url_assets:images/norgesbank-s.png)
 ::
 
 ::break
@@ -29,8 +29,8 @@ I have also done research on the technology of Bitcoin and how bitcoin-mining is
 
 ::sidebar
 As a spin-off of my work on the Norwegian oil fund, I set up a bot that monitors how the fund votes in shareholder meetings. 
+::
 
- 
-
+::sidebar
 If you are interested in this project, follow [alerts from the bot on Bluesky](https://bsky.app/profile/nbim-vote.bsky.social), or take a look at the [source code of the project](https://github.com/bardlahn/nbim-voting/).
 ::
