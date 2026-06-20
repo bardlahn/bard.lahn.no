@@ -34,17 +34,20 @@ Jeg har også publisert en del forskningsartikler om hvordan den politiske debat
 - Lahn (2019), **[Norwegian Petroleum Policy in a Changing Climate](http://hdl.handle.net/11250/2607906).** CICERO Report 2019-08. CICERO Centre for International Climate Research.
 - Bang & Lahn (2018), **[From oil as welfare to oil as risk? Norwegian petroleum resource governance and climate policy](http://www.tandfonline.com/doi/abs/10.1080/14693062.2019.1692774).** _Climate Policy_.
 
-Sammen med kolleger har jeg dessuten skrevet flere bokkapitler om norsk klimapolitikk og klimaambisjoner mer generelt:
-- Farstad, Hermansen & Lahn (2025), **For Better or for Worse: A Break with Norway’s Consensual Climate Tradition?** In _Stability and Politicization in Climate Governance_ (Cambridge University Press).
-- Boasson & Lahn (2017), **Norway: a dissonant cognitive leader?** In _Still taking a lead? The European Union in international climate change politics_ (Routledge).
-- Lahn & Wilson Rowe (2015), **How to be a 'front-runner': Norway in international climate politics.** In _Small States and Status Seeking: Norway's quest for international standing_ (Routledge).
-
 ::sidebar
 [![Bokomslag: Hvem bestemmer over klimaet?](:$url_assets:images/hvem-bestemmer-cover-s.png)](/no/pub/hvem-bestemmer/)
 
 I boka [_Hvem bestemmer over klimaet?_](/no/pub/hvem-bestemmer/) skriver jeg om både norsk klimapolitikk og hvordan oljevirksomheten har formet den.
 ::
 
+Sammen med kolleger har jeg dessuten skrevet flere bokkapitler om norsk klimapolitikk og klimaambisjoner mer generelt:
+- Farstad, Hermansen & Lahn (2025), **For Better or for Worse: A Break with Norway’s Consensual Climate Tradition?** In _Stability and Politicization in Climate Governance_ (Cambridge University Press).
+- Boasson & Lahn (2017), **Norway: a dissonant cognitive leader?** In _Still taking a lead? The European Union in international climate change politics_ (Routledge).
+- Lahn & Wilson Rowe (2015), **How to be a 'front-runner': Norway in international climate politics.** In _Small States and Status Seeking: Norway's quest for international standing_ (Routledge).
+
+
 ## Hva jeg mener
 
-Som forsker er jeg interessert i å forstå Norges klimaambisjoner og oljeproduksjon som et politisk og kulturelt fenomen. Men jeg påberoper meg ikke fullstendig nøytralitet i debatten om disse temaene. Jeg har hatt sterke meninger om norsk klima- og oljepolitikk siden jeg var miljøaktivist for 25 år siden. Jeg mener fortsatt at Norge bør føre en aktiv politikk for å omstille seg bort fra olje- og gassproduksjon, og at denne omstillingen bør være politisk styrt heller enn markedsstyrt. Jeg ønsker både å bidra til en informert detbatt om disse spørsmålene i Norge, og å analysere og forklare den norske debatten for et internasjonalt publikum.
+Som forsker er jeg interessert i å forstå Norges klimaambisjoner og oljeproduksjon som et politisk og kulturelt fenomen. Men jeg påberoper meg ikke fullstendig nøytralitet i debatten om disse temaene. Jeg har hatt sterke meninger om norsk klima- og oljepolitikk siden jeg var miljøaktivist for 25 år siden. 
+
+Jeg mener fortsatt at Norge bør føre en aktiv politikk for å omstille seg bort fra olje- og gassproduksjon, og at denne omstillingen bør være politisk styrt heller enn markedsstyrt. Jeg ønsker både å bidra til en informert detbatt om disse spørsmålene i Norge, og å analysere og forklare den norske debatten for et internasjonalt publikum.

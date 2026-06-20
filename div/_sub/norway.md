@@ -31,16 +31,16 @@ I have written about changes in the Norwegian political landscape over the last 
 - Lahn (2019), **[Norwegian Petroleum Policy in a Changing Climate](http://hdl.handle.net/11250/2607906).** CICERO Report 2019-08. CICERO Centre for International Climate Research.
 - Bang & Lahn (2018), **[From oil as welfare to oil as risk? Norwegian petroleum resource governance and climate policy](http://www.tandfonline.com/doi/abs/10.1080/14693062.2019.1692774).** _Climate Policy_.
 
-I have also co-authored several book chapters about Norway's climate policy ambitions more generally:
-- Farstad, Hermansen & Lahn (2025), **For Better or for Worse: A Break with Norway’s Consensual Climate Tradition?** In _Stability and Politicization in Climate Governance_ (Cambridge University Press).
-- Boasson & Lahn (2017), **Norway: a dissonant cognitive leader?** In _Still taking a lead? The European Union in international climate change politics_ (Routledge).
-- Lahn & Wilson Rowe (2015), **How to be a 'front-runner': Norway in international climate politics.** In _Small States and Status Seeking: Norway's quest for international standing_ (Routledge).
-
 ::sidebar
 [![Podcast series: The Black Thread](:$url_assets:images/black-thread-s.png)](https://drilled.media/news/black-thread-01)
 
 If you are interested in Norway's oil and climate dillemmas, this [podcast series by Dickon Bonvik-Stone](https://drilled.media/news/black-thread-01) (which I contributed to) is a nice introduction.
 ::
+
+I have also co-authored several book chapters about Norway's climate policy ambitions more generally:
+- Farstad, Hermansen & Lahn (2025), **For Better or for Worse: A Break with Norway’s Consensual Climate Tradition?** In _Stability and Politicization in Climate Governance_ (Cambridge University Press).
+- Boasson & Lahn (2017), **Norway: a dissonant cognitive leader?** In _Still taking a lead? The European Union in international climate change politics_ (Routledge).
+- Lahn & Wilson Rowe (2015), **How to be a 'front-runner': Norway in international climate politics.** In _Small States and Status Seeking: Norway's quest for international standing_ (Routledge).
 
 In addition to my academic publications, I have also written a number of [essays and op-eds in Norwegian](/no/txt/), in which I comment on ongoing debates about Norway's climate and oil policies.
 
