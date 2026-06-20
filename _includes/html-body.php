@@ -42,9 +42,9 @@ foreach ($lang_list as $langCode => $langName) {
                     : $langPath;
     }
 
-    if (empty($langPath)) $langPath = '/'.strtolower($langCode).'/'.$self_url;    
+    $langPath = (empty($langPath)) ? $self_url : $langPath;
     $delim = ($i < count($lang_list)) ? ' / ' : '';
-    echo '            <a href="'. $langPath . '">' . $langCode . '</a>'. $delim . "\n";
+    echo '            <a href="'.'/'.strtolower($langCode).'/'. $langPath . '">' . $langCode . '</a>'. $delim . "\n";
 
 }
 
