@@ -4,7 +4,7 @@ language: no
 type: error
 ---
 
-Denne siden er bare tilgjengelig på engelsk.
+Denne siden er ikke tilgjengelig på norsk. Gå tilbake til [forsiden](/no/), eller velg et tilgjengelig språk:
 
-- Gå til [engelsk side](/en/:$url_self:)
-- Gå til [forsiden](/no/)
+::include assets/otherLang-list.php php
+::

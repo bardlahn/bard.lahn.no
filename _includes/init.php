@@ -31,7 +31,6 @@ if ($site_config) {
 // Setting language based on browser check (defaults to "en")
 $browserLang = strtolower(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? '', 0, 2));
 $lang = in_array($browserLang, array_keys($lang_list)) ? $browserLang : $lang_default;
-$otherLang = $lang === 'en' ? 'no' : 'en';                                      //   TO DO: MAKE $otherLang REDUNDANT
 
 // Retrieving requested URL, resets language based on URL
 $self_url_segments = array_values(array_filter(explode('/', trim(strtok($_SERVER['REQUEST_URI'] ?? '', '?'), '/'))));

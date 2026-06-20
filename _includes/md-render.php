@@ -234,10 +234,9 @@ function renderMDContent(string $text) {
 //      url_parent      (returns parent of current element)
 //      title           (returns $title)
 //      lang            (returns $lang)
-//      lang_other      (returns $langOther)
 //      head/ARG[/ARG2] (returns the value of ARG [ARG2] from frontmatter)
 //
-//   The URL variables include language code in path if lang or lang_other 
+//   The URL variables include language code in path if lang
 //   is set as first argument (i.e. :$url_parent/lang:)
 //
 
@@ -245,19 +244,12 @@ function replaceVars(string $input): string {
     return preg_replace_callback(
         '/:\$([^:]+):/',
         function (array $matches) {
-            $args = explode('/', $matches[1]);
-            $new = '';
-            $urlLang = '';
-            global $lang;
-            global $otherLang;
 
-            if (!empty($args[1])) {
-                if ($args[1]=='lang') {
-                    $urlLang = $lang . '/';
-                } elseif ($args[1]=='lang_other') {
-                    $urlLang = $otherLang;
-                }
-            }
+            global $lang;
+            $args = explode('/', $matches[1]);
+
+            $new = '';
+            $urlLang = (!empty($args[1]) && $args[1]=='lang') ? $lang . '/' : '';
 
             switch (trim($args[0])) {
                 case 'url_self':
@@ -279,9 +271,6 @@ function replaceVars(string $input): string {
                     break;
                 case 'lang':
                     $new = $lang;
-                    break;
-                case 'lang_other':
-                    $new = $otherLang;
                     break;
                 case 'head':
                     global $fmatter;

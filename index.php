@@ -29,7 +29,8 @@ GLOBALLY CONSISTENT VARIABLES
 
 global $base_url;               // Base URL of site, no trailing slash
 global $lang;                   // Language code of current language
-global $otherLang;              // Langauge code of other available language
+global $lang_default;           // Default language code, as defined in config
+global $lang_list;              // Array of available languages in the site, as defined in config
 global $self_url;               // URL of current page, ex. site root address and leading/trailing /
 global $self_url_segments;      // Array of self_url segments, split by /
 global $self_type;              // Current page type, as set in Markdown (see constants in init.php)

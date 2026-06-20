@@ -4,7 +4,7 @@ language: en
 type: error
 ---
 
-This page is only available in Norwegian.
+This page is not available in English. Go back to the [front page](/en/), or choose an available language:
 
-- Go to [Norwegian page](/no/:$url_self:)
-- Go to [front page](/en/)
+::include assets/otherLang-list.php php
+::

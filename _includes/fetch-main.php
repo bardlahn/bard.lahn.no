@@ -2,7 +2,6 @@
 
 include_once $includes_path . 'md-parse.php';
 
-$otherLang = $lang === 'en' ? 'no' : 'en';
 $md_path = $assets_path; // Default Md path
 $self_path = $self_url; // self_path defaults to self_url, but points to parent path of _sub pages
 
@@ -77,7 +76,9 @@ if (empty($foundfiles)) {
     $replace_lang = true;
 } else {
     // Third option: File exists in other language
-    $foundfile = $assets_path . "otherLang." .$lang. ".md";
+    $foundfile = file_exists($assets_path . "otherLang." .$lang. ".md") 
+        ? $assets_path . "otherLang." .$lang. ".md" 
+        : $assets_path . "otherLang." .$lang_default. ".md";
 }
 
 if ($foundfile) {
@@ -92,12 +93,14 @@ if ($foundfile) {
             unset($foundfiles['default']);
         }
 
-        if (strtolower($parsedfile['frontmatter']['language']) != strtolower($lang)) {
-            // Parsed file does not match current language, fetching language error page
-            $otherLang = $parsedfile['frontmatter']['language'];
-            $foundfile = $assets_path . "otherLang." .$lang. ".md";
+        if (strtolower($parsedfile['frontmatter']['language']) != $lang) {
+            // Parsed file does not match current language
+            $foundfile = file_exists($assets_path . "otherLang." .$lang. ".md") 
+                ? $assets_path . "otherLang." .$lang. ".md" 
+                : $assets_path . "otherLang." .$lang_default. ".md";
             $parsedfile = parseMDFile($foundfile);
         }
+
     }
 
     // Checking for page type information
