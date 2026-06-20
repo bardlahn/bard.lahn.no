@@ -83,6 +83,7 @@ if (empty($foundfiles)) {
 
 if ($foundfile) {
 
+    // Parsing the found file
     $parsedfile = parseMDFile($foundfile);
 
     if (isset($parsedfile['frontmatter']['language'])) {
