@@ -23,10 +23,29 @@ if ($breadcrumbs) {
     </div>
     <div class="header-right">
         <div class="lang-toggle">
-            <a href="/no/<?= $self_url ?>">no</a> / <a href="/en/<?= $self_url ?>">en</a>
 <?php
 
-    // TO DO: LANGUAGE LOOP BASED ON $lang_list
+// Looping through available languages to print language switcher links
+// (using custom paths if defined in front matter)
+
+$i = 0;
+
+foreach ($lang_list as $langCode => $langName) {
+
+    if (isset($fmatter['routes']['languages'][$langCode])) {
+        $langPath = ltrim($fmatter['routes']['languages'][$langCode], '/');
+        $langPath = (strpos($langPath, $langCode.'/') === 0) 
+                    ? substr($langPath, strlen($langCode)+1)
+                    : $langPath;
+    }
+
+    $langPath = (empty($langPath)) ? '/'.strtolower($langCode).'/'.$self_url : $langPath;
+
+    $i++;
+    $delim = ($i < count($lang_list)) ? ' / ' : '';
+    echo '            <a href="'. $langPath . '">' . $langCode . '</a>'. $delim . "\n";
+
+}
 
 ?>
         </div>

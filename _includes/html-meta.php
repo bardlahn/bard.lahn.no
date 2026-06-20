@@ -35,18 +35,16 @@ if ($self_type != PAGE_ERROR) {
 //  First checking if alternate paths are defined in frontmatter,
 //  then checking for available files in other languages
 
-if (isset($fmatter['routes']) && isset($fmatter['routes']['languages'])) {
-    if (is_array($fmatter['routes']['languages'])) {
-        foreach ($fmatter['routes']['languages'] as $lang_key => $lang_path) {
-            $lang_path = ltrim($lang_path, '/');
-            $lang_path = (strpos($lang_path, $lang_key.'/') === 0) 
-                            ? substr($lang_path, strlen($lang_key)+1)
-                            : $lang_path;
-            echo $pre . '<link rel="alternate" hreflang="'
-            . htmlspecialchars($lang_key) . '" href="'
-            . $base_url . '/' . htmlspecialchars($lang_key)
-            . '/' . $lang_path . '">';
-        }
+if (isset($fmatter['routes']['languages']) && is_array($fmatter['routes']['languages'])) {
+    foreach ($fmatter['routes']['languages'] as $lang_key => $lang_path) {
+        $lang_path = ltrim($lang_path, '/');
+        $lang_path = (strpos($lang_path, $lang_key.'/') === 0) 
+                        ? substr($lang_path, strlen($lang_key)+1)
+                        : $lang_path;
+        echo $pre . '<link rel="alternate" hreflang="'
+        . htmlspecialchars($lang_key) . '" href="'
+        . $base_url . '/' . htmlspecialchars($lang_key)
+        . '/' . $lang_path . '">';
     }
 } else {
     foreach ($foundfiles as $lang_key => $file) {
