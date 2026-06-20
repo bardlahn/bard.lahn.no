@@ -32,6 +32,8 @@ $i = 0;
 
 foreach ($lang_list as $langCode => $langName) {
 
+    $langPath = '';
+
     if (isset($fmatter['routes']['languages'][$langCode])) {
         $langPath = ltrim($fmatter['routes']['languages'][$langCode], '/');
         $langPath = (strpos($langPath, $langCode.'/') === 0) 
