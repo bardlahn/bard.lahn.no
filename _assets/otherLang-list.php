@@ -13,7 +13,7 @@ if (is_array($foundfiles) && count($foundfiles) > 0) {
     foreach ($foundfiles as $lang_key => $file) {
         echo '<li><a href="/' . htmlspecialchars($lang_key) . '/' . $self_url . '">';
         $langName = $lang_list[$lang_key] ?? $lang_key;
-        echo ufirst($langName);
+        echo ucfirst($langName);
         echo "</a></li>\n";
     }
 } else {
