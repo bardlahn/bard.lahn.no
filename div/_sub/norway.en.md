@@ -22,6 +22,9 @@ For the last ten years, I have been analysing how climate policymaking and oil r
 
 As part of my wider interest in how the oil industry shapes Norwegian society, I have also co-founded a [research network on Oil & Society](https://www.sv.uio.no/tik/english/research/network/oil-and-society/) at the University of Oslo, and I regularily contribute to the public debate about Norway's climate responsibilities as an oil producing country. I also lecture on Norwegian climate and oil policy, and I am happy to [supervise](https://hdl.handle.net/10852/100961) [students](https://hdl.handle.net/10852/103258) writing on these topics.
 
+::break
+::
+
 ## What I have published
 
 I have written about changes in the Norwegian political landscape over the last 10-15 years, in which oil production has become increasingly contested on climate grounds:
@@ -37,6 +40,7 @@ In addition to my academic publications, I have also written a number of [essays
 
 ::sidebar
 [![Podcast series: The Black Thread](:$url_assets:images/black-thread-s.png)](https://drilled.media/news/black-thread-01)
+
 If you are interested in Norway's oil and climate dillemmas, this [podcast series by Dickon Bonvik-Stone](https://drilled.media/news/black-thread-01) (which I contributed to) is a great introduction.
 ::
 
