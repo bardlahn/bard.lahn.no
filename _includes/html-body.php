@@ -33,6 +33,7 @@ $i = 0;
 foreach ($lang_list as $langCode => $langName) {
 
     $langPath = '';
+    $i++;
 
     if (isset($fmatter['routes']['languages'][$langCode])) {
         $langPath = ltrim($fmatter['routes']['languages'][$langCode], '/');
@@ -41,9 +42,7 @@ foreach ($lang_list as $langCode => $langName) {
                     : $langPath;
     }
 
-    $langPath = (empty($langPath)) ? '/'.strtolower($langCode).'/'.$self_url : $langPath;
-
-    $i++;
+    if (empty($langPath)) $langPath = '/'.strtolower($langCode).'/'.$self_url;    
     $delim = ($i < count($lang_list)) ? ' / ' : '';
     echo '            <a href="'. $langPath . '">' . $langCode . '</a>'. $delim . "\n";
 
