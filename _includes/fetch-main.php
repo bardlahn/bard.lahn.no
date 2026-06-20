@@ -95,10 +95,17 @@ if ($foundfile) {
 
         if (strtolower($parsedfile['frontmatter']['language']) != $lang) {
             // Parsed file does not match current language
-            $foundfile = file_exists($assets_path . "otherLang." .$lang. ".md") 
-                ? $assets_path . "otherLang." .$lang. ".md" 
-                : $assets_path . "otherLang." .$lang_default. ".md";
-            $parsedfile = parseMDFile($foundfile);
+            if (isset($parsedfile['frontmatter']['routes']['languages'][$lang])) {
+                // Specific route is set for current language, redirecting
+                header("Location: " . $base_url . '/' . $lang . '/' . $parsedfile['frontmatter']['routes']['languages'][$lang], true, 302);
+                exit();
+            } else {
+                // Serving page to inform that language is missing
+                $foundfile = file_exists($assets_path . "otherLang." .$lang. ".md") 
+                    ? $assets_path . "otherLang." .$lang. ".md" 
+                    : $assets_path . "otherLang." .$lang_default. ".md";
+                $parsedfile = parseMDFile($foundfile);
+            }
         }
 
     }
