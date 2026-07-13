@@ -12,6 +12,10 @@
     <?php include $assets_path . "icons/bluesky.svg"; ?>
   </a>
 
+  <a href="https://www.are.na/bard-lahn" aria-label="Are.na profile" rel="me">
+    <?php include $assets_path . "icons/arena.svg"; ?>
+  </a>
+
   <a href="https://github.com/bardlahn" aria-label="GitHub profile" rel="me">
     <?php include $assets_path . "icons/github.svg"; ?>
   </a>

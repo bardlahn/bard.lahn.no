@@ -48,7 +48,7 @@ I have published research articles on...
 ::
 - Blaxekjær et al. (2021), The narrative position of the Like-Minded Developing Countries in global climate negotiations. In _Coalitions in the Climate Change Negotiations_ (Routledge).
 ::quote
-Norway's role in international climate politics
+...Norway's role in international climate politics
 ::
 - Lahn & Wilson Rowe (2015), How to be a 'front-runner': Norway in international climate politics. In _Small States and Status Seeking: Norway's quest for international standing_ (Routledge).
 
