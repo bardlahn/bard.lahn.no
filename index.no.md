@@ -19,6 +19,7 @@ Du finner meg også andre steder på nettet:
 - [Universitetets nettside](https://www.sv.uio.no/tik/personer/vit/baardll/index.html)
 - [Bluesky](https://bsky.app/profile/bard.lahn.no)
 - [Github](https://github.com/bardlahn/)
+- [Are.na](https://are.na/bard-lahn)
 - [Zotero](https://www.zotero.org/bardlahn)
 - [Google Scholar](https://scholar.google.com/citations?user=_HRtPdAAAAAJ)
 - [ORCID](https://orcid.org/0000-0001-9161-9455)
