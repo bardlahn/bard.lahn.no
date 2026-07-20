@@ -1,6 +1,6 @@
 ---
 title: "Oljelandet og klimapolitikken"
-date: 2026-06-20
+date: 2026-07-20
 language: 'no'
 abstract: 
 type: main
