@@ -4,7 +4,7 @@
 require_once $lib_path . 'vendor/autoload.php';
 use Symfony\Component\Yaml\Yaml;
 
-// Functions for parsing frontmatter
+// Function for parsing frontmatter
 
 function parseMDFile(string $filePath): array {
     if (!file_exists($filePath)) {
@@ -26,6 +26,30 @@ function parseMDFile(string $filePath): array {
         'frontmatter' => $yaml,
         'content'     => trim($matches[2]),
     ];
+}
+
+// Function for parsing a filename for a file to include.
+// Returns the full path to the file if it exists, or null if it does not.
+
+function findIncludeFile(string $includefile): ?string {
+    
+    if (str_starts_with($includefile, 'includes/')) {
+        global $includes_path;
+        $file = $includes_path . '/' . substr($includefile, strpos($includefile, 'includes/') + strlen('includes/'));
+    } elseif (str_starts_with($includefile, 'assets/')) {
+        global $assets_path;
+        $file = $assets_path . '/' . substr($includefile, strpos($includefile, 'assets/') + strlen('assets/'));
+    } else {
+        global $md_path;
+        $file = $md_path . $includefile;
+    }
+
+    if (file_exists($file)) {
+        return $file;
+    }
+
+    return null;
+
 }
 
 ?>

@@ -61,6 +61,10 @@ include($includes_path."css-styles.php");
 include($includes_path."html-meta.php");
 include($includes_path."scripts-head.php");
 
+if (!empty($fmatter['head-include'])) {
+    // If 'head-include' is set in frontmatter, include the specified file
+}
+
 ?>
 
 </head>

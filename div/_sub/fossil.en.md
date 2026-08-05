@@ -1,12 +1,14 @@
 ---
-title: 'International climate politics'
-date: 2026-06-17
+title: 'Fossil phaseout'
+date: 2026-08-03
 language: 'en'
 abstract: 
 type: main
 routes:
-  canonical: /div/unfccc/
+  canonical: /div/fossil/
 ---
+
+## TEXT NOT ALTERED
 
 I have worked on international climate politics, and in particular the negotiations under the UN Climate Change convention (UNFCCC) on and off for almost 20 years. I have been especially interested in 
 - changes in the international climate policy regime and the development of the **Paris Agreement**

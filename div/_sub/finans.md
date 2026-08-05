@@ -30,5 +30,5 @@ Ved siden av SPU har jeg også forsket på digital **finansteknologi og krypto.*
 Jeg vil fortsette å utvikle forskningen min på finansteknologi og økonomisk verdsetting framover. Jeg er spesielt interessert i knytte sammen forskningslitteratur fra STS, verdsettings-studier og økonomisk sosiologi.
 
 ::sidebar
-As a spin-off of my work on the Norwegian oil fund, I set up a bot that monitors how the fund votes in shareholder meetings. You can follow the bot's [alerts on Bluesky](https://bsky.app/profile/nbim-vote.bsky.social), or check out the [source code](https://github.com/bardlahn/nbim-voting/) of the project.
+Som en spin-off av arbeidet med SPU har jeg satt opp en bot som følger med på hvordan fondet stemmer på generalforsamlinger i selskapene det er invester i. Du kan følge botens [varslinger på Bluesky](https://bsky.app/profile/nbim-vote.bsky.social), eller sjekke [prosjektets kildekode](https://github.com/bardlahn/nbim-voting/).
 ::

@@ -137,10 +137,9 @@ function renderMDContent(string $text) {
                                     // filename (required - file to be included, path relative to MD file unless includes/ or assets/ is given)
                                     // [php/md/raw] (optional parse mode - defaults to raw)
 
-                    global $md_path;
                     $includefile = trim($args[1]);
 
-                    if (str_starts_with($includefile, 'includes/')) {
+/*                    if (str_starts_with($includefile, 'includes/')) {
                         global $includes_path;
                         $includefile = $includes_path . '/' . substr($includefile, strpos($includefile, 'includes/') + strlen('includes/'));
                     } elseif (str_starts_with($includefile, 'assets/')) {
@@ -153,8 +152,8 @@ function renderMDContent(string $text) {
                     $parseMode = trim(strtolower($args[2])) ?? '';
                     $before = $defaultBefore;
                     $after = $defaultAfter;
-
-                    if (file_exists($includefile)) {
+*/
+                    if (findIncludeFile($includefile)) {
                         // Include file!
                         
                         switch ($parseMode) {

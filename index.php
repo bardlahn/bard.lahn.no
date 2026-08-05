@@ -73,6 +73,11 @@ parseMDFile(string $filePath): array
     // Parses a given markdown file and returns the result in an array
     // consisting of ['frontmatter'] and ['content']
 
+findIncludeFile(string $includefile): ?string
+    // Established in md-parse.php
+    // Parses a filename for a file to include.
+    // Returns the full path to the file if it exists, else null.
+
 renderMDContent(string $text)
     // Established in md-render.php
     // Renders MD content as HTML and prints output directly.

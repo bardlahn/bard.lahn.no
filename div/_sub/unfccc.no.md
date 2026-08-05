@@ -4,6 +4,8 @@ date: 2026-06-17
 language: 'no'
 abstract: 
 type: main
+routes:
+  canonical: /div/unfccc/
 ---
 
 Jeg har jobbet med internasjonal klimapolitikk, og spesielt forhandlingene under FNs klimakonvensjon (UNFCCC) på forskjellige måter i nesten 20 år. Jeg har vært spesielt interessert i
