@@ -63,6 +63,12 @@ include($includes_path."scripts-head.php");
 
 if (!empty($fmatter['head-include'])) {
     // If 'head-include' is set in frontmatter, include the specified file
+    $headInclude = findIncludeFile($fmatter['head-include']);
+    if ($headInclude) {
+        include($headInclude);
+    } else {
+        echo "\n<!-- DEBUG: Specified inclusion file not found - " . htmlspecialchars($fmatter['head-include']) . " -->\n";
+    }
 }
 
 ?>
