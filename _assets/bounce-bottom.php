@@ -12,6 +12,9 @@
         var minSpeed = 0.5;
         var maxSpeed = 2;
         var circles = [];
+        var defaultCircleColor = 'white';
+        var toggledCircleColor = '#ff7a59';
+
 
         function createCircles() {
             for (var i = 0; i < circleCount; i++) {
@@ -24,11 +27,16 @@
                 var circle = new Path.Circle({
                     center: [x, y],
                     radius: radius,
-                    fillColor: 'white'
+                    fillColor: defaultCircleColor
                 });
 
                 circle.velocity = new Point(Math.cos(angle) * speed, Math.sin(angle) * speed);
                 circle.radius = radius;
+                circle.isToggled = false;
+                circle.onClick = function() {
+                    this.isToggled = !this.isToggled;
+                    this.fillColor = this.isToggled ? toggledCircleColor : defaultCircleColor;
+                };
 
                 circles.push(circle);
             }
