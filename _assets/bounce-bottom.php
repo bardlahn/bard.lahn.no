@@ -117,24 +117,17 @@
     <script type="text/javascript">
         (function() {
             var overlay = document.getElementById('ball-overlay');
-            var closeBtn = document.getElementById('close-overlay');
             var trigger = document.getElementById('show-overlay');
 
             trigger.addEventListener('click', function() {
                 overlay.classList.add('active');
-                closeBtn.classList.add('active');
                 window.dispatchEvent(new Event('resize'));
             });
 
-            closeBtn.addEventListener('click', function() {
-                overlay.classList.remove('active');
-                closeBtn.classList.remove('active');
-            });
-
-            // Close menu on escape key
-            document.addEventListener('keydown', (e) => {
+            document.addEventListener('keydown', function(e) {
                 if (e.key === 'Escape' && overlay.classList.contains('active')) {
-                overlay.classList.remove('active');
+                    overlay.classList.remove('active');
+                    window.dispatchEvent(new Event('resize'));
                 }
             });
 
