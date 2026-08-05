@@ -10,13 +10,6 @@ define ("SERVE_ERROR_NOFILE",     404);
 
 function serveFile(string $file): int {
 
-    // Blocking calls to files/directories starting with _ or .
-    foreach (explode('/', $file) as $part) {
-        if (str_starts_with($part, '_') || str_starts_with($part, '.')) {
-            return SERVE_ERROR_NOACCESS;
-        }
-    }
-
     $file = findIncludeFile($file);
 
     // If file does not exist, returning error

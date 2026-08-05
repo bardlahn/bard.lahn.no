@@ -33,6 +33,13 @@ function parseMDFile(string $filePath): array {
 
 function findIncludeFile(string $includefile): ?string {
     
+    // Blocking calls to files/directories starting with _ or .
+    foreach (explode('/', $includefile) as $part) {
+        if (str_starts_with($part, '_') || str_starts_with($part, '.')) {
+            return null;
+        }
+    }
+
     if (str_starts_with($includefile, 'assets/')) {
         global $assets_path;
         $file = $assets_path . substr($includefile, strpos($includefile, 'assets/') + strlen('assets/'));
