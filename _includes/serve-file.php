@@ -26,7 +26,7 @@ function serveFile(string $file): int {
 
     // Serving the file
 
-    $mime = mime_content_type($full_path) ?: 'application/octet-stream';
+    $mime = mime_content_type($file) ?: 'application/octet-stream';
 
     header('Content-Type: ' . $mime);
     header('Content-Length: ' . filesize($file));
