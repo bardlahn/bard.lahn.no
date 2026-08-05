@@ -62,12 +62,23 @@ include($includes_path."html-meta.php");
 include($includes_path."scripts-head.php");
 
 if (!empty($fmatter['head-include'])) {
-    // If 'head-include' is set in frontmatter, include the specified file
-    $headInclude = findIncludeFile($fmatter['head-include']);
-    if ($headInclude) {
-        include($headInclude);
+    // If 'head-include' is set in frontmatter, include the specified file(s)
+    if (is_array($fmatter['head-include'])) {
+        foreach ($fmatter['head-include'] as $file) {
+            $headInclude = findIncludeFile($file);
+            if ($headInclude) {
+                include($headInclude);
+            } else {
+                echo "\n<!-- DEBUG: Specified inclusion file not found - " . htmlspecialchars($file) . " -->\n";
+            }
+        }
     } else {
-        echo "\n<!-- DEBUG: Specified inclusion file not found - " . htmlspecialchars($fmatter['head-include']) . " -->\n";
+        $headInclude = findIncludeFile($fmatter['head-include']);
+        if ($headInclude) {
+            include($headInclude);
+        } else {
+            echo "\n<!-- DEBUG: Specified inclusion file not found - " . htmlspecialchars($fmatter['head-include']) . " -->\n";
+        }
     }
 }
 
