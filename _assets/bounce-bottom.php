@@ -117,12 +117,18 @@
     <script type="text/javascript">
         (function() {
             var overlay = document.getElementById('ball-overlay');
-            var trigger = document.getElementById('bounce');
+            var closeBtn = document.getElementById('close-overlay');
+            var trigger = document.getElementById('show-overlay');
 
-            // View the overlay when the trigger is clicked
             trigger.addEventListener('click', function() {
                 overlay.classList.add('active');
+                closeBtn.classList.add('active');
                 window.dispatchEvent(new Event('resize'));
+            });
+
+            closeBtn.addEventListener('click', function() {
+                overlay.classList.remove('active');
+                closeBtn.classList.remove('active');
             });
 
             // Close menu on escape key
@@ -131,6 +137,6 @@
                 overlay.classList.remove('active');
                 }
             });
-        });
-        ();
+
+        })();
     </script>
