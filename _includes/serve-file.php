@@ -9,13 +9,6 @@ define ("SERVE_ERROR_NOACCESS",   403);
 define ("SERVE_ERROR_NOFILE",     404);
 
 function serveFile(string $file): int {
- 
-    $file = findIncludeFile($file);
-
-    // If file does not exist, returning error
-    if (!$file) {
-        return SERVE_ERROR_NOFILE;
-    }
 
     // Blocking calls to files/directories starting with _ or .
     foreach (explode('/', $file) as $part) {
@@ -24,7 +17,14 @@ function serveFile(string $file): int {
         }
     }
 
-    // Serving the file and returning success
+    $file = findIncludeFile($file);
+
+    // If file does not exist, returning error
+    if (!$file) {
+        return SERVE_ERROR_NOFILE;
+    }
+
+    // Serving the file
 
     $mime = mime_content_type($full_path) ?: 'application/octet-stream';
 
