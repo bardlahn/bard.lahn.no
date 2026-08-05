@@ -137,7 +137,7 @@ function renderMDContent(string $text) {
                                     // filename (required - file to be included, path relative to MD file unless includes/ or assets/ is given)
                                     // [php/md/raw] (optional parse mode - defaults to raw)
 
-                    $includefile = findIncludeFile(trim($args[1]));
+                    $includefile = findIncludeFile(trim($args[1]), $fullAccess = true);
 
 /*                    if (str_starts_with($includefile, 'includes/')) {
                         global $includes_path;
