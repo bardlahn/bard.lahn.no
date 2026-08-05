@@ -119,17 +119,16 @@
             var overlay = document.getElementById('ball-overlay');
             var trigger = document.getElementById('bounce');
 
+            // View the overlay when the trigger is clicked
             trigger.addEventListener('click', function() {
                 overlay.classList.add('active');
-                closeBtn.classList.add('active');
                 window.dispatchEvent(new Event('resize'));
             });
 
             // Close menu on escape key
             document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape' && navMenu && navMenu.classList.contains('open')) {
+                if (e.key === 'Escape' && overlay.classList.contains('active')) {
                 overlay.classList.remove('active');
-                closeBtn.classList.remove('active');
                 }
             });
         });
