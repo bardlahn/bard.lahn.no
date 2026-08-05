@@ -1,7 +1,7 @@
+    
     <div id="ball-overlay">
         <canvas id="paper-canvas" resize></canvas>
     </div>
-    <button id="close-overlay" class="close-btn">Close</button>
 
     <script type="text/paperscript" canvas="paper-canvas">
         var circleCount = 15;
@@ -114,11 +114,10 @@
         createCircles();
     </script>
 
-    <script>
+    <script type="text/javascript">
         (function() {
             var overlay = document.getElementById('ball-overlay');
-            var closeBtn = document.getElementById('close-overlay');
-            var trigger = document.getElementById('show-overlay');
+            var trigger = document.getElementById('bounce');
 
             trigger.addEventListener('click', function() {
                 overlay.classList.add('active');
@@ -126,9 +125,13 @@
                 window.dispatchEvent(new Event('resize'));
             });
 
-            closeBtn.addEventListener('click', function() {
+            // Close menu on escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && navMenu && navMenu.classList.contains('open')) {
                 overlay.classList.remove('active');
                 closeBtn.classList.remove('active');
+                }
             });
-        })();
+        });
+        ();
     </script>
