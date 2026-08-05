@@ -148,11 +148,11 @@ function renderMDContent(string $text) {
                     } else {
                         $includefile = $md_path . $includefile;
                     }
-                    
+*/                    
                     $parseMode = trim(strtolower($args[2])) ?? '';
                     $before = $defaultBefore;
                     $after = $defaultAfter;
-*/
+
                     if ($includefile) {
                         // Include file!
                         
