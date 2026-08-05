@@ -1,4 +1,6 @@
-    
+
+<!-- Bouncy easter egg addition -->
+
     <div id="ball-overlay">
         <canvas id="paper-canvas" resize></canvas>
     </div>
@@ -133,3 +135,5 @@
 
         })();
     </script>
+
+<!-- /Bouncy easter egg addition -->
