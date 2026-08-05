@@ -36,6 +36,10 @@ function findIncludeFile(string $includefile, bool $fullAccess = false): ?string
     if (str_starts_with($includefile, 'assets/')) {
         global $assets_path;
         $file = $assets_path . '/' . substr($includefile, strpos($includefile, 'assets/') + strlen('assets/'));
+    } elseif (str_starts_with($includefile, 'parent/')) {
+        global $self_path;
+        global $root_path;
+        $file = $root_path . $self_path . '/' . substr($includefile, strpos($includefile, 'parent/') + strlen('parent/'));
     } elseif (str_starts_with($includefile, '/')) {
         if (!$fullAccess) return null;
         global $root_path;
