@@ -31,23 +31,21 @@ function parseMDFile(string $filePath): array {
 // Function for parsing a filename for a file to include.
 // Returns the full path to the file if it exists, or null if it does not.
 
-function findIncludeFile(string $includefile, bool $fullAccess = false): ?string {
+function findIncludeFile(string $includefile): ?string {
     
     if (str_starts_with($includefile, 'assets/')) {
         global $assets_path;
-        $file = $assets_path . '/' . substr($includefile, strpos($includefile, 'assets/') + strlen('assets/'));
+        $file = $assets_path . substr($includefile, strpos($includefile, 'assets/') + strlen('assets/'));
     } elseif (str_starts_with($includefile, 'parent/')) {
         global $self_path;
         global $root_path;
         $file = $root_path . $self_path . '/' . substr($includefile, strpos($includefile, 'parent/') + strlen('parent/'));
     } elseif (str_starts_with($includefile, '/')) {
-        if (!$fullAccess) return null;
         global $root_path;
         $file = $root_path . ltrim($includefile, '/');
     } elseif (str_starts_with($includefile, 'includes/')) {
-        if (!$fullAccess) return null;
         global $includes_path;
-        $file = $includes_path . '/' . substr($includefile, strpos($includefile, 'includes/') + strlen('includes/'));
+        $file = $includes_path . substr($includefile, strpos($includefile, 'includes/') + strlen('includes/'));
     } else {
         global $md_path;
         $file = $md_path . $includefile;

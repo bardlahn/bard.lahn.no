@@ -9,11 +9,8 @@ define ("SERVE_ERROR_NOACCESS",   403);
 define ("SERVE_ERROR_NOFILE",     404);
 
 function serveFile(string $file): int {
-echo "\n<!-- DEBUG: serveFile() called with file: $file -->\n";
  
     $file = findIncludeFile($file);
-
-    echo "\n<!-- DEBUG: full path resolved to $file -->\n";
 
     // If file does not exist, returning error
     if (!$file) {
