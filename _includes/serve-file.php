@@ -12,6 +12,8 @@ function serveFile(string $file): int {
 
     $file = findIncludeFile($file);
 
+    echo "\n<!-- DEBUG: serveFile() called with file: $file -->\n";
+
     // If file does not exist, returning error
     if (!$file) {
         return SERVE_ERROR_NOFILE;
