@@ -5,6 +5,8 @@ routes:
   default: '/no/div/web/'
   canonical: '/no/div/web/'
 abstract: 'Denne siden beskriver oppbygningen av Bård Lahns personlige nettside, inkl. informasjon om rettigheter, kildekode, sporing og datahåndtering.'
+include-head: assets/bounce-head.php
+include-bottom: assets/bounce-bottom.php
 ---
 
 Denne nettsiden er både et sted å samle mine tekster og publiksasjoner, et teknologisk eksperiment og hobbyprosjekt for min egen del, og et lite bidrag til et internett drevet av mennesker framfor teknologi-giganter. Inspirert av [mange](https://diagram.website) [flotte](https://gossipsweb.net) [folk](https://publicdatalab.org) [der](https://www.are.na/shannon-mattern/poetic-web-i-inqsyxb6o) [ute](https://jonathangray.org) ønsker jeg å bidra til et åpent og [poetisk](https://httpoetics.neocities.org) internett, å fremme [åpne digitale verktøy](https://github.com/bardlahn/academic-open) og standarder, og ikke gi [big tech mer makt](https://attac.no/digital-makt/) og fortjeneste enn nødvendig.
