@@ -5,7 +5,7 @@
 // (Defining constants before function starts)
 define ("SERVE_SUCCESS",          200);
 define ("SERVE_ERROR_REQUEST",    400); // Not in use
-define ("SERVE_ERROR_NOACCESS",   403);
+define ("SERVE_ERROR_NOACCESS",   403); // Not implemented (needs hook in findIncludeFile)
 define ("SERVE_ERROR_NOFILE",     404);
 
 function serveFile(string $file): int {
