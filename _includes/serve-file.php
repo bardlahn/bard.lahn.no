@@ -26,13 +26,8 @@ function serveFile(string $file): int {
         $url = $service['url'] . $service['endpoint'] ?? '';
         $token = $service['token'] ?? '';
 
-        echo "URL: " . $url . "\n";
-        die();
-
         if ($url && $token) {
             
-            echo "URL: " . $url . "\n";
-
             $data = [
                 'no_sessions' => true,
                 'hits'        => [['path' => '/download/' . basename($file)]],
