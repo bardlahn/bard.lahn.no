@@ -8,9 +8,9 @@ define ("SERVE_ERROR_REQUEST",    400); // Not in use
 define ("SERVE_ERROR_NOACCESS",   403); // Not implemented (needs hook in findIncludeFile)
 define ("SERVE_ERROR_NOFILE",     404);
 
-function serveFile(string $file): int {
+function serveFile(string $filepath): int {
 
-    $file = findIncludeFile($file);
+    $file = findIncludeFile($filepath);
 
     // If file does not exist, returning error
     if (!$file) {
@@ -30,7 +30,7 @@ function serveFile(string $file): int {
             
             $data = [
                 'no_sessions' => true,
-                'hits'        => [['path' => '/download/' . basename($file)]],
+                'hits'        => [['path' => $filepath]],
             ];
 
             $payload = json_encode($data);
