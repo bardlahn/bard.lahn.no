@@ -19,7 +19,7 @@ function serveFile(string $file): int {
 
     // IN PROGRESS: Counting download for statistics
 
-    $service = getConfig('stats.secret', $element = "service");
+    $service = getConfig('stats.secret', '', 'service');
 
     if ($service) {
         $stats_url = $service['url'] ?? '';
