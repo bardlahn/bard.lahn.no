@@ -22,17 +22,45 @@ function serveFile(string $file): int {
     $service = getConfig('stats.secret', '', 'service');
 
     if ($service) {
-        $stats_url = $service['url'] ?? '';
-        $stats_endpoint = $service['endpoint'] ?? '';
-        $stats_key = $service['token'] ?? '';
 
-        var_dump($service);
-        die();
+        $url = $service['url'] . $service['endpoint'] ?? '';
+        $token = $service['token'] ?? '';
 
-        if ($stats_url && $stats_key && $stats_endpoint) {
+        if ($url && $token) {
             
-            // $url = rtrim($stats_url, '/') . '/api/download-count.php?key=' . urlencode($stats_key) . '&file=' . urlencode($file_name);
-            // @file_get_contents($url);
+            $data = [
+                'no_sessions' => true,
+                'hits'        => [['path' => '/download/' . basename($file)]],
+            ];
+
+            $payload = json_encode($data);
+            $ch = curl_init($url);
+
+            curl_setopt_array($ch, [
+                CURLOPT_POST           => true,
+                CURLOPT_HTTPHEADER     => [
+                    'Content-Type: application/json',
+                    'Authorization: Bearer ' . $token,
+                ],
+                CURLOPT_POSTFIELDS     => $payload,
+                CURLOPT_RETURNTRANSFER => true,
+            ]);
+
+            $response = curl_exec($ch);
+
+            if ($response === false) {
+                $error = curl_error($ch);
+                curl_close($ch);
+                die('Curl error: ' . $error);
+            }
+
+            $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            curl_close($ch);
+
+            echo "HTTP Status: " . $httpCode . "\n";
+            echo "Response: " . $response . "\n";
+            die();
+
         }
     }
 
