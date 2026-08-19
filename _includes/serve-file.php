@@ -26,7 +26,7 @@ function serveFile(string $file): int {
         $stats_endpoint = $service['endpoint'] ?? '';
         $stats_key = $service['token'] ?? '';
 
-        echo "Stats service: $stats_url, endpoint: $stats_endpoint, key: $stats_key, file: $file\n";
+        var_dump($service);
         die();
 
         if ($stats_url && $stats_key && $stats_endpoint) {
