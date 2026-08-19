@@ -30,7 +30,7 @@ function serveFile(string $filepath): int {
             
             $data = [
                 'no_sessions' => true,
-                'hits'        => [['path' => $filepath]],
+                'hits'        => [['path' => '/?action=download&file=' . $filepath]],
             ];
 
             $payload = json_encode($data);
