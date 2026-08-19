@@ -26,11 +26,11 @@ function serveFile(string $file): int {
         $stats_endpoint = $service['endpoint'] ?? '';
         $stats_key = $service['token'] ?? '';
 
+        echo "Stats service: $stats_url, endpoint: $stats_endpoint, key: $stats_key, file: $file\n";
+        die();
+
         if ($stats_url && $stats_key && $stats_endpoint) {
             
-            echo "Stats service: $stats_url, endpoint: $stats_endpoint, key: $stats_key, file: $file\n";
-            die();
-
             // $url = rtrim($stats_url, '/') . '/api/download-count.php?key=' . urlencode($stats_key) . '&file=' . urlencode($file_name);
             // @file_get_contents($url);
         }
