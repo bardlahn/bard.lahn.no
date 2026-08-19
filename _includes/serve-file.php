@@ -17,7 +17,7 @@ function serveFile(string $filepath): int {
         return SERVE_ERROR_NOFILE;
     }
 
-    // IN PROGRESS: Counting download for statistics
+    // Counting download for statistics
 
     $service = getConfig('stats-secret', '', 'service');
 
@@ -51,15 +51,11 @@ function serveFile(string $filepath): int {
             if ($response === false) {
                 $error = curl_error($ch);
                 curl_close($ch);
-                die('Curl error: ' . $error);
+                // To implement: Log the error via new logging function
             }
 
             $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
             curl_close($ch);
-
-            echo "HTTP Status: " . $httpCode . "\n";
-            echo "Response: " . $response . "\n";
-            die();
 
         }
     }
