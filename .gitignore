@@ -1,4 +1,4 @@
 _paths.php
 secrets.txt
-*.secret.md
+*-secret.md
 *.log

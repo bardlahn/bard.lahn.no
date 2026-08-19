@@ -19,7 +19,7 @@ function serveFile(string $file): int {
 
     // IN PROGRESS: Counting download for statistics
 
-    $service = getConfig('stats.secret', '', 'service');
+    $service = getConfig('stats-secret', '', 'service');
 
     if ($service) {
 
@@ -28,6 +28,8 @@ function serveFile(string $file): int {
 
         if ($url && $token) {
             
+            echo "URL: " . $url . "\n";
+
             $data = [
                 'no_sessions' => true,
                 'hits'        => [['path' => '/download/' . basename($file)]],
