@@ -17,6 +17,22 @@ function serveFile(string $file): int {
         return SERVE_ERROR_NOFILE;
     }
 
+    // IN PROGRESS: Counting download for statistics
+
+    $service = getConfig('stats.secret', $element = "service");
+
+    if ($service) {
+        $stats_url = $service['url'] ?? '';
+        $stats_endpoint = $service['endpoint'] ?? '';
+        $stats_key = $service['token'] ?? '';
+
+        if ($stats_url && $stats_key && $stats_endpoint) {
+            
+            // $url = rtrim($stats_url, '/') . '/api/download-count.php?key=' . urlencode($stats_key) . '&file=' . urlencode($file_name);
+            // @file_get_contents($url);
+        }
+    }
+
     // Serving the file
 
     $mime = mime_content_type($file) ?: 'application/octet-stream';
@@ -28,8 +44,6 @@ function serveFile(string $file): int {
     readfile($file);
 
     return SERVE_SUCCESS;
-
-    // TO DO: IMPLEMENT GOAT COUNTER STATISTICS FOR FILE DOWNLOADS
 
 }
 
