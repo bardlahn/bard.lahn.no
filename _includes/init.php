@@ -38,6 +38,7 @@ if (in_array($self_url_segments[0] ?? '', array_keys($lang_list))) {
     $lang = strtolower($self_url_segments[0]);
     array_shift($self_url_segments);
 }
+
 $self_url = implode('/', $self_url_segments);
 
 // Defining page types (default is "main")
@@ -49,5 +50,13 @@ define (    "PAGE_SUB_ELEMENT", "element");
 define (    "PAGE_SUB_PUB",     "publication");
 
 $self_type = PAGE_MAIN;
+
+// Redirecting to error page if URL starts with "error"
+
+if (strtolower($self_url_segments[0]) ?? '' === 'error') {
+    $self_type = PAGE_ERROR;
+    $serve_error = $_SERVER["REDIRECT_STATUS"] ?? "500";
+    include $includes_path . 'fetch-error.php';
+}
 
 ?>
