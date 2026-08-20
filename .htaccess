@@ -35,5 +35,7 @@ RewriteCond %{HTTP_USER_AGENT} (WordAI|Wordtune|WPBot|Writecream|WriterZen|Write
 RewriteCond %{HTTP_USER_AGENT} (Zhuque\ AI|Zimm) [NC]
 RewriteRule (.*) - [F,L]
 
-ErrorDocument 404 /_assets/404
-ErrorDocument 500 /_assets/500
+ErrorDocument 400 /error/
+ErrorDocument 403 /error/
+ErrorDocument 404 /error/
+ErrorDocument 500 /error/
