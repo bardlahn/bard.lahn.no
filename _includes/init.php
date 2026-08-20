@@ -55,7 +55,7 @@ $self_type = PAGE_MAIN;
 
 if ($self_url_segments[0] ?? '' === 'error') {
     $self_type = PAGE_ERROR;
-    $serve_error = $_SERVER["REDIRECT_STATUS"] ?? "500";
+    $serve_error = $self_url_segments[1] ?? "500";
     include $includes_path . 'fetch-error.php';
 }
 
