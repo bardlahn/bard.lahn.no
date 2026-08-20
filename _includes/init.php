@@ -55,9 +55,6 @@ $self_type = PAGE_MAIN;
 
 $firstSeg = $self_url_segments[0] ?? '';
 if (strtolower($firstSeg) == 'error') {
-    echo "debug: We are here with " . $firstSeg;
-    echo "\ndebug: Next segment is " . $self_url_segments[1] ?? '';
-    echo "\ndebug: SERVER redirect is " . $_SERVER['REDIRECT_STATUS'] ?? '';
     $self_type = PAGE_ERROR;
     $serve_error = $self_url_segments[1] ?? "500";
     include $includes_path . 'fetch-error.php';
