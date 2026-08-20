@@ -54,6 +54,9 @@ $self_type = PAGE_MAIN;
 // Redirecting to error page if URL starts with "error"
 
 if ($self_url_segments[0] ?? '' === 'error') {
+    echo "debug: We are here with " . $self_url_segments[0];
+    echo "\ndebug: Next segment is " . $self_url_segments[1];
+    echo "\ndebug: SERVER redirect is " . $_SERVER['REDIRECT_STATUS'] ?? '';
     $self_type = PAGE_ERROR;
     $serve_error = $self_url_segments[1] ?? "500";
     include $includes_path . 'fetch-error.php';
