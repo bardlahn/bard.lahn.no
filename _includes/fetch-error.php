@@ -16,7 +16,7 @@ if (!file_exists($checkFile)) {
     $checkFile = $assets_path . $serve_error . ".md";
     if (!file_exists($checkFile)) {
         logEvent("Error page file not found: " . $assets_path . $serve_error . ".md", LOG_ERR);
-        die("Error page file not found: " . $assets_path . $serve_error . ".md");
+        die();
     }
 }
 
@@ -28,6 +28,6 @@ $fmatter = $parsedfile['frontmatter'];
 $self_title = $fmatter['title'] ?? 'bard.lahn.no';
 $self_type = PAGE_ERROR;
 
-logEvent("Serving error page " . $serve_error . " . Request: " . $_SERVER['REQUEST_URI'] , LOG_INFO);
+logEvent("Serving error page " . $serve_error . ". Request: " . $_SERVER['REQUEST_URI'] , LOG_INFO);
 
 ?>
