@@ -173,7 +173,7 @@ function stripFrontmatterQuotes(string $value): string
     return $value;
 }
 
-function logEvent(string $event, int $level = 1): bool {
+function logEvent(string $event, int $level = LOG_INFO): bool {
 
     // Logging events to log file
     global $config_path;
@@ -181,10 +181,10 @@ function logEvent(string $event, int $level = 1): bool {
 
     $timestamp = date('Y-m-d H:i:s');
     $levelStr = match ($level) {
-        1 => 'INFO',
-        2 => 'WARNING',
-        3 => 'ERROR',
-        default => 'INFO',
+        LOG_INFO    => 'INFO',
+        LOG_WARNING => 'WARNING',
+        LOG_ERR     => 'ERROR',
+        default     => 'INFO',
     };
 
     $logEntry = "[$timestamp] [$levelStr] $event" . PHP_EOL;
@@ -192,15 +192,15 @@ function logEvent(string $event, int $level = 1): bool {
 
 }
 
-function logEventHTML(string $event, int $level = 1, bool $toFile = true): string {
+function logEventHTML(string $event, int $level = LOG_INFO, bool $toFile = true): string {
 
     // Logging events to log file and returning HTML comment for debugging
 
     $levelStr = match ($level) {
-        1 => 'INFO',
-        2 => 'WARNING',
-        3 => 'ERROR',
-        default => 'INFO',
+        LOG_INFO    => 'INFO',
+        LOG_WARNING => 'WARNING',
+        LOG_ERR     => 'ERROR',
+        default     => 'INFO',
     };
 
     if ($toFile) {

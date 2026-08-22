@@ -51,10 +51,6 @@ define (    "PAGE_SUB_PUB",     "publication");
 
 $self_type = PAGE_MAIN;
 
-define (    "LOG_INFO",         1);
-define (    "LOG_WARNING",      2);
-define (    "LOG_ERROR",        3);
-
 // Redirecting to error page if URL starts with "error"
 
 $firstSeg = $self_url_segments[0] ?? '';

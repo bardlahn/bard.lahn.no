@@ -15,7 +15,7 @@ $checkFile = $assets_path . $serve_error . ".".$lang.".md";
 if (!file_exists($checkFile)) {
     $checkFile = $assets_path . $serve_error . ".md";
     if (!file_exists($checkFile)) {
-        logEvent("Error page file not found: " . $assets_path . $serve_error . ".md", LOG_ERROR);
+        logEvent("Error page file not found: " . $assets_path . $serve_error . ".md", LOG_ERR);
         die("Error page file not found: " . $assets_path . $serve_error . ".md");
     }
 }
