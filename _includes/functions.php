@@ -188,6 +188,7 @@ function logEvent(string $event, int $level = LOG_INFO): bool {
     };
 
     $logEntry = "[$timestamp] [$levelStr] $event" . PHP_EOL;
+    echo "Logging event: $logEntry"; // Debugging output
     return file_put_contents($logFile, $logEntry, FILE_APPEND | LOCK_EX) !== false;
 
 }

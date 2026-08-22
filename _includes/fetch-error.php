@@ -28,8 +28,6 @@ $fmatter = $parsedfile['frontmatter'];
 $self_title = $fmatter['title'] ?? 'bard.lahn.no';
 $self_type = PAGE_ERROR;
 
-if (!logEvent("Serving error page: " . $serve_error, LOG_INFO)) {
-    die("Error logging failed - cannot continue");
-}
+logEvent("Serving error page: " . $serve_error, LOG_INFO);
 
 ?>

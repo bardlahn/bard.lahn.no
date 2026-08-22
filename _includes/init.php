@@ -3,7 +3,7 @@
 // Setting general variables
 
 include_once $includes_path . 'md-parse.php';
-include_once $includes_path . 'fetch-config.php';
+include_once $includes_path . 'functions.php';
 
 // Fetching core site settings
 
