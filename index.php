@@ -50,14 +50,14 @@ global $self_path;              // Defaults to self_url, but points to parent pa
 AVAILABLE SHARED FUNCTIONS
 
 getConfig(string $configfile, string $lang = '', string $element = ''): array / false
-    // Established in fetch-config.php
+    // Established in functions.php
     // Used to fetch the frontmatter elements of $configfile in $config_path.
     // If $lang is set, checks for configfile with language suffix (defaults to no suffix).
     // If $element is set, returns only that element (with sub-elements) from config frontmatter.
     // Returns false on error.
 
 getAuthors(mixed $raw): array / false
-    // Established in fetch-config.php
+    // Established in functions.php
     // Used to fetch an array of author(s) for a given document 
     // based on the 'authors' element of the frontmatter.
     // Checks author tags against 'author' config file.
@@ -92,6 +92,26 @@ replaceVars(string $input): string
     // Helper function to replace variables given in the MD content.
     // Variables can be inserted in MD on the form :$variable:
     // (Available variables are documented in md-render.php.)
+
+getFrontmatterFields(string $filePath, array $fields): array
+    // Established in functions.php
+    // Helper function to extract specific frontmatter fields from a 
+    // markdown file without fully parsing it
+
+logEvent(string $event, int $level = LOG_INFO): bool
+    // Established in functions.php
+    // Logs an event to the log file, with optional level.
+    // Default level is LOG_INFO, other options are
+    // LOG_WARNING and LOG_ERR.
+    // Returns true on success, false on failure.
+
+logEventHTML(string $event, int $level = LOG_INFO, bool $toFile = true): string
+    // Established in functions.php
+    // Logs an event to file using the logEvent function, and returns
+    // a debug message formatted as a HTML comment.
+    // Note: If $toFile is set to false, the event will not be logged to file, 
+    // but the HTML comment will still be returned.
+
 */
 
 ?>

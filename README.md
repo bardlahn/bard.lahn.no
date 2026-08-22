@@ -10,6 +10,4 @@ The system is not well documented at the moment, and probably never will be - bu
 ### To do:
 
 - Move listing of alternative languages from PHP include file to variable function in md-parse.php
-- Implement logging function (with optional debugging text to HTML)
-- Restructure function loading from fetch-config.php and md-render.php
 - Implement statistics as function to use across serve-file.php and serve-citation.php
