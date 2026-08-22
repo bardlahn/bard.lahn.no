@@ -28,6 +28,6 @@ $fmatter = $parsedfile['frontmatter'];
 $self_title = $fmatter['title'] ?? 'bard.lahn.no';
 $self_type = PAGE_ERROR;
 
-logEvent("Serving error page " . $serve_error . " (requested: " . $self_url . ")", LOG_INFO);
+logEvent("Serving error page " . $serve_error . " . Request: " . $_SERVER['REQUEST_URI'] , LOG_INFO);
 
 ?>
