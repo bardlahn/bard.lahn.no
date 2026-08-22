@@ -173,4 +173,44 @@ function stripFrontmatterQuotes(string $value): string
     return $value;
 }
 
+function logEvent(string $event, int $level = 1): bool {
+
+    // Logging events to log file
+    global $config_path;
+    $logFile = $config_path . 'site.log';
+
+    $timestamp = date('Y-m-d H:i:s');
+    $levelStr = match ($level) {
+        1 => 'INFO',
+        2 => 'WARNING',
+        3 => 'ERROR',
+        default => 'INFO',
+    };
+
+    $logEntry = "[$timestamp] [$levelStr] $event" . PHP_EOL;
+    return file_put_contents($logFile, $logEntry, FILE_APPEND | LOCK_EX) !== false;
+
+}
+
+function logEventHTML(string $event, int $level = 1, bool $toFile = true): string {
+
+    // Logging events to log file and returning HTML comment for debugging
+
+    $levelStr = match ($level) {
+        1 => 'INFO',
+        2 => 'WARNING',
+        3 => 'ERROR',
+        default => 'INFO',
+    };
+
+    if ($toFile) {
+        $debugStr = logEvent($event, $level) ? $levelStr.": " : "WARNING: Failed to write log entry - ";
+    } else {
+        $debugStr = $levelStr.": ";
+    }
+
+    return "\n<!-- DEBUG/".$debugStr.htmlspecialchars($event)." -->\n";
+
+}
+
 ?>

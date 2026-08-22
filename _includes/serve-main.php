@@ -10,6 +10,7 @@ if (!empty($_GET['action'])) {
             $serve = serveFile($_GET['file'] ?? '');
             if ($serve == SERVE_SUCCESS) {
                 // Success serving file - exiting
+                logEvent("File served successfully: " . $_GET['file'], LOG_INFO);
                 exit;
             } else {
                 // Error - passing on error code and serving error page
@@ -24,6 +25,8 @@ if (!empty($_GET['action'])) {
                 $cite = serveCitation($fmatter);
                 if ($cite == SERVE_SUCCESS) {
                     // Success serving citation file - exiting
+                    logEvent("Citation served successfully for publication: " . 
+                        ($fmatter['title'] ?? 'n/a'), LOG_INFO);
                     exit;
                 } else {
                     $serve_error = strval($cite);
@@ -69,7 +72,8 @@ if (!empty($fmatter['include-head'])) {
             if ($headInclude) {
                 include($headInclude);
             } else {
-                echo "\n<!-- DEBUG: Specified inclusion file not found - " . htmlspecialchars($file) . " -->\n";
+                echo logEventHTML("Specified inclusion file not found - "
+                 . htmlspecialchars($file), LOG_WARNING);
             }
         }
     } else {
@@ -77,7 +81,8 @@ if (!empty($fmatter['include-head'])) {
         if ($headInclude) {
             include($headInclude);
         } else {
-            echo "\n<!-- DEBUG: Specified inclusion file not found - " . htmlspecialchars($fmatter['include-head']) . " -->\n";
+                echo logEventHTML("Specified inclusion file not found - "
+                 . htmlspecialchars($file), LOG_WARNING);
         }
     }
 }
@@ -99,7 +104,8 @@ if (!empty($fmatter['include-top'])) {
             if ($headInclude) {
                 include($headInclude);
             } else {
-                echo "\n<!-- DEBUG: Specified inclusion file not found - " . htmlspecialchars($file) . " -->\n";
+                echo logEventHTML("Specified inclusion file not found - "
+                 . htmlspecialchars($file), LOG_WARNING);
             }
         }
     } else {
@@ -107,7 +113,8 @@ if (!empty($fmatter['include-top'])) {
         if ($headInclude) {
             include($headInclude);
         } else {
-            echo "\n<!-- DEBUG: Specified inclusion file not found - " . htmlspecialchars($fmatter['include-top']) . " -->\n";
+            echo logEventHTML("Specified inclusion file not found - "
+             . htmlspecialchars($fmatter['include-top']), LOG_WARNING);
         }
     }
 }
@@ -124,7 +131,8 @@ if (!empty($fmatter['include-bottom'])) {
             if ($headInclude) {
                 include($headInclude);
             } else {
-                echo "\n<!-- DEBUG: Specified inclusion file not found - " . htmlspecialchars($file) . " -->\n";
+                echo logEventHTML("Specified inclusion file not found - "
+                . htmlspecialchars($file), LOG_WARNING);
             }
         }
     } else {
@@ -132,7 +140,8 @@ if (!empty($fmatter['include-bottom'])) {
         if ($headInclude) {
             include($headInclude);
         } else {
-            echo "\n<!-- DEBUG: Specified inclusion file not found - " . htmlspecialchars($fmatter['include-bottom']) . " -->\n";
+            echo logEventHTML("Specified inclusion file not found - "
+                . htmlspecialchars($fmatter['include-bottom']), LOG_WARNING);
         }
     }
 }
