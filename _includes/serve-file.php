@@ -27,6 +27,9 @@ function serveFile(string $filepath): int {
 
     readfile($file);
 
+    statCountPath($SERVER['REQUEST_URI']);
+    logEvent("File served successfully: " . $filepath, LOG_INFO);
+
     return SERVE_SUCCESS;
 
 }

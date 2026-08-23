@@ -100,6 +100,9 @@ function serveCitation(array $pub): int {
     header('Content-Disposition: attachment; filename="'.($pub['slug'] ?? 'citation').'.ris"');
     print $out;
 
+    statCountPath($SERVER['REQUEST_URI']);
+    logEvent("Citation served successfully for publication: " . ($pub['title'] ?? 'n/a'), LOG_INFO);
+
     return SERVE_SUCCESS;
 
 }
