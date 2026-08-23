@@ -95,7 +95,7 @@ function serveCitation(array $pub): int {
     $out .= "ER"    .$dl.$ln;    
 
     // Before returning file: Logging and counting hit
-    statCountPath($SERVER['REQUEST_URI']);
+    statCountPath($_SERVER['REQUEST_URI']);
     logEvent("Citation served successfully for publication: " . ($pub['title'] ?? 'n/a'), LOG_INFO);
 
 

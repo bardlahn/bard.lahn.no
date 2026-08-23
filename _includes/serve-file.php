@@ -18,7 +18,7 @@ function serveFile(string $filepath): int {
     }
 
     // Before returning file: Logging and counting hit
-    statCountPath($SERVER['REQUEST_URI']);
+    statCountPath($_SERVER['REQUEST_URI']);
     logEvent("File served successfully: " . $filepath, LOG_INFO);
 
     // Serving the file
