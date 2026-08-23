@@ -28,42 +28,83 @@ function parseMDFile(string $filePath): array {
     ];
 }
 
-// Function for parsing a filename for a file to include.
-// Returns the full path to the file if it exists, or null if it does not.
 
-function findIncludeFile(string $includefile): ?string {
-    
-    // Blocking calls to files/directories starting with _ or .
-    foreach (explode('/', $includefile) as $part) {
-        if (str_starts_with($part, '_') || str_starts_with($part, '.')) {
-            return null;
+// Helper function to extract specific frontmatter fields from a 
+// markdown file without fully parsing it
+
+function getFrontmatterFields(string $filePath, array $fields): array
+{
+    $result = [];
+    foreach ($fields as $field) {
+        $result[$field] = null;
+    }
+
+    if (empty($fields)) {
+        // No fields specified
+        return $result;
+    }
+
+    $handle = @fopen($filePath, 'r');
+    if ($handle === false) {
+        return $result;
+    }
+
+    $firstLine = fgets($handle);
+    if ($firstLine === false || trim($firstLine) !== '---') {
+        // No frontmatter block found
+        fclose($handle);
+        return $result;
+    }
+
+    $patterns = [];
+    foreach ($fields as $field) {
+        $patterns[$field] = '/^' . preg_quote($field, '/') . '\s*:\s*(.*)$/';
+    }
+
+    $remaining = count($fields);
+
+    while (($line = fgets($handle)) !== false) {
+        $trimmed = trim($line);
+
+        // End of frontmatter
+        if ($trimmed === '---' || $trimmed === '...') {
+            break;
+        }
+
+        // Try to match each field
+        foreach ($patterns as $field => $pattern) {
+            if ($result[$field] === null && preg_match($pattern, $line, $m)) {
+                $result[$field] = stripFrontmatterQuotes($m[1]);
+                $remaining--;
+
+                if ($remaining === 0) {
+                    break 2;
+                }
+            }
         }
     }
 
-    if (str_starts_with($includefile, 'assets/')) {
-        global $assets_path;
-        $file = $assets_path . substr($includefile, strpos($includefile, 'assets/') + strlen('assets/'));
-    } elseif (str_starts_with($includefile, 'parent/')) {
-        global $self_path;
-        global $root_path;
-        $file = $root_path . $self_path . '/' . substr($includefile, strpos($includefile, 'parent/') + strlen('parent/'));
-    } elseif (str_starts_with($includefile, '/')) {
-        global $root_path;
-        $file = $root_path . ltrim($includefile, '/');
-    } elseif (str_starts_with($includefile, 'includes/')) {
-        global $includes_path;
-        $file = $includes_path . substr($includefile, strpos($includefile, 'includes/') + strlen('includes/'));
-    } else {
-        global $md_path;
-        $file = $md_path . $includefile;
-    }
-
-    if (file_exists($file)) {
-        return $file;
-    }
-
-    return null;
-
+    fclose($handle);
+    return $result;
 }
+
+
+// Helper function to remove surrounding quotes from a frontmatter value
+
+function stripFrontmatterQuotes(string $value): string
+{
+    $value = trim($value);
+
+    if (strlen($value) >= 2) {
+        $first = $value[0];
+        $last = $value[strlen($value) - 1];
+        if (($first === '"' && $last === '"') || ($first === "'" && $last === "'")) {
+            return substr($value, 1, -1);
+        }
+    }
+
+    return $value;
+}
+
 
 ?>

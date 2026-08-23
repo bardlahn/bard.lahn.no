@@ -3,7 +3,8 @@
 // Setting general variables
 
 include_once $includes_path . 'md-parse.php';
-include_once $includes_path . 'functions.php';
+include_once $includes_path . 'init-definitions.php';
+include_once $includes_path . 'init-functions.php';
 
 // Fetching core site settings
 
@@ -40,15 +41,6 @@ if (in_array($self_url_segments[0] ?? '', array_keys($lang_list))) {
 }
 
 $self_url = implode('/', $self_url_segments);
-
-// Defining page types (default is "main")
-
-define (    "PAGE_MAIN",        "main");
-define (    "PAGE_ERROR",       "error");
-define (    "PAGE_SUB_BLOG",    "blog");
-define (    "PAGE_SUB_ELEMENT", "element");
-define (    "PAGE_SUB_PUB",     "publication");
-
 $self_type = PAGE_MAIN;
 
 // Redirecting to error page if URL starts with "error"

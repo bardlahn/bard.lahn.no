@@ -9,9 +9,6 @@ if (!empty($_GET['action'])) {
             include_once($includes_path."serve-file.php");
             $serve = serveFile($_GET['file'] ?? '');
             if ($serve == SERVE_SUCCESS) {
-                // Success serving file - exiting
-                // statCountPath($SERVER['REQUEST_URI']);
-                // logEvent("File served successfully: " . $_GET['file'], LOG_INFO);
                 exit;
             } else {
                 // Error - passing on error code and serving error page
@@ -25,9 +22,6 @@ if (!empty($_GET['action'])) {
                 include_once($includes_path."serve-citation.php");
                 $cite = serveCitation($fmatter);
                 if ($cite == SERVE_SUCCESS) {
-                    // Success serving citation file - exiting
-                    // statCountPath($SERVER['REQUEST_URI']);
-                    // logEvent("Citation served successfully for publication: " . ($fmatter['title'] ?? 'n/a'), LOG_INFO);
                     exit;
                 } else {
                     $serve_error = strval($cite);

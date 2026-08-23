@@ -2,15 +2,13 @@
 
 // Function for fetching and serving file for download
 
-// (Defining constants before function starts)
-define ("SERVE_SUCCESS",          200);
-define ("SERVE_ERROR_REQUEST",    400); // Not in use
-define ("SERVE_ERROR_NOACCESS",   403); // Not implemented (needs hook in findIncludeFile)
-define ("SERVE_ERROR_NOFILE",     404);
-
 function serveFile(string $filepath): int {
 
-    $file = findIncludeFile($filepath);
+    try {
+        $file = findIncludeFile($filepath);
+    } catch (ServeException $e) {
+        return $e->getStatus();
+    }
 
     // If file does not exist, returning error
     if (!$file) {
