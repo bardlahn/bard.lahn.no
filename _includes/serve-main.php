@@ -11,7 +11,7 @@ if (!empty($_GET['action'])) {
             if ($serve == SERVE_SUCCESS) {
                 // Success serving file - exiting
                 statCountPath($SERVER['REQUEST_URI']);
-                logEvent("File served successfully: " . $_GET['file'], LOG_INFO);
+                echo logEvent("File served successfully: " . $_GET['file'], LOG_INFO);
                 exit;
             } else {
                 // Error - passing on error code and serving error page
