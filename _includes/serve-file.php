@@ -17,6 +17,10 @@ function serveFile(string $filepath): int {
         return SERVE_ERROR_NOFILE;
     }
 
+    // Before returning file: Logging and counting hit
+    statCountPath($SERVER['REQUEST_URI']);
+    logEvent("File served successfully: " . $filepath, LOG_INFO);
+
     // Serving the file
 
     $mime = mime_content_type($file) ?: 'application/octet-stream';
@@ -26,9 +30,6 @@ function serveFile(string $filepath): int {
     header('Content-Disposition: attachment; filename="' . basename($file) . '"');
 
     readfile($file);
-
-    statCountPath($SERVER['REQUEST_URI']);
-    logEvent("File served successfully: " . $filepath, LOG_INFO);
 
     return SERVE_SUCCESS;
 

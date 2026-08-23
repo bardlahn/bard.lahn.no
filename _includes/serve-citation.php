@@ -94,14 +94,16 @@ function serveCitation(array $pub): int {
     // Printing 'end of record'
     $out .= "ER"    .$dl.$ln;    
 
+    // Before returning file: Logging and counting hit
+    statCountPath($SERVER['REQUEST_URI']);
+    logEvent("Citation served successfully for publication: " . ($pub['title'] ?? 'n/a'), LOG_INFO);
+
+
     // Printing headers and file content
     header('Content-Type: application/x-research-info-systems');
     header('Content-Length: ' . strlen($out));
     header('Content-Disposition: attachment; filename="'.($pub['slug'] ?? 'citation').'.ris"');
     print $out;
-
-    statCountPath($SERVER['REQUEST_URI']);
-    logEvent("Citation served successfully for publication: " . ($pub['title'] ?? 'n/a'), LOG_INFO);
 
     return SERVE_SUCCESS;
 
