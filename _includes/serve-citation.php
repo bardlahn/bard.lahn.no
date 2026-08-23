@@ -10,6 +10,8 @@ define ("SERVE_ERROR_NOFILE",     404);
 
 function serveCitation(array $pub): int {
 
+    // Constructing RIS content from publication data
+
     $pD = $pub['pub-data'];
     $pD['pub-type'] = strtolower($pD['pub-type']) ?? '';    
 
@@ -28,14 +30,14 @@ function serveCitation(array $pub): int {
     $out =  "TY"    .$dl.   $pType          .$ln;
     $out .= "TI"    .$dl.   ($pub['title'] ?? 'n/a').$ln;
 
-    // Printing authors
+    // Adding authors
     $auth = getAuthors($pub['authors'] ?? 'self');
     if ($auth) foreach ($auth as $au) {
         $out .= (!empty($au['name'])) ? 
             "AU"    .$dl.   $au['name']     .$ln : "";
     }
 
-    // Printing publication year
+    // Adding publication year
     $date = match(true) {
         $pub['date'] instanceof DateTime => $pub['date'],
         is_numeric($pub['date']) && (int)$pub['date'] <= 9999
@@ -46,7 +48,7 @@ function serveCitation(array $pub): int {
     $pYear = $date->format('Y') ?? 'n/a';
     $out .= "PY"    .$dl.   $pYear          .$ln;
     
-    // Printing publication-specific fields
+    // Adding publication-specific fields
     if      ($pD['pub-type'] == 'chapter') {
         $out .= (!empty($pD['book'])) ?
             "T2"    .$dl.   $pD['book']     .$ln : "";
@@ -74,7 +76,7 @@ function serveCitation(array $pub): int {
             "SN"    .$dl.   $pD['number']    .$ln : "";
     }
 
-    // Printing if available:
+    // Adding if available:
     // Publisher, place, URL, DOI, ISBN
 
     $out .= (!empty($pD['publisher'])) ?
@@ -91,18 +93,19 @@ function serveCitation(array $pub): int {
     $out .= (!empty($pD['isbn'])) ?
             "SN"    .$dl.   $pD['isbn']     .$ln : "";
 
-    // Printing 'end of record'
+    // Adding 'end of record'
     $out .= "ER"    .$dl.$ln;    
+
+    // Printing headers
+    header('Content-Type: application/x-research-info-systems');
+    header('Content-Length: ' . strlen($out));
+    header('Content-Disposition: attachment; filename="'.($pub['slug'] ?? 'citation').'.ris"');
 
     // Before returning file: Logging and counting hit
     statCountPath($_SERVER['REQUEST_URI']);
     logEvent("Citation served successfully for publication: " . ($pub['title'] ?? 'n/a'), LOG_INFO);
 
-
-    // Printing headers and file content
-    header('Content-Type: application/x-research-info-systems');
-    header('Content-Length: ' . strlen($out));
-    header('Content-Disposition: attachment; filename="'.($pub['slug'] ?? 'citation').'.ris"');
+    // Printing file content
     print $out;
 
     return SERVE_SUCCESS;
