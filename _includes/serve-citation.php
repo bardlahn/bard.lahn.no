@@ -102,8 +102,6 @@ function serveCitation(array $pub): int {
 
     return SERVE_SUCCESS;
 
-    // TO DO: IMPLEMENT GOAT COUNTER STATISTICS FOR FILE DOWNLOADS
-
 }
 
 

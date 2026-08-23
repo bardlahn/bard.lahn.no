@@ -6,10 +6,11 @@ if (!empty($_GET['action'])) {
     switch (strtolower($_GET['action'])) {
 
         case 'download':
-            include($includes_path."serve-file.php");
+            include_once($includes_path."serve-file.php");
             $serve = serveFile($_GET['file'] ?? '');
             if ($serve == SERVE_SUCCESS) {
                 // Success serving file - exiting
+                statCountPath($SERVER['REQUEST_URI']);
                 logEvent("File served successfully: " . $_GET['file'], LOG_INFO);
                 exit;
             } else {
@@ -21,10 +22,11 @@ if (!empty($_GET['action'])) {
     
         case 'cite':
             if ($self_type == PAGE_SUB_PUB) {
-                include($includes_path."serve-citation.php");
+                include_once($includes_path."serve-citation.php");
                 $cite = serveCitation($fmatter);
                 if ($cite == SERVE_SUCCESS) {
                     // Success serving citation file - exiting
+                    statCountPath($SERVER['REQUEST_URI']);
                     logEvent("Citation served successfully for publication: " . 
                         ($fmatter['title'] ?? 'n/a'), LOG_INFO);
                     exit;

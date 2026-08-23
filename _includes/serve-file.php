@@ -17,49 +17,6 @@ function serveFile(string $filepath): int {
         return SERVE_ERROR_NOFILE;
     }
 
-    // Counting download for statistics
-
-    $service = getConfig('stats-secret', '', 'service');
-
-    if ($service) {
-
-        $url = $service['url'] . $service['endpoint'] ?? '';
-        $token = $service['token'] ?? '';
-
-        if ($url && $token) {
-            
-            $data = [
-                'no_sessions' => true,
-                'hits'        => [['path' => '/?action=download&file=' . $filepath]],
-            ];
-
-            $payload = json_encode($data);
-            $ch = curl_init($url);
-
-            curl_setopt_array($ch, [
-                CURLOPT_POST           => true,
-                CURLOPT_HTTPHEADER     => [
-                    'Content-Type: application/json',
-                    'Authorization: Bearer ' . $token,
-                ],
-                CURLOPT_POSTFIELDS     => $payload,
-                CURLOPT_RETURNTRANSFER => true,
-            ]);
-
-            $response = curl_exec($ch);
-
-            if ($response === false) {
-                $error = curl_error($ch);
-                curl_close($ch);
-                // To implement: Log the error via new logging function
-            }
-
-            $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-            curl_close($ch);
-
-        }
-    }
-
     // Serving the file
 
     $mime = mime_content_type($file) ?: 'application/octet-stream';

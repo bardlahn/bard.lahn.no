@@ -4,7 +4,7 @@
 
 // Checking if $serve_error is set and is a valid error (500 set as default)
 $errors = ["400", "403", "404", "500"];
-$serve_error = $serve_error ?? "500";
+$serve_error = strval($serve_error) ?? "500";
 if (!in_array($serve_error, $errors)) {
     $serve_error = "500";
 }

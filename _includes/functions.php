@@ -213,4 +213,60 @@ function logEventHTML(string $event, int $level = LOG_INFO, bool $toFile = true)
 
 }
 
+function statCountPath(string $path): bool {
+
+    // Calls statistics service API to add a hit for a given path
+
+    $service = getConfig('stats-secret', '', 'service');
+
+    if ($service) {
+
+        $url = $service['url'] . $service['endpoint'] ?? '';
+        $token = $service['token'] ?? '';
+
+        if ($url && $token) {
+            
+            $data = [
+                'no_sessions' => true,
+                'hits'        => [['path' => $path]],
+            ];
+
+            $payload = json_encode($data);
+            $ch = curl_init($url);
+
+            curl_setopt_array($ch, [
+                CURLOPT_POST           => true,
+                CURLOPT_HTTPHEADER     => [
+                    'Content-Type: application/json',
+                    'Authorization: Bearer ' . $token,
+                ],
+                CURLOPT_POSTFIELDS     => $payload,
+                CURLOPT_RETURNTRANSFER => true,
+            ]);
+
+            $response = curl_exec($ch);
+
+            if ($response === false) {
+                $error = curl_error($ch);
+                curl_close($ch);
+                logEvent("Statistics service request failed for path: " . $path . " - Error: " . $error, LOG_ERR);
+                return false;
+            }
+
+            $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            curl_close($ch);
+
+            return true;
+
+        } else {
+            logEvent("Statistics service URL/endpoint/token missing - cannot log hit for path: " . $path, LOG_WARNING);
+            return false;
+        }
+    } else {
+        logEvent("Statistics service not configured - cannot log hit for path: " . $path, LOG_WARNING);
+        return false;
+    }
+
+}
+
 ?>
