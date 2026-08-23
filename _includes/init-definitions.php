@@ -23,7 +23,7 @@ define (    "SERVE_ERROR_NOFILE",   404);
 // Error handling for file lookup and serving
 class ServeException extends \RuntimeException
 {
-    public function __construct(int $message, private int $status = 404)
+    public function __construct(string $message, private int $status = 404)
     {
         parent::__construct($message);
     }
