@@ -11,4 +11,7 @@ The system is not well documented at the moment, and probably never will be - bu
 
 - Move listing of alternative languages from PHP include file to variable function in md-render.php
 - Move inclusion of sub-emelent listing from PHP include file to include-block in md-render.php
+- Implement "trusted" switch in config
 - Disallow file inclusion from include path
+- Serve static files through index.php, to disallow direct access to static files
+- Collect path variables in array $sitePaths?

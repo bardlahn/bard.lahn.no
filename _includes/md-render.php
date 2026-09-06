@@ -187,6 +187,65 @@ function renderMDContent(string $text) {
                     $after = $defaultAfter;
                     $content = "<p></p>";
                 
+                case 'list':        // Inserts a listing based on arguments:
+                                    // [blog/pub/otherLangs] (optional, defaults to blog)
+                                    // (path) (optional path to subdirectory or file,
+                                    //  defaults to _sub directory of current page)
+
+                    $before = $defaultBefore;
+                    $listType = trim(strtolower($args[1])) ?? 'blog';
+
+                    if ($listType == 'pub') {
+
+                        // Listing publications in given directory (defaults to _sub directory of current page)
+                        // (Any block content is rendered immediately before the list)
+
+                        global $includes_path, $self_path;
+                        include_once $includes_path . 'html-list-pub-block.php';
+
+                        $after = listPubs($args[2] ?? $self_path) ?? logEventHTML(
+                            "Error: listPubs() failed to return a list for path " 
+                            . ($args[2] ?? $md_path . '_sub'));
+
+                    } elseif ($listType == 'otherlangs') {
+
+                        // Listing alternative language versions of the current page
+                        // (Any block content is rendered immediately before the list)
+
+                        global $foundfiles;
+                        global $self_url;
+                        global $lang_list;
+                        global $lang;
+                        $strings = getConfig('strings', $lang, 'general');
+                        $txt = $strings['no-alt-langs'] ?? 'No other languages available';
+
+                        $before = '<div class="content">';
+                        $after  = "\n<p><ul>\n";
+
+                        // TO DO: Check if path is given as argument and check language versions for that specific path
+
+                        if (is_array($foundfiles) && count($foundfiles) > 0) {
+                            foreach ($foundfiles as $lang_key => $file) {
+                                $after .= '<li><a href="/' . htmlspecialchars($lang_key) . '/' . $self_url . '">';
+                                $langName = $lang_list[$lang_key] ?? '"'. $lang_key . '"';
+                                $after .= ucfirst($langName);
+                                $after .= "</a></li>\n";
+                            }
+                        } else {
+                            $after .= "<li>(".$txt.")</li>\n";
+                        }
+
+                        $after .= "</ul></p>\n";
+
+                    } else {
+                        // Listing blog posts
+
+                    }
+
+                    $after .= $defaultAfter;
+
+                    break;
+
                 // (Further block types can be added here)
 
                 // Unknown or missing block-id is treated as unmarked block

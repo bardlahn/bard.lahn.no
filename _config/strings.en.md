@@ -2,6 +2,8 @@
 title: config file strings
 type: resource
 lang: en
+general:
+  no-alt-lang: "No other languages available"
 list-blog:
   show: "Showing posts"
   of: "of"
@@ -24,5 +26,7 @@ list-pub:
   goto: "Read online"
   pdf: "Download PDF"
   cite: "Download citation"
+  total: "A total of "
+  marked: " publications matching "
 ---
 

@@ -2,6 +2,8 @@
 title: config file strings
 type: resource
 lang: no
+general:
+  no-alt-lang: "Ingen andre språk tilgjengelig"
 list-blog:
   show: "Viser poster"
   of: "av"
@@ -24,5 +26,7 @@ list-pub:
   goto: "Les på nett"
   pdf: "Last ned PDF"
   cite: "Last ned sitering"
+  total: "Totalt "
+  marked: " publikasjoner er merket med "
 ---
 

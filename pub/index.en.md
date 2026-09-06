@@ -16,5 +16,5 @@ In addition to the publications below, I have also published two books in Norweg
 
 ## Full publication list
 
-::include includes/html-list-pub.php php
+::list pub
 ::
