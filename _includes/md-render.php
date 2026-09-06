@@ -186,6 +186,8 @@ function renderMDContent(string $text) {
                     $before = $defaultBefore;
                     $after = $defaultAfter;
                     $content = "<p></p>";
+
+                    break;
                 
                 case 'list':        // Inserts a listing based on arguments:
                                     // [blog/pub/otherLangs] (optional, defaults to blog)
