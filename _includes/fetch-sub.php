@@ -1,8 +1,16 @@
 <?php
 
-function fetchSubEntries(string $mainpath, string $filter = '', string $sorting = ''): array {
+function fetchSubEntries(   string $mainpath,
+                            string $filter = '',
+                            string $sorting = '',
+                            string $subtype = ''
+                            ): array {
+
     $parsed = parseMDFile($mainpath . '/_sub/_index.md');
     $frontmatter = $parsed['frontmatter'];
+
+    // TO DO: Add error handling on missing sub index
+    // TO DO: Check for sub-type if set
 
 //  if ($frontmatter['sub-type'] == PAGE_SUB_BLOG) {
 

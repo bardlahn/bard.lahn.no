@@ -17,6 +17,7 @@ list-blog:
   in: "på"
   lang: "språk"
   clear: "Fjern alle filter"
+  no-posts: "Ingen poster å vise"
 list-pub:
   and: " og "
   in: " I"

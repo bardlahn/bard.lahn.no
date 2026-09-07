@@ -206,8 +206,8 @@ function renderMDContent(string $text) {
                         include_once $includes_path . 'html-list-pub-block.php';
 
                         $after = listPubs($args[2] ?? $self_path) ?? logEventHTML(
-                            "Error: listPubs() failed to return a list for path " 
-                            . ($args[2] ?? $md_path . '_sub'));
+                            "Error: Failed to return a publication list for path " 
+                            . ($args[2] ?? $self_path));
 
                     } elseif ($listType == 'otherlangs') {
 
@@ -240,7 +240,16 @@ function renderMDContent(string $text) {
                         $after .= "</ul></p>\n";
 
                     } else {
-                        // Listing blog posts
+
+                        // Listing blog elements in given directory (defaults to _sub directory of current page)
+                        // (Any block content is rendered immediately before the list)
+
+                        global $includes_path, $self_path;
+                        include_once $includes_path . 'html-list-blog-block.php';
+
+                        $after = listPosts($args[2] ?? $self_path) ?? logEventHTML(
+                            "Error: Failed to return a list of posts for path " 
+                            . ($args[2] ?? $self_path));
 
                     }
 

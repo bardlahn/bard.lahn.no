@@ -29,7 +29,7 @@ function listPubs(string $pubPath): string {
         $sorting = $sortBy . '=' . $sortDir;
     }
 
-    $pub = fetchSubEntries($root_path . $pubPath, $filter, $sorting);
+    $pub = fetchSubEntries($root_path . $pubPath, $filter, $sorting, PAGE_SUB_PUB);
 
     $total_posts = count($pub['sub-items']);
     $posts_to_show = $pub['sub-items'];

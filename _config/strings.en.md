@@ -17,6 +17,7 @@ list-blog:
   in: "in"
   lang: "language"
   clear: "Clear all filters"
+  no-posts: "No posts to show"
 list-pub:
   and: " and "
   in: " In"

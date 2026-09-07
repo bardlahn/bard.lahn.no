@@ -12,5 +12,5 @@ Dette er et arkiv for tekster jeg har skrevet i årenes løp. De inkluderer kron
 ::image images/arringer-l.jpg wide
 ::
 
-::include includes/html-list-blog.php php
+::list blog
 ::
