@@ -2,10 +2,10 @@
 
 function listPosts(string $postPath): string {
 
-    global $self_url;
     global $includes_path;
     global $lang;
     global $site_config;
+    global $root_path;
 
     include_once $includes_path . 'fetch-sub.php';
 
@@ -68,7 +68,7 @@ function listPosts(string $postPath): string {
     if (!empty($filterDesc)) {
         $summary = $txt['total']."<strong>{$total_posts}</strong>".$txt['marked'].implode(" ".$txt['and'], $filterDesc);
         $summary .= (!empty($langName)) ? "(" . $txt['and']. $txt['in'] . " " . $langName . ")" : "";
-        $clearfilters = '<a href="/'.$lang.'/'.$self_url.'/">'.$txt['clear'].'</a>';
+        $clearfilters = '<a href="/'.$lang.'/'.$postPath.'/">'.$txt['clear'].'</a>';
         $out .= "<p>{$summary}. {$clearfilters}</p>\n";
         $out .= "<p>".$txt['show']." <strong>{$showing_from}–{$showing_to}</strong>.</p>\n";
     } elseif (!empty($langName)) {
@@ -76,7 +76,7 @@ function listPosts(string $postPath): string {
     }
 
     foreach ($posts_to_show as $entry) {
-        $out .= "<p><h2><a href=\"/" . $lang . "/" . $self_url . "/" . $entry['slug'] . "\">" . $entry['title'] . "</a></h2>\n";
+        $out .= "<p><h2><a href=\"/" . $lang . "/" . $postPath . "/" . $entry['slug'] . "\">" . $entry['title'] . "</a></h2>\n";
         // $timestamp = $entry['date'] instanceof DateTime ? $entry['date']->getTimestamp() : (int)$entry['date'];
         // $date = (new DateTime())->setTimestamp((int)$timestamp);
         $date = (new DateTime($entry['date']))->format('d.m.Y');
