@@ -140,14 +140,14 @@ function renderMDContent(string $text) {
 
                     $includefile = findIncludeFile(trim($args[1]));
 
-                    $parseMode = trim(strtolower($args[2])) ?? '';
+                    $parseMode = trim($args[2]) ?? '';
                     $before = $defaultBefore;
                     $after = $defaultAfter;
 
                     if ($includefile) {
                         // Include file!
                         
-                        switch ($parseMode) {
+                        switch (strtolower($parseMode)) {
 
                             case 'php':
                                 if ($site_config['trusted'] ?? false) {
