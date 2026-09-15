@@ -24,5 +24,5 @@ __Ny bok 2025:__ I boka ["Hvem bestemmer over klimaet?"](/no/pub/hvem-bestemmer/
 
 (Se også min [Google Scholar](https://scholar.google.com/citations?user=_HRtPdAAAAAJ)- og [ORCID](https://orcid.org/0000-0001-9161-9455)-profil for oversikt over mine publikasjoner.)
 
-::include includes/html-list-pub.php php
+::list pub
 ::

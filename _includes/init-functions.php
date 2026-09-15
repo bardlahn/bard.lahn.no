@@ -101,6 +101,8 @@ function getAuthors(mixed $raw): mixed {
 
 function findIncludeFile(string $includefile): ?string {
     
+    global $site_config;
+
     // Blocking calls to files/directories starting with _ or .
     foreach (explode('/', $includefile) as $part) {
         if (str_starts_with($part, '_') || str_starts_with($part, '.')) {
@@ -120,6 +122,10 @@ function findIncludeFile(string $includefile): ?string {
         global $root_path;
         $file = $root_path . ltrim($includefile, '/');
     } elseif (str_starts_with($includefile, 'includes/')) {
+        if (!($site_config['trusted'] ?? false)) {
+            throw new ServeException("Access denied: " . $includefile, SERVE_ERROR_NOACCESS);
+            return null;
+        }
         global $includes_path;
         $file = $includes_path . substr($includefile, strpos($includefile, 'includes/') + strlen('includes/'));
     } else {
