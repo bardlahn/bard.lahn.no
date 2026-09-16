@@ -7,7 +7,7 @@ routes:
 description: 'Bård Lahn skriver blant annet om klimapolitikk, energiressurser, finans og demokrati. Her finner du en liste over hans akademiske publikasjoner.'
 ---
 
-::include test.md
+::include test.md md
 ::
 
 ## Bøker
