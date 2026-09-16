@@ -142,36 +142,41 @@ function renderMDContent(string $text) {
 
                     $parseMode = $args[2] ?? '';
                     $parseMode = (!empty($parseMode)) ? strtolower(trim($parseMode)) : 'raw';
-                    $before = $defaultBefore;
-                    $after = $defaultAfter;
+                    $before = '';
+                    $after = '';
+                    $content = '';
 
                     if ($includefile) {
                         // Include file!
                         
+                        // TO DO: Print before and after HERE
+
                         switch ($parseMode) {
 
                             case 'php':
                                 if ($site_config['trusted'] ?? false) {
                                     include $includefile;
                                 } else {
-                                    $before .= logEventHTML("Include-file PHP mode blocked for " . $includefile);
+                                    echo logEventHTML("Include-file PHP mode blocked for " . $includefile);
                                 }
                                 break;
 
                             case 'md':
                                 $parsed = parseMDFile($includefile);
+                                echo $defaultBefore . "\n";
                                 renderMDContent($parsed['content']);
+                                echo $defaultAfter . "\n";
                                 break;
 
                             default:
                                 $rawfile = file_get_contents($includefile);
-                                echo $rawfile;
+                                echo $defaultBefore . "\n" . $rawfile . "\n" . $defaultAfter . "\n";
                                 break;
 
                         }
 
                     } else {
-                        $before = $defaultBefore . logEventHTML("Include-file not found in path " . $includefile);
+                        echo logEventHTML("Include-file not found in path " . $includefile);
                     }
 
                     break;
