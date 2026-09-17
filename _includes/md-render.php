@@ -204,7 +204,7 @@ function renderMDContent(string $text) {
                         // (Any block content is rendered immediately before the list)
 
                         global $includes_path, $self_path;
-                        include_once $includes_path . 'html-list-pub-block.php';
+                        include_once $includes_path . 'html-list-pub.php';
 
                         $after = listPubs($args[2] ?? $self_path) ?? logEventHTML(
                             "Error: Failed to return a publication list for path " 
@@ -246,7 +246,7 @@ function renderMDContent(string $text) {
                         // (Any block content is rendered immediately before the list)
 
                         global $includes_path, $self_path;
-                        include_once $includes_path . 'html-list-blog-block.php';
+                        include_once $includes_path . 'html-list-blog.php';
 
                         $after = listPosts($args[2] ?? $self_path) ?? logEventHTML(
                             "Error: Failed to return a list of posts for path " 

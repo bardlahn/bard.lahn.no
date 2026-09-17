@@ -9,7 +9,5 @@ The system is not well documented at the moment, and probably never will be - bu
 
 ### To do:
 
-- Implement "trusted" switch in config
-- Disallow file inclusion from include path
 - Serve static files through index.php, to disallow direct access to static files
 - Collect path variables in array (or object) $sitePaths?
