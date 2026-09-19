@@ -22,7 +22,9 @@ if ($site_config) {
         $lang_list[strtolower($code)] = $lang['name'];
     }
 
-    $lang_default = !empty($site_config['language-default']) ? strtolower($site_config['language-default']) : array_keys[$lang_list][0];
+    $lang_default = !empty($site_config['language-default']) ?
+        strtolower($site_config['language-default']) :
+        array_keys[$lang_list][0];
 
 } else {
     $serve_error = 500;
@@ -45,10 +47,11 @@ $self_type = PAGE_MAIN;
 
 
 $firstSeg = $self_url_segments[0] ?? '';
+$assetDir = trim($assets_rel_path, '/') ?? 'assets';
 
-// If URL starts with "assets", serving static file directly
+// If URL points to assets directory, serving static file directly
 
-if (strtolower($firstSeg) == 'assets') {
+if (strtolower($firstSeg) == $assetDir) {
     include_once($includes_path."serve-file.php");
     $serve = serveFile($self_url, $attachment = false);
     if ($serve == SERVE_SUCCESS) {

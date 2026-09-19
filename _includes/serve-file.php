@@ -25,8 +25,6 @@ function serveFile(string $filepath, bool $attachment = false): int {
         'jpeg' => 'image/jpeg',
         'gif'  => 'image/gif',
         'svg'  => 'image/svg+xml',
-        'woff' => 'font/woff',
-        'woff2'=> 'font/woff2',
         'ico'  => 'image/x-icon',
     ];
 
