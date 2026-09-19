@@ -7,6 +7,7 @@
 RewriteEngine On
 
 RewriteRule ^author/bardlahn/?$ /en/bio [R=301,L]
+RewriteRule ^favicon\.ico$ /assets/icons/favicon.ico
 
 RewriteCond %{REQUEST_URI} !^/index\.php$
 RewriteRule ^(.*)$ /index.php [QSA,L]
