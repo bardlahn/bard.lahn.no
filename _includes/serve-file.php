@@ -31,7 +31,7 @@ function serveFile(string $filepath, bool $attachment = false): int {
     ];
 
     if (isset($mimeTypes[$ext])) {
-        header('Content-Type: ' . $mimeTypes[$ext]);
+        $mime = $mimeTypes[$ext];
     } else {
         $mime = mime_content_type($file) ?: 'application/octet-stream';
     }
