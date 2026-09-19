@@ -8,7 +8,7 @@ RewriteEngine On
 
 RewriteRule ^author/bardlahn/?$ /en/bio [R=301,L]
 
-RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/index\.php$
 RewriteRule ^(.*)$ /index.php [QSA,L]
 
 RewriteCond %{HTTP_USER_AGENT} (\.ai|-ai|_ai|ai\.|ai-|ai_|ai=|AddSearchBot|Agentic|AgentQL|Agent\ 3|Agent\ API|Agent-|AI\ Agent|AI\ Article\ Writer|AI\ Assistant|AI\ Chat|AI\ Content\ Detector|AI\ Detection|AI\ Dungeon) [NC,OR]
