@@ -7,9 +7,6 @@ routes:
 description: 'Bård Lahn skriver blant annet om klimapolitikk, energiressurser, finans og demokrati. Her finner du en liste over hans akademiske publikasjoner.'
 ---
 
-::include test.md php
-::
-
 ## Bøker
 
 __Ny bok 2025:__ I boka ["Hvem bestemmer over klimaet?"](/no/pub/hvem-bestemmer/) (Forlaget Manifest) diskuterer jeg hvem som har ansvar for og mulighet til å gjøre noe med klimaproblemet.

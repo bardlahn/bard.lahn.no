@@ -149,12 +149,11 @@ function renderMDContent(string $text) {
                     if ($includefile) {
                         // Include file!
                         
-                        // TO DO: Print before and after HERE
-
                         switch ($parseMode) {
 
                             case 'php':
                                 if ($site_config['trusted'] ?? false) {
+                                    // PHP file is included without any before/after HTML
                                     include $includefile;
                                 } else {
                                     echo logEventHTML("Include-file PHP mode blocked for " . $includefile);

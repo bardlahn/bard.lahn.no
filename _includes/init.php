@@ -43,9 +43,25 @@ if (in_array($self_url_segments[0] ?? '', array_keys($lang_list))) {
 $self_url = implode('/', $self_url_segments);
 $self_type = PAGE_MAIN;
 
-// Redirecting to error page if URL starts with "error"
 
 $firstSeg = $self_url_segments[0] ?? '';
+
+// If URL starts with "assets", serving static file directly
+
+if (strtolower($firstSeg) == 'assets') {
+    include_once($includes_path."serve-file.php");
+    $serve = serveFile($self_url);
+    if ($serve == SERVE_SUCCESS) {
+        exit;
+    } else {
+        // Error - passing on error code and serving error page
+        $serve_error = strval($serve);
+        include($includes_path.'fetch-error.php');
+    }
+}
+
+// Redirecting to error page if URL starts with "error"
+
 if (strtolower($firstSeg) == 'error') {
     $self_type = PAGE_ERROR;
     $serve_error = $self_url_segments[1] ?? "500";

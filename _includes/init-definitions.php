@@ -8,6 +8,7 @@ define (    "PAGE_ERROR",           "error");
 define (    "PAGE_SUB_BLOG",        "blog");
 define (    "PAGE_SUB_ELEMENT",     "element");
 define (    "PAGE_SUB_PUB",         "publication");
+define (    "FILE_STATIC",          "staticfile");
 
 // Defining log levels (Using built-in PHP constants)
 // define ( "LOG_INFO",             LOG_INFO);
