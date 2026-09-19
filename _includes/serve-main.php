@@ -7,7 +7,7 @@ if (!empty($_GET['action'])) {
 
         case 'download':
             include_once($includes_path."serve-file.php");
-            $serve = serveFile($_GET['file'] ?? '');
+            $serve = serveFile($_GET['file'] ?? '', $attachment = true);
             if ($serve == SERVE_SUCCESS) {
                 exit;
             } else {

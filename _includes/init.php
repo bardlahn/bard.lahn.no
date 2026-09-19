@@ -50,7 +50,7 @@ $firstSeg = $self_url_segments[0] ?? '';
 
 if (strtolower($firstSeg) == 'assets') {
     include_once($includes_path."serve-file.php");
-    $serve = serveFile($self_url);
+    $serve = serveFile($self_url, $attachment = false);
     if ($serve == SERVE_SUCCESS) {
         exit;
     } else {

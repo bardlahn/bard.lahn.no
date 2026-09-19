@@ -2,7 +2,7 @@
 
 // Function for fetching and serving file for download
 
-function serveFile(string $filepath): int {
+function serveFile(string $filepath, bool $attachment = false): int {
 
     try {
         $file = findIncludeFile($filepath);
@@ -25,7 +25,9 @@ function serveFile(string $filepath): int {
 
     header('Content-Type: ' . $mime);
     header('Content-Length: ' . filesize($file));
-    header('Content-Disposition: attachment; filename="' . basename($file) . '"');
+    if ($attachment) {
+        header('Content-Disposition: attachment; filename="' . basename($file) . '"');
+    }
 
     readfile($file);
 
