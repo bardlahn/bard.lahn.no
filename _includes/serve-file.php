@@ -46,6 +46,11 @@ function serveFile(string $filepath, bool $attachment = false): int {
         header('Content-Disposition: attachment; filename="' . basename($file) . '"');
     }
 
+    // Setting cache time: 30 days for images and PDFs, 1 day for other files
+    $cacheTime = (str_starts_with($mime, 'image/') || $mime === 'application/pdf') ? "2592000" : "86400";
+    header('Cache-Control: public, max-age='.$cacheTime.', immutable');
+    // ALTERNATIVE FOR TESTING: header('Cache-Control: no-cache, no-store, must-revalidate');
+
     readfile($file);
 
     return SERVE_SUCCESS;

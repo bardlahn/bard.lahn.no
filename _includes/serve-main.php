@@ -42,6 +42,11 @@ if (!empty($_GET['action'])) {
 // Pushes HTTP response code if set in frontmatter
 if (!empty($fmatter['http-code'])) http_response_code($fmatter['http-code']);
 
+// Settng cache time to 1 day for HTML pages
+header('Cache-Control: public, max-age=86400, immutable');
+// ALTERNATIVE FOR TESTING: header('Cache-Control: no-cache, no-store, must-revalidate');
+
+
 // Entering main logic for serving HTML...
 
 ?>
