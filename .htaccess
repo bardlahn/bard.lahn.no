@@ -1,7 +1,6 @@
 RewriteEngine On
 
-RewriteRule ^/robots.txt$ - [L]
-
+RewriteRule ^robots.txt$ - [L]
 RewriteRule ^author/bardlahn/?$ /en/bio [R=301,L]
 RewriteRule ^favicon\.ico$ /assets/icons/favicon.ico
 
