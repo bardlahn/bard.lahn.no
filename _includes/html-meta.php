@@ -19,6 +19,8 @@ if ($self_type = PAGE_ERROR) {
 
     // For all other pages: Executing full metadata logic
 
+    echo $pre . '<meta name="robots" content="noai, noimageai">';
+
     // Printing page description and canonical URL
 
     $meta_desc = $fmatter['abstract'] ?? $self_title . ' / ' . $site_title;

@@ -11,4 +11,3 @@ The system is not well documented at the moment, and probably never will be - bu
 
 - Streamline debug info and logging
 - Collect path variables in array (or object) $sitePaths?
-- Implement explicit cache age for static file serving
