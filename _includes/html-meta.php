@@ -13,7 +13,7 @@ $pre = "\n    ";
 if ($self_type == PAGE_ERROR) {
 
     // If error page, printing nofollow only
-    echo $pre . '<meta name="robots" content="noindex, nofollow">';
+    echo $pre . '<!-- Error page type set! --><meta name="robots" content="noindex, nofollow">';
 
 } else {
 
